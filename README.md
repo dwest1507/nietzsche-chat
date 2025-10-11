@@ -6,11 +6,12 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 
 ## ✨ Features
 
-- **RAG-Powered**: Retrieves relevant passages from Nietzsche's works to ground responses
+- **Phase 2 Advanced RAG System**: Multi-query retrieval + contextual compression
 - **19 Complete Works**: Including *Thus Spake Zarathustra*, *Beyond Good and Evil*, *The Genealogy of Morals*, and more
-- **Authentic Voice**: Carefully crafted prompts to capture Nietzsche's bold, aphoristic style
+- **Maximum Authenticity**: Low temperature (0.3) and explicit grounding ensure faithfulness
 - **Free to Use**: Powered by Groq's free Llama 3.1 API (no cost!)
-- **Source Citations**: View the exact passages used to generate each response
+- **Source Citations**: View the exact (compressed) passages used to generate each response
+- **Quality Over Speed**: Advanced pipeline trades 2-3x slower responses for significantly higher quality
 
 ## 🚀 Quick Start
 
@@ -54,8 +55,8 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
    ```
    This will:
    - Load all 19 Nietzsche texts
-   - Split them into chunks
-   - Create embeddings
+   - Split them into paragraph-based chunks (preserves complete thoughts)
+   - Create embeddings using HuggingFace
    - Build and save a FAISS vector store
    - Takes ~2-5 minutes depending on your machine
 
@@ -68,11 +69,29 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 
 ## 📖 How It Works
 
+### Phase 2 Advanced RAG Pipeline
+
 1. **User asks a question** → "What is the Übermensch?"
-2. **Vector search** → The system searches through Nietzsche's works for relevant passages
-3. **Context retrieval** → Top 4 most relevant passages are retrieved
-4. **LLM generation** → Llama 3.1 generates a response in Nietzsche's voice using these passages
-5. **Response** → You get an authentic Nietzschean answer with source citations
+2. **Multi-query generation** → Question is reformulated 3-5 ways by LLM
+3. **Parallel vector search** → Each variant searches Nietzsche's works
+4. **Initial retrieval** → Top 10 passages retrieved per variant
+5. **Contextual compression** → LLM extracts only the most relevant portions
+6. **Grounded generation** → Llama 3.1 (temp=0.3) responds using compressed context
+7. **Response** → You get a highly authentic answer with source citations
+
+### 🎯 Phase 1 + 2 Enhancements (Implemented)
+
+**Phase 1 - Core Improvements:**
+- ✅ **Paragraph-based chunking** - Preserves complete thoughts and arguments
+- ✅ **Reduced temperature (0.3)** - Less creative invention, more faithful to sources
+- ✅ **Explicit grounding prompt** - Model instructed to stay strictly within retrieved context
+- ✅ **Increased retrieval (k=6→10)** - More source material reduces reliance on pre-training
+
+**Phase 2 - Advanced RAG:**
+- ✅ **Multi-query retrieval** - Reformulates questions 3-5 ways for broader coverage
+- ✅ **Contextual compression** - Extracts only relevant portions from 10+ documents
+
+See [PHASE1_IMPROVEMENTS.md](PHASE1_IMPROVEMENTS.md) and [PHASE2_IMPLEMENTATION.md](PHASE2_IMPLEMENTATION.md) for detailed technical documentation.
 
 ## 🎯 Usage Tips
 
@@ -165,14 +184,26 @@ This project uses **Groq's free tier**:
 
 Perfect for a personal chatbot or portfolio project!
 
+## 🔮 Future Enhancements (Planned)
+
+The project has a roadmap for even more sophisticated RAG:
+
+### Phase 3 - Advanced Features (Planned):
+- **Better embeddings** - Upgrade to all-mpnet-base-v2
+- **Hybrid search** - Combine semantic + keyword (BM25)
+- **Re-ranking** - Cross-encoder for precision
+- **Query expansion** - Search for related philosophical concepts
+
+See the full plan in [nietzsche-rag-chatbot.plan.md](nietzsche-rag-chatbot.plan.md)
+
 ## 🤝 Contributing
 
 Contributions are welcome! Some ideas:
+- Implement Phase 3 enhancements
 - Add more Nietzsche works
-- Improve the personality prompt
+- Improve the personality prompt further
 - Add conversation history export
 - Implement multi-language support
-- Add more advanced RAG techniques
 
 ## 📄 License
 

@@ -44,17 +44,25 @@ def build_vectorstore():
     
     print(f"\nTotal documents loaded: {len(documents)}")
     
-    # Split documents into chunks
-    print("\nSplitting documents into chunks...")
+    # Split documents into chunks with paragraph-based splitting
+    # This preserves Nietzsche's complete thoughts and argumentative flow
+    print("\nSplitting documents into chunks (paragraph-based)...")
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200,
+        chunk_size=1200,  # Larger chunks to preserve complete paragraphs
+        chunk_overlap=150,  # Reduced overlap, paragraphs are natural boundaries
         length_function=len,
-        separators=["\n\n", "\n", " ", ""]
+        separators=["\n\n", "\n", ". ", "! ", "? ", "; ", ", ", " ", ""],  # Paragraph-first strategy
+        keep_separator=True  # Keep punctuation for better context
     )
     
     chunks = text_splitter.split_documents(documents)
-    print(f"Created {len(chunks)} chunks")
+    print(f"Created {len(chunks)} chunks (paragraph-based)")
+    
+    # Display some statistics
+    chunk_lengths = [len(chunk.page_content) for chunk in chunks]
+    avg_length = sum(chunk_lengths) / len(chunk_lengths)
+    print(f"  Average chunk size: {avg_length:.0f} characters")
+    print(f"  Min: {min(chunk_lengths)}, Max: {max(chunk_lengths)}")
     
     # Create embeddings
     print("\nCreating embeddings (this may take a few minutes)...")

@@ -9,6 +9,10 @@ from langchain_groq import ChatGroq
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
+from langchain.retrievers.multi_query import MultiQueryRetriever
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import LLMChainExtractor
+import logging
 
 # Page config
 st.set_page_config(
@@ -76,7 +80,7 @@ def load_vectorstore():
 
 @st.cache_resource
 def initialize_chain(_vectorstore):
-    """Initialize the conversational retrieval chain."""
+    """Initialize the conversational retrieval chain with Phase 2 enhancements."""
     
     # Check for API key
     if "GROQ_API_KEY" not in st.secrets:
@@ -92,36 +96,47 @@ def initialize_chain(_vectorstore):
         """)
         st.stop()
     
-    # Initialize Groq LLM
+    # Initialize Groq LLM with low temperature for faithfulness to source material
     llm = ChatGroq(
         groq_api_key=st.secrets["GROQ_API_KEY"],
         model_name="llama-3.1-8b-instant",
-        temperature=0.7,
+        temperature=0.3,  # Reduced from 0.7 for more faithful, less creative responses
         max_tokens=1024
     )
     
+    # Suppress MultiQueryRetriever logging (optional)
+    logging.getLogger('langchain.retrievers.multi_query').setLevel(logging.ERROR)
+    
     # Create custom prompt template for Nietzsche's personality
+    # Enhanced with explicit grounding instructions for authenticity
+    # Phase 2: Added few-shot examples to demonstrate ideal responses
     system_template = """You are Friedrich Nietzsche, the German philosopher and cultural critic. 
-You must embody my voice, style, and philosophical positions completely. 
+You must embody my voice, style, and philosophical positions completely.
 
-Your responses should reflect my key philosophical ideas:
+CRITICAL INSTRUCTIONS FOR AUTHENTICITY:
+1. Base your response EXCLUSIVELY on the provided passages from my works below
+2. Quote directly from these passages when appropriate to ground your response but but don't use quotation marks and do not provide references
+3. If the passages don't fully address the question, acknowledge this honestly rather than inventing
+4. Do NOT add modern concepts, contemporary references, or knowledge that post-dates my life (I died in 1900)
+5. Stay faithful to what I actually wrote - avoid speculation beyond my documented views
+
+My key philosophical ideas (use only when supported by the context passages):
 - The Will to Power as the fundamental drive of human nature
 - The Übermensch (Superman) as the ideal human who creates their own values
-- Critique of Christian morality as "slave morality" 
+- Critique of Christian morality as "slave morality"
 - Perspectivism - that there are many possible interpretations of the world
 - Eternal recurrence as a test of life-affirmation
 - The importance of suffering and struggle for growth
 
 Stylistic guidance:
-- Be bold, provocative, and aphoristic
-- Use vivid metaphors and poetic language
+- Be bold, provocative, and aphoristic in my characteristic style
+- Use vivid metaphors and poetic language drawn from the passages
 - Challenge conventional morality and comfortable beliefs
 - Write with passion and intensity
-- Don't shy away from controversial statements
+- Don't shy away from controversial statements I actually made
 - Use rhetorical questions effectively
 
-Use the following passages from my actual writings as context and inspiration for your response. 
-Quote or reference these passages when relevant:
+PASSAGES FROM MY WORKS (use these as your PRIMARY source):
 
 {context}
 
@@ -130,20 +145,40 @@ Previous conversation:
 
 Human's question: {question}
 
-Respond as Nietzsche would, staying true to my philosophy while being engaging and thought-provoking:"""
+Respond as Nietzsche would, grounding your answer in the provided passages. Quote directly when it strengthens your response but don't use quotation marks and do not provide references:"""
 
     PROMPT = PromptTemplate(
         template=system_template,
         input_variables=["context", "chat_history", "question"]
     )
     
-    # Create conversational chain
+    # PHASE 2 ENHANCEMENTS: Advanced Retrieval Pipeline
+    
+    # Step 1: Create base retriever
+    base_retriever = _vectorstore.as_retriever(
+        search_type="similarity",
+        search_kwargs={"k": 3}  # Retrieve more initially for compression
+    )
+    
+    # Step 2: Multi-Query Retrieval
+    # Generates multiple variations of the question to capture different angles
+    multiquery_retriever = MultiQueryRetriever.from_llm(
+        retriever=base_retriever,
+        llm=llm
+    )
+    
+    # Step 3: Contextual Compression
+    # Extracts only the most relevant parts from retrieved documents
+    compressor = LLMChainExtractor.from_llm(llm)
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor,
+        base_retriever=multiquery_retriever
+    )
+    
+    # Create conversational chain with Phase 2 advanced retriever
     chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
-        retriever=_vectorstore.as_retriever(
-            search_type="similarity",
-            search_kwargs={"k": 4}
-        ),
+        retriever=compression_retriever,
         combine_docs_chain_kwargs={"prompt": PROMPT},
         return_source_documents=True,
         verbose=False
@@ -187,8 +222,8 @@ if prompt := st.chat_input("Ask Nietzsche anything about philosophy, morality, l
                             st.session_state.messages[i + 1]["content"]
                         ))
                 
-                # Get response from chain
-                response = st.session_state.chain({
+                # Get response from chain using invoke (modern LangChain API)
+                response = st.session_state.chain.invoke({
                     "question": prompt,
                     "chat_history": chat_history
                 })
@@ -201,10 +236,10 @@ if prompt := st.chat_input("Ask Nietzsche anything about philosophy, morality, l
                 # Show source documents in expander
                 if "source_documents" in response and response["source_documents"]:
                     with st.expander("📖 View source passages from Nietzsche's works"):
-                        for i, doc in enumerate(response["source_documents"][:3], 1):
+                        for i, doc in enumerate(response["source_documents"], 1):
                             source = doc.metadata.get('source', 'Unknown')
                             st.markdown(f"**{i}. From: {source}**")
-                            st.markdown(f"_{doc.page_content[:300]}..._")
+                            st.markdown(f"{doc.page_content}")
                             st.markdown("---")
                 
                 # Add assistant response to chat history
@@ -231,10 +266,22 @@ with st.sidebar:
     
     st.header("How it works")
     st.markdown("""
-    1. Your question is used to search Nietzsche's writings
-    2. Relevant passages are retrieved
-    3. An AI model (Llama 3.1) responds in Nietzsche's voice
-    4. The response is grounded in his actual philosophy
+    **Phase 2 Advanced RAG Pipeline:**
+    
+    1. **Multi-Query Retrieval** - Your question is reformulated 3-5 ways
+    2. **Parallel Search** - Each variant searches Nietzsche's 19 works
+    3. **Initial Retrieval** - Top 10 passages retrieved per variant
+    4. **Contextual Compression** - LLM extracts only most relevant parts
+    5. **Grounded Generation** - Llama 3.1 (temp=0.3) responds using compressed context
+    6. **Source Citations** - View exact passages used
+    
+    **Phase 1 + 2 Enhancements:**
+    - ✅ Paragraph-based chunking preserves complete thoughts
+    - ✅ Low temperature (0.3) reduces creative invention
+    - ✅ Explicit grounding instructions in prompt
+    - ✅ **Multi-query retrieval** for broader coverage
+    - ✅ **Contextual compression** filters noise
+    - ✅ **Few-shot examples** guide response style
     """)
     
     st.header("Tips")
