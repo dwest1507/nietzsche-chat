@@ -1,0 +1,97 @@
+# List public domain sources and translations included in the corpus
+# Example entries; replace with exact editions you include
+sources:
+  - id: beyond_good_and_evil
+    title: Beyond Good and Evil
+    translator: Helen Zimmern
+    url: https://www.gutenberg.org/
+
+  - id: early_greek_philosophy_and_other_essays
+    title: Early Greek Philosophy and Other Essays
+    translator: Maximilian A. Mügge
+    url: https://www.gutenberg.org/
+
+  - id: ecce_homo
+    title: Ecce Homo
+    translator: Paul V. Cohn & Anthony M. Ludovici
+    url: https://www.gutenberg.org/
+
+  - id: homer_and_classical_philology
+    title: Homer and Classical Philology
+    translator: J. M. Kennedy
+    url: https://www.gutenberg.org/
+
+  - id: human_all_too_human
+    title: Human, All-Too-Human
+    translator: Alexander Harvey
+    url: https://www.gutenberg.org/
+
+  - id: on_the_future_of_our_educational_institutions
+    title: On the Future of Our Educational Institutions
+    translator: J. M. Kennedy
+    url: https://www.gutenberg.org/
+
+  - id: the_antichrist
+    title: The Antichrist
+    translator: H. L. Mencken
+    url: https://www.gutenberg.org/
+
+  - id: the_birth_of_tragedy
+    title: The Birth of Tragedy
+    translator: William A. Haussmann
+    url: https://www.gutenberg.org/
+
+  - id: the_case_of_wagner
+    title: The Case of Wagner
+    translator: Anthony M. Ludovici
+    url: https://www.gutenberg.org/
+
+  - id: the_dawn_of_day
+    title: The Dawn of Day
+    translator: J. M. Kennedy
+    url: https://www.gutenberg.org/
+
+  - id: the_genealogy_of_morals
+    title: The Genealogy of Morals
+    translator: J. M. Kennedy & Horace Barnett Samuel
+    url: https://www.gutenberg.org/
+
+  - id: the_joyful_wisdom
+    title: The Joyful Wisdom
+    translator: Paul V. Cohn & Thomas Common & Maud Dominica Petre
+    url: https://www.gutenberg.org/
+
+  - id: the_twilight_of_the_idols
+    title: The Twilight of the Idols
+    translator: Anthony M. Ludovici
+    url: https://www.gutenberg.org/
+
+  - id: the_will_to_power_book_i_and_ii
+    title: The Will to Power, Book I and II
+    translator: Anthony M. Ludovici
+    url: https://www.gutenberg.org/
+
+  - id: the_will_to_power_book_iii_and_iv
+    title: The Will to Power, Book III and IV
+    translator: Anthony M. Ludovici
+    url: https://www.gutenberg.org/
+
+  - id: thoughts_out_of_season_part_i
+    title: Thoughts out of Season, Part I
+    translator: Anthony M. Ludovici
+    url: https://www.gutenberg.org/
+
+  - id: thoughts_out_of_season_part_ii
+    title: Thoughts out of Season, Part II
+    translator: Adrian Collins
+    url: https://www.gutenberg.org/
+
+  - id: thus_spake_zarathustra
+    title: Thus Spake Zarathustra
+    translator: Thomas Common
+    url: https://www.gutenberg.org/
+
+  - id: we_philologists
+    title: We Philologists
+    translator: J. M. Kennedy
+    url: https://www.gutenberg.org/
