@@ -6,3 +6,4 @@ langchain-huggingface
 faiss-cpu
 sentence-transformers
 python-dotenv
+rank-bm25

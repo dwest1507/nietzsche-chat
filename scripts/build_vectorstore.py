@@ -64,12 +64,13 @@ def build_vectorstore():
     print(f"  Average chunk size: {avg_length:.0f} characters")
     print(f"  Min: {min(chunk_lengths)}, Max: {max(chunk_lengths)}")
     
-    # Create embeddings
-    print("\nCreating embeddings (this may take a few minutes)...")
+    # Create embeddings with better model (Phase 3)
+    print("\nCreating embeddings with all-mpnet-base-v2 (this may take a few minutes)...")
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_name="sentence-transformers/all-mpnet-base-v2",
         model_kwargs={'device': 'cpu'}
     )
+    print("  Using all-mpnet-base-v2 for better semantic understanding")
     
     # Build FAISS vector store
     print("\nBuilding FAISS vector store...")

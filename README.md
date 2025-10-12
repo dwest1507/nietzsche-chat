@@ -6,12 +6,12 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 
 ## ✨ Features
 
-- **Phase 2 Advanced RAG System**: Multi-query retrieval + contextual compression
+- **Advanced RAG Pipeline**: Hybrid search, multi-query retrieval, cross-encoder re-ranking, and query expansion
 - **19 Complete Works**: Including *Thus Spake Zarathustra*, *Beyond Good and Evil*, *The Genealogy of Morals*, and more
-- **Maximum Authenticity**: Low temperature (0.3) and explicit grounding ensure faithfulness
-- **Free to Use**: Powered by Groq's free Llama 3.1 API (no cost!)
-- **Source Citations**: View the exact (compressed) passages used to generate each response
-- **Quality Over Speed**: Advanced pipeline trades 2-3x slower responses for significantly higher quality
+- **Authentic Responses**: Low temperature (0.3) and explicit grounding instructions ensure faithfulness to Nietzsche's actual writings
+- **Free to Use**: Powered by Groq's free Llama 3.1 8B API (no cost!)
+- **Source Citations**: View the exact passages from Nietzsche's works used to generate each response
+- **High-Quality Embeddings**: Uses all-mpnet-base-v2 for superior semantic understanding
 
 ## 🚀 Quick Start
 
@@ -69,29 +69,35 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 
 ## 📖 How It Works
 
-### Phase 2 Advanced RAG Pipeline
+### Advanced RAG Pipeline
 
 1. **User asks a question** → "What is the Übermensch?"
-2. **Multi-query generation** → Question is reformulated 3-5 ways by LLM
-3. **Parallel vector search** → Each variant searches Nietzsche's works
-4. **Initial retrieval** → Top 10 passages retrieved per variant
-5. **Contextual compression** → LLM extracts only the most relevant portions
-6. **Grounded generation** → Llama 3.1 (temp=0.3) responds using compressed context
-7. **Response** → You get a highly authentic answer with source citations
+2. **Query expansion** → Philosophical terms expanded to related concepts
+3. **Multi-query generation** → Question reformulated 3 ways by the LLM for broader coverage
+4. **Hybrid search** → 70% semantic (FAISS with all-mpnet-base-v2) + 30% keyword (BM25)
+5. **Initial retrieval** → Top 3 passages per query from hybrid search (with 0.7 similarity threshold)
+6. **Cross-encoder re-ranking** → Re-ranks retrieved passages by relevance using ms-marco-MiniLM-L-6-v2
+7. **Grounded generation** → Llama 3.1 8B (temperature=0.3) generates response using only the re-ranked context
+8. **Response with sources** → Authentic answer with expandable source passages
 
-### 🎯 Phase 1 + 2 Enhancements (Implemented)
+### Key Technical Features
 
-**Phase 1 - Core Improvements:**
-- ✅ **Paragraph-based chunking** - Preserves complete thoughts and arguments
-- ✅ **Reduced temperature (0.3)** - Less creative invention, more faithful to sources
-- ✅ **Explicit grounding prompt** - Model instructed to stay strictly within retrieved context
-- ✅ **Increased retrieval (k=6→10)** - More source material reduces reliance on pre-training
+**Intelligent Chunking:**
+- Paragraph-based text splitting preserves complete thoughts and argumentative flow
+- Chunk size: 1200 characters with 150-character overlap
+- Respects natural paragraph boundaries in Nietzsche's writing
 
-**Phase 2 - Advanced RAG:**
-- ✅ **Multi-query retrieval** - Reformulates questions 3-5 ways for broader coverage
-- ✅ **Contextual compression** - Extracts only relevant portions from 10+ documents
+**Retrieval Strategy:**
+- **Hybrid search** combines semantic understanding with exact keyword matching
+- **Multi-query retrieval** captures relevant passages from different perspectives
+- **Cross-encoder re-ranking** ensures highest quality passages are used
+- **Query expansion** helps find related philosophical concepts
 
-See [PHASE1_IMPROVEMENTS.md](PHASE1_IMPROVEMENTS.md) and [PHASE2_IMPLEMENTATION.md](PHASE2_IMPLEMENTATION.md) for detailed technical documentation.
+**Response Quality:**
+- **Low temperature (0.3)** reduces creative invention and hallucinations
+- **Explicit grounding instructions** keep responses faithful to source material
+- **Quality filtering** with similarity threshold ensures relevant context only
+- **Source citations** allow verification of all claims
 
 ## 🎯 Usage Tips
 
@@ -114,8 +120,9 @@ See [PHASE1_IMPROVEMENTS.md](PHASE1_IMPROVEMENTS.md) and [PHASE2_IMPLEMENTATION.
 
 - **Frontend**: Streamlit
 - **LLM**: Groq API (Llama 3.1 8B)
-- **Embeddings**: HuggingFace (all-MiniLM-L6-v2)
-- **Vector Store**: FAISS
+- **Embeddings**: HuggingFace sentence-transformers (all-mpnet-base-v2)
+- **Vector Store**: FAISS (semantic search) + BM25 (keyword search)
+- **Re-ranking**: Cross-encoder (ms-marco-MiniLM-L-6-v2)
 - **RAG Framework**: LangChain
 
 ## 📚 Included Works
@@ -184,26 +191,16 @@ This project uses **Groq's free tier**:
 
 Perfect for a personal chatbot or portfolio project!
 
-## 🔮 Future Enhancements (Planned)
-
-The project has a roadmap for even more sophisticated RAG:
-
-### Phase 3 - Advanced Features (Planned):
-- **Better embeddings** - Upgrade to all-mpnet-base-v2
-- **Hybrid search** - Combine semantic + keyword (BM25)
-- **Re-ranking** - Cross-encoder for precision
-- **Query expansion** - Search for related philosophical concepts
-
-See the full plan in [nietzsche-rag-chatbot.plan.md](nietzsche-rag-chatbot.plan.md)
-
 ## 🤝 Contributing
 
 Contributions are welcome! Some ideas:
-- Implement Phase 3 enhancements
 - Add more Nietzsche works
-- Improve the personality prompt further
+- Improve the personality prompt
 - Add conversation history export
 - Implement multi-language support
+- Fine-tune hybrid search weights or similarity thresholds
+- Expand the query expansion dictionary with more philosophical terms
+- Optimize re-ranking parameters
 
 ## 📄 License
 

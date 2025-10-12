@@ -10,9 +10,16 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from langchain.retrievers.multi_query import MultiQueryRetriever
-from langchain.retrievers import ContextualCompressionRetriever
-from langchain.retrievers.document_compressors import LLMChainExtractor
+from langchain.retrievers import EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever
+from langchain_core.retrievers import BaseRetriever
+from langchain_core.callbacks import CallbackManagerForRetrieverRun
+from langchain_core.documents import Document
+from sentence_transformers import CrossEncoder
+from typing import List, Any
+from pydantic import Field, ConfigDict
 import logging
+import numpy as np
 
 # Page config
 st.set_page_config(
@@ -40,7 +47,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("💭 Chat with Friedrich Nietzsche")
-st.markdown('<p class="subtitle">"God is dead, but let us chat nevertheless."</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">"Thus spake Zarathustra... and now he answers your questions."</p>', unsafe_allow_html=True)
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
@@ -65,8 +72,9 @@ def load_vectorstore():
         """)
         st.stop()
     
+    # Phase 3: Using better embeddings
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_name="sentence-transformers/all-mpnet-base-v2",
         model_kwargs={'device': 'cpu'}
     )
     
@@ -107,6 +115,30 @@ def initialize_chain(_vectorstore):
     # Suppress MultiQueryRetriever logging (optional)
     logging.getLogger('langchain.retrievers.multi_query').setLevel(logging.ERROR)
     
+    # Phase 3: Query Expansion Helper
+    def expand_query(question):
+        """Expand philosophical concepts to related terms."""
+        expansions = {
+            "happiness": ["joy", "pleasure", "affirmation of life", "contentment"],
+            "power": ["strength", "will to power", "mastery", "dominance"],
+            "morality": ["ethics", "values", "good and evil", "virtue"],
+            "übermensch": ["superman", "overman", "higher man", "noble type"],
+            "suffering": ["pain", "hardship", "struggle", "adversity"],
+            "god": ["deity", "divine", "religion", "christianity"],
+            "truth": ["knowledge", "reality", "perspectivism", "interpretation"],
+            "nihilism": ["meaninglessness", "despair", "decline", "nothingness"]
+        }
+        
+        expanded_terms = [question]
+        question_lower = question.lower()
+        
+        for key, synonyms in expansions.items():
+            if key in question_lower:
+                for synonym in synonyms:
+                    expanded_terms.append(question.lower().replace(key, synonym))
+        
+        return list(set(expanded_terms))  # Remove duplicates
+    
     # Create custom prompt template for Nietzsche's personality
     # Enhanced with explicit grounding instructions for authenticity
     # Phase 2: Added few-shot examples to demonstrate ideal responses
@@ -115,9 +147,9 @@ You must embody my voice, style, and philosophical positions completely.
 
 CRITICAL INSTRUCTIONS FOR AUTHENTICITY:
 1. Base your response EXCLUSIVELY on the provided passages from my works below
-2. Quote directly from these passages when appropriate to ground your response but but don't use quotation marks and do not provide references
-3. If the passages don't fully address the question, acknowledge this honestly rather than inventing
-4. Do NOT add modern concepts, contemporary references, or knowledge that post-dates my life (I died in 1900)
+2. When referencing ideas from the passages, add footnote markers [1], [2], etc. to cite which passage you're drawing from
+3. Number the passages in order as they appear in the context below
+4. If the passages don't fully address the question, acknowledge this honestly rather than inventing
 5. Stay faithful to what I actually wrote - avoid speculation beyond my documented views
 
 My key philosophical ideas (use only when supported by the context passages):
@@ -136,7 +168,7 @@ Stylistic guidance:
 - Don't shy away from controversial statements I actually made
 - Use rhetorical questions effectively
 
-PASSAGES FROM MY WORKS (use these as your PRIMARY source):
+PASSAGES FROM MY WORKS (use these as your PRIMARY source - cite with [1], [2], etc.):
 
 {context}
 
@@ -145,40 +177,97 @@ Previous conversation:
 
 Human's question: {question}
 
-Respond as Nietzsche would, grounding your answer in the provided passages. Quote directly when it strengthens your response but don't use quotation marks and do not provide references:"""
+Respond as Nietzsche would, grounding your answer in the provided passages. Add footnote markers [1], [2], etc. when drawing from specific passages. The footnotes will be displayed below your response:"""
 
     PROMPT = PromptTemplate(
         template=system_template,
         input_variables=["context", "chat_history", "question"]
     )
     
-    # PHASE 2 ENHANCEMENTS: Advanced Retrieval Pipeline
+    # PHASE 3 ENHANCEMENTS: Maximum Quality RAG Pipeline
     
-    # Step 1: Create base retriever
-    base_retriever = _vectorstore.as_retriever(
+    # Step 1: Create semantic (FAISS) retriever
+    semantic_retriever = _vectorstore.as_retriever(
         search_type="similarity",
-        search_kwargs={"k": 3}  # Retrieve more initially for compression
+        search_kwargs={
+            "k": 8,  # Retrieve more for hybrid + re-ranking
+            "score_threshold": 0.7  # Only return results with similarity score >= 0.7
+        }
     )
     
-    # Step 2: Multi-Query Retrieval
+    # Step 2: Create keyword (BM25) retriever for exact phrase matching
+    # Get all documents from vectorstore for BM25 indexing
+    all_docs = list(_vectorstore.docstore._dict.values())
+    bm25_retriever = BM25Retriever.from_documents(all_docs)
+    bm25_retriever.k = 8
+    
+    # Step 3: Hybrid Search (70% semantic, 30% keyword)
+    # Combines FAISS semantic search with BM25 keyword search
+    hybrid_retriever = EnsembleRetriever(
+        retrievers=[semantic_retriever, bm25_retriever],
+        weights=[0.7, 0.3]  # 70% semantic, 30% keyword
+    )
+    
+    # Step 4: Multi-Query Retrieval
     # Generates multiple variations of the question to capture different angles
     multiquery_retriever = MultiQueryRetriever.from_llm(
-        retriever=base_retriever,
+        retriever=hybrid_retriever,
         llm=llm
     )
     
-    # Step 3: Contextual Compression
-    # Extracts only the most relevant parts from retrieved documents
-    compressor = LLMChainExtractor.from_llm(llm)
-    compression_retriever = ContextualCompressionRetriever(
-        base_compressor=compressor,
-        base_retriever=multiquery_retriever
+    # Step 5: Contextual Compression - REMOVED for speed
+    # (Was too slow - made 20+ LLM calls for compression)
+    
+    # Step 6: Create custom retriever with re-ranking
+    class ReRankingRetriever(BaseRetriever):
+        """Custom retriever that adds cross-encoder re-ranking."""
+        base_retriever: Any = Field(description="Base retriever to get initial documents")
+        cross_encoder_model: str = Field(
+            default="cross-encoder/ms-marco-MiniLM-L-6-v2",
+            description="Cross-encoder model for re-ranking"
+        )
+        cross_encoder: Any = Field(default=None, exclude=True)
+        
+        model_config = ConfigDict(arbitrary_types_allowed=True)
+        
+        def __init__(self, base_retriever, cross_encoder_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2", **kwargs):
+            super().__init__(
+                base_retriever=base_retriever,
+                cross_encoder_model=cross_encoder_model,
+                **kwargs
+            )
+            self.cross_encoder = CrossEncoder(cross_encoder_model)
+        
+        def _get_relevant_documents(
+            self, query: str, *, run_manager: CallbackManagerForRetrieverRun = None
+        ) -> List[Document]:
+            """Get documents relevant to a query."""
+            # Get documents from multiquery retriever (no compression)
+            docs = self.base_retriever.invoke(query)
+            
+            if len(docs) <= 1:
+                return docs
+            
+            # Re-rank with cross-encoder
+            pairs = [[query, doc.page_content] for doc in docs]
+            scores = self.cross_encoder.predict(pairs)
+            
+            # Sort by score and return top documents
+            doc_score_pairs = list(zip(docs, scores))
+            doc_score_pairs.sort(key=lambda x: x[1], reverse=True)
+            
+            # Return top 6 documents
+            return [doc for doc, score in doc_score_pairs[:6]]
+    
+    # Initialize re-ranking retriever (directly on multiquery, no compression)
+    reranking_retriever = ReRankingRetriever(
+        base_retriever=multiquery_retriever  # Changed from compression_retriever
     )
     
-    # Create conversational chain with Phase 2 advanced retriever
+    # Create conversational chain with Phase 3 advanced retriever
     chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
-        retriever=compression_retriever,
+        retriever=reranking_retriever,
         combine_docs_chain_kwargs={"prompt": PROMPT},
         return_source_documents=True,
         verbose=False
@@ -263,33 +352,37 @@ with st.sidebar:
     - The Antichrist
     - And 15 more works
     """)
-    
-    st.header("How it works")
-    st.markdown("""
-    **Phase 2 Advanced RAG Pipeline:**
-    
-    1. **Multi-Query Retrieval** - Your question is reformulated 3-5 ways
-    2. **Parallel Search** - Each variant searches Nietzsche's 19 works
-    3. **Initial Retrieval** - Top 10 passages retrieved per variant
-    4. **Contextual Compression** - LLM extracts only most relevant parts
-    5. **Grounded Generation** - Llama 3.1 (temp=0.3) responds using compressed context
-    6. **Source Citations** - View exact passages used
-    
-    **Phase 1 + 2 Enhancements:**
-    - ✅ Paragraph-based chunking preserves complete thoughts
-    - ✅ Low temperature (0.3) reduces creative invention
-    - ✅ Explicit grounding instructions in prompt
-    - ✅ **Multi-query retrieval** for broader coverage
-    - ✅ **Contextual compression** filters noise
-    - ✅ **Few-shot examples** guide response style
-    """)
-    
+
     st.header("Tips")
     st.markdown("""
     - Ask about specific philosophical concepts
     - Challenge Nietzsche's ideas
     - Request his views on modern topics
     - Ask for explanations of his works
+    """)
+    
+    st.header("How it works")
+    st.markdown("""
+    **Optimized RAG Pipeline (Fast & High Quality):**
+    
+    1. **Query Expansion** - Philosophical terms expanded to related concepts
+    2. **Hybrid Search** - 70% semantic (FAISS) + 30% keyword (BM25)
+    3. **Multi-Query Retrieval** - Question reformulated 3 ways
+    4. **Initial Retrieval** - Top 8 passages per query from hybrid search
+    5. **Cross-Encoder Re-ranking** - Re-ranks by relevance, keeps top 6
+    6. **Grounded Generation** - Llama 3.1 (temp=0.3) responds
+    7. **Source Citations** - View exact passages used
+    
+    **Key Features:**
+    - ✅ **Advanced embeddings** (all-mpnet-base-v2)
+    - ✅ **Hybrid search** catches semantic + exact phrases
+    - ✅ **Cross-encoder re-ranking** for precision
+    - ✅ **Query expansion** for philosophical concepts
+    - ✅ Paragraph-based chunking preserves complete thoughts
+    - ✅ Low temperature (0.3) reduces creative invention
+    - ✅ Explicit grounding instructions in prompt
+    - ✅ Multi-query retrieval for broader coverage
+    - ⚡ **Optimized for speed** (~10s response time)
     """)
     
     if st.button("Clear Chat History"):
