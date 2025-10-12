@@ -208,6 +208,9 @@ if "messages" not in st.session_state:
 if "chain" not in st.session_state:
     st.session_state.chain = None
 
+if "pending_question" not in st.session_state:
+    st.session_state.pending_question = None
+
 @st.cache_resource
 def load_vectorstore():
     """Load the FAISS vector store from disk."""
@@ -320,7 +323,7 @@ Stylistic guidance:
 - Don't shy away from controversial statements I actually made
 - Use rhetorical questions effectively
 
-PASSAGES FROM MY WORKS (use these as your PRIMARY source - cite with [1], [2], etc.):
+PASSAGES FROM MY WORKS (use these as your PRIMARY source - cite with [1], [2], etc. but do not write out the passages as a footnote):
 
 {context}
 
@@ -329,7 +332,7 @@ Previous conversation:
 
 Human's question: {question}
 
-Respond as Nietzsche would, grounding your answer in the provided passages. Add footnote markers [1], [2], etc. when drawing from specific passages. The footnotes will be displayed below your response you do not have to write out these passages:"""
+Respond as Nietzsche would, grounding your answer in the provided passages. Add citation markers [1], [2], etc. when drawing from specific passages. The citations will already be displayed below your response. DO NOT write out these passages as citations. Only use the citation markers. I REPEAT DO NOT WRITE OUT THE PASSAGES:"""
 
     PROMPT = PromptTemplate(
         template=system_template,
@@ -436,30 +439,57 @@ except Exception as e:
     st.error(f"Error initializing the app: {e}")
     st.stop()
 
-# Show welcome message with example questions if chat is empty
-if len(st.session_state.messages) == 0:
-    st.markdown("""
-    <div style='background: linear-gradient(to right, #f8f9fa, #ffffff); padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #667eea; margin-bottom: 2rem;'>
-        <h3 style='color: #667eea; margin-top: 0;'>👋 Welcome! Ask Nietzsche anything...</h3>
-        <p style='color: #555; margin-bottom: 1rem;'>Here are some questions to get you started:</p>
-        <ul style='color: #666; line-height: 1.8;'>
-            <li>💪 What is the will to power?</li>
-            <li>🦅 What is the Übermensch?</li>
-            <li>🤔 What did you mean by "God is dead"?</li>
-            <li>🔄 Can you explain eternal recurrence?</li>
-            <li>⚖️ What is the difference between master and slave morality?</li>
-            <li>😊 What did you think about happiness and suffering?</li>
-        </ul>
-    </div>
-    """, unsafe_allow_html=True)
+# Chat input with enhanced placeholder (always show it at the bottom)
+user_input = st.chat_input("💬 Ask Nietzsche about philosophy, morality, the meaning of life...")
 
-# Display chat messages from history
+# Display chat messages from history FIRST
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# Chat input with enhanced placeholder
-if prompt := st.chat_input("💬 Ask Nietzsche about philosophy, morality, the meaning of life..."):
+# Determine if we should show welcome buttons
+# Hide if: messages exist OR user just typed something OR pending question exists
+show_welcome = (len(st.session_state.messages) == 0 
+                and user_input is None 
+                and st.session_state.pending_question is None)
+
+# Show welcome message with example questions ONLY when chat is truly empty
+if show_welcome:
+    st.markdown("""
+    <div style='background: linear-gradient(to right, #f8f9fa, #ffffff); padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #667eea; margin-bottom: 2rem;'>
+        <h3 style='color: #667eea; margin-top: 0;'>👋 Welcome! Ask Nietzsche anything...</h3>
+        <p style='color: #555; margin-bottom: 1rem;'>Click on a question to get started or type your own question:</p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Clickable example questions
+    example_questions = [
+        "💪 What is the will to power?",
+        "🦅 What is the Übermensch?",
+        "🤔 What did you mean by 'God is dead'?",
+        "🔄 Can you explain eternal recurrence?",
+        "⚖️ What is the difference between master and slave morality?",
+        "😊 What did you think about happiness and suffering?"
+    ]
+    
+    cols = st.columns(2)
+    for idx, question in enumerate(example_questions):
+        with cols[idx % 2]:
+            if st.button(question, key=f"example_{idx}", use_container_width=True):
+                # Remove emoji from the actual question text
+                question_text = question[2:].strip()  # Remove emoji and space
+                st.session_state.pending_question = question_text
+                st.rerun()
+
+# Determine the prompt to process
+prompt = None
+if st.session_state.pending_question:
+    prompt = st.session_state.pending_question
+    st.session_state.pending_question = None
+elif user_input:
+    prompt = user_input
+
+if prompt:
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     
