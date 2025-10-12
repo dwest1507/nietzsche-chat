@@ -20,6 +20,7 @@ from typing import List, Any
 from pydantic import Field, ConfigDict
 import logging
 import numpy as np
+import time
 
 # Page config
 st.set_page_config(
@@ -31,23 +32,174 @@ st.set_page_config(
 # Custom CSS for better aesthetics
 st.markdown("""
     <style>
+    /* Main Layout */
     .stTitle {
         font-size: 2.5rem;
         font-weight: bold;
         text-align: center;
         padding-bottom: 1rem;
     }
+    
+    /* Header Section */
+    .header-container {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 2rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .main-title {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 0.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
     .subtitle {
         text-align: center;
         font-style: italic;
-        color: #666;
-        margin-bottom: 2rem;
+        color: rgba(255, 255, 255, 0.95);
+        font-size: 1.1rem;
+        margin: 0;
+    }
+    
+    /* Chat Messages */
+    .stChatMessage {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* User message styling */
+    [data-testid="stChatMessageContent"] {
+        background-color: transparent;
+    }
+    
+    /* Source citations card styling */
+    .source-card {
+        background: linear-gradient(to right, #f8f9fa, #ffffff);
+        border-left: 4px solid #667eea;
+        padding: 1rem;
+        margin: 0.75rem 0;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+    
+    .source-title {
+        color: #667eea;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .source-content {
+        color: #333;
+        line-height: 1.6;
+        font-size: 0.95rem;
+    }
+    
+    /* Sidebar styling */
+    [data-testid="stSidebar"] {
+        background-color: #f8f9fa;
+    }
+    
+    [data-testid="stSidebar"] * {
+        color: #333 !important;
+    }
+    
+    [data-testid="stSidebar"] h2 {
+        color: #667eea !important;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #667eea;
+    }
+    
+    [data-testid="stSidebar"] h3 {
+        color: #764ba2 !important;
+        font-size: 1.25rem;
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    [data-testid="stSidebar"] a {
+        color: #667eea !important;
+    }
+    
+    /* Clear chat button */
+    .stButton button {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        transition: all 0.3s;
+        width: 100%;
+    }
+    
+    .stButton button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+    }
+    
+    /* Expander styling */
+    .streamlit-expanderHeader {
+        background-color: #f8f9fa;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        color: #667eea;
+    }
+    
+    /* Input box styling */
+    .stChatInputContainer {
+        border-top: 2px solid #e0e0e0;
+        padding-top: 1rem;
+    }
+    
+    /* Typography improvements */
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+    }
+    
+    p {
+        margin-bottom: 1rem;
+    }
+    
+    /* Loading animation */
+    @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.5; }
+    }
+    
+    .loading-text {
+        animation: pulse 1.5s ease-in-out infinite;
+    }
+    
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .main-title {
+            font-size: 2rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+        }
     }
     </style>
 """, unsafe_allow_html=True)
 
-st.title("💭 Chat with Friedrich Nietzsche")
-st.markdown('<p class="subtitle">"Thus spake Zarathustra... and now he answers your questions."</p>', unsafe_allow_html=True)
+# Enhanced header with gradient background
+st.markdown("""
+    <div class="header-container">
+        <h1 class="main-title">💭 Chat with Friedrich Nietzsche</h1>
+        <p class="subtitle">"Thus spake Zarathustra... and now he answers your questions."</p>
+    </div>
+""", unsafe_allow_html=True)
 
 # Initialize session state for chat history
 if "messages" not in st.session_state:
@@ -177,7 +329,7 @@ Previous conversation:
 
 Human's question: {question}
 
-Respond as Nietzsche would, grounding your answer in the provided passages. Add footnote markers [1], [2], etc. when drawing from specific passages. The footnotes will be displayed below your response:"""
+Respond as Nietzsche would, grounding your answer in the provided passages. Add footnote markers [1], [2], etc. when drawing from specific passages. The footnotes will be displayed below your response you do not have to write out these passages:"""
 
     PROMPT = PromptTemplate(
         template=system_template,
@@ -284,13 +436,30 @@ except Exception as e:
     st.error(f"Error initializing the app: {e}")
     st.stop()
 
+# Show welcome message with example questions if chat is empty
+if len(st.session_state.messages) == 0:
+    st.markdown("""
+    <div style='background: linear-gradient(to right, #f8f9fa, #ffffff); padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #667eea; margin-bottom: 2rem;'>
+        <h3 style='color: #667eea; margin-top: 0;'>👋 Welcome! Ask Nietzsche anything...</h3>
+        <p style='color: #555; margin-bottom: 1rem;'>Here are some questions to get you started:</p>
+        <ul style='color: #666; line-height: 1.8;'>
+            <li>💪 What is the will to power?</li>
+            <li>🦅 What is the Übermensch?</li>
+            <li>🤔 What did you mean by "God is dead"?</li>
+            <li>🔄 Can you explain eternal recurrence?</li>
+            <li>⚖️ What is the difference between master and slave morality?</li>
+            <li>😊 What did you think about happiness and suffering?</li>
+        </ul>
+    </div>
+    """, unsafe_allow_html=True)
+
 # Display chat messages from history
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# Chat input
-if prompt := st.chat_input("Ask Nietzsche anything about philosophy, morality, life..."):
+# Chat input with enhanced placeholder
+if prompt := st.chat_input("💬 Ask Nietzsche about philosophy, morality, the meaning of life..."):
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
     
@@ -300,92 +469,131 @@ if prompt := st.chat_input("Ask Nietzsche anything about philosophy, morality, l
     
     # Generate assistant response
     with st.chat_message("assistant"):
-        with st.spinner("Nietzsche is contemplating..."):
-            try:
-                # Get chat history for context
-                chat_history = []
-                for i in range(0, len(st.session_state.messages) - 1, 2):
-                    if i + 1 < len(st.session_state.messages):
-                        chat_history.append((
-                            st.session_state.messages[i]["content"],
-                            st.session_state.messages[i + 1]["content"]
-                        ))
-                
-                # Get response from chain using invoke (modern LangChain API)
-                response = st.session_state.chain.invoke({
-                    "question": prompt,
-                    "chat_history": chat_history
-                })
-                
-                answer = response["answer"]
-                
-                # Display response
-                st.markdown(answer)
-                
-                # Show source documents in expander
-                if "source_documents" in response and response["source_documents"]:
-                    with st.expander("📖 View source passages from Nietzsche's works"):
-                        for i, doc in enumerate(response["source_documents"], 1):
-                            source = doc.metadata.get('source', 'Unknown')
-                            st.markdown(f"**{i}. From: {source}**")
-                            st.markdown(f"{doc.page_content}")
-                            st.markdown("---")
-                
-                # Add assistant response to chat history
-                st.session_state.messages.append({"role": "assistant", "content": answer})
-                
-            except Exception as e:
-                st.error(f"Error generating response: {e}")
-                st.info("Please check your API key and internet connection.")
+        try:
+            # Enhanced loading feedback - Stage 1
+            status_placeholder = st.empty()
+            status_placeholder.markdown("🔍 **Searching through 19 works of Nietzsche...**")
+            
+            # Get chat history for context
+            chat_history = []
+            for i in range(0, len(st.session_state.messages) - 1, 2):
+                if i + 1 < len(st.session_state.messages):
+                    chat_history.append((
+                        st.session_state.messages[i]["content"],
+                        st.session_state.messages[i + 1]["content"]
+                    ))
+            
+            # Enhanced loading feedback - Stage 2
+            status_placeholder.markdown("🧠 **Nietzsche is contemplating...**")
+            
+            # Get response from chain using invoke (modern LangChain API)
+            response = st.session_state.chain.invoke({
+                "question": prompt,
+                "chat_history": chat_history
+            })
+            
+            answer = response["answer"]
+            
+            # Clear status and display response with streaming effect
+            status_placeholder.empty()
+            response_placeholder = st.empty()
+            
+            # Simulate streaming by displaying chunks with delay
+            displayed_text = ""
+            words = answer.split()
+            for i, word in enumerate(words):
+                displayed_text += word + " "
+                if i % 5 == 0:  # Update every 5 words for smooth streaming
+                    response_placeholder.markdown(displayed_text)
+                    time.sleep(0.05)  # Small delay for visible streaming effect
+            response_placeholder.markdown(answer)  # Final complete text
+            
+            # Show source documents in enhanced expander
+            if "source_documents" in response and response["source_documents"]:
+                with st.expander("📖 View source passages from Nietzsche's works", expanded=False):
+                    for i, doc in enumerate(response["source_documents"], 1):
+                        source = doc.metadata.get('source', 'Unknown')
+                        # Format source name for better display
+                        source_display = source.replace('_', ' ').replace('.txt', '').title()
+                        
+                        st.markdown(f"""
+                        <div class="source-card">
+                            <div class="source-title">📜 {i}. {source_display}</div>
+                            <div class="source-content">{doc.page_content}</div>
+                        </div>
+                        """, unsafe_allow_html=True)
+            
+            # Add assistant response to chat history
+            st.session_state.messages.append({"role": "assistant", "content": answer})
+            
+        except Exception as e:
+            st.error(f"Error generating response: {e}")
+            st.info("Please check your API key and internet connection.")
 
 # Sidebar with info
 with st.sidebar:
-    st.header("About")
+    st.markdown("## 📚 About")
     st.markdown("""
     This chatbot uses **Retrieval-Augmented Generation (RAG)** to embody Friedrich Nietzsche's 
     philosophical voice and ideas.
     
-    It draws from **19 of Nietzsche's works**, including:
-    - Thus Spake Zarathustra
-    - Beyond Good and Evil
-    - The Genealogy of Morals
-    - The Antichrist
-    - And 15 more works
+    **Source Material:**  
+    Drawing from **19 of Nietzsche's works**, including:
+    - 📖 Thus Spake Zarathustra
+    - 📖 Beyond Good and Evil
+    - 📖 The Genealogy of Morals
+    - 📖 The Antichrist
+    - 📖 And 15 more works
     """)
+    
+    st.markdown("---")
 
-    st.header("Tips")
+    # Clear chat button with better styling
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        if st.button("🗑️ Clear Chat", use_container_width=True):
+            st.session_state.messages = []
+            st.rerun()
+            
+    st.markdown("---")
+
+    st.markdown("## 💡 Tips for Great Conversations")
     st.markdown("""
-    - Ask about specific philosophical concepts
-    - Challenge Nietzsche's ideas
-    - Request his views on modern topics
-    - Ask for explanations of his works
+    - 🎯 Ask about specific philosophical concepts
+    - 🤔 Challenge Nietzsche's ideas and arguments
+    - 🌍 Request his views on modern topics
+    - 📝 Ask for explanations of his works
+    - 🔍 Reference specific books or themes
     """)
     
-    st.header("How it works")
+    st.markdown("---")
+    
+    # Collapsible technical details
+    with st.expander("⚙️ How It Works", expanded=False):
+        st.markdown("""
+        **Optimized RAG Pipeline:**
+        
+        1. **Query Expansion** - Terms → concepts
+        2. **Hybrid Search** - 70% semantic + 30% keyword
+        3. **Multi-Query** - 3x reformulation
+        4. **Initial Retrieval** - Top 8 passages
+        5. **Re-ranking** - Cross-encoder precision
+        6. **Generation** - Llama 3.1 (temp=0.3)
+        7. **Citations** - Exact source tracking
+        
+        **Features:**
+        - ✅ Advanced embeddings (mpnet)
+        - ✅ Hybrid semantic + keyword search
+        - ✅ Cross-encoder re-ranking
+        - ✅ Paragraph-level chunking
+        - ✅ Low temp for faithfulness
+        - ⚡ ~10s response time
+        """)
+    
+    st.markdown("---")
     st.markdown("""
-    **Optimized RAG Pipeline (Fast & High Quality):**
-    
-    1. **Query Expansion** - Philosophical terms expanded to related concepts
-    2. **Hybrid Search** - 70% semantic (FAISS) + 30% keyword (BM25)
-    3. **Multi-Query Retrieval** - Question reformulated 3 ways
-    4. **Initial Retrieval** - Top 8 passages per query from hybrid search
-    5. **Cross-Encoder Re-ranking** - Re-ranks by relevance, keeps top 6
-    6. **Grounded Generation** - Llama 3.1 (temp=0.3) responds
-    7. **Source Citations** - View exact passages used
-    
-    **Key Features:**
-    - ✅ **Advanced embeddings** (all-mpnet-base-v2)
-    - ✅ **Hybrid search** catches semantic + exact phrases
-    - ✅ **Cross-encoder re-ranking** for precision
-    - ✅ **Query expansion** for philosophical concepts
-    - ✅ Paragraph-based chunking preserves complete thoughts
-    - ✅ Low temperature (0.3) reduces creative invention
-    - ✅ Explicit grounding instructions in prompt
-    - ✅ Multi-query retrieval for broader coverage
-    - ⚡ **Optimized for speed** (~10s response time)
-    """)
-    
-    if st.button("Clear Chat History"):
-        st.session_state.messages = []
-        st.rerun()
+    <div style='text-align: center; color: #999; font-size: 0.85rem;'>
+        <p>Built with Streamlit + LangChain + Groq</p>
+    </div>
+    """, unsafe_allow_html=True)
 
