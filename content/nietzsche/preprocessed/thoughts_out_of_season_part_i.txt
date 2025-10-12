@@ -1,4 +1,4 @@
-﻿THOUGHTS OUT OF SEASON
+THOUGHTS OUT OF SEASON
 
 PART ONE
 
@@ -14,11 +14,7 @@ FRIEDRICH NIETZSCHE
 
 TRANSLATED BY
 
-ANTHONY M. LUDOVICI
-
-
-
-The Complete Works of Friedrich Nietzsche
+ANTHONY M. LUDOVICI The Complete Works of Friedrich Nietzsche
 
 The First Complete and Authorised English Translation
 
@@ -32,11 +28,7 @@ T.N. FOULIS
 
 EDINBURGH: AND LONDON
 
-1910
-
-
-
-    CONTENTS.
+1910 CONTENTS.
     EDITORIAL NOTE
     NIETZSCHE IN ENGLAND (BY THE EDITOR)
     TRANSLATOR'S PREFACE TO DAVID STRAUSS
@@ -69,9 +61,9 @@ psalmistic grandeur of Nietzsche--is possible and necessary in
 English, which is a rougher tongue of the Teutonic stamp, and
 moreover, like German, a tongue influenced and formed by an excellent
 version of the Bible. The English would never be satisfied, as
-Bible-ignorant France is, with a Nietzsche _à l'Eau de Cologne_--they
+Bible-ignorant France is, with a Nietzsche à l'Eau de Cologne--they
 would require the natural, strong, real Teacher, and would prefer his
-outspoken words to the finely-chiselled sentences of the _raconteur_. It
+outspoken words to the finely-chiselled sentences of the raconteur. It
 may indeed be safely predicted that once the English people have
 recovered from the first shock of Nietzsche's thoughts, their biblical
 training will enable them, more than any other nation, to appreciate
@@ -101,11 +93,11 @@ study Nietzsche at the age of twenty-six, and would not have been able
 to endure the weight of such teaching before that time. Secondly, the
 Editor wishes to dissuade the student from beginning the study of
 Nietzsche by reading first of all his most complicated works. Not
-having been properly prepared for them, he will find the _Zarathustra_
-abstruse, the _Ecce Homo_ conceited, and the _Antichrist_ violent. He
+having been properly prepared for them, he will find the Zarathustra
+abstruse, the Ecce Homo conceited, and the Antichrist violent. He
 should rather begin with the little pamphlet on Education, the
-_Thoughts out of Season, Beyond Good and Evil_, or the _Genealogy of
-Morals_. Thirdly, the Editor wishes to remind students of Nietzsche's
+Thoughts out of Season, Beyond Good and Evil, or the Genealogy of
+Morals. Thirdly, the Editor wishes to remind students of Nietzsche's
 own advice to them, namely: to read him slowly, to think over what
 they have read, and not to accept too readily a teaching which they
 have only half understood. By a too ready acceptance of Nietzsche it
@@ -253,7 +245,7 @@ to the Quixotic class, as Germany seems to emerge with him from her
 youthful and cranky nebulosity, you will not even have the pleasure of
 being thrashed in the company of your Master: no, you will be thrashed
 all alone, which is an abominable thing for any right-minded human
-being. "_Solamen miseris socios habuisse malorum_."[1]
+being. "Solamen miseris socios habuisse malorum."[1]
 
 [1] It is a comfort to the afflicted to have companions in their
 distress.
@@ -436,7 +428,7 @@ Disraeli we discover that furious enmity against the doctrine of the
 natural equality of men which Nietzsche combated all his life. It was
 certainly the great Maimonides himself, that spiritual father of
 Spinoza, who guided the pen of his Sephardic descendant, when he thus
-wrote in his _Tancred_: "It is to be noted, although the Omnipotent
+wrote in his Tancred: "It is to be noted, although the Omnipotent
 Creator might have formed, had it pleased him, in the humblest of his
 creations, an efficient agent for his purpose that Divine Majesty has
 never thought fit to communicate except with human beings of the very
@@ -545,18 +537,13 @@ merry!" AMEN.
                                                          OSCAR LEVY.
 
 LONDON,
- January 1909.
+ January 1909. TRANSLATOR'S PREFACE.
 
 
-
-
-TRANSLATOR'S PREFACE.
-
-
-To the reader who knows Nietzsche, who has studied his _Zarathustra_ and
+To the reader who knows Nietzsche, who has studied his Zarathustra and
 understood it, and who, in addition, has digested the works entitled
-_Beyond Good and Evil, The Genealogy of Morals, The Twilight of the
-Idols_, and _The Antichrist_,--to such a reader everything in this
+Beyond Good and Evil, The Genealogy of Morals, The Twilight of the
+Idols, and The Antichrist,--to such a reader everything in this
 volume will be perfectly clear and comprehensible. In the attack on
 Strauss he will immediately detect the germ of the whole of
 Nietzsche's subsequent attitude towards too hasty contentment and the
@@ -585,14 +572,14 @@ here, neither do we think that in replying to this question in the
 affirmative we shall give rise to one; for every careful student of
 Nietzsche, we know, will uphold us in our view. Nietzsche had one very
 definite and unaltered purpose, ideal and direction, and this was "the
-elevation of the type man." He tells us in _The Will to Power_: "All is
+elevation of the type man." He tells us in The Will to Power: "All is
 truth to me that tends to elevate man!" To this principle he was
 already pledged as a student at Leipzig; we owe every line that he
 ever wrote to his devotion to it, and it is the key to all his
 complexities, blasphemies, prolixities, and terrible earnestness. All
 was good to Nietzsche that tended to elevate man; all was bad that
-kept man stationary or sent him backwards. Hence he wrote _David
-Strauss, the Confessor and Writer_ (1873).
+kept man stationary or sent him backwards. Hence he wrote David
+Strauss, the Confessor and Writer (1873).
 
 The Franco-German War had only just come to an end, and the keynote of
 this polemical pamphlet is, "Beware of the intoxication of success."
@@ -602,7 +589,7 @@ reflect unearned glory upon every department of her social
 organisation, it required both courage and discernment to raise the
 warning voice and to apply the wet blanket. But Nietzsche did both,
 and with spirit, because his worst fears were aroused. Smug content
-(_erbärmliches Behagen_) was threatening to thwart his one purpose--the
+(erbärmliches Behagen) was threatening to thwart his one purpose--the
 elevation of man; smug content personified in the German scholar was
 giving itself airs of omniscience, omnipotence, and ubiquity, and all
 the while it was a mere cover for hidden rottenness and jejune
@@ -614,12 +601,12 @@ and if the personal attack on Strauss seems sometimes to throw the
 main theme into the background, we must remember the author's own
 attitude towards this aspect of the case. Nietzsche, as a matter of
 fact, had neither the spite nor the meanness requisite for the purely
-personal attack. In his _Ecce Homo_, he tells us most emphatically: "I
+personal attack. In his Ecce Homo, he tells us most emphatically: "I
 have no desire to attack particular persons--I do but use a
 personality as a magnifying glass; I place it over the subject to
 which I wish to call attention, merely that the appeal may be
 stronger." David Strauss, in a letter to a friend, soon after the
-publication of the first _Thought out of Season_, expresses his utter
+publication of the first Thought out of Season, expresses his utter
 astonishment that a total stranger should have made such a dead set at
 him. The same problem may possibly face the reader on every page of
 this essay: if, however, we realise Nietzsche's purpose, if we
@@ -638,7 +625,7 @@ essay to expose.
 When we read that at the time of Strauss's death (February 7th, 1874)
 Nietzsche was greatly tormented by the fear that the old scholar might
 have been hastened to his end by the use that had been made of his
-personality in the first _Unzeitgemässe Betrachtung_; when we remember
+personality in the first Unzeitgemässe Betrachtung; when we remember
 that in the midst of this torment he ejaculated, "I was indeed not
 made to hate and have enemies!"--we are then in a better position to
 judge of the motives which, throughout his life, led him to engage
@@ -659,9 +646,9 @@ Most readers who will have heard of Nietzsche's subsequent
 denunciation of Wagner's music will probably stand aghast before this
 panegyric of him; those who, like Professor Saintsbury, will fail to
 discover the internal evidence in this essay which points so
-infallibly to Nietzsche's _real_ but still subconscious opinion of his
+infallibly to Nietzsche's real but still subconscious opinion of his
 hero, may even be content to regard his later attitude as the result
-of a complete _volte-face_, and at any rate a flat contradiction of the
+of a complete volte-face, and at any rate a flat contradiction of the
 one revealed in this paper. Let us, however, examine the internal
 evidence we speak of, and let us also discuss the purpose and spirit
 of the essay.
@@ -699,7 +686,7 @@ the words "Dionysian" and "Apollonian" were borrowed by him from his
 friend's discourses. How much Nietzsche owed to Wagner may perhaps
 never be definitely known; to those who are sufficiently interested to
 undertake the investigation of this matter, we would recommend Hans
-Bélart's book, _Nietzsche's Ethik_; in it references will be found which
+Bélart's book, Nietzsche's Ethik; in it references will be found which
 give some clue as to the probable sources from which the necessary
 information may be derived. In any case, however, the reciprocal
 effects of their conversations will never be exactly known; and
@@ -708,7 +695,7 @@ essentially the same when he left as when he met him, what the real
 nature of the change was it is now difficult to say.
 
 For some years their friendship continued firm, and grew ever more and
-more intimate. _The Birth Of Tragedy_ was one of the first public
+more intimate. The Birth Of Tragedy was one of the first public
 declarations of it, and after its publication many were led to
 consider that Wagner's art was a sort of resurrection of the Dionysian
 Grecian art. Enemies of Nietzsche began to whisper that he was merely
@@ -732,26 +719,26 @@ distinguished friend, and was ultimately wounded and well-nigh wrecked
 with disappointment when he found that the Wagner of the
 Götterdämmerung and Parsifal was not the Wagner of his own mind.
 
-While writing _Ecce Homo_, he was so well aware of the extent to which
+While writing Ecce Homo, he was so well aware of the extent to which
 he had gone in idealising his friend, that he even felt able to say:
-"_Wagner in Bayreuth_ is a vision of my own future.... Now that I can
+"Wagner in Bayreuth is a vision of my own future.... Now that I can
 look back upon this work, I would not like to deny that, at bottom, it
 speaks only of myself" (p. 74). And on another page of the same book
 we read: "... What I heard, as a young man, in Wagnerian music, had
 absolutely nothing to do with Wagner: when I described Dionysian
 music, I only described what I had heard, and I thus translated and
 transfigured all that I bore in my own soul into the spirit of the new
-art. The strongest proof of this is my essay, _Wagner in Bayreuth_: in
+art. The strongest proof of this is my essay, Wagner in Bayreuth: in
 all decidedly psychological passages of this book the reader may
 simply read my name, or the name 'Zarathustra,' wherever the text
 contains the name 'Wagner'" (p. 68).
 
 As we have already hinted, there are evidences of his having
-subconsciously discerned the _real_ Wagner, even in the heyday of their
+subconsciously discerned the real Wagner, even in the heyday of their
 friendship, behind the ideal he had formed of him; for his eyes were
 too intelligent to be deceived, even though his understanding refused
-at first to heed the messages they sent it: both the _Birth of Tragedy_
-and _Wagner in Bayreuth_ are with us to prove this, and not merely when
+at first to heed the messages they sent it: both the Birth of Tragedy
+and Wagner in Bayreuth are with us to prove this, and not merely when
 we read these works between the lines, but when we take such passages
 as those found on pp. 115, 149, 150, 151, 156, 158, 159 of this book
 quite literally.
@@ -759,13 +746,13 @@ quite literally.
 Nietzsche's infatuation we have explained; the consequent idealisation
 of the object of his infatuation he himself has confessed; we have
 also pointed certain passages which we believe show beyond a doubt
-that almost everything to be found in _The Case of Wagner_ and _Nietzsche
-contra Wagner_ was already subconscious in our author, long before he
+that almost everything to be found in The Case of Wagner and Nietzsche
+contra Wagner was already subconscious in our author, long before he
 had begun to feel even a coolness towards his hero: let those who
 think our interpretation of the said passages is either strained or
 unjustified turn to the literature to which we have referred and judge
 for themselves. It seems to us that those distinguished critics who
-complain of Nietzsche's complete _volte-face_ and his uncontrollable
+complain of Nietzsche's complete volte-face and his uncontrollable
 recantations and revulsions of feeling have completely overlooked this
 aspect of the question.
 
@@ -783,7 +770,7 @@ objects of his affection anything they might happen to lack in the way
 of greatness, and when at last his eyes were opened, genuine pain, not
 malice, was the motive of even the most bitter of his diatribes.
 
-Finally, we should just like to give one more passage from _Ecce Homo_
+Finally, we should just like to give one more passage from Ecce Homo
 bearing upon the subject under discussion. It is particularly
 interesting from an autobiographical standpoint, and will perhaps
 afford the best possible conclusion to this preface.
@@ -805,12 +792,7 @@ Germans, so am I and ever will be. You lack two centuries of
 psychological and artistic discipline, my dear countrymen!... But it
 will be impossible for you ever to recover the time now lost" (p. 43).
 
-                                                   ANTHONY M. LUDOVICI.
-
-
-
-
-DAVID STRAUSS,
+                                                   ANTHONY M. LUDOVICI. DAVID STRAUSS,
 
 
 THE CONFESSOR AND THE WRITER.
@@ -820,10 +802,7 @@ DAVID STRAUSS
 
 
 
-I.
-
-
-Public opinion in Germany seems strictly to forbid any allusion to the
+I. Public opinion in Germany seems strictly to forbid any allusion to the
 evil and dangerous consequences of a war, more particularly when the
 war in question has been a victorious one. Those writers, therefore,
 command a more ready attention who, regarding this public opinion as
@@ -908,8 +887,8 @@ It therefore speaks with gravity, affects to apostrophise the German
 People, and issues complete works, after the manner of the classics;
 nor does it shrink from proclaiming in those journals which are open
 to it some few of its adherents as new German classical writers and
-model authors. It might be supposed that the dangers of such an _abuse
-of success_ would be recognised by the more thoughtful and enlightened
+model authors. It might be supposed that the dangers of such an abuse
+of success would be recognised by the more thoughtful and enlightened
 among cultivated Germans; or, at least, that these would feel how
 painful is the comedy that is being enacted around them: for what in
 truth could more readily inspire pity than the sight of a cripple
@@ -993,14 +972,11 @@ yesterday," Goethe once said to Eckermann. "True, for the last hundred
 years we have diligently cultivated ourselves, but a few centuries may
 yet have to run their course before our fellow-countrymen become
 permeated with sufficient intellectuality and higher culture to have
-it said of them, _it is a long time since they were barbarians_."
+it said of them, it is a long time since they were barbarians."
 
 
 
-II.
-
-
-If, however, our public and private life is so manifestly devoid of
+II. If, however, our public and private life is so manifestly devoid of
 all signs of a productive and characteristic culture; if, moreover,
 our great artists, with that earnest vehemence and honesty which is
 peculiar to greatness admit, and have admitted, this monstrous
@@ -1019,7 +995,7 @@ sufficiently influential to deny this existence? What species of men
 must have attained to supremacy in Germany that feelings which are so
 strong and simple should be denied or prevented from obtaining
 expression? This power, this species of men, I will name--they are the
-_Philistines of Culture_.
+Philistines of Culture.
 
 As every one knows, the word "Philistine" is borrowed from the
 vernacular of student-life, and, in its widest and most popular sense,
@@ -1053,7 +1029,7 @@ certain uniformity in German education--hence to culture. All round
 him, he sees only needs and views similar to his own; wherever he goes,
 he finds himself embraced by a ring of tacit conventions concerning
 almost everything, but more especially matters of religion and art.
-This imposing sameness, this _tutti unisono_ which, though it responds to
+This imposing sameness, this tutti unisono which, though it responds to
 no word of command, is yet ever ready to burst forth, cozens him into
 the belief that here a culture must be established and flourishing. But
 Philistinism, despite its systematic organisation and power, does not
@@ -1094,7 +1070,7 @@ concerning all questions of German culture? How could this have been
 possible, seeing that a whole procession of grand and heroic figures
 has already filed past us, whose every movement, the expression of
 whose every feature, whose questioning voice and burning eye betrayed
-the one fact, _that they were seekers_, and that they sought that which
+the one fact, that they were seekers, and that they sought that which
 the Culture-Philistine had long fancied he had found--to wit, a genuine
 original German culture? Is there a soil--thus they seemed to ask--a
 soil that is pure enough, unhandselled enough, of sufficient virgin
@@ -1137,7 +1113,7 @@ confusion of seeking, experimenting, destroying, promising, surmising,
 and hoping was sweeping in currents and cross-currents over the land,
 the thinking middle-classes were right in their concern for their own
 security. It was then quite right of them to dismiss from their minds
-with a shrug of their shoulders the _omnium gatherum_ of fantastic and
+with a shrug of their shoulders the omnium gatherum of fantastic and
 language-maiming philosophies, and of rabid special-pleading
 historical studies, the carnival of all gods and myths, and the
 poetical affectations and fooleries which a drunken spirit may be
@@ -1174,7 +1150,7 @@ philology. Through historical consciousness, they saved themselves
 from enthusiasm; for, in opposition to Goethe, it was maintained that
 history would no longer kindle enthusiasm. No, in their desire to
 acquire an historical grasp of everything, stultification became the
-sole aim of these philosophical admirers of "_nil admirari_." While
+sole aim of these philosophical admirers of "nil admirari." While
 professing to hate every form of fanaticism and intolerance, what they
 really hated, at bottom, was the dominating genius and the tyranny of
 the real claims of culture. They therefore concentrated and utilised
@@ -1225,7 +1201,7 @@ with the classics. Finally, he discovers the general and effective
 formula "Health" for his habits, methods of observation, judgments,
 and the objects of his patronage; while he dismisses the importunate
 disturber of the peace with the epithets "hysterical" and "morbid." It
-is thus that David Strauss--a genuine example of the _satisfait_ in
+is thus that David Strauss--a genuine example of the satisfait in
 regard to our scholastic institutions, and a typical Philistine--it is
 thus that he speaks of "the philosophy of Schopenhauer" as being
 "thoroughly intellectual, yet often unhealthy and unprofitable." It is
@@ -1310,13 +1286,10 @@ and both that word and that book are cynical.
 
 
 
-III.
-
-
-Concerning Culture-Philistinism, David Strauss makes a double
+III. Concerning Culture-Philistinism, David Strauss makes a double
 confession, by word and by deed; that is to say, by the word of the
-confessor, and the act of the writer. His book entitled _The Old Faith
-and the New _is, first in regard to its contents, and secondly in
+confessor, and the act of the writer. His book entitled The Old Faith
+and the New is, first in regard to its contents, and secondly in
 regard to its being a book and a literary production, an uninterrupted
 confession; while, in the very fact that he allows himself to write
 confessions at all about his faith, there already lies a confession.
@@ -1357,7 +1330,7 @@ us, they bore us even more than when they relate their dreams; be they
 proprietors; come they in their thousands, and not the worst people in
 the land either!" If they do not wish to remain the peaceful ones in
 town or county, but threaten to wax noisy, then let not the din of
-their _unisono_ deceive us concerning the poverty and vulgarity of the
+their unisono deceive us concerning the poverty and vulgarity of the
 melody they sing. How can it dispose us more favourably towards a
 profession of faith to hear that it is approved by a crowd, when it is
 of such an order that if any individual of that crowd attempted to
@@ -1428,10 +1401,7 @@ followers do honour to its founder by laughing at him.
 
 
 
-IV.
-
-
-The Philistine as founder of the religion of the future--that is the
+IV. The Philistine as founder of the religion of the future--that is the
 new belief in its most emphatic form of expression. The Philistine
 becomes a dreamer--that is the unheard-of occurrence which
 distinguishes the German nation of to-day. But for the present, in any
@@ -1465,7 +1435,7 @@ with the other consolations, "must irretrievably vanish" for him who
 has but "one foot" on the Straussian platform. The way in which a
 religion represents its heaven is significant, and if it be true that
 Christianity knows no other heavenly occupations than singing and
-making music, the prospect of the Philistine, _à la_ Strauss, is truly
+making music, the prospect of the Philistine, à la Strauss, is truly
 not a very comforting one. In the book of confessions, however, there
 is a page which treats of Paradise (p. 342). Happiest of Philistines,
 unroll this parchment scroll before anything else, and the whole of
@@ -1516,7 +1486,7 @@ used to say: "What does it matter to us whether Montaigne drank red or
 white wine?" But, in this more important case, how greatly ought we to
 value definite particulars of this sort! If we could but learn how
 many pipes the Philistine smokes daily, according to the prescriptions
-of the new faith, and whether it is the _Spener_ or the _National Gazette_
+of the new faith, and whether it is the Spener or the National Gazette
 that appeals to him over his coffee! But our curiosity is not
 satisfied. With regard to one point only do we receive more exhaustive
 information, and fortunately this point relates to the heaven in
@@ -1568,7 +1538,7 @@ something gruesome among them--a misshapen figure, decked with tapes
 and jaundiced paper, out of whose mouth a ticket hung, on which
 "Lessing" was written. My friend went close up to it and learned the
 worst: it was the Homeric Chimera; in front it was Strauss, behind it
-was Gervinus, and in the middle Chimera. The _tout-ensemble_ was
+was Gervinus, and in the middle Chimera. The tout-ensemble was
 Lessing. This discovery caused him to shriek with terror: he waked,
 and read no more. In sooth, Great Master, why have you written such
 fusty little chapters?
@@ -1578,7 +1548,7 @@ Gervinus made it known to the world how and why Goethe was no dramatic
 genius; that, in the second part of Faust, he had only produced a
 world of phantoms and of symbols; that Wallenstein is a Macbeth as
 well as a Hamlet; that the Straussian reader extracts the short
-stories out of the _Wanderjahre_ "much as naughty children pick the
+stories out of the Wanderjahre "much as naughty children pick the
 raisins and almonds out of a tough plum-cake"; that no complete effect
 can be produced on the stage without the forcible element, and that
 Schiller emerged from Kant as from a cold-water cure. All this is
@@ -1670,10 +1640,7 @@ his every glance, shall sally forth to seek his prey!"
 
 
 
-V.
-
-
-How clever it was of my friend to read no further, once he had been
+V. How clever it was of my friend to read no further, once he had been
 enlightened (thanks to that chimerical vision) concerning the
 Straussian Lessing and Strauss himself. We, however, read on further,
 and even craved admission of the Doorkeeper of the New Faith to the
@@ -1704,7 +1671,7 @@ remarkable"; we are told that "each time in composing the third, he
 seemed impelled to exceed his bounds, and depart on an adventurous
 quest," from which we might infer that we are here concerned with a
 sort of double monster, half horse and half cavalier. With regard to a
-certain _Eroica_, this Centaur is very hard pressed, because he did not
+certain Eroica, this Centaur is very hard pressed, because he did not
 succeed in making it clear "whether it is a question of a conflict on
 the open field or in the deep heart of man." In the Pastoral there is
 said to be "a furiously raging storm," for which it is "almost too
@@ -1785,10 +1752,7 @@ that I find no one but myself invariably right."
 
 
 
-VI.
-
-
-A corpse is a pleasant thought for a worm, and a worm is a dreadful
+VI. A corpse is a pleasant thought for a worm, and a worm is a dreadful
 thought for every living creature. Worms fancy their kingdom of heaven
 in a fat body; professors of philosophy seek theirs in rummaging among
 Schopenhauer's entrails, and as long as rodents exist, there will
@@ -1862,9 +1826,9 @@ scanned, much less to be studied." Obviously, he gulped Schopenhauer
 down "the wrong way," and this hoarse coughing is merely his attempt
 to clear his throat. But, in order to fill the measure of his
 ingenuous encomiums, Strauss even arrogates to himself the right of
-commending old Kant: he speaks of the latter's _General History of the
-Heavens of the Year 1755_ as of "a work which has always appeared to me
-not less important than his later _Critique of Pure Reason_. If in the
+commending old Kant: he speaks of the latter's General History of the
+Heavens of the Year 1755 as of "a work which has always appeared to me
+not less important than his later Critique of Pure Reason. If in the
 latter we admire the depth of insight, the breadth of observation
 strikes us in the former. If in the latter we can trace the old man's
 anxiety to secure even a limited possession of knowledge--so it be but
@@ -1876,8 +1840,8 @@ have the little captain, who is above all anxious to express even the
 most insignificant opinion with certainty, and in the other we have
 the famous prose-writer, who, with all the courage of ignorance,
 exudes his eulogistic secretions over Kant. It is almost incredible
-that Strauss availed himself of nothing in Kant's _Critique of Pure
-Reason _while compiling his Testament of modern ideas, and that he knew
+that Strauss availed himself of nothing in Kant's Critique of Pure
+Reason while compiling his Testament of modern ideas, and that he knew
 only how to appeal to the coarsest realistic taste must also be
 numbered among the more striking characteristics of this new gospel,
 the which professes to be but the result of the laborious and
@@ -1894,8 +1858,8 @@ and had moreover concerned themselves with Schleiermacher, who,
 according to Strauss, "was gifted with perhaps too much acumen." It
 will sound odd to our author when I tell him that, even now, he stands
 absolutely dependent upon Hegel and Schleiermacher, and that his
-teaching of the Cosmos, his way of regarding things _sub specie
-biennii_, his salaams to the state of affairs now existing in Germany,
+teaching of the Cosmos, his way of regarding things sub specie
+biennii, his salaams to the state of affairs now existing in Germany,
 and, above all, his shameless Philistine optimism, can only be
 explained by an appeal to certain impressions of youth, early habits,
 and disorders; for he who has once sickened on Hegel and
@@ -1932,8 +1896,8 @@ Schopenhauer's, not proofs but quips and sallies alone are suitable.
 While perusing such passages, the reader will grasp the full meaning
 of Schopenhauer's solemn utterance to the effect that, where optimism
 is not merely the idle prattle of those beneath whose flat brows words
-and only words are stored, it seemed to him not merely an absurd _but a
-vicious attitude of mind_, and one full of scornful irony towards the
+and only words are stored, it seemed to him not merely an absurd but a
+vicious attitude of mind, and one full of scornful irony towards the
 indescribable sufferings of humanity. When a philosopher like Strauss
 is able to frame it into a system, it becomes more than a vicious
 attitude of mind--it is then an imbecile gospel of comfort for the "I"
@@ -1942,9 +1906,9 @@ or for the "We," and can only provoke indignation.
 Who could read the following psychological avowal, for instance,
 without indignation, seeing that it is obviously but an offshoot from
 this vicious gospel of comfort?--"Beethoven remarked that he could
-never have composed a text like Figaro or Don Juan. _Life had not been
+never have composed a text like Figaro or Don Juan. Life had not been
 so profuse of its snubs to him that he could treat it so gaily, or
-deal so lightly with the foibles of men_" (p. 430). In order, however,
+deal so lightly with the foibles of men" (p. 430). In order, however,
 to adduce the most striking instance of this dissolute vulgarity of
 sentiment, let it suffice, here, to observe that Strauss knows no
 other means of accounting for the terribly serious negative instinct
@@ -1955,8 +1919,8 @@ indulgence, which of itself brought about a state of revulsion and
 disgust.
 
 
-    "The Persians call it _bidamag buden_,
-     Germans say '_Katzenjammer_.'"[4]
+    "The Persians call it bidamag buden,
+     Germans say 'Katzenjammer.'"[4]
 
 
 [4] Remorse for the previous night's excesses.--Translator's note.
@@ -1966,14 +1930,11 @@ aside for a moment, that we may overcome our loathing.
 
 
 
-VII.
-
-
-As a matter of fact, our Philistine captain is brave, even audacious,
+VII. As a matter of fact, our Philistine captain is brave, even audacious,
 in words; particularly when he hopes by such bravery to delight his
 noble colleagues--the "We," as he calls them. So the asceticism and
 self-denial of the ancient anchorite and saint was merely a form of
-_Katzenjammer_? Jesus may be described as an enthusiast who nowadays
+Katzenjammer? Jesus may be described as an enthusiast who nowadays
 would scarcely have escaped the madhouse, and the story of the
 Resurrection may be termed a "world-wide deception." For once we will
 allow these views to pass without raising any objection, seeing that
@@ -2016,8 +1977,8 @@ benefactors; but our perplexity is great when we find him constructing
 his ethics quite independently of the question, "What is our
 conception of the universe?" In this department he had an opportunity
 of exhibiting native pluck; for he ought to have turned his back on
-his "We," and have established a moral code for life out of _bellum
-omnium contra omnes_ and the privileges of the strong. But it is to be
+his "We," and have established a moral code for life out of bellum
+omnium contra omnes and the privileges of the strong. But it is to be
 feared that such a code could only have emanated from a bold spirit
 like that of Hobbes', and must have taken its root in a love of truth
 quite different from that which was only able to vent itself in
@@ -2031,7 +1992,7 @@ Says Strauss: "I should say that all moral action arises from the
 individual's acting in consonance with the idea of kind" (p. 274). Put
 quite clearly and comprehensively, this means: "Live as a man, and not
 as an ape or a seal." Unfortunately, this imperative is both useless
-and feeble; for in the class _Man_ what a multitude of different types
+and feeble; for in the class Man what a multitude of different types
 are included--to mention only the Patagonian and the Master, Strauss;
 and no one would ever dare to say with any right, "Live like a
 Patagonian," and "Live like the Master Strauss"! Should any one,
@@ -2133,14 +2094,14 @@ speech of Schopenhauer, respecting the ill-advised God who had nothing
 better to do than to transform Himself into this miserable world? if,
 for example, the Creator Himself had shared Lessing's conviction of
 the superiority of struggle to tranquil possession?" What!--a God who
-would choose _perpetual error_, together with a striving after truth,
+would choose perpetual error, together with a striving after truth,
 and who would, perhaps, fall humbly at Strauss's feet and cry to
 him, "Take thou all Truth, it is thine!"? If ever a God and a man were
 ill-advised, they are this Straussian God, whose hobby is to err and
 to fail, and this Straussian man, who must atone for this erring and
 failing. Here, indeed, one hears "a faint ring of infinite import";
 here flows Strauss's cosmic soothing oil; here one has a notion of the
-_rationale_ of all becoming and all natural laws. Really? Is not our
+rationale of all becoming and all natural laws. Really? Is not our
 universe rather the work of an inferior being, as Lichtenberg
 suggests?--of an inferior being who did not quite understand his
 business; therefore an experiment, an attempt, upon which work is
@@ -2208,17 +2169,14 @@ one. To such a man, the ground seems strewn with ashes, and all stars
 are obscured; while every withered tree and field laid waste seems to
 cry to him: Barren! Forsaken! Springtime is no longer possible here!
 He must feel as young Goethe felt when he first peered into the
-melancholy atheistic twilight of the _Système de la Nature_; to him this
+melancholy atheistic twilight of the Système de la Nature; to him this
 book seemed so grey, so Cimmerian and deadly, that he could only
 endure its presence with difficulty, and shuddered at it as one
 shudders at a spectre.
 
 
 
-VIII.
-
-
-We ought now to be sufficiently informed concerning the heaven and the
+VIII. We ought now to be sufficiently informed concerning the heaven and the
 courage of our new believer to be able to turn to the last question:
 How does he write his books? and of what order are his religious
 documents?
@@ -2231,8 +2189,8 @@ he hears that it was actually welcomed as a pocket-oracle, not only in
 scholastic circles, but even in German universities as well. Students
 are said to have greeted it as a canon for strong intellects, and,
 from all accounts, the professors raised no objections to this view;
-while here and there people have declared it to be a _religions book
-for scholars_. Strauss himself gave out that he did not intend his
+while here and there people have declared it to be a religions book
+for scholars. Strauss himself gave out that he did not intend his
 profession of faith to be merely a reference-book for learned and
 cultured people; but here let us abide by the fact that it was first
 and foremost a work appealing to his colleagues, and was ostensibly a
@@ -2282,9 +2240,9 @@ study has ceased to be an occupation, it is a necessity; he looks
 neither to the right nor to the left, but rushes through all
 things--even through the serious matters which life bears in its
 train--with that semi-listlessness and repulsive need of rest so
-characteristic of the exhausted labourer. _This is also his attitude
-towards culture_. He behaves as if life to him were not only _otium_ but
-_sine dignitate_: even in his sleep he does not throw off the yoke, but
+characteristic of the exhausted labourer. This is also his attitude
+towards culture. He behaves as if life to him were not only otium but
+sine dignitate: even in his sleep he does not throw off the yoke, but
 like an emancipated slave still dreams of his misery, his forced haste
 and his floggings. Our scholars can scarcely be distinguished--and,
 even then, not to their advantage--from agricultural labourers, who in
@@ -2293,8 +2251,8 @@ night, to cultivate their fields, drive their ploughs, and urge on
 their oxen. Now, Pascal suggests that men only endeavour to work hard
 at their business and sciences with the view of escaping those
 questions of greatest import which every moment of loneliness or
-leisure presses upon them--the questions relating to the _wherefore_,
-the _whence_, and the _whither_ of life. Curiously enough, our scholars
+leisure presses upon them--the questions relating to the wherefore,
+the whence, and the whither of life. Curiously enough, our scholars
 never think of the most vital question of all--the wherefore of their
 work, their haste, and their painful ecstasies. Surely their object is
 not the earning of bread or the acquiring of posts of honour? No,
@@ -2308,7 +2266,7 @@ hour of its birth and its salvation in the very midst of all this
 agitated and breathless running to and fro--this sprawling
 scientifically?
 
-For _it_ no one has time--and yet for what shall science have time if
+For it no one has time--and yet for what shall science have time if
 not for culture? Answer us here, then, at least: whence, whither,
 wherefore all science, if it do not lead to culture? Belike to
 barbarity? And in this direction we already see the scholar caste
@@ -2416,11 +2374,11 @@ the various theological groups--yea, even of every individual German,
 in so far as he is a theological sectarian from birth, and only
 invents his own peculiar private belief in order to be able to dissent
 from every other form of belief. But when the question arises of
-talking about Strauss _the writer_, pray listen to what the theological
+talking about Strauss the writer, pray listen to what the theological
 sectarians have to say about him. As soon as his literary side comes
 under notice, all theological objections immediately subside, and the
 dictum comes plain and clear, as if from the lips of one congregation:
-_In spite of it all, he is still a classical writer!_
+In spite of it all, he is still a classical writer!
 
 Everybody--even the most bigoted, orthodox Churchman--pays the writer
 the most gratifying compliments, while there is always a word or two
@@ -2465,10 +2423,7 @@ qualities are to be found.
 
 
 
-IX.
-
-
-"In spite of it all, he is still a classical writer." Well, let us
+IX. "In spite of it all, he is still a classical writer." Well, let us
 see! Perhaps we may now be allowed to discuss Strauss the stylist and
 master of language; but in the first place let us inquire whether, as
 a literary man, he is equal to the task of building his house, and
@@ -2483,8 +2438,8 @@ virtuosos of style, who, however, in regard to power of expression and
 the whole planning and framing of the work, reveal the awkward hand
 and the embarrassed eye of the bungler. We therefore put the question,
 whether Strauss really possesses the artistic strength necessary for
-the purpose of presenting us with a thing that is a whole, _totum
-ponere_?
+the purpose of presenting us with a thing that is a whole, totum
+ponere?
 
 As a rule, it ought to be possible to tell from the first rough sketch
 of a work whether the author conceived the thing as a whole, and
@@ -2739,10 +2694,7 @@ assumed one."
 
 
 
-X.
-
-
-If we have understood Strauss the Confessor correctly, he must be a
+X. If we have understood Strauss the Confessor correctly, he must be a
 genuine Philistine, with a narrow, parched soul and scholarly and
 common-place needs; albeit no one would be more indignant at the title
 than David Strauss the Writer. He would be quite happy to be regarded
@@ -2766,7 +2718,7 @@ revolted against stiltedness and affectation; while, on the other
 hand, if at times wantonness or passion descend to an unpleasantly low
 level, the fault does not rest so much with the stylist as with the
 man." According to this, Strauss seems only too well aware of the
-importance of _simplicity in style_; it is ever the sign of genius,
+importance of simplicity in style; it is ever the sign of genius,
 which alone has the privilege to express itself naturally and
 guilelessly. When, therefore, an author selects a simple mode of
 expression, this is no sign whatever of vulgar ambition; for although
@@ -2783,7 +2735,7 @@ caution.
 
 Even Strauss knows that the problems he prances over are dreadfully
 serious, and have ever been regarded as such by the philosophers who
-have grappled with them; yet he calls his book _lightly equipped_! But
+have grappled with them; yet he calls his book lightly equipped! But
 of this dreadfulness and of the usual dark nature of our meditations
 when considering such questions as the worth of existence and the
 duties of man, we entirely cease to be conscious when the genial
@@ -2832,7 +2784,7 @@ David Strauss, is another person. The theologians may be to blame for
 this metamorphosis; but, at any rate, his present toying with the mask
 of genius inspires us with as much hatred and scorn as his former
 earnestness commanded respect and sympathy. When, for instance, he
-tells us, "it would also argue ingratitude towards _my genius_ if I were
+tells us, "it would also argue ingratitude towards my genius if I were
 not to rejoice that to the faculty of an incisive, analytical
 criticism was added the innocent pleasure in artistic production," it
 may astonish him to hear that, in spite of this self-praise, there are
@@ -2841,14 +2793,14 @@ he has never possessed the gift of artistic production, but that the
 "innocent" pleasure he mentions is of all things the least innocent,
 seeing that it succeeded in gradually undermining and ultimately
 destroying a nature as strongly and deeply scholarly and critical as
-Strauss's--in fact, the _real Straussian Genius_. In a moment of
+Strauss's--in fact, the real Straussian Genius. In a moment of
 unlimited frankness, Strauss himself indeed adds: "Merck was always in
 my thoughts, calling out, 'Don't produce such child's play again;
 others can do that too!'" That was the voice of the real Straussian
 genius, which also asked him what the worth of his newest, innocent,
 and lightly equipped modern Philistine's testament was. Others can do
 that too! And many could do it better. And even they who could have
-done it best, _i.e._ those thinkers who are more widely endowed than
+done it best, i.e. those thinkers who are more widely endowed than
 Strauss, could still only have made nonsense of it.
 
 I take it that you are now beginning to understand the value I set on
@@ -2868,16 +2820,13 @@ stylist as well.
 
 
 
-XI.
-
-
-Of course, the blame attaching to Strauss for being a bad writer is
+XI. Of course, the blame attaching to Strauss for being a bad writer is
 greatly mitigated by the fact that it is extremely difficult in
 Germany to become even a passable or moderately good writer, and that
 it is more the exception than not, to be a really good one. In this
 respect the natural soil is wanting, as are also artistic values and
 the proper method of treating and cultivating oratory. This latter
-accomplishment, as the various branches of it, _i.e._ drawing-room,
+accomplishment, as the various branches of it, i.e. drawing-room,
 ecclesiastical and Parliamentary parlance, show, has not yet reached
 the level of a national style; indeed, it has not yet shown even a
 tendency to attain to a style at all, and all forms of language in
@@ -2914,8 +2863,8 @@ possess unity of genuine style. In view, therefore, of the right which
 is granted to every one to experiment with the language, how is it
 possible at all for individual authors to discover a generally
 agreeable tone? What is so generally interesting in them? In the first
-place, a negative quality--the total lack of offensiveness: but _every
-really productive thing is offensive_. The greater part of a German's
+place, a negative quality--the total lack of offensiveness: but every
+really productive thing is offensive. The greater part of a German's
 daily reading matter is undoubtedly sought either in the pages of
 newspapers, periodicals, or reviews. The language of these journals
 gradually stamps itself on his brain, by means of its steady drip,
@@ -2928,7 +2877,7 @@ without pain. But the manufacturers of these newspapers are, by virtue
 of their trade, most thoroughly inured to the effluvia of this
 journalistic jargon; they have literally lost all taste, and their
 palate is rather gratified than not by the most corrupt and arbitrary
-innovations. Hence the _tutti unisono_ with which, despite the general
+innovations. Hence the tutti unisono with which, despite the general
 lethargy and sickliness, every fresh solecism is greeted; it is with
 such impudent corruptions of the language that her hirelings are
 avenged against her for the incredible boredom she imposes ever more
@@ -2941,7 +2890,7 @@ the death of Mendelssohn, I do not even wish to do more than refer to
 it. A grammatical error--and this is the most extraordinary feature of
 the case--does not therefore seem an offence in any sense to our
 Philistine, but a most delightful restorative in the barren wilderness
-of everyday German. He still, however, considers all _really_ productive
+of everyday German. He still, however, considers all really productive
 things to be offensive. The wholly bombastic, distorted, and
 threadbare syntax of the modern standard author--yea, even his
 ludicrous neologisms--are not only tolerated, but placed to his credit
@@ -3004,8 +2953,7 @@ the effect that a new simile must be introduced from time to time.
 Another rhetorical rule is also very widespread, namely, that didactic
 passages should be composed in long periods, and should be drawn out
 into lengthy abstractions, while all persuasive passages should
-consist of short sentences followed by striking contrasts. On page 154
-in Strauss's book we find a standard example of the didactic and
+consist of short sentences followed by striking contrasts. On page 154 in Strauss's book we find a standard example of the didactic and
 scholarly style--a passage blown out after the genuine Schleiermacher
 manner, and made to stumble along at a true tortoise pace: "The reason
 why, in the earlier stages of religion, there appear many instead of
@@ -3061,9 +3009,9 @@ classical author has himself reckoned among the positive virtues. When
 the educated masses meet with exaggerated dulness and dryness, when
 they are in the presence of really vapid commonplaces, they now seem
 to believe that such things are the signs of health; and in this
-respect the words of the author of the _dialogus de oratoribus_ are very
-much to the point: "_illam ipsam quam jactant sanitatem non firmitate
-sed jejunio consequuntur_." That is why they so unanimously hate every
+respect the words of the author of the dialogus de oratoribus are very
+much to the point: "illam ipsam quam jactant sanitatem non firmitate
+sed jejunio consequuntur." That is why they so unanimously hate every
 firmitas, because it bears testimony to a kind of health quite
 different from theirs; hence their one wish to throw suspicion upon
 all austerity and terseness, upon all fiery and energetic movement,
@@ -3110,10 +3058,7 @@ he grindeth away his teeth, yet his belly is empty."
 
 
 
-XII.
-
-
-By way of concluding, we shall proceed to give our classical
+XII. By way of concluding, we shall proceed to give our classical
 prose-writer the promised examples of his style which we have
 collected. Schopenhauer would probably have classed the whole lot as
 "new documents serving to swell the trumpery jargon of the present
@@ -3148,13 +3093,13 @@ language alone, as though possessed of some supernatural charm, has
 saved herself; and with her own salvation she has wrought that of the
 spirit of Germany. She alone holds the warrant for this spirit in
 future ages, provided she be not destroyed at the sacrilegious hands
-of the modern world. "But _Di meliora!_ Avaunt, ye pachyderms, avaunt!
+of the modern world. "But Di meliora! Avaunt, ye pachyderms, avaunt!
 This is the German language, by means of which men express themselves,
 and in which great poets have sung and great thinkers have written.
 Hands off!" [5]
 
 [5] Translator's note.--Nietzsche here proceeds to quote those passages
-he has culled from _The Old and the New Faith_ with which he undertakes
+he has culled from The Old and the New Faith with which he undertakes
 to substantiate all he has said relative to Strauss's style; as,
 however, these passages, with his comments upon them, lose most of
 their point when rendered into English, it was thought best to omit
@@ -3178,15 +3123,15 @@ Here I come to the end of my confession of faith. This is the
 confession of an individual; and what can such an one do against a
 whole world, even supposing his voice were heard everywhere! In order
 for the last time to use a precious Straussism, his judgment only
-possesses "_that amount of subjective truth which is compatible with a
-complete lack of objective demonstration_"--is not that so, my dear
+possesses "that amount of subjective truth which is compatible with a
+complete lack of objective demonstration"--is not that so, my dear
 friends? Meanwhile, be of good cheer. For the time being let the
 matter rest at this "amount which is compatible with a complete lack"!
 For the time being! That is to say, for as long as that is held to be
 out of season which in reality is always in season, and is now more
 than ever pressing; I refer to ... speaking the truth.[6]
 
-[6] Translator's note.--All quotations from _The Old Faith and the New_
+[6] Translator's note.--All quotations from The Old Faith and the New
 which appear in the above translation have either been taken bodily
 out of Mathilde Blind's translation (Asher and Co., 1873), or are
 adaptations from that translation.
@@ -3197,10 +3142,7 @@ adaptations from that translation.
 RICHARD WAGNER IN BAYREUTH.
 
 
-I.
-
-
-For an event to be great, two things must be united--the lofty
+I. For an event to be great, two things must be united--the lofty
 sentiment of those who accomplish it, and the lofty sentiment of those
 who witness it. No event is great in itself, even though it be the
 disappearance of whole constellations, the destruction of several
@@ -3255,7 +3197,7 @@ element, and would tell himself that this must rise out of a distant
 and deeper source: the surrounding mass of water, which at all events
 is more common in origin, does not account for it. In this way, all
 those who assist at the Bayreuth festival will seem like men out of
-season; their _raison-d'être_ and the forces which would seem to account
+season; their raison-d'être and the forces which would seem to account
 for them are elsewhere, and their home is not in the present age. I
 realise ever more clearly that the scholar, in so far as he is
 entirely the man of his own day, can only be accessible to all that
@@ -3299,9 +3241,9 @@ not soiled his hands and heart in the disgusting idolatry of modern
 culture? Which of us can exist without the waters of purification? Who
 does not hear the voice which cries, "Be silent and cleansed"? Be
 silent and cleansed! Only the merit of being included among those who
-give ear to this voice will grant even us the _lofty_ look necessary to
-view the event at Bayreuth; and only upon this look depends the _great
-future_ of the event.
+give ear to this voice will grant even us the lofty look necessary to
+view the event at Bayreuth; and only upon this look depends the great
+future of the event.
 
 When on that dismal and cloudy day in May 1872, after the foundation
 stone had been laid on the height of Bayreuth, amid torrents of rain,
@@ -3325,10 +3267,7 @@ help of this understanding vouch for its fruitfulness.
 
 
 
-II.
-
-
-It were strange if what a man did best and most liked to do could not
+II. It were strange if what a man did best and most liked to do could not
 be traced in the general outline of his life, and in the case of those
 who are remarkably endowed there is all the more reason for supposing
 that their life will present not only the counterpart of their
@@ -3339,7 +3278,7 @@ it--as from all accounts was the case with Goethe, whom the Germans
 very wrongly regarded only as a lyrist--and the life of the dramatist
 will probably be dramatic.
 
-The dramatic element in Wagner's _development_ cannot be ignored, from
+The dramatic element in Wagner's development cannot be ignored, from
 the time when his ruling passion became self-conscious and took
 possession of his whole being. From that time forward there is an end
 to all groping, straying, and sprouting of offshoots, and over his
@@ -3454,7 +3393,7 @@ everything. The whole torrent plunged, now into this valley, now into
 that, and flooded the most secluded chinks and crannies. In the night
 of these semi-subterranean convulsions a star appeared and glowed high
 above him with melancholy vehemence; as soon as he recognised it, he
-named it _Fidelity--unselfish fidelity_. Why did this star seem to him
+named it Fidelity--unselfish fidelity. Why did this star seem to him
 the brightest and purest of all? What secret meaning had the word
 "fidelity" to his whole being? For he has graven its image and
 problems upon all his thoughts and compositions. His works contain
@@ -3475,10 +3414,7 @@ tyrannical side.
 
 
 
-III.
-
-
-The relation of the two constituent forces to each other, and the
+III. The relation of the two constituent forces to each other, and the
 yielding of the one to the other, was the great requisite by which
 alone he could remain wholly and truly himself. At the same time, this
 was the only thing he could not control, and over which he could only
@@ -3556,7 +3492,7 @@ spheres,--the thinker alone can form any idea.
 
 In the midst of this mode of life, a detailed description of which is
 necessary in order to inspire the amount of pity, awe, and admiration
-which are its due, he developed a _talent for acquiring knowledge_,
+which are its due, he developed a talent for acquiring knowledge,
 which even in a German--a son of the nation learned above all
 others--was really extraordinary. And with this talent yet another
 danger threatened Wagner--a danger more formidable than that involved
@@ -3679,8 +3615,8 @@ the aim of philosophy are one. For my part, the most important
 question philosophy has to decide seems to be, how far things have
 acquired an unalterable stamp and form, and, once this question has
 been answered, I think it the duty of philosophy unhesitatingly and
-courageously to proceed with the task of _improving that part of the
-world which has been recognised as still susceptible to change_. But
+courageously to proceed with the task of improving that part of the
+world which has been recognised as still susceptible to change. But
 genuine philosophers do, as a matter of fact, teach this doctrine
 themselves, inasmuch as they work at endeavouring to alter the very
 changeable views of men, and do not keep their opinions to themselves.
@@ -3692,16 +3628,13 @@ most powerfully active and heroic. It was as a philosopher that he
 went, not only through the fire of various philosophical systems
 without fear, but also through the vapours of science and scholarship,
 while remaining ever true to his highest self. And it was this highest
-self which exacted _from his versatile spirit works as complete as his
-were_, which bade him suffer and learn, that he might accomplish such
+self which exacted from his versatile spirit works as complete as his
+were, which bade him suffer and learn, that he might accomplish such
 works.
 
 
 
-IV.
-
-
-The history of the development of culture since the time of the Greeks
+IV. The history of the development of culture since the time of the Greeks
 is short enough, when we take into consideration the actual ground it
 covers, and ignore the periods during which man stood still, went
 backwards, hesitated or strayed. The Hellenising of the world--and to
@@ -3743,22 +3676,22 @@ gifted for speedy action and to have wings on his heels, in order to
 synthetise the multitudinous and still undiscovered facts of science
 and the many conflicting divisions of talent so as to reconnoitre and
 rule the whole enormous field. It is now necessary that a generation
-of _anti-Alexanders_ should arise, endowed with the supreme strength
+of anti-Alexanders should arise, endowed with the supreme strength
 necessary for gathering up, binding together, and joining the
 individual threads of the fabric, so as to prevent their being
 scattered to the four winds. The object is not to cut the Gordian knot
 of Greek culture after the manner adopted by Alexander, and then to
 leave its frayed ends fluttering in all directions; it is rather to
-_bind it after it has been loosed_. That is our task to-day. In the
+bind it after it has been loosed. That is our task to-day. In the
 person of Wagner I recognise one of these anti-Alexanders: he rivets
 and locks together all that is isolated, weak, or in any way
 defective; if I may be allowed to use a medical expression, he has an
-_astringent_ power. And in this respect he is one of the greatest
+astringent power. And in this respect he is one of the greatest
 civilising forces of his age. He dominates art, religion, and
 folklore, yet he is the reverse of a polyhistor or of a mere
 collecting and classifying spirit; for he constructs with the
-collected material, and breathes life into it, and is a _Simplifier of
-the Universe_. We must not be led away from this idea by comparing the
+collected material, and breathes life into it, and is a Simplifier of
+the Universe. We must not be led away from this idea by comparing the
 general mission which his genius imposed upon him with the much
 narrower and more immediate one which we are at present in the habit
 of associating with the name of Wagner. He is expected to effect a
@@ -3923,15 +3856,15 @@ reflection, just as no one can exist without sleep. The more difficult
 the science of natural laws becomes, the more fervently we yearn for
 the image of this simplification, if only for an instant; and the
 greater becomes the tension between each man's general knowledge of
-things and his moral and spiritual faculties. Art is with us _to
-prevent the bow from snapping_.
+things and his moral and spiritual faculties. Art is with us to
+prevent the bow from snapping.
 
 The individual must be consecrated to something impersonal--that is
 the aim of tragedy: he must forget the terrible anxiety which death
 and time tend to create in him; for at any moment of his life, at any
 fraction of time in the whole of his span of years, something sacred
 may cross his path which will amply compensate him for all his
-struggles and privations. This means having _a sense for the tragic_.
+struggles and privations. This means having a sense for the tragic.
 And if all mankind must perish some day--and who could question this!
 --it has been given its highest aim for the future, namely, to
 increase and to live in such unity that it may confront its final
@@ -3940,7 +3873,7 @@ tragic: in this one aim all the ennobling influences of man lie
 locked; its complete repudiation by humanity would be the saddest blow
 which the soul of the philanthropist could receive. That is how I feel
 in the matter! There is but one hope and guarantee for the future of
-man, and that is _that his sense for the tragic may not die out_. If he
+man, and that is that his sense for the tragic may not die out. If he
 ever completely lost it, an agonised cry, the like of which has never
 been heard, would have to be raised all over the world; for there is
 no more blessed joy than that which consists in knowing what we
@@ -3951,10 +3884,7 @@ human.
 
 
 
-V.
-
-
-Wagner concentrated upon life, past and present, the light of an
+V. Wagner concentrated upon life, past and present, the light of an
 intelligence strong enough to embrace the most distant regions in its
 rays. That is why he is a simplifier of the universe; for the
 simplification of the universe is only possible to him whose eye has
@@ -4026,14 +3956,14 @@ were any value in making a correctly thinking and reasoning being out
 of man, before one has succeeded in making him a creature that feels
 correctly. If now the strains of our German masters' music burst upon
 a mass of mankind sick to this extent, what is really the meaning of
-these strains? Only _correct feeling_, the enemy of all convention, of
+these strains? Only correct feeling, the enemy of all convention, of
 all artificial estrangement and misunderstandings between man and man:
 this music signifies a return to nature, and at the same time a
 purification and remodelling of it; for the need of such a return took
-shape in the souls of the most loving of men, and, _through their art,
-nature transformed into love makes its voice heard_.
+shape in the souls of the most loving of men, and, through their art,
+nature transformed into love makes its voice heard.
 
-Let us regard this as _one_ of Wagner's answers to the question, What
+Let us regard this as one of Wagner's answers to the question, What
 does music mean in our time? for he has a second. The relation between
 music and life is not merely that existing between one kind of
 language and another; it is, besides, the relation between the perfect
@@ -4068,11 +3998,11 @@ people, there is no greater evidence of this requisite relation of
 proportions; a striving after the agreeable dissimulation, already
 referred to, is on the contrary noticeable, though it is never so
 successful even if it be more eager than in the first instance. How
-far this dissimulation is _agreeable_ at times, and why it must please
+far this dissimulation is agreeable at times, and why it must please
 everybody to see how modern men at least endeavour to dissemble, every
 one is in a position to judge, according to, the extent to which he
 himself may happen to be modern. "Only galley slaves know each other,"
-says Tasso, "and if we _mistake_ others, it is only out of courtesy, and
+says Tasso, "and if we mistake others, it is only out of courtesy, and
 with the hope that they, in their turn, should mistake us."
 
 Now, in this world of forms and intentional misunderstandings, what
@@ -4083,7 +4013,7 @@ and peaceful fire of music, which wells up to the light of day from
 their unexhausted depths--and all this to what purpose?
 
 By means of these souls music gives expression to the longing that it
-feels for the company of its natural ally, _gymnastics_--that is to say,
+feels for the company of its natural ally, gymnastics--that is to say,
 its necessary form in the order of visible phenomena. In its search
 and craving for this ally, it becomes the arbiter of the whole visible
 world and the world of mere lying appearance of the present day. This
@@ -4149,7 +4079,7 @@ aforementioned "friend of art" is to be found, and he it is who must
 be suppressed: the favour he now finds at the hands of the State must
 be changed into oppression; public opinion, which lays such particular
 stress upon the training of this love of art, must be routed by better
-judgment. Meanwhile we must reckon the _declared enemy of art_ as our
+judgment. Meanwhile we must reckon the declared enemy of art as our
 best and most useful ally; for the object of his animosity is
 precisely art as understood by the "friend of art,"--he knows of no
 other kind! Let him be allowed to call our "friend of art" to account
@@ -4191,7 +4121,7 @@ very populous town, and notice no other expression in their faces than
 one of hunted stupor, I can never help commenting to myself upon the
 misery of their condition. For them all, art exists only that they may
 be still more wretched, torpid, insensible, or even more flurried and
-covetous. For _incorrect feeling_ governs and drills them unremittingly,
+covetous. For incorrect feeling governs and drills them unremittingly,
 and does not even give them time to become aware of their misery.
 Should they wish to speak, convention whispers their cue to them, and
 this makes them forget what they originally intended to say; should
@@ -4204,10 +4134,7 @@ state of abject slaves of incorrect feeling.
 
 
 
-VI.
-
-
-I shall only give two instances showing how utterly the sentiment of
+VI. I shall only give two instances showing how utterly the sentiment of
 our time has been perverted, and how completely unconscious the
 present age is of this perversion. Formerly financiers were looked
 down upon with honest scorn, even though they were recognised as
@@ -4215,7 +4142,7 @@ needful; for it was generally admitted that every society must have
 its viscera. Now, however, they are the ruling power in the soul of
 modern humanity, for they constitute the most covetous portion
 thereof. In former times people were warned especially against taking
-the day or the moment too seriously: the _nil admirari_ was recommended
+the day or the moment too seriously: the nil admirari was recommended
 and the care of things eternal. Now there is but one kind of
 seriousness left in the modern mind, and it is limited to the news
 brought by the newspaper and the telegraph. Improve each shining hour,
@@ -4223,8 +4150,8 @@ turn it to some account and judge it as quickly as possible!--one
 would think modern men had but one virtue left--presence of mind.
 Unfortunately, it much more closely resembles the omnipresence of
 disgusting and insatiable cupidity, and spying inquisitiveness become
-universal. For the question is whether mind is _present at all
-to-day_;--but we shall leave this problem for future judges to solve;
+universal. For the question is whether mind is present at all
+to-day;--but we shall leave this problem for future judges to solve;
 they, at least, are bound to pass modern men through a sieve. But that
 this age is vulgar, even we can see now, and it is so because it
 reveres precisely what nobler ages contemned. If, therefore, it loots
@@ -4244,8 +4171,8 @@ anxiously engaged in proving that every age has its own particular
 right and special conditions,--with the view of preparing the
 groundwork of an apology for the day that is to come, when our
 generation will be called to judgment. The science of government, of
-race, of commerce, and of jurisprudence, all have that _preparatorily
-apologetic_ character now; yea, it even seems as though the small
+race, of commerce, and of jurisprudence, all have that preparatorily
+apologetic character now; yea, it even seems as though the small
 amount of intellect which still remains active to-day, and is not used
 up by the great mechanism of gain and power, has as its sole task the
 defending--and excusing of the present
@@ -4278,7 +4205,7 @@ possible that the emancipation of art is the only ray of hope
 illuminating the future, an event intended only for a few isolated
 souls, while the many remain satisfied to gaze into the flickering and
 smoking flame of their art and can endure to do so. For they do not
-_want_ to be enlightened, but dazzled. They rather _hate_ light--more
+want to be enlightened, but dazzled. They rather hate light--more
 particularly when it is thrown on themselves.
 
 That is why they evade the new messenger of light; but he follows
@@ -4296,7 +4223,7 @@ learn to become natural again, and then suffer yourselves to be
 transformed through nature, and into her, by the charm of my ardour
 and love!"
 
-It is the voice _of Wagner's art_ which thus appeals to men. And that
+It is the voice of Wagner's art which thus appeals to men. And that
 we, the children of a wretched age, should be the first to hear it,
 shows how deserving of pity this age must be: it shows, moreover, that
 real music is of a piece with fate and primitive law; for it is quite
@@ -4340,38 +4267,35 @@ leads one to ask whether it is possible for the grandest things to
 exist for the purpose of the meanest, the greatest talent for the
 benefit of the smallest, the loftiest virtue and holiness for the sake
 of the defective and faulty? Should real music make itself heard,
-because mankind of all creatures _least deserves to hear it, though it
-perhaps need it most_? If one ponder over the transcendental and
+because mankind of all creatures least deserves to hear it, though it
+perhaps need it most? If one ponder over the transcendental and
 wonderful character of this possibility, and turn from these
 considerations to look back on life, a light will then be seen to
 ascend, however dark and misty it may have seemed a moment before.
 
 
 
-VII.
-
-
-It is quite impossible otherwise: the observer who is confronted with
+VII. It is quite impossible otherwise: the observer who is confronted with
 a nature such as Wagner's must, willy-nilly, turn his eyes from time
 to time upon himself, upon his insignificance and frailty, and ask
 himself, What concern is this of thine? Why, pray, art thou there at
 all? Maybe he will find no answer to these questions, in which case he
 will remain estranged and confounded, face to face with his own
 personality. Let it then suffice him that he has experienced this
-feeling; let the fact _that he has felt strange and embarrassed in the
-presence of his own soul_ be the answer to his question For it is
+feeling; let the fact that he has felt strange and embarrassed in the
+presence of his own soul be the answer to his question For it is
 precisely by virtue of this feeling that he shows the most powerful
 manifestation of life in Wagner--the very kernel of his strength--that
-demoniacal _magnetism_ and gift of imparting oneself to others, which is
+demoniacal magnetism and gift of imparting oneself to others, which is
 peculiar to his nature, and by which it not only conveys itself to
 other beings, but also absorbs other beings into itself; thus
 attaining to its greatness by giving and by taking. As the observer is
 apparently subject to Wagner's exuberant and prodigally generous
 nature, he partakes of its strength, and thereby becomes formidable
-_through him and to him_. And every one who critically examines himself
+through him and to him. And every one who critically examines himself
 knows that a certain mysterious antagonism is necessary to the process
 of mutual study. Should his art lead us to experience all that falls
-to the lot of a soul engaged upon a journey, _i.e._ feeling sympathy
+to the lot of a soul engaged upon a journey, i.e. feeling sympathy
 with others and sharing their fate, and seeing the world through
 hundreds of different eyes, we are then able, from such a distance,
 and under such strange influences, to contemplate him, once we have
@@ -4381,11 +4305,11 @@ lost in the world of sounds. In Wagner, too, the world of sounds seeks
 to manifest itself as a phenomenon for the sight; it seeks, as it
 were, to incarnate itself. His art always leads him into two distinct
 directions, from the world of the play of sound to the mysterious and
-yet related world of visible things, and _vice versâ_. He is continually
+yet related world of visible things, and vice versâ. He is continually
 forced--and the observer with him--to re-translate the visible into
 spiritual and primeval life, and likewise to perceive the most hidden
 interstices of the soul as something concrete and to lend it a visible
-body. This constitutes the nature of the _dithyrambic dramatist_, if the
+body. This constitutes the nature of the dithyrambic dramatist, if the
 meaning given to the term includes also the actor, the poet, and the
 musician; a conception necessarily borrowed from Æschylus and the
 contemporary Greek artists--the only perfect examples of the
@@ -4451,7 +4375,7 @@ to turn blind, or be permitted to become so. For we have no right to
 this blindness; whereas Plato, after he had cast that one glance into
 the ideal Hellenic, had the right to be blind to all Hellenism. For
 this reason, we others are in much greater need of art; because it was
-_in the presence of the realistic that our eyes began to see_, and we
+in the presence of the realistic that our eyes began to see, and we
 require the complete dramatist in order that he may relieve us, if
 only for an hour or so, of the insufferable tension arising from our
 knowledge of the chasm which lies between our capabilities and the
@@ -4505,8 +4429,8 @@ in art occur when the antagonism between his feelings is at its height
 and when his proud astonishment and wonder at the world combine with
 the ardent desire to approach that same world as a lover. The glances
 he then bends towards the earth are always rays of sunlight which
-"draw up water," form mist, and gather storm-clouds. _Clear-sighted and
-prudent, loving and unselfish at the same time_, his glance is
+"draw up water," form mist, and gather storm-clouds. Clear-sighted and
+prudent, loving and unselfish at the same time, his glance is
 projected downwards; and all things that are illumined by this double
 ray of light, nature conjures to discharge their strength, to reveal
 their most hidden secret, and this through bashfulness. It is more
@@ -4515,8 +4439,8 @@ glance, that he caught her naked; that is why she would conceal her
 shame by seeming precisely the reverse. What has hitherto been
 invisible, the inner life, seeks its salvation in the region of the
 visible; what has hitherto been only visible, repairs to the dark
-ocean of sound: _thus Nature, in trying to conceal herself, unveils the
-character of her contradictions_. In a dance, wild, rhythmic and
+ocean of sound: thus Nature, in trying to conceal herself, unveils the
+character of her contradictions. In a dance, wild, rhythmic and
 gliding, and with ecstatic movements, the born dramatist makes known
 something of what is going on within him, of what is taking place in
 nature: the dithyrambic quality of his movements speaks just as
@@ -4534,10 +4458,7 @@ among mortals--the dithyrambic dramatist--is evolved.
 
 
 
-VIII.
-
-
-Wagner's actual life--that is to say, the gradual evolution of the
+VIII. Wagner's actual life--that is to say, the gradual evolution of the
 dithyrambic dramatist in him--was at the same time an uninterrupted
 struggle with himself, a struggle which never ceased until his
 evolution was complete. His fight with the opposing world was grim and
@@ -4551,7 +4472,7 @@ emotions in his whole being. It gave him no very clear or luminous
 decision, at first, as to what was to be done and desired in the
 future; for the idea then appeared merely as a form of
 temptation--that is to say, as the expression of his gloomy, selfish,
-and insatiable will, eager for _power and glory_. Influence--the
+and insatiable will, eager for power and glory. Influence--the
 greatest amount of influence--how? over whom?--these were henceforward
 the questions and problems which did not cease to engage his head and
 his heart. He wished to conquer and triumph as no other artist had
@@ -4583,7 +4504,7 @@ certain climactic passages of dramatic song, that sudden bewildering
 ecstasy of the emotions, thoroughly honest and selfless--they were but
 echoes of his own experiences and sensations, and filled him with
 glowing hope for the greatest possible power and effect. Thus he
-recognised _grand opera_ as the means whereby he might express his
+recognised grand opera as the means whereby he might express his
 ruling thoughts; towards it his passions impelled him; his eyes turned
 in the direction of its home. The larger portion of his life, his most
 daring wanderings, and his plans, studies, sojourns, and acquaintances
@@ -4596,7 +4517,7 @@ kinds Meyerbeer succeeded in preparing and achieving every one of his
 great successes, and how scrupulously the sequence of "effects" was
 taken into account in the opera itself, people will begin to
 understand how bitterly Wagner was mortified when his eyes were opened
-to the tricks of the _métier_ which were indispensable to a great public
+to the tricks of the métier which were indispensable to a great public
 success. I doubt whether there has ever been another great artist in
 history who began his career with such extraordinary illusions and who
 so unsuspectingly and sincerely fell in with the most revolting form
@@ -4630,8 +4551,8 @@ the long interval preceding that last development; but I doubt whether
 the first achievement is possible at all, and do not therefore attempt
 the second. The limits of the interval separating the preceding and
 the subsequent ages will be described historically in two sentences:
-Wagner was the _revolutionist of society_; Wagner recognised the only
-artistic element that ever existed hitherto--_the poetry of the people_.
+Wagner was the revolutionist of society; Wagner recognised the only
+artistic element that ever existed hitherto--the poetry of the people.
 The ruling idea which in a new form and mightier than it had ever
 been, obsessed Wagner, after he had overcome his share of despair and
 repentance, led him to both conclusions. Influence, the greatest
@@ -4684,7 +4605,7 @@ though perhaps more mysterious. In both of these elements he steeped
 and healed his soul; they constituted his most urgent need:--in this
 way he was able to ascertain how like his sorrow was to that of the
 people, when they came into being, and how they must arise anew if
-_many Wagners_ are going to appear. What part did myth and music play in
+many Wagners are going to appear. What part did myth and music play in
 modern society, wherever they had not been actually sacrificed to it?
 They shared very much the same fate, a fact which only tends to prove
 their close relationship: myth had been sadly debased and usurped by
@@ -4762,12 +4683,12 @@ question in a language half strange to himself though familiar to his
 listeners. Now there was nothing to induce him to continue this
 indulgence: all he desired now was to come to terms with himself, to
 think of the nature of the world in dramatic actions, and to
-philosophise in music; _what desires_ he still possessed turned in the
-direction of the _latest philosophical views_. He who is worthy of
+philosophise in music; what desires he still possessed turned in the
+direction of the latest philosophical views. He who is worthy of
 knowing what took place in him at that time or what questions were
 thrashed out in the darkest holy of holies in his soul--and not many
 are worthy of knowing all this--must hear, observe, and experience
-Tristan and Isolde, the real _opus metaphysicum_ of all art, a work upon
+Tristan and Isolde, the real opus metaphysicum of all art, a work upon
 which rests the broken look of a dying man with his insatiable and
 sweet craving for the secrets of night and death, far away from life
 which throws a horribly spectral morning light, sharply, upon all that
@@ -4799,7 +4720,7 @@ reconciled, he was more filled with rage and disgust than with sorrow,
 and more prone to renounce the love of power than to shrink in awe
 from it. As he thus silently furthered his greatest work and gradually
 laid score upon score, something happened which caused him to stop and
-listen: _friends_ were coming, a kind of subterranean movement of many
+listen: friends were coming, a kind of subterranean movement of many
 souls approached with a message for him--it was still far from being
 the people that constituted this movement and which wished to bear him
 news, but it may have been the nucleus and first living source of a
@@ -4835,7 +4756,7 @@ only in the form of silent manuscript. He must make known to the world
 what it could not guess in regard to his productions, what was his
 alone to reveal--the new style for the execution and presentation of
 his works, so that he might set that example which nobody else could
-set, and thus establish a _tradition of style_, not on paper, not by
+set, and thus establish a tradition of style, not on paper, not by
 means of signs, but through impressions made upon the very souls of
 men. This duty had become all the more pressing with him, seeing that
 precisely in regard to the style of their execution his other works
@@ -4899,7 +4820,7 @@ one, Wagner remembered the duty to which he had pledged himself,
 namely, to rescue his greatest work from those successes and affronts
 which were so largely due to misunderstandings, and to present it in
 his most personal rhythm as an example for all times. Thus he
-conceived _the idea of Bayreuth_. In the wake of that current of better
+conceived the idea of Bayreuth. In the wake of that current of better
 feeling already referred to, he expected to notice an enhanced sense
 of duty even among those with whom he wished to entrust his most
 precious possession. Out of this two-fold duty, that event took shape
@@ -4912,8 +4833,8 @@ joy, a foretaste of love in a higher sphere, through which they know
 themselves to be blessed, blessing and fruitful, far beyond their span
 of years; and which to Wagner himself is but a cloud of distress,
 care, meditation, and grief, a fresh passionate outbreak of
-antagonistic elements, but all bathed in the starlight of _selfless
-fidelity_, and changed by this light into indescribable joy.
+antagonistic elements, but all bathed in the starlight of selfless
+fidelity, and changed by this light into indescribable joy.
 
 It scarcely need be said that it is the breath of tragedy that fills
 the lungs of the world. And every one whose innermost soul has a
@@ -4929,10 +4850,7 @@ when all nature lies still in the sable twilight.
 
 
 
-IX.
-
-
-All those to whom the thought of Wagner's development as a man may
+IX. All those to whom the thought of Wagner's development as a man may
 have caused pain will find it both restful and healing to reflect upon
 what he was as an artist, and to observe how his ability and daring
 attained to such a high degree of independence. If art mean only the
@@ -4951,7 +4869,7 @@ poet, a painter, or a musician, even using each these words in its
 widest sense, or whether a new word ought not to be invented in order
 to describe him.
 
-Wagner's _poetic_ ability is shown by his thinking in visible and actual
+Wagner's poetic ability is shown by his thinking in visible and actual
 facts, and not in ideas; that is to say, he thinks mythically, as the
 people have always done. No particular thought lies at the bottom of a
 myth, as the children of an artificial culture would have us believe;
@@ -5196,7 +5114,7 @@ more exacting the class of work happens to be.
 
 That is why all Wagner's efforts were concentrated upon the one object
 of discovering those means which best served the purpose of
-_distinctness_, and to this end it was above all necessary for him to
+distinctness, and to this end it was above all necessary for him to
 emancipate himself from all the prejudices and claims of the old
 "mood" music, and to give his compositions--the musical
 interpretations of feelings and passion--a perfectly unequivocal mode
@@ -5277,7 +5195,7 @@ about him; for the former did not mind playing at times with their
 art, and making an exhibition of their virtuosity. One associates
 Wagner's art neither with interest nor with diversion, nor with Wagner
 himself and art in general. All one is conscious of is of the great
-_necessity_ of it all. No one will ever be able to appreciate what
+necessity of it all. No one will ever be able to appreciate what
 severity evenness of will, and self-control the artist required during
 his development, in order, at his zenith, to be able to do the
 necessary thing joyfully and freely. Let it suffice if we can
@@ -5288,10 +5206,7 @@ thirsting for a free ramble in the open and over the wilderness.
 
 
 
-X.
-
-
-An artist who has this empire over himself subjugates all other
+X. An artist who has this empire over himself subjugates all other
 artists, even though he may not particularly desire to do so. For him
 alone there lies no danger or stemming-force in those he has
 subjugated--his friends and his adherents; whereas the weaker natures
@@ -5351,11 +5266,11 @@ other and less significant ends.
 
 If, therefore, Wagner declines to live on amid a multitude of creative
 musicians, he is only the more desirous of imposing upon all men of
-talent the new duty of joining him in seeking the _law of style for
-dramatic performances_. He deeply feels the need of establishing a
-_traditional style_ for his art, by means of which his work may continue
+talent the new duty of joining him in seeking the law of style for
+dramatic performances. He deeply feels the need of establishing a
+traditional style for his art, by means of which his work may continue
 to live from one age to another in a pure form, until it reaches that
-_future_ which its creator ordained for it.
+future which its creator ordained for it.
 
 Wagner is impelled by an undaunted longing to make known everything
 relating to that foundation of a style, mentioned above, and,
@@ -5363,7 +5278,7 @@ accordingly, everything relating to the continuance of his art. To
 make his work--as Schopenhauer would say--a sacred depository and the
 real fruit of his life, as well as the inheritance of mankind, and to
 store it for the benefit of a posterity better able to appreciate
-it,--these were _the supreme objects_ of his life, and for these he bore
+it,--these were the supreme objects of his life, and for these he bore
 that crown of thorns which, one day, will shoot forth leaves of bay.
 Like the insect which, in its last form, concentrates all its energies
 upon the one object of finding a safe depository for its eggs and of
@@ -5434,7 +5349,7 @@ cannot prosecute his work alone in the seclusion of a study, but who
 requires human souls as messengers to this future, public institutions
 as a guarantee of it, and, as it were, bridges between now and
 hereafter. His art may not, like the philosopher's, be put aboard the
-boat of written documents: art needs _capable men_, not letters and
+boat of written documents: art needs capable men, not letters and
 notes, to transmit it. Over whole periods in Wagner's life rings a
 murmur of distress--his distress at not being able to meet with these
 capable interpreters before whom he longed to execute examples of his
@@ -5479,7 +5394,7 @@ speculative discussions. What the reader who is only imperfectly
 initiated will probably find most oppressive is the general tone of
 authoritative dignity which is peculiar to Wagner, and which is very
 difficult to describe: it always strikes me as though Wagner were
-continually _addressing enemies_; for the style of all these tracts more
+continually addressing enemies; for the style of all these tracts more
 resembles that of the spoken than of the written language, hence they
 will seem much more intelligible if heard read aloud, in the presence
 of his enemies, with whom he cannot be on familiar terms, and towards
@@ -5493,8 +5408,8 @@ and that the shadow of his enemies had been removed for a while, all
 the friends and enemies that Wagner, as a man of letters, has, possess
 one factor in common, which differentiates them fundamentally from the
 "people" for whom he worked as an artist. Owing to the refining and
-fruitless nature of their education, they are quite_ devoid of the
-essential traits of the national character_, and he who would appeal to
+fruitless nature of their education, they are quite devoid of the
+essential traits of the national character, and he who would appeal to
 them must speak in a way which is not of the people--that is to say,
 after the manner of our best prose-writers and Wagner himself; though
 that he did violence to himself in writing thus is evident. But the
@@ -5561,11 +5476,11 @@ Imperial march.
 As a rule, though, the generous impulses of the creative artist and
 the extent of his philanthropy are too great for his gaze to be
 confined within the limits of a single nation. His thoughts, like
-those of every good and great German, are _more_ than German, and the
+those of every good and great German, are more than German, and the
 language of his art does not appeal to particular races but to mankind
 in general.
-_
-But to the men of the future._
+
+But to the men of the future.
 
 This is the belief that is proper to him; this is his torment and his
 distinction. No artist, of what past soever, has yet received such a
@@ -5594,10 +5509,7 @@ predicts it prove true; his command to every artist was rather--
 
 
 
-XI.
-
-
-May blessed reason preserve us from ever thinking that mankind will at
+XI. May blessed reason preserve us from ever thinking that mankind will at
 any time discover a final and ideal order of things, and that
 happiness will then and ever after beam down upon us uniformly, like
 the rays of the sun in the tropics. Wagner has nothing to do with such
@@ -5606,7 +5518,7 @@ in a future, it only meant that he observed certain properties in
 modern men which he did not hold to be essential to their nature, and
 which did not seem to him to form any necessary part of their
 constitution; in fact, which were changeable and transient; and that
-precisely _owing to these properties_ art would find no home among them,
+precisely owing to these properties art would find no home among them,
 and he himself had to be the precursor and prophet of another epoch.
 No golden age, no cloudless sky will fall to the portion of those
 future generations, which his instinct led him to expect, and whose
@@ -5629,8 +5541,8 @@ heavenly or earthly bliss; finally, that all who wish to be free must
 become so through themselves, and that freedom falls to nobody's lot
 as a gift from Heaven. However harsh and strange these propositions
 may sound, they are nevertheless reverberations from that future
-world, which _is verily in need of art_, and which expects genuine
-pleasure from its presence; they are the language of nature--_reinstated_
+world, which is verily in need of art, and which expects genuine
+pleasure from its presence; they are the language of nature--reinstated
 even in mankind; they stand for what I have already termed correct
 feeling as opposed to the incorrect feeling that reigns to-day.
 
@@ -5638,8 +5550,8 @@ But real relief or salvation exists only for nature not for that which
 is contrary to nature or which arises out of incorrect feeling. When
 all that is unnatural becomes self-conscious, it desires but one
 thing--nonentity; the natural thing, on the other hand, yearns to be
-transfigured through love: the former would fain _not_ be, the latter
-would fain be _otherwise_. Let him who has understood this recall, in
+transfigured through love: the former would fain not be, the latter
+would fain be otherwise. Let him who has understood this recall, in
 the stillness of his soul, the simple themes of Wagner's art, in order
 to be able to ask himself whether it were nature or nature's opposite
 which sought by means of them to achieve the aims just described.
@@ -5706,7 +5618,7 @@ victor, his eye burning with aching joy looks back upon the last
 events; he has become free through love, free from himself.
 
 And now ask yourselves, ye generation of to-day, Was all this composed
-_for you_? Have ye the courage to point up to the stars of the whole of
+for you? Have ye the courage to point up to the stars of the whole of
 this heavenly dome of beauty and goodness and to say, This is our
 life, that Wagner has transferred to a place beneath the stars?
 
@@ -5724,7 +5636,7 @@ He who questions thus and does so in vain, will find himself compelled
 to look around him for signs of the future; and should his eye, on
 reaching an unknown distance, espy just that "people" which his own
 generation can read out of the signs contained in Wagnerian art, he
-will then also understand _what Wagner will mean to this
-people_--something that he cannot be to all of us, namely, not the
+will then also understand what Wagner will mean to this
+people--something that he cannot be to all of us, namely, not the
 prophet of the future, as perhaps he would fain appear to us, but the
 interpreter and clarifier of the past.

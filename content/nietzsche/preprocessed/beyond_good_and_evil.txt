@@ -1,9 +1,33 @@
-﻿BEYOND GOOD AND EVIL
+Produced by John Mamoun, Charles Franks and the Online
+Distributed Proofreading Team
+
+
+
+
+
+
+BEYOND GOOD AND EVIL
 
 By Friedrich Nietzsche
 
 
 Translated by Helen Zimmern
+
+
+
+TRANSCRIBER'S NOTE ABOUT THIS E-TEXT EDITION:
+
+The following is a reprint of the Helen Zimmern translation from German
+into English of "Beyond Good and Evil," as published in The Complete
+Works of Friedrich Nietzsche (1909-1913). Some adaptations from the
+original text were made to format it into an e-text. Italics in the
+original book are capitalized in this e-text, except for most foreign
+language phrases that were italicized. Original footnotes are put in
+brackets "[]" at the points where they are cited in the text. Some
+spellings were altered. "To-day" and "To-morrow" are spelled "today"
+and "tomorrow." Some words containing the letters "ise" in the original
+text, such as "idealise," had these letters changed to "ize," such as
+"idealize." "Sceptic" was changed to "skeptic."
 
 
 TABLE OF CONTENTS
@@ -91,12 +115,7 @@ spirits--we have it still, all the distress of spirit and all the
 tension of its bow! And perhaps also the arrow, the duty, and, who
 knows? THE GOAL TO AIM AT....
 
-Sils Maria Upper Engadine, JUNE, 1885.
-
-
-
-
-CHAPTER I. PREJUDICES OF PHILOSOPHERS
+Sils Maria Upper Engadine, JUNE, 1885. CHAPTER I. PREJUDICES OF PHILOSOPHERS
 
 
 1. The Will to Truth, which is to tempt us to many a hazardous
@@ -174,7 +193,7 @@ more plainly, physiological demands, for the maintenance of a definite
 mode of life For example, that the certain is worth more than the
 uncertain, that illusion is less valuable than "truth" such valuations,
 in spite of their regulative importance for US, might notwithstanding be
-only superficial valuations, special kinds of _niaiserie_, such as may
+only superficial valuations, special kinds of niaiserie, such as may
 be necessary for the maintenance of beings such as ourselves. Supposing,
 in effect, that man is not just the "measure of things."
 
@@ -520,7 +539,7 @@ think that cognition is knowing all about things, but the philosopher
 must say to himself: "When I analyze the process that is expressed in
 the sentence, 'I think,' I find a whole series of daring assertions, the
 argumentative proof of which would be difficult, perhaps impossible:
-for instance, that it is _I_ who think, that there must necessarily be
+for instance, that it is I who think, that there must necessarily be
 something that thinks, that thinking is an activity and operation on the
 part of a being who is thought of as a cause, that there is an 'ego,'
 and finally, that it is already determined what is to be designated by
@@ -2198,9 +2217,7 @@ become a monster. And if thou gaze long into an abyss, the abyss will
 also gaze into thee.
 
 147. From old Florentine novels--moreover, from life: Buona femmina e
-mala femmina vuol bastone.--Sacchetti, Nov. 86.
-
-148. To seduce their neighbour to a favourable opinion, and afterwards
+mala femmina vuol bastone.--Sacchetti, Nov. 86. 148. To seduce their neighbour to a favourable opinion, and afterwards
 to believe implicitly in this opinion of their neighbour--who can do
 this conjuring trick so well as women?
 
@@ -3194,9 +3211,7 @@ self-centred, that wants to be master; but rather only a soft, inflated,
 delicate, movable potter's-form, that must wait for some kind of content
 and frame to "shape" itself thereto--for the most part a man without
 frame and content, a "selfless" man. Consequently, also, nothing for
-women, IN PARENTHESI.
-
-208. When a philosopher nowadays makes known that he is not a skeptic--I
+women, IN PARENTHESI. 208. When a philosopher nowadays makes known that he is not a skeptic--I
 hope that has been gathered from the foregoing description of the
 objective spirit?--people all hear it impatiently; they regard him on
 that account with some apprehension, they would like to ask so many,
@@ -4160,9 +4175,7 @@ SUSO, ED IO IN LEI," and the latter when he interpreted it, "the
 eternally feminine draws us ALOFT"; for THIS is just what she believes
 of the eternally masculine.
 
-237.
-
-SEVEN APOPHTHEGMS FOR WOMEN
+237. SEVEN APOPHTHEGMS FOR WOMEN
 
 How the longest ennui flees, When a man comes to our knees!
 
@@ -5967,121 +5980,91 @@ By F W Nietzsche
 Translated by L. A. Magnus
 
 
-                       1.
-
-     MIDDAY of Life! Oh, season of delight!
+                       1. MIDDAY of Life! Oh, season of delight!
                       My summer's park!
      Uneaseful joy to look, to lurk, to hark--
      I peer for friends, am ready day and night,--
      Where linger ye, my friends? The time is right!
 
-                       2.
-
-     Is not the glacier's grey today for you
+                       2. Is not the glacier's grey today for you
                          Rose-garlanded?
      The brooklet seeks you, wind, cloud, with longing thread
      And thrust themselves yet higher to the blue,
      To spy for you from farthest eagle's view.
 
-                       3.
-
-     My table was spread out for you on high--
+                       3. My table was spread out for you on high--
                       Who dwelleth so
      Star-near, so near the grisly pit below?--
      My realm--what realm hath wider boundary?
      My honey--who hath sipped its fragrancy?
 
-                       4.
-
-     Friends, ye are there! Woe me,--yet I am not
+                       4. Friends, ye are there! Woe me,--yet I am not
                         He whom ye seek?
      Ye stare and stop--better your wrath could speak!
      I am not I? Hand, gait, face, changed? And what
      I am, to you my friends, now am I not?
 
-                       5.
-
-     Am I an other? Strange am I to Me?
+                       5. Am I an other? Strange am I to Me?
                       Yet from Me sprung?
      A wrestler, by himself too oft self-wrung?
      Hindering too oft my own self's potency,
      Wounded and hampered by self-victory?
 
-                       6.
-
-     I sought where-so the wind blows keenest. There
+                       6. I sought where-so the wind blows keenest. There
                      I learned to dwell
      Where no man dwells, on lonesome ice-lorn fell,
      And unlearned Man and God and curse and prayer?
      Became a ghost haunting the glaciers bare?
 
-                       7.
-
-     Ye, my old friends! Look! Ye turn pale, filled o'er
+                       7. Ye, my old friends! Look! Ye turn pale, filled o'er
                       With love and fear!
      Go! Yet not in wrath. Ye could ne'er live here.
      Here in the farthest realm of ice and scaur,
      A huntsman must one be, like chamois soar.
 
-                       8.
-
-     An evil huntsman was I? See how taut
+                       8. An evil huntsman was I? See how taut
                     My bow was bent!
      Strongest was he by whom such bolt were sent--
      Woe now! That arrow is with peril fraught,
      Perilous as none.--Have yon safe home ye sought!
 
-                       9.
-
-     Ye go! Thou didst endure enough, oh, heart;--
+                       9. Ye go! Thou didst endure enough, oh, heart;--
                      Strong was thy hope;
      Unto new friends thy portals widely ope,
      Let old ones be. Bid memory depart!
      Wast thou young then, now--better young thou art!
 
-                       10.
-
-     What linked us once together, one hope's tie--
+                       10. What linked us once together, one hope's tie--
                     (Who now doth con
      Those lines, now fading, Love once wrote thereon?)--
      Is like a parchment, which the hand is shy
      To touch--like crackling leaves, all seared, all dry.
 
-                       11.
-
-     Oh! Friends no more! They are--what name for those?--
+                       11. Oh! Friends no more! They are--what name for those?--
                            Friends' phantom-flight
      Knocking at my heart's window-pane at night,
      Gazing on me, that speaks "We were" and goes,--
      Oh, withered words, once fragrant as the rose!
 
-                       12.
-
-     Pinings of youth that might not understand!
+                       12. Pinings of youth that might not understand!
                        For which I pined,
      Which I deemed changed with me, kin of my kind:
      But they grew old, and thus were doomed and banned:
      None but new kith are native of my land!
 
-                       13.
-
-     Midday of life! My second youth's delight!
+                       13. Midday of life! My second youth's delight!
                        My summer's park!
      Unrestful joy to long, to lurk, to hark!
      I peer for friends!--am ready day and night,
      For my new friends. Come! Come! The time is right!
 
-                       14.
-
-     This song is done,--the sweet sad cry of rue
+                       14. This song is done,--the sweet sad cry of rue
                        Sang out its end;
      A wizard wrought it, he the timely friend,
      The midday-friend,--no, do not ask me who;
      At midday 'twas, when one became as two.
 
-                       15.
-
-     We keep our Feast of Feasts, sure of our bourne,
+                       15. We keep our Feast of Feasts, sure of our bourne,
                       Our aims self-same:
      The Guest of Guests, friend Zarathustra, came!
      The world now laughs, the grisly veil was torn,

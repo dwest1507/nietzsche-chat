@@ -1,6 +1,22 @@
-﻿HOMER AND CLASSICAL PHILOLOGY.
+Produced by Thierry Alberto, Robert Ledger and the Online
+Distributed Proofreading Team at http://www.pgdp.net
 
-(_Inaugural Address delivered at Bale University, 28th of May 1869._)
+
+
+
+
+[Transcriber's Note:
+
+This lecture was taken from Volume III of The Complete Works of
+Friedrich Nietzsche, Dr. Oscar Levy, Ed., J. M. Kennedy,
+Translator, 1910]
+
+
+
+
+HOMER AND CLASSICAL PHILOLOGY.
+
+(Inaugural Address delivered at Bale University, 28th of May 1869.)
 
 
 At the present day no clear and consistent opinion seems to be held
@@ -38,7 +54,7 @@ These philological aims were pursued sometimes with greater ardour and
 sometimes with less, in accordance with the degree of culture and the
 development of the taste of a particular period; but, on the other hand,
 the followers of this science are in the habit of regarding the aims
-which correspond to their several abilities as _the_ aims of philology;
+which correspond to their several abilities as the aims of philology;
 whence it comes about that the estimation of philology in public opinion
 depends upon the weight of the personalities of the philologists!
 
@@ -51,7 +67,7 @@ damaging to a science in that its hidden and open enemies can work with
 much better prospects of success. And philology has a great many such
 enemies. Where do we not meet with them, these mockers, always ready to
 aim a blow at the philological "moles," the animals that practise
-dust-eating _ex professo_, and that grub up and eat for the eleventh
+dust-eating ex professo, and that grub up and eat for the eleventh
 time what they have already eaten ten times before. For opponents of
 this sort, however, philology is merely a useless, harmless, and
 inoffensive pastime, an object of laughter and not of hate. But, on the
@@ -82,7 +98,7 @@ thing appears to it as something entirely new and attractive, as if
 metamorphosed by witchcraft and now seen for the first time. Life is
 worth living, says art, the beautiful temptress; life is worth knowing,
 says science. With this contrast the so heartrending and dogmatic
-tradition follows in a _theory_, and consequently in the practice of
+tradition follows in a theory, and consequently in the practice of
 classical philology derived from this theory. We may consider antiquity
 from a scientific point of view; we may try to look at what has happened
 with the eye of a historian, or to arrange and compare the linguistic
@@ -146,12 +162,12 @@ like to try to make it clear by an example that the most significant
 steps of classical philology never lead away from the ideal antiquity,
 but to it; and that, just when people are speaking unwarrantably of the
 overthrow of sacred shrines, new and more worthy altars are being
-erected. Let us then examine the so-called _Homeric question_ from this
+erected. Let us then examine the so-called Homeric question from this
 standpoint, a question the most important problem of which Schiller
 called a scholastic barbarism.
 
-The important problem referred to is _the question of the personality of
-Homer_.
+The important problem referred to is the question of the personality of
+Homer.
 
 We now meet everywhere with the firm opinion that the question of
 Homer's personality is no longer timely, and that it is quite a
@@ -194,22 +210,22 @@ in the age of the Alexandrian grammarians. Up to this time the Homeric
 question had run through the long chain of a uniform process of
 development, of which the standpoint of those grammarians seemed to be
 the last link, the last, indeed, which was attainable by antiquity. They
-conceived the _Iliad_ and the _Odyssey_ as the creations of _one single_
+conceived the Iliad and the Odyssey as the creations of one single
 Homer; they declared it to be psychologically possible for two such
-different works to have sprung from the brain of _one_ genius, in
+different works to have sprung from the brain of one genius, in
 contradiction to the Chorizontes, who represented the extreme limit of
 the scepticism of a few detached individuals of antiquity rather than
 antiquity itself considered as a whole. To explain the different general
-impression of the two books on the assumption that _one_ poet composed
+impression of the two books on the assumption that one poet composed
 them both, scholars sought assistance by referring to the seasons of the
-poet's life, and compared the poet of the _Odyssey_ to the setting sun.
+poet's life, and compared the poet of the Odyssey to the setting sun.
 The eyes of those critics were tirelessly on the lookout for
 discrepancies in the language and thoughts of the two poems; but at this
 time also a history of the Homeric poem and its tradition was prepared,
 according to which these discrepancies were not due to Homer, but
 to those who committed his words to writing and those who sang them. It
 was believed that Homer's poem was passed from one generation to another
-_viva voce_, and faults were attributed to the improvising and at times
+viva voce, and faults were attributed to the improvising and at times
 forgetful bards. At a certain given date, about the time of Pisistratus,
 the poems which had been repeated orally were said to have been
 collected in manuscript form; but the scribes, it is added, allowed
@@ -236,14 +252,14 @@ recognise the supernatural existence of a tangible personality, ascends
 likewise through all the stages that lead to that zenith, with
 ever-increasing energy and clearness. Individuality is ever more
 strongly felt and accentuated; the psychological possibility of a
-_single_ Homer is ever more forcibly demanded. If we descend backwards
+single Homer is ever more forcibly demanded. If we descend backwards
 from this zenith, step by step, we find a guide to the understanding of
 the Homeric problem in the person of Aristotle. Homer was for him the
 flawless and untiring artist who knew his end and the means to attain
 it; but there is still a trace of infantile criticism to be found in
 Aristotle--i.e., in the naive concession he made to the public opinion
 that considered Homer as the author of the original of all comic epics,
-the _Margites_. If we go still further backwards from Aristotle, the
+the Margites. If we go still further backwards from Aristotle, the
 inability to create a personality is seen to increase; more and more
 poems are attributed to Homer; and every period lets us see its degree
 of criticism by how much and what it considers as Homeric. In this
@@ -260,8 +276,8 @@ meet with the weighty question: What lies before this period? Has
 Homer's personality, because it cannot be grasped, gradually faded away
 into an empty name? Or had all the Homeric poems been gathered together
 in a body, the nation naively representing itself by the figure of
-Homer? _Was the person created out of a conception, or the conception
-out of a person?_ This is the real "Homeric question," the central
+Homer? Was the person created out of a conception, or the conception
+out of a person? This is the real "Homeric question," the central
 problem of the personality.
 
 The difficulty of answering this question, however, is increased when we
@@ -293,8 +309,8 @@ the thought of a popular poem: we feel, with artistic pleasure, the
 broad, overpowering liberation of a popular gift, and we delight in this
 natural phenomenon as we do in an uncontrollable cataract. But as soon
 as we examine this thought at close quarters, we involuntarily put a
-poetic _mass of people_ in the place of the poetising _soul of the
-people_: a long row of popular poets in whom individuality has no
+poetic mass of people in the place of the poetising soul of the
+people: a long row of popular poets in whom individuality has no
 meaning, and in whom the tumultuous movement of a people's soul, the
 intuitive strength of a people's eye, and the unabated profusion of a
 people's fantasy, were once powerful: a row of original geniuses,
@@ -338,15 +354,15 @@ of the present form of these epics can be solved from the standpoint of
 an aesthetic judgment--but we must await the decision as to the
 authorised line of demarcation between the man of genius and the
 poetical soul of the people. Are there characteristic differences
-between the utterances of the _man of genius_ and the _poetical soul of
-the people_?
+between the utterances of the man of genius and the poetical soul of
+the people?
 
 This whole contrast, however, is unjust and misleading. There is no
-more dangerous assumption in modern aesthetics than that of _popular
-poetry_ and _individual poetry_, or, as it is usually called, _artistic
-poetry_. This is the reaction, or, if you will, the superstition, which
+more dangerous assumption in modern aesthetics than that of popular
+poetry and individual poetry, or, as it is usually called, artistic
+poetry. This is the reaction, or, if you will, the superstition, which
 followed upon the most momentous discovery of historico-philological
-science, the discovery and appreciation of the _soul of the people_. For
+science, the discovery and appreciation of the soul of the people. For
 this discovery prepared the way for a coming scientific view of history,
 which was until then, and in many respects is even now, a mere
 collection of materials, with the prospect that new materials would
@@ -382,7 +398,7 @@ Now, however, such a contrast between popular poetry and individual
 poetry does not exist at all; on the contrary, all poetry, and of course
 popular poetry also, requires an intermediary individuality. This
 much-abused contrast, therefore, is necessary only when the term
-_individual poem_ is understood to mean a poem which has not grown out
+individual poem is understood to mean a poem which has not grown out
 of the soil of popular feeling, but which has been composed by a
 non-popular poet in a non-popular atmosphere--something which has come
 to maturity in the study of a learned man, for example.
@@ -398,7 +414,7 @@ form in which they act has remained exactly the same. The great poet of
 a literary period is still a popular poet in no narrower sense than the
 popular poet of an illiterate age. The difference between them is not in
 the way they originate, but it is their diffusion and propagation, in
-short, _tradition_. This tradition is exposed to eternal danger without
+short, tradition. This tradition is exposed to eternal danger without
 the help of handwriting, and runs the risk of including in the poems the
 remains of those individualities through whose oral tradition they were
 handed down.
@@ -419,7 +435,7 @@ individuality appears in this way and not in that. People now study
 biographical details, environment, acquaintances, contemporary events,
 and believe that by mixing all these ingredients together they will be
 able to manufacture the wished-for individuality. But they forget that
-the _punctum saliens_, the indefinable individual characteristics, can
+the punctum saliens, the indefinable individual characteristics, can
 never be obtained from a compound of this nature. The less there is
 known about the life and times of the poet, the less applicable is this
 mechanism. When, however, we have merely the works and the name of the
@@ -442,17 +458,17 @@ own artistic gifts, he now called Homer.
 
 This is the central point of the Homeric errors. The name of Homer, from
 the very beginning, has no connection either with the conception of
-aesthetic perfection or yet with the _Iliad_ and the _Odyssey_. Homer as
-the composer of the _Iliad_ and the _Odyssey_ is not a historical
-tradition, but an _aesthetic judgment_.
+aesthetic perfection or yet with the Iliad and the Odyssey. Homer as
+the composer of the Iliad and the Odyssey is not a historical
+tradition, but an aesthetic judgment.
 
 The only path which leads back beyond the time of Pisistratus and helps
 us to elucidate the meaning of the name Homer, takes its way on the one
 hand through the reports which have reached us concerning Homer's
 birthplace: from which we see that, although his name is always
 associated with heroic epic poems, he is on the other hand no more
-referred to as the composer of the _Iliad_ and the _Odyssey_ than as the
-author of the _Thebais_ or any other cyclical epic. On the other hand,
+referred to as the composer of the Iliad and the Odyssey than as the
+author of the Thebais or any other cyclical epic. On the other hand,
 again, an old tradition tells of the contest between Homer and Hesiod,
 which proves that when these two names were mentioned people
 instinctively thought of two epic tendencies, the heroic and the
@@ -462,7 +478,7 @@ Hesiod did not even yet show the faintest presentiment of individuality.
 From the time of Pisistratus onwards, however, with the surprisingly
 rapid development of the Greek feeling for beauty, the differences in
 the aesthetic value of those epics continued to be felt more and more:
-the _Iliad_ and the _Odyssey_ arose from the depths of the flood and
+the Iliad and the Odyssey arose from the depths of the flood and
 have remained on the surface ever since. With this process of aesthetic
 separation, the conception of Homer gradually became narrower: the old
 material meaning of the name "Homer" as the father of the heroic epic
@@ -474,19 +490,19 @@ material and formal traditions of those numerous epics as against the
 unity of the poet, and gradually removed that heavy load of cyclical
 epics from Homer's shoulders.
 
-So Homer, the poet of the _Iliad_ and the _Odyssey_, is an aesthetic
+So Homer, the poet of the Iliad and the Odyssey, is an aesthetic
 judgment. It is, however, by no means affirmed against the poet of these
 epics that he was merely the imaginary being of an aesthetic
 impossibility, which can be the opinion of only very few philologists
 indeed. The majority contend that a single individual was responsible
-for the general design of a poem such as the _Iliad_, and further that
+for the general design of a poem such as the Iliad, and further that
 this individual was Homer. The first part of this contention may be
 admitted; but, in accordance with what I have said, the latter part must
 be denied. And I very much doubt whether the majority of those who adopt
 the first part of the contention have taken the following considerations
 into account.
 
-The design of an epic such as the _Iliad_ is not an entire _whole_, not
+The design of an epic such as the Iliad is not an entire whole, not
 an organism; but a number of pieces strung together, a collection of
 reflections arranged in accordance with aesthetic rules. It is certainly
 the standard of an artist's greatness to note what he can take in with a
@@ -502,7 +518,7 @@ fundamental principles of aesthetics: he will even make some believe
 that he made himself master of the entire subject by a single powerful
 glance.
 
-The _Iliad_ is not a garland, but a bunch of flowers. As many pictures
+The Iliad is not a garland, but a bunch of flowers. As many pictures
 as possible are crowded on one canvas; but the man who placed them there
 was indifferent as to whether the grouping of the collected pictures was
 invariably suitable and rhythmically beautiful. He well knew that no one
@@ -526,7 +542,7 @@ with conscious aesthetic insight, was infinitely inferior to the songs
 that sprang up naturally in the poet's mind and were written down with
 instinctive power: we can even take a step further. If we include the
 so-called cyclic poems in this comparison, there remains for the
-designer of the _Iliad_ and the _Odyssey_ the indisputable merit of
+designer of the Iliad and the Odyssey the indisputable merit of
 having done something relatively great in this conscious technical
 composing: a merit which we might have been prepared to recognise from
 the beginning, and which is in my opinion of the very first order in the
@@ -543,8 +559,8 @@ Let it be noted that the insight into the most diverse operations of the
 instinctive and the conscious changes the position of the Homeric
 problem; and in my opinion throws light upon it.
 
-We believe in a great poet as the author of the _Iliad_ and the
-_Odyssey--but not that Homer was this poet_.
+We believe in a great poet as the author of the Iliad and the
+Odyssey--but not that Homer was this poet.
 
 The decision on this point has already been given. The generation that
 invented those numerous Homeric fables, that poetised the myth of the
@@ -556,7 +572,7 @@ Daedalus, and Olympus, the mythical discoverers of a new branch of art,
 to whom, therefore, all the later fruits which grew from the new branch
 were thankfully dedicated.
 
-And that wonderful genius to whom we owe the _Iliad_ and the _Odyssey_
+And that wonderful genius to whom we owe the Iliad and the Odyssey
 belongs to this thankful posterity: he, too, sacrificed his name on the
 altar of the primeval father of the Homeric epic, Homeros.
 
@@ -605,7 +621,7 @@ a learned man of the first rank writes about Homer even so late as 1783:
 "Where does the good man live? Why did he remain so long incognito?
 Apropos, can't you get me a silhouette of him?"
 
-We demand _thanks_--not in our own name, for we are but atoms--but in
+We demand thanks--not in our own name, for we are but atoms--but in
 the name of philology itself, which is indeed neither a Muse nor a
 Grace, but a messenger of the gods: and just as the Muses descended upon
 the dull and tormented Boeotian peasants, so Philology comes into a

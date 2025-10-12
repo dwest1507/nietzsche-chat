@@ -1,13 +1,10 @@
-﻿THOUGHTS
+THOUGHTS
 
 OUT OF SEASON
 
-PART II
+PART II THE USE AND ABUSE OF HISTORY
 
-
-THE USE AND ABUSE OF HISTORY_
-
-SCHOPENHAUER AS EDUCATOR_
+SCHOPENHAUER AS EDUCATOR
 
 By
 
@@ -34,11 +31,7 @@ T.N. FOULIS
 
 EDINBURGH: AND LONDON
 
-1910
-
-
-
-TO L. P.
+1910 TO L. P.
 FROM THE TRANSLATOR.
 EN RECONNAISSANCE.
 
@@ -57,7 +50,7 @@ INTRODUCTION.
 
 
 The two essays translated in this volume form the second and third
-parts of the _Unzeitgemässe Betrachtungen_. The essay on history was
+parts of the Unzeitgemässe Betrachtungen. The essay on history was
 completed in January, that on Schopenhauer in August, 1874. Both were
 written in the few months of feverish activity that Nietzsche could
 spare from his duties as Professor of Classical Philology in Bâle.
@@ -113,12 +106,12 @@ Schopenhauer is of value precisely because it has nothing to do with
 Schopenhauer. We need not be disturbed by the thought that Nietzsche
 afterwards turned from him. He truly recognised that Schopenhauer was
 here merely a name for himself, that "not Schopenhauer as educator is
-in question, but his opposite, Nietzsche as educator" (_Ecce Homo_).
+in question, but his opposite, Nietzsche as educator" (Ecce Homo).
 He could regard Schopenhauer, later, as a siren that called to death;
 he put him among the great artists that lead down--who are worse than
 the bad artists that lead nowhere. "We must go further in the
 pessimistic logic than the denial of the will," he says in the
-_Götzendämmerung_; "we must deny Schopenhauer." The pessimism and
+Götzendämmerung; "we must deny Schopenhauer." The pessimism and
 denial of the will, the blank despair before suffering, were the
 shoals on which Nietzsche's reverence finally broke. They could not
 stand before the Dionysian outlook, whose pessimism sprang not from
@@ -131,12 +124,12 @@ part the man and his work, and speak of Schopenhauer's view as the
 and, like Ogniben, he judges men by what they might be.
 
 Afterwards, he judged himself too in these essays by "what he might
-be." "To me," he said in _Ecce Homo_, "they are promises: I know not
+be." "To me," he said in Ecce Homo, "they are promises: I know not
 what they mean to others."
 
 It is also in the belief they are promises that they are here
-translated "for others." The _Thoughts out of Season_ are the first
-announcement of the complex theme of the _Zarathustra_. They form the
+translated "for others." The Thoughts out of Season are the first
+announcement of the complex theme of the Zarathustra. They form the
 best possible introduction to Nietzschean thought. Nietzsche is
 already the knight-errant of philosophy: but his adventure is just
 beginning.
@@ -154,7 +147,7 @@ PREFACE.
 
 "I hate everything that merely instructs me without increasing or
 directly quickening my activity." These words of Goethe, like a
-sincere _ceterum censeo_, may well stand at the head of my thoughts
+sincere ceterum censeo, may well stand at the head of my thoughts
 on the worth and the worthlessness of history. I will show in them
 why instruction that does not "quicken," knowledge that slackens the
 rein of activity, why in fact history, in Goethe's phrase, must be
@@ -208,9 +201,7 @@ classical scholarship may have for our time except in its being
 influence on it for the benefit, it may be hoped, of a future time.
 
 
-I.
-
-Consider the herds that are feeding yonder: they know not the meaning
+I. Consider the herds that are feeding yonder: they know not the meaning
 of yesterday or to-day, they graze and ruminate, move or rest, from
 morning to night, from day to day, taken up with their little loves
 and hates, at the mercy of the moment, feeling neither melancholy nor
@@ -232,7 +223,7 @@ out of the volume of time and fluttering away--and suddenly it
 flutters back into the man's lap. Then he says, "I remember...," and
 envies the beast, that forgets at once, and sees every moment really
 die, sink into night and mist, extinguished for ever. The beast lives
-_unhistorically_; for it "goes into" the present, like a number,
+unhistorically; for it "goes into" the present, like a number,
 without leaving any curious remainder. It cannot dissimulate, it
 conceals nothing; at every moment it seems what it actually is, and
 thus can be nothing that is not honest. But man is always resisting
@@ -468,16 +459,14 @@ For by excess of history life becomes maimed and degenerate, and is
 followed by the degeneration of history as well.
 
 
-II.
-
-The fact that life does need the service of history must be as
+II. The fact that life does need the service of history must be as
 clearly grasped as that an excess of history hurts it; this will be
 proved later. History is necessary to the living man in three ways:
 in relation to his action and struggle, his conservatism and
 reverence, his suffering and his desire for deliverance. These three
 relations answer to the three kinds of history--so far as they can be
-distinguished--the _monumental_, the _antiquarian_, and the
-_critical_.
+distinguished--the monumental, the antiquarian, and the
+critical.
 
 History is necessary above all to the man of action and power who
 fights a great fight and needs examples, teachers and comforters; he
@@ -565,7 +554,7 @@ and an Epicurean will form a conspiracy to murder Cæsar, and a
 different conjunction will show another Columbus discovering America.
 Only if the earth always began its drama again after the fifth act,
 and it were certain that the same interaction of motives, the same
-_deus ex machina_, the same catastrophe would occur at particular
+deus ex machina, the same catastrophe would occur at particular
 intervals, could the man of action venture to look for the whole
 archetypic truth in monumental history, to see each fact fully set
 out in its uniqueness: it would not probably be before the
@@ -662,9 +651,7 @@ grown to weeds, they are torn from their native soil and therefore
 degenerate.
 
 
-III.
-
-Secondly, history is necessary to the man of conservative and
+III. Secondly, history is necessary to the man of conservative and
 reverent nature, who looks back to the origins of his existence with
 love and trust; through it, he gives thanks for life. He is careful
 to preserve what survives from ancient days, and will reproduce the
@@ -782,7 +769,7 @@ mercy that proclaims the verdict; but only life, the dim, driving
 force that insatiably desires--itself. Its sentence is always
 unmerciful, always unjust, as it never flows from a pure fountain of
 knowledge: though it would generally turn out the same, if Justice
-herself delivered it. "For everything that is born is _worthy_ of
+herself delivered it. "For everything that is born is worthy of
 being destroyed: better were it then that nothing should be born." It
 requires great strength to be able to live and forget how far life
 and injustice are one. Luther himself once said that the world only
@@ -803,7 +790,7 @@ cannot escape the fact that we spring from them. At best, it comes to
 a conflict between our innate, inherited nature and our knowledge,
 between a stern, new discipline and an ancient tradition; and we
 plant a new way of life, a new instinct, a second nature, that
-withers the first. It is an attempt to gain a past _a posteriori_
+withers the first. It is an attempt to gain a past a posteriori
 from which we might spring, as against that from which we do spring;
 always a dangerous attempt, as it is difficult to find a limit to the
 denial of the past, and the second natures are generally weaker than
@@ -815,9 +802,7 @@ is the knowledge that this "first nature" was once a second, and that
 every conquering "second nature" becomes a first.
 
 
-IV.
-
-This is how history can serve life. Every man and nation needs a
+IV. This is how history can serve life. Every man and nation needs a
 certain knowledge of the past, whether it be through monumental,
 antiquarian, or critical history, according to his objects, powers,
 and necessities. The need is not that of the mere thinkers who only
@@ -1031,9 +1016,7 @@ unity of the German spirit and life after the annihilation of the
 antagonism between form and substance, inward life and convention.
 
 
-V.
-
-An excess of history seems to be an enemy to the life of a time, and
+V. An excess of history seems to be an enemy to the life of a time, and
 dangerous in five ways. Firstly, the contrast of inner and outer is
 emphasised and personality weakened. Secondly, the time comes to
 imagine that it possesses the rarest of virtues, justice, to a higher
@@ -1172,8 +1155,8 @@ parts,--very badly therefore and superficially. Gradually all
 connection ceases between the man and his historical subjects. We see
 noisy little fellows measuring themselves with the Romans as though
 they were like them: they burrow in the remains of the Greek poets,
-as if these were _corpora_ for their dissection--and as _vilia_ as
-their own well-educated _corpora_ might be. Suppose a man is working
+as if these were corpora for their dissection--and as vilia as
+their own well-educated corpora might be. Suppose a man is working
 at Democritus. The question is always on my tongue, why precisely
 Democritus? Why not Heraclitus, or Philo, or Bacon, or Descartes? And
 then, why a philosopher? Why not a poet or orator? And why especially
@@ -1225,12 +1208,10 @@ cease to fly, for they have lost power over them; they are driven by
 their pens instead of driving them. The weakness of modern
 personality comes out well in the measureless overflow of criticism,
 in the want of self-mastery, and in what the Romans called
-_impotentia_.
+impotentia.
 
 
-VI.
-
-But leaving these weaklings, let us turn rather to a point of
+VI. But leaving these weaklings, let us turn rather to a point of
 strength for which the modern man is famous. Let us ask the painful
 question whether he has the right in virtue of his historical
 "objectivity" to call himself strong and just in a higher degree than
@@ -1389,7 +1370,7 @@ if adopted by the historian as a dogma. Schiller is quite clear about
 its truly subjective nature when he says of the historian, "one event
 after the other begins to draw away from blind chance and lawless
 freedom, and take its place as the member of an harmonious
-whole--_which is of course only apparent in its presentation_." But
+whole--which is of course only apparent in its presentation." But
 what is one to think of the innocent statement, wavering between
 tautology and nonsense, of a famous historical virtuoso? "It seems
 that all human actions and impulses are subordinate to the process of
@@ -1432,13 +1413,13 @@ seem calm and disinterested, comes to represent the artistic
 condition in which the subjective side has quite sunk out of sight.
 Everything is favoured that does not rouse emotion, and the driest
 phrase is the correct one. They go so far as to accept a man who is
-_not affected at all_ by some particular moment in the past as the
+not affected at all by some particular moment in the past as the
 right man to describe it. This is the usual relation of the Greeks
 and the classical scholars. They have nothing to do with each
 other--and this is called "objectivity"! The intentional air of
 detachment that is assumed for effect, the sober art of the
 superficial motive-hunter is most exasperating when the highest and
-rarest things are in question; and it is the _vanity_ of the
+rarest things are in question; and it is the vanity of the
 historian that drives him to this attitude of indifference. He goes
 to justify the axiom that a man's vanity corresponds to his lack of
 wit. No, be honest at any rate! Do not pretend to the artist's
@@ -1455,7 +1436,7 @@ take the last places: and will you take the first? Then do some great
 and mighty deed: the place may be prepared for you then, even though
 you do come last.
 
-_You can only explain the past by what is highest in the present._
+You can only explain the past by what is highest in the present.
 Only by straining the noblest qualities you have to their highest
 power will you find out what is greatest in the past, most worth
 knowing and preserving. Like by like! otherwise you will draw the
@@ -1507,9 +1488,7 @@ maturity--are enough to give an eternal quietus to the noisy sham
 education of this time.
 
 
-VII.
-
-The unrestrained historical sense, pushed to its logical extreme,
+VII. The unrestrained historical sense, pushed to its logical extreme,
 uproots the future, because it destroys illusions and robs existing
 things of the only atmosphere in which they can live. Historical
 justice, even if practised conscientiously, with a pure heart, is
@@ -1540,7 +1519,7 @@ punished by the ultimate tyrant, Nature." For a time a man can take
 up history like any other study, and it will be perfectly harmless.
 Recent theology seems to have entered quite innocently into
 partnership with history, and scarcely sees even now that it has
-unwittingly bound itself to the Voltairean _écrasez_! No one need
+unwittingly bound itself to the Voltairean écrasez! No one need
 expect from that any new and powerful constructive impulse: they
 might as well have let the so-called Protestant Union serve as the
 cradle of a new religion, and the jurist Holtzendorf, the editor of
@@ -1552,7 +1531,7 @@ its various imperfect "manifestations"; and persuade themselves that
 it is the "self-movement of the Idea" that is ever particularising
 itself in purer and purer forms, and at last becomes the purest, most
 transparent, in fact scarcely visible form in the brain of the
-present _theologus liberalis vulgaris_. But to listen to this pure
+present theologus liberalis vulgaris. But to listen to this pure
 Christianity speaking its mind about the earlier impure Christianity,
 the uninitiated hearer would often get the impression that the talk
 was not of Christianity at all but of ...--what are we to think? if
@@ -1595,7 +1574,7 @@ Every people, every man even, who would become ripe, needs such a
 veil of illusion, such a protecting cloud. But now men hate to become
 ripe, for they honour history above life. They cry in triumph that
 "science is now beginning to rule life." Possibly it might; but a
-life thus ruled is not of much value. It is not such true _life_, and
+life thus ruled is not of much value. It is not such true life, and
 promises much less for the future than the life that used to be
 guided not by science, but by instincts and powerful illusions. But
 this is not to be the age of ripe, alert and harmonious
@@ -1672,7 +1651,7 @@ favourite "popularising" of science (or rather its feminising and
 infantising), the villainous habit of cutting the cloth of science to
 fit the figure of the "general public." Goethe saw the abuse in this,
 and demanded that science should only influence the outer world by
-way of _a nobler ideal of action_. The older generation of savants
+way of a nobler ideal of action. The older generation of savants
 had good reason for thinking this abuse an oppressive burden: the
 modern savants have an equally good reason for welcoming it, because,
 leaving their little corner of knowledge out of account, they are
@@ -1690,13 +1669,11 @@ them, for you dare not take any reasonable pains for their future;
 and you act like practical pessimists, men who feel the coming
 catastrophe and become indifferent and careless of their own and
 others' existence. "If only the earth last for us: and if it do not
-last, it is no matter." Thus they come to live an _ironical_
+last, it is no matter." Thus they come to live an ironical
 existence.
 
 
-VIII.
-
-It may seem a paradox, though it is none, that I should attribute a
+VIII. It may seem a paradox, though it is none, that I should attribute a
 kind of "ironical self-consciousness" to an age that is generally so
 honestly, and clamorously, vain of its historical training; and
 should see a suspicion hovering near it that there is really nothing
@@ -1718,8 +1695,8 @@ of a gladder and mightier stock, and fulfil Hesiod's prophecy, that
 men will one day be born gray-headed, and that Zeus will destroy that
 generation as soon as the sign be visible." Historical culture is
 really a kind of inherited grayness, and those who have borne its
-mark from childhood must believe instinctively in _the old age of
-mankind_. To old age belongs the old man's business of looking back
+mark from childhood must believe instinctively in the old age of
+mankind. To old age belongs the old man's business of looking back
 and casting up his accounts, of seeking consolation in the memories
 of the past,--in historical culture. But the human race is tough and
 persistent, and will not admit that the lapse of a thousand years, or
@@ -1736,14 +1713,14 @@ anxiously for the judgment? Does not the increasing demand for
 historical judgment give us that idea in a new dress? as if our time
 were the latest possible time, and commanded to hold that universal
 judgment of the past, which the Christian never expected from a man,
-but from "the Son of Man." The _memento mori_, spoken to humanity as
+but from "the Son of Man." The memento mori, spoken to humanity as
 well as the individual, was a sting that never ceased to pain, the
 crown of mediæval knowledge and consciousness.
 
-The opposite message of a later time, _memento vivere_, is spoken
+The opposite message of a later time, memento vivere, is spoken
 rather timidly, without the full power of the lungs; and there is
 something almost dishonest about it. For mankind still keeps to its
-_memento mori_, and shows it by the universal need for history;
+memento mori, and shows it by the universal need for history;
 science may flap its wings as it will, it has never been able to gain
 the free air. A deep feeling of hopelessness has remained, and taken
 the historical colouring that has now darkened and depressed all
@@ -1759,7 +1736,7 @@ astray and give it a false value." What the Florentines did under the
 influence of Savonarola's exhortations, when they made the famous
 holocaust of pictures, manuscripts, masks and mirrors, Christianity
 would like to do with every culture that allured to further effort
-and bore that _memento vivere_ on its standard. And if it cannot take
+and bore that memento vivere on its standard. And if it cannot take
 the direct way--the way of main force--it gains its end all the same
 by allying itself with historical culture, though generally without
 its connivance; and speaking through its mouth, turns away every
@@ -1785,7 +1762,7 @@ qualities has something of the miser in it, and is a bad hand at the
 excellent virtue of liberality.
 
 These words may not be very acceptable, any more than my derivation
-of the excess of history from the mediæval _memento mori_ and the
+of the excess of history from the mediæval memento mori and the
 hopelessness that Christianity bears in its heart towards all future
 ages of earthly existence. But you should always try to replace my
 hesitating explanations by a better one. For the origin of historical
@@ -1797,7 +1774,7 @@ the imperative of the "new spirit," if it is really to contain
 something new, powerful, vital and original. Or is it true that we
 Germans--to leave the Romance nations out of account--must always be
 mere "followers" in all the higher reaches of culture, because that
-is all we _can_ be? The words of Wilhelm Wackernagel are well worth
+is all we can be? The words of Wilhelm Wackernagel are well worth
 pondering: "We Germans are a nation of 'followers,' and with all our
 higher science and even our faith, are merely the successors of the
 ancient world. Even those who are opposed to it are continually
@@ -1816,7 +1793,7 @@ marvellous productiveness--through our "universal history"--we might
 go on to place before us, as our noblest prize, the still higher task
 of striving beyond and above this Alexandrian world; and bravely find
 our prototypes in the ancient Greek world, where all was great,
-natural and human. But it is just _there_ that we find the reality of
+natural and human. But it is just there that we find the reality of
 a true unhistorical culture--and in spite of that, or perhaps because
 of it, an unspeakably rich and vital culture. Were we Germans nothing
 but followers, we could not be anything greater or prouder than the
@@ -1893,8 +1870,8 @@ the past! To take everything objectively, to be angry at nothing, to
 love nothing, to understand everything--makes one gentle and pliable.
 Even if a man brought up in this school will show himself openly
 offended, one is just as pleased, knowing it is only meant in the
-artistic sense of _ira et studium_, though it is really _sine ira et
-studio_.
+artistic sense of ira et studium, though it is really sine ira et
+studio.
 
 What old-fashioned thoughts I have on such a combination of virtue
 and mythology! But they must out, however one may laugh at them. I
@@ -1907,11 +1884,11 @@ ought not to die. If you came to the help of history, as the
 apologists of the actual, you would say: "he had spoken everything
 that was in him to speak, a longer life would only have enabled him
 to create a similar beauty, and not a new beauty," and so on. Thus
-you become an _advocatus diaboli_ by setting up the success, the
+you become an advocatus diaboli by setting up the success, the
 fact, as your idol: whereas the fact is always dull, at all times
 more like calf than a god. Your apologies for history are helped by
-ignorance: for it is only because you do not know what a _natura
-naturans_ like Raphael is, that you are not on fire when you think it
+ignorance: for it is only because you do not know what a natura
+naturans like Raphael is, that you are not on fire when you think it
 existed once and can never exist again. Some one has lately tried to
 tell us that Goethe had out-lived himself with his eighty-two years:
 and yet I would gladly take two of Goethe's "out-lived" years in
@@ -1945,9 +1922,7 @@ there is a way of living by which they can forget it--and future
 generations will know them only as the first-comers.
 
 
-IX.
-
-Is perhaps our time such a "first-comer"? Its historical sense is so
+IX. Is perhaps our time such a "first-comer"? Its historical sense is so
 strong, and has such universal and boundless expression, that future
 times will commend it, if only for this, as a first-comer--if there
 be any future time, in the sense of future culture. But here comes a
@@ -1988,7 +1963,7 @@ the top, we are the completion of Nature!"
 O thou too proud European of the nineteenth century, art thou not
 mad? Thy knowledge does not complete Nature, it only kills thine own
 nature! Measure the height of what thou knowest by the depths of thy
-power to _do_. Thou climbest the sunbeams of knowledge up towards
+power to do. Thou climbest the sunbeams of knowledge up towards
 heaven--but also down to Chaos. Thy manner of going is fatal to thee;
 the ground slips from under thy feet into the unknown; thy life has
 no other stay, but only spider's webs that every new stroke of thy
@@ -2031,8 +2006,8 @@ should become thoroughly sick of this existence. And I fervently
 believe he is right. The frightful petrifaction of the time, the
 restless rattle of the ghostly bones, held naïvely up to us by David
 Strauss as the most beautiful fact of all--is justified by Hartmann
-not only from the past, _ex causis efficientibus_, but also from the
-future, _ex causa finali_. The rogue let light stream over our time
+not only from the past, ex causis efficientibus, but also from the
+future, ex causa finali. The rogue let light stream over our time
 from the last day, and saw that it was very good,--for him, that is,
 who wishes to feel the indigestibility of life at its full strength,
 and for whom the last day cannot come quickly enough. True, Hartmann
@@ -2050,7 +2025,7 @@ present-day mankind: but you know too what a spectre of disgust will
 arise at the end of this old age of mankind, as the result of the
 intellectual culture of stolid mediocrity. It is very pitiful to see,
 but it will be still more pitiful yet. "Antichrist is visibly
-extending his arms:" yet it _must be so_, for after all we are on the
+extending his arms:" yet it must be so, for after all we are on the
 right road--of disgust at all existence. "Forward then, boldly, with
 the world-process, as workers in the vineyard of the Lord, for it is
 the process alone that can lead to redemption!"
@@ -2144,7 +2119,7 @@ to be right,--and no one has despised them with such loathing as
 thou,--I am ready then to cry with the majority in the form
 prescribed by thee, that next Saturday evening, punctually at twelve
 o'clock, thy world shall fall to pieces. And our decree shall
-conclude thus--from to-morrow time shall not exist, and the _Times_
+conclude thus--from to-morrow time shall not exist, and the Times
 shall no more be published. Perhaps it will be in vain, and our
 decree of no avail: at any rate we have still time for a fine
 experiment. Take a balance and put Hartmann's "Unconscious" in one of
@@ -2166,10 +2141,10 @@ trouble us for some time, except to provide us with a good joke: for
 the presumption of the small earthworm is the most uproariously comic
 thing on the face of the earth. Ask thyself to what end thou art
 here, as an individual; and if no one can tell thee, try then to
-justify the meaning of thy existence _a posteriori_, by putting
+justify the meaning of thy existence a posteriori, by putting
 before thyself a high and noble end. Perish on that rock! I know no
 better aim for life than to be broken on something great and
-impossible, _animæ magnæ prodigus_. But if we have the doctrines of
+impossible, animæ magnæ prodigus. But if we have the doctrines of
 the finality of "becoming," of the flux of all ideas, types, and
 species, of the lack of all radical difference between man and beast
 (a true but fatal idea as I think),--if we have these thrust on the
@@ -2180,7 +2155,7 @@ asunder and cease to be a people. In its place perhaps individualist
 systems, secret societies for the extermination of non-members, and
 similar utilitarian creations, will appear on the theatre of the
 future. Are we to continue to work for these creations and write
-history from the standpoint of the _masses_; to look for laws in it,
+history from the standpoint of the masses; to look for laws in it,
 to be deduced from the needs of the masses, the laws of motion of the
 lowest loam and clay strata of society? The masses seem to be worth
 notice in three aspects only: first as the copies of great men,
@@ -2281,7 +2256,7 @@ and downrightness of feeling. It can even cozen youth of its fairest
 privilege, the power of planting a great thought with the fullest
 confidence, and letting it grow of itself to a still greater thought.
 An excess of history can do all that, as we have seen, by no longer
-allowing a man to feel and act _unhistorically_: for history is
+allowing a man to feel and act unhistorically: for history is
 continually shifting his horizon and removing the atmosphere
 surrounding him. From an infinite horizon he withdraws into himself,
 back into the small egoistic circle, where he must become dry and
@@ -2291,7 +2266,7 @@ with facts. He is never enthusiastic, but blinks his eyes, and
 understands how to look for his own profit or his party's in the
 profit or loss of somebody else. He unlearns all his useless modesty,
 and turns little by little into the "man" or the "graybeard" of
-Hartmann. And that is what they _want_ him to be: that is the meaning
+Hartmann. And that is what they want him to be: that is the meaning
 of the present cynical demand for the "full surrender of the
 personality to the world-process"--for the sake of his end, the
 redemption of the world, as the rogue E. von Hartmann tells us.
@@ -2300,9 +2275,7 @@ the world were better redeemed by being redeemed from these "men" and
 "graybeards." For then would come the reign of youth.
 
 
-X.
-
-And in this kingdom of youth I can cry Land! Land! Enough, and more
+X. And in this kingdom of youth I can cry Land! Land! Enough, and more
 than enough, of the wild voyage over dark strange seas, of eternal
 search and eternal disappointment! The coast is at last in sight.
 Whatever it be, we must land there, and the worst haven is better
@@ -2320,7 +2293,7 @@ to deny, shows the modern note of a weak personality in the
 intemperateness of its criticism, the unripeness of its humanity, in
 the too frequent transitions from irony to cynicism, from arrogance
 to scepticism. And yet I trust in the inspiring power that directs my
-vessel instead of genius; I trust in _youth_, that has brought me on
+vessel instead of genius; I trust in youth, that has brought me on
 the right road in forcing from me a protest against the modern
 historical education, and a demand that the man must learn to live,
 above all, and only use history in the service of the life that he
@@ -2374,7 +2347,7 @@ understanding shine on its unconscious striving, and bring it to a
 full, vocal consciousness. How is he to attain such a strange end?
 
 Principally by destroying the superstition that this kind of
-education is _necessary_. People think nothing but this troublesome
+education is necessary. People think nothing but this troublesome
 reality of ours is possible. Look through the literature of higher
 education in school and college for the last ten years, and you will
 be astonished--and pained--to find how much alike all the proposals
@@ -2411,9 +2384,9 @@ And so it had to be an unbreakable law of nature, that he who is born
 to be a philosopher has gold in his body, the fighter has only
 silver, and the workman iron and bronze. As it is not possible to
 blend these metals, according to Plato, so there could never be any
-confusion between the classes: the belief in the _æterna veritas_ of
+confusion between the classes: the belief in the æterna veritas of
 this arrangement was the basis of the new education and the new
-state. So the modern German believes also in the _æterna veritas_ of
+state. So the modern German believes also in the æterna veritas of
 his education, of his kind of culture: and yet this belief will
 fail--as the Platonic state would have failed--if the mighty German
 lie be ever opposed by the truth, that the German has no culture
@@ -2441,22 +2414,22 @@ ideas as with dragon's teeth, and bring forth a new dragon-brood of
 them; we suffer from the malady of words, and have no trust in any
 feeling that is not stamped with its special word. And being such a
 dead fabric of words and ideas, that yet has an uncanny movement in
-it, I have still perhaps the right to say _cogito ergo sum_, though
-not _vivo ergo cogito_. I am permitted the empty _esse_, not the full
-green _vivere_. A primary feeling tells me that I am a thinking being
+it, I have still perhaps the right to say cogito ergo sum, though
+not vivo ergo cogito. I am permitted the empty esse, not the full
+green vivere. A primary feeling tells me that I am a thinking being
 but not a living one, that I am no "animal," but at most a "cogital."
 "Give me life, and I will soon make you a culture out of it"--will be
 the cry of every man in this new generation, and they will all know
 each other by this cry. But who will give them this life?
 
-No god and no man will give it--only their own _youth_. Set this
+No god and no man will give it--only their own youth. Set this
 free, and you will set life free as well. For it only lay concealed,
 in a prison; it is not yet withered or dead--ask your own selves!
 
 But it is sick, this life that is set free, and must be healed. It
 suffers from many diseases, and not only from the memory of its
 chains. It suffers from the malady which I have spoken of, the
-_malady of history_. Excess of history has attacked the plastic power
+malady of history. Excess of history has attacked the plastic power
 of life, that no more understands how to use the past as a means of
 strength and nourishment. It is a fearful disease, and yet, if youth
 had not a natural gift for clear vision, no one would see that it is
@@ -2471,7 +2444,7 @@ to history are the "unhistorical" and the "super-historical." With
 these names we return to the beginning of our inquiry and draw near
 to its final close.
 
-By the word "unhistorical" I mean the power, the art of _forgetting_,
+By the word "unhistorical" I mean the power, the art of forgetting,
 and of drawing a limited horizon round one's self. I call the power
 "super-historical" which turns the eyes from the process of becoming
 to that which gives existence an eternal and stable character, to art
@@ -2597,9 +2570,7 @@ system of merely decorative culture.
 SCHOPENHAUER AS EDUCATOR.
 
 
-I.
-
-When the traveller, who had seen many countries and nations and
+I. When the traveller, who had seen many countries and nations and
 continents, was asked what common attribute he had found everywhere
 existing among men, he answered, "They have a tendency to sloth."
 Many may think that the fuller truth would have been, "They are all
@@ -2659,7 +2630,7 @@ have fallen with them. But how full of hope should they all be who
 feel that they are no citizens of this age! If they were, they would
 have to help on the work of "killing their time," and of perishing
 with it,--when they wish rather to quicken the time to life, and in
-that life themselves to _live_.
+that life themselves to live.
 
 But even if the future leave us nothing to hope for, the wonderful
 fact of our existing at this present moment of time gives us the
@@ -2734,9 +2705,7 @@ take as my theme the hard teacher Arthur Schopenhauer, and speak of
 others later.
 
 
-II.
-
-In order to describe properly what an event my first look into
+II. In order to describe properly what an event my first look into
 Schopenhauer's writings was for me, I must dwell for a minute on an
 idea, that recurred more constantly in my youth, and touched me more
 nearly, than any other. I wandered then as I pleased in a world of
@@ -2800,7 +2769,7 @@ ever new generations to the same sacrifice. If their traffic with
 knowledge be not limited and controlled by any more general
 principles of education, but allowed to run on indefinitely,--"the
 more the better,"--it is as harmful to learning as the economic
-theory of _laisser faire_ to common morality. No one recognises now
+theory of laisser faire to common morality. No one recognises now
 that the education of the professors is an exceedingly difficult
 problem, if their humanity is not to be sacrificed or shrivelled
 up:--this difficulty can be actually seen in countless examples of
@@ -2938,7 +2907,7 @@ finds here and there in the mediocre writers and limited thinkers
 makes some of us miserable; I felt this, for example, with the
 "joyfulness" of David Strauss. We are generally ashamed of such a
 quality in our contemporaries, because they show the nakedness of our
-time, and of the men in it, to posterity. Such _fils de joie_ do not
+time, and of the men in it, to posterity. Such fils de joie do not
 see the sufferings and the monsters, that they pretend, as
 philosophers, to see and fight; and so their joy deceives us, and we
 hate it; it tempts to the false belief that they have gained some
@@ -2952,7 +2921,7 @@ man's lot than to be near one of those conquering spirits whose
 profound thought has made them love what is most vital, and whose
 wisdom has found its goal in beauty. They really speak: they are no
 stammerers or babblers; they live and move, and have no part in the
-_danse macabre_ of the rest of humanity. And so in their company one
+danse macabre of the rest of humanity. And so in their company one
 feels a natural man again, and could cry out with Goethe--"What a
 wondrous and priceless thing is a living creature! How fitted to his
 surroundings, how true, and real!"
@@ -2979,9 +2948,7 @@ whose testament it was, and who promised his inheritance to such as
 could, and would, be more than his readers--his pupils and his sons.
 
 
-III.
-
-I get profit from a philosopher, just so far as he can be an example
+III. I get profit from a philosopher, just so far as he can be an example
 to me. There is no doubt that a man can draw whole nations after him
 by his example; as is shown by Indian history, which is practically
 the history of Indian philosophy. But this example must exist in his
@@ -3060,7 +3027,7 @@ his great work would be undone, merely by neglect, bred in him a
 state of unrest--perilous and uncontrollable;--for no single adherent
 of any note presented himself. It is tragic to watch his search for
 any evidence of recognition: and his piercing cry of triumph at last,
-that he would now really be read (_legor et legar_), touches us with
+that he would now really be read (legor et legar), touches us with
 a thrill of pain. All the traits in which we do not see the great
 philosopher show us the suffering man, anxious for his noblest
 possessions; he was tortured by the fear of losing his little
@@ -3163,7 +3130,7 @@ interesting for the recognition that they have reached those stages
 in the great edifice of philosophy where learned disquisitions for
 and against, where hair-splitting objections and counter-objections
 are the rule: and for that reason they evade the demand of every
-great philosophy to speak _sub specie æternitatis_--"this is the
+great philosophy to speak sub specie æternitatis--"this is the
 picture of the whole of life: learn thence the meaning of thine own
 life." And the converse: "read thine own life, and understand thence
 the hieroglyphs of the universal life." In this way must
@@ -3289,7 +3256,7 @@ Greek philosophers on the value of existence means so much more than
 our own, because they had the full bloom of life itself before them,
 and their vision was untroubled by any felt dualism between their
 wish for freedom and beauty on the grand scale, and their search
-after truth, with its single question "What is the real _worth_ of
+after truth, with its single question "What is the real worth of
 life?" Empedocles lived when Greek culture was full to overflowing
 with the joy of life, and all ages may take profit from his words;
 especially as no other great philosopher of that great time ventured
@@ -3309,7 +3276,7 @@ Schopenhauer to escape this danger?
 
 We like to consider the great man as the noble child of his age, who
 feels its defects more strongly and intimately than the smaller men:
-and therefore the struggle of the great man _against_ his age is
+and therefore the struggle of the great man against his age is
 apparently nothing but a mad fight to the death with himself. Only
 apparently, however: he only fights the elements in his time that
 hinder his own greatness, in other words his own freedom and
@@ -3341,11 +3308,9 @@ redeemer? One true 'Yea!' from thy lips, and the sorely accused life
 shall go free." How shall he answer? In the words of Empedocles.
 
 
-IV.
-
-The last hint may well remain obscure for a time: I have something
+IV. The last hint may well remain obscure for a time: I have something
 more easy to explain, namely how Schopenhauer can help us to educate
-ourselves _in opposition_ to our age, since we have the advantage of
+ourselves in opposition to our age, since we have the advantage of
 really knowing our age, through him;--if it be an advantage! It may
 be no longer possible in a couple of hundred years. I sometimes amuse
 myself with the idea that men may soon grow tired of books and their
@@ -3415,7 +3380,7 @@ uprooting of culture in the increasing rush and hurry of life, and
 the decay of all reflection and simplicity. The waters of religion
 are ebbing, and leaving swamps or stagnant pools: the nations are
 drawing away in enmity again, and long to tear each other in pieces.
-The sciences, blindly driving along, on a _laisser faire_ system,
+The sciences, blindly driving along, on a laisser faire system,
 without a common standard, are splitting up, and losing hold of every
 firm principle. The educated classes are being swept along in the
 contemptible struggle for wealth. Never was the world more worldly,
@@ -3480,7 +3445,7 @@ And we shall yet feel the consequences. We are even now on the
 ice-floes in the stream of the Middle Ages: they are thawing fast,
 and their movement is ominous: the banks are flooded, and giving way.
 The revolution, the atomistic revolution, is inevitable: but what
-_are_ those smallest indivisible elements of human society?
+are those smallest indivisible elements of human society?
 
 There is surely far more danger to mankind in transitional periods
 like these than in the actual time of revolution and chaos; they are
@@ -3488,9 +3453,9 @@ tortured by waiting, and snatch greedily at every moment; and this
 breeds all kinds of cowardice and selfishness in them: whereas the
 true feeling of a great and universal need ever inspires men, and
 makes them better. In the midst of such dangers, who will provide the
-guardians and champions for _Humanity_, for the holy and inviolate
+guardians and champions for Humanity, for the holy and inviolate
 treasure that has been laid up in the temples, little by little, by
-countless generations? Who will set up again the _Image of Man_, when
+countless generations? Who will set up again the Image of Man, when
 men in their selfishness and terror see nothing but the trail of the
 serpent or the cur in them, and have fallen from their high estate to
 that of the brute or the automaton?
@@ -3568,8 +3533,8 @@ if you could once become really angry, it would be still better."
 
 To speak plainly, it is necessary to become really angry in order
 that things may be better. The picture of Schopenhauer's man can help
-us here. _Schopenhauer's man voluntarily takes upon himself the pain
-of telling the truth:_ this pain serves to quench his individual will
+us here. Schopenhauer's man voluntarily takes upon himself the pain
+of telling the truth: this pain serves to quench his individual will
 and make him ready for the complete transformation of his being,
 which it is the inner meaning of life to realise. This openness in
 him appears to other men to be an effect of malice, for they think
@@ -3612,10 +3577,10 @@ and thought an ally of forces that he abhors, in his search for
 righteousness he will seem unrighteous by human standards: but he
 must comfort himself with the words that his teacher Schopenhauer
 once used: "A happy life is impossible, the highest thing that man
-can aspire to is a _heroic_ life; such as a man lives, who is always
+can aspire to is a heroic life; such as a man lives, who is always
 fighting against unequal odds for the good of others; and wins in the
 end without any thanks. After the battle is over, he stands like the
-Prince in the _re corvo_ of Gozzi, with dignity and nobility in his
+Prince in the re corvo of Gozzi, with dignity and nobility in his
 eyes, but turned to stone. His memory remains, and will be reverenced
 as a hero's; his will, that has been mortified all his life by
 toiling and struggling, by evil payment and ingratitude, is absorbed
@@ -3651,8 +3616,8 @@ treading the boards under many disguises, youths, men and graybeards,
 fathers, citizens, priests, merchants and officials,--busy with the
 comedy they are all playing, and never thinking of their own selves.
 To the question "To what end dost thou live?" they would all
-immediately answer, with pride, "To _become_ a good citizen or
-professor or statesman,"--and yet they _are_ something which can
+immediately answer, with pride, "To become a good citizen or
+professor or statesman,"--and yet they are something which can
 never be changed: and why are they just--this? Ah, and why nothing
 better? The man who only regards his life as a moment in the
 evolution of a race or a state or a science, and will belong merely
@@ -3691,16 +3656,14 @@ passing dream that had been weaving about him. They will at some time
 disappear: and then will it be day.
 
 
-V.
-
-But I have promised to speak of Schopenhauer, as far as my experience
-goes, as an _educator_, and it is far from being sufficient to paint
+V. But I have promised to speak of Schopenhauer, as far as my experience
+goes, as an educator, and it is far from being sufficient to paint
 the ideal humanity which is the "Platonic idea" in Schopenhauer;
 especially as my representation is an imperfect one. The most
 difficult task remains;--to say how a new circle of duties may spring
 from this ideal, and how one can reconcile such a transcendent aim
 with ordinary action; to prove, in short, that the ideal is
-_educative_. One might otherwise think it to be merely the blissful
+educative. One might otherwise think it to be merely the blissful
 or intoxicating vision of a few rare moments, that leaves us
 afterwards the prey of a deeper disappointment. It is certain that
 the ideal begins to affect us in this way when we come suddenly to
@@ -3727,7 +3690,7 @@ reluctant dualism, that is, in a contradiction with himself;--
 becoming unstable, daily weaker and less productive:--while another
 will renounce all action on principle, and scarcely endure to see
 others active. The danger is always great when a man is too
-heavy-laden, and cannot really _accomplish_ any duties. Stronger
+heavy-laden, and cannot really accomplish any duties. Stronger
 natures may be broken by it; the weaker, which are the majority, sink
 into a speculative laziness, and at last, from their laziness, lose
 even the power of speculation.
@@ -3823,7 +3786,7 @@ transitory moment of awakening by our own strength; we must be lifted
 up--and who are they that will uplift us?
 
 The sincere men who have cast out the beast, the philosophers,
-artists and saints. Nature--_quæ nunquam facit saltum_--has made her
+artists and saints. Nature--quæ nunquam facit saltum--has made her
 one leap in creating them; a leap of joy, as she feels herself for
 the first time at her goal, where she begins to see that she must
 learn not to have goals above her, and that she has played the game
@@ -3832,7 +3795,7 @@ rests on her face the gentle weariness of evening that men call
 "beauty." Her words after this transfiguration are as a great light
 shed over existence: and the highest wish that mortals can reach is
 to listen continually to her voice with ears that hear. If a man
-think of all that Schopenhauer, for example, must have _heard_ in his
+think of all that Schopenhauer, for example, must have heard in his
 life, he may well say to himself--"The deaf ears, the feeble
 understanding and shrunken heart, everything that I call mine,--how I
 despise them! Not to be able to fly but only to flutter one's wings!
@@ -3867,7 +3830,7 @@ approach the great ideal of Schopenhauer's man "by any ordinary
 activity of our own." In the first place, the new duties are
 certainly not those of a hermit; they imply rather a vast community,
 held together not by external forms but by a fundamental idea, namely
-that of _culture_; though only so far as it can put a single task
+that of culture; though only so far as it can put a single task
 before each of us--to bring the philosopher, the artist and the
 saint, within and without us, to the light, and to strive thereby for
 the completion of Nature. For Nature needs the artist, as she needs
@@ -3878,7 +3841,7 @@ self-consciousness. Goethe, in an arrogant yet profound phrase,
 showed how all Nature's attempts only have value in so far as the
 artist interprets her stammering words, meets her half-way, and
 speaks aloud what she really means. "I have often said, and will
-often repeat," he exclaims in one place, "the _causa finalis_ of
+often repeat," he exclaims in one place, "the causa finalis of
 natural and human activity is dramatic poetry. Otherwise the stuff is
 of no use at all."
 
@@ -3915,9 +3878,7 @@ hindered our fulfilment, and prevented us from becoming
 Schopenhauer's men ourselves.
 
 
-VI.
-
-It is sometimes harder to agree to a thing than to understand it;
+VI. It is sometimes harder to agree to a thing than to understand it;
 many will feel this when they consider the proposition--"Mankind must
 toil unceasingly to bring forth individual great men: this and
 nothing else is its task." One would like to apply to society and its
@@ -4033,7 +3994,7 @@ and happiness that can be got from his particular stock of knowledge.
 He is required to have just so much idea of his own value (through
 his liberal education) as to know what he can ask of life; and he is
 assured that a natural and necessary connection between "intelligence
-and property" not only exists, but is also a _moral_ necessity. All
+and property" not only exists, but is also a moral necessity. All
 education is detested that makes for loneliness, and has an aim above
 money-making, and requires a long time: men look askance on such
 serious education, as mere "refined egoism" or "immoral
@@ -4143,7 +4104,7 @@ fruition. In pointing out the absence of a German culture, I have
 often had the reproach flung at me: "This absence is quite natural,
 for the Germans have been too poor and modest up to now. Once rich
 and conscious of themselves, our people will have a culture too."
-Faith may often produce happiness, yet _this_ particular faith makes
+Faith may often produce happiness, yet this particular faith makes
 me unhappy, for I feel that the culture whose future raises such
 hopes--the culture of riches, politeness, and elegant concealments--
 is the bitterest foe of that German culture in which I believe. Every
@@ -4218,7 +4179,7 @@ tradition and speaks the truth only in "adiaphora"; it being lazier
 to speak the truth here than ignore it. Everything new means
 something to be unlearnt, and your downright man will respect the
 ancient dogmas and accuse the new evangelist of failing in the
-_sensus recti_. There was a similar opposition, with probability and
+sensus recti. There was a similar opposition, with probability and
 custom on its side, to the theory of Copernicus. The professor's
 frequent hatred of philosophy is principally a hatred of the long
 trains of reasoning and artificiality of the proofs. Ultimately the
@@ -4295,8 +4256,8 @@ when she can be attained; or as a way to the good graces of the
 fountains of honour--and bread. Only, however, in the sense of the
 "particular truth": there is a gulf between the profitable truths
 that many serve, and the unprofitable truths to which only those few
-people devote themselves whose motto is not _ingenii largitor
-venter_.
+people devote themselves whose motto is not ingenii largitor
+venter.
 
 Tenthly, a reverence for their fellow-professors and a fear of their
 displeasure--a higher and rarer motive than the last, though not
@@ -4368,7 +4329,7 @@ real helpers of culture, imagining that all art, for example, is
 merely to serve their own needs, they are clearly affirming
 themselves in affirming culture. Of the savant enough has already
 been said. All four are emulously thinking how they can benefit
-_themselves_ with the help of culture, but have no thoughts at all
+themselves with the help of culture, but have no thoughts at all
 when their own interests are not engaged. And so they have done
 nothing to improve the conditions for the birth of genius in modern
 times; and the opposition to original men has grown so far that no
@@ -4450,10 +4411,8 @@ my sketch of Schopenhauer's destiny, and to what end Schopenhauer can
 really educate.
 
 
-VII.
-
-But setting aside all thoughts of any educational revolution in the
-distant future;--what provision is required _now_, that our future
+VII. But setting aside all thoughts of any educational revolution in the
+distant future;--what provision is required now, that our future
 philosopher may have the best chance of opening his eyes to a life
 like Schopenhauer's--hard as it is, yet still livable? What, further,
 must be discovered that may make his influence on his contemporaries
@@ -4577,11 +4536,10 @@ the opinion that the state's one object was to give protection at
 home and abroad, and even protection against its "protectors," and to
 attribute any other object to it was to endanger its true end. And
 so, to the consternation of all the so-called liberals, he left his
-property to the survivors of the Prussian soldiers who fell in 1848
-in the fight for order. To understand the state and its duties in
+property to the survivors of the Prussian soldiers who fell in 1848 in the fight for order. To understand the state and its duties in
 this single sense may seem more and more henceforth the sign of
-intellectual superiority; for the man with the _furor philosophicus_
-in him will no longer have time for the _furor politicus_, and will
+intellectual superiority; for the man with the furor philosophicus
+in him will no longer have time for the furor politicus, and will
 wisely keep from reading the newspapers or serving a party; though he
 will not hesitate a moment to take his place in the ranks if his
 country be in real need. All states are badly managed, when other men
@@ -4628,8 +4586,8 @@ the same end. He had one task and a thousand means to execute it; one
 meaning, and innumerable hieroglyphs to express it.
 
 It was one of the high conditions of his existence that he really
-could live for such a task--according to his motto _vitam impendere
-vero_--and none of life's material needs could shake his resolution;
+could live for such a task--according to his motto vitam impendere
+vero--and none of life's material needs could shake his resolution;
 and we know the splendid return he made his father for this. The
 contemplative man in Germany usually pursues his scientific studies
 to the detriment of his sincerity, as a "considerate fool," in search
@@ -4638,9 +4596,7 @@ influential superiors. Nothing offended the savants more than
 Schopenhauer's unlikeness to them.
 
 
-VIII.
-
-These are a few of the conditions under which the philosophical
+VIII. These are a few of the conditions under which the philosophical
 genius can at least come to light in our time, in spite of all
 thwarting influences;--a virility of character, an early knowledge of
 mankind, an absence of learned education and narrow patriotism, of
@@ -4732,7 +4688,7 @@ be regarded as renouncing the search for truth in all its secret
 retreats. At any rate, so long as he enjoys his position, he must
 recognise something higher than truth--the state. And not only the
 state, but everything required by it for existence--a definite form
-of religion, a social system, a standing army; a _noli me tangere_ is
+of religion, a social system, a standing army; a noli me tangere is
 written above all these things. Can a University philosopher ever
 keep clearly before him the whole round of these duties and
 limitations? I do not know. The man who has done so and remains a
@@ -4812,7 +4768,7 @@ wearied examinee, "Thank God I am no philosopher, but a Christian and
 a good citizen!"
 
 What if this cry were the ultimate object of the state, and the
-"education" or leading to philosophy were merely a leading _from_
+"education" or leading to philosophy were merely a leading from
 philosophy? We may well ask.--But if so, there is one thing to
 fear--that the youth may some day find out to what end philosophy is
 thus mis-handled. "Is the highest thing of all, the production of the
@@ -4911,7 +4867,7 @@ could at least make a public show of behaving scientifically,
 although in their hearts they may wish all philosophy and all science
 at the devil.
 
-    [2] _Physics and Politics_, chap. v. Nietzsche has altered the
+    [2] Physics and Politics, chap. v. Nietzsche has altered the
     order of the sentences without any apparent benefit to his own
     argument, and to the disadvantage of Bagehot's. I have restored
     the original order.--TR.
@@ -5034,8 +4990,8 @@ state or a university should continue. The dignity of philosophy may
 rise in proportion as the submission to public opinion and the danger
 to liberty increase; it was at its highest during the convulsions
 marking the fall of the Roman Republic, and in the time of the
-Empire, when the names of both philosophy and history became _ingrata
-principibus nomina_. Brutus shows its dignity better than Plato; his
+Empire, when the names of both philosophy and history became ingrata
+principibus nomina. Brutus shows its dignity better than Plato; his
 was a time when ethics cease to have commonplaces. Philosophy is not
 much regarded now, and we may well ask why no great soldier or
 statesman has taken it up; and the answer is that a thin phantom has
@@ -5061,7 +5017,7 @@ tradition "as ever tree bore its apples." They do not frighten; they
 carry away no gates of Gaza; and to all their little contemplations
 one can make the answer of Diogenes when a certain philosopher was
 praised: "What great result has he to show, who has so long practised
-philosophy and yet has _hurt_ nobody?" Yes, the university philosophy
+philosophy and yet has hurt nobody?" Yes, the university philosophy
 should have on its monument, "It has hurt nobody." But this is rather
 the praise one gives to an old woman than to a goddess of truth; and
 it is not surprising that those who know the goddess only as an old

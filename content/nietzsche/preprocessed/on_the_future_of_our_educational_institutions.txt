@@ -1,11 +1,40 @@
-﻿
+Produced by Thanks to Jeannie Howse, Thierry Alberto and
+the Online Distributed Proofreading Team at
+https://www.pgdp.net (This file was produced from images
+generously made available by The Internet Archive)
+
+
+
+
+
+
+       *       *       *       *       *
+
+    +-----------------------------------------------------------+
+    | Transcriber's Note:                                       |
+    |                                                           |
+    | Inconsistent hyphenation in the original document has     |
+    | been preserved.                                           |
+    |                                                           |
+    | Greek has been transliterated and marked +like so+.       |
+    |                                                           |
+    | Obvious typographical errors have been corrected. For     |
+    | a complete list, please see the end of this document.     |
+    |                                                           |
+    +-----------------------------------------------------------+
+
+       *       *       *       *       *
+
+
+
+
   THE COMPLETE WORKS
 
   OF
 
   FRIEDRICH NIETZSCHE
 
-  _The First Complete and Authorised English Translation_
+  The First Complete and Authorised English Translation
 
   EDITED BY
 
@@ -23,7 +52,7 @@
 
 
 
-  _FRIEDRICH NIETZSCHE_
+  FRIEDRICH NIETZSCHE
 
   ON THE FUTURE OF OUR
   EDUCATIONAL INSTITUTIONS
@@ -39,22 +68,17 @@
   T.N. FOULIS
   13 & 15 FREDERICK STREET
   EDINBURGH: and LONDON
-  1910
+  1910 ALL RIGHTS RESERVED
 
-
-
-
-  ALL RIGHTS RESERVED
-
-  _Printed by_ MORRISON & GIBB LIMITED, _Edinburgh_.
+  Printed by MORRISON & GIBB LIMITED, Edinburgh.
 
 
 
 
 PREFACE.
 
-(_To be read before the lectures, although it in no way relates to
-them._)
+(To be read before the lectures, although it in no way relates to
+them.)
 
 
 The reader from whom I expect something must possess three qualities:
@@ -62,7 +86,7 @@ he must be calm and must read without haste; he must not be ever
 interposing his own personality and his own special "culture"; and he
 must not expect as the ultimate results of his study of these pages
 that he will be presented with a set of new formulae. I do not propose
-to furnish formulae or new plans of study for _Gymnasia_ or other
+to furnish formulae or new plans of study for Gymnasia or other
 schools; and I am much more inclined to admire the extraordinary power
 of those who are able to cover the whole distance between the depths
 of empiricism and the heights of special culture-problems, and who
@@ -77,7 +101,7 @@ become the directors of a system of everyday instruction, calculated
 to promote that culture; and they will probably be compelled once more
 to draw up sets of rules: but how remote this time now seems! And what
 may not happen meanwhile! It is just possible that between now and
-then all _Gymnasia_--yea, and perhaps all universities, may be
+then all Gymnasia--yea, and perhaps all universities, may be
 destroyed, or have become so utterly transformed that their very
 regulations may, in the eyes of future generations, seem to be but the
 relics of the cave-dwellers' age.
@@ -92,7 +116,7 @@ we believe, "still have time." Without any qualms of conscience they
 may improve the most fruitful and vigorous hours of their day in
 meditating on the future of our education; they may even believe when
 the evening has come that they have used their day in the most
-dignified and useful way, namely, in the _meditatio generis futuri_.
+dignified and useful way, namely, in the meditatio generis futuri.
 No one among them has yet forgotten to think while reading a book; he
 still understands the secret of reading between the lines, and is
 indeed so generous in what he himself brings to his study, that he
@@ -167,8 +191,8 @@ these lectures--namely, in a city which is striving to educate and
 enlighten its inhabitants on a scale so magnificently out of
 proportion to its size, that it must put all larger cities to shame.
 This being so, I presume I am justified in assuming that in a quarter
-where so much is _done_ for the things of which I wish to speak,
-people must also _think_ a good deal about them. My desire--yea, my
+where so much is done for the things of which I wish to speak,
+people must also think a good deal about them. My desire--yea, my
 very first condition, therefore, would be to become united in spirit
 with those who have not only thought very deeply upon educational
 problems, but have also the will to promote what they think to be
@@ -185,13 +209,13 @@ still the role of a prophet standing on the horizon of civilisation
 and pretending to predict the future of education and of scholastic
 organisation. I can no more project my vision through such vast
 periods of time than I can rely upon its accuracy when it is brought
-too close to an object under examination. With my title: _Our_
+too close to an object under examination. With my title: Our
 Educational Institutions, I wish to refer neither to the
 establishments in Bale nor to the incalculably vast number of other
 scholastic institutions which exist throughout the nations of the
-world to-day; but I wish to refer to _German institutions_ of the kind
+world to-day; but I wish to refer to German institutions of the kind
 which we rejoice in here. It is their future that will now engage our
-attention, _i.e._ the future of German elementary, secondary, and
+attention, i.e. the future of German elementary, secondary, and
 public schools (Gymnasien) and universities. While pursuing our
 discussion, however, we shall for once avoid all comparisons and
 valuations, and guard more especially against that flattering illusion
@@ -240,15 +264,15 @@ very first principles of our modern educational methods are
 thoroughly artificial, and that the most fatal weaknesses of the
 present day are to be ascribed to this artificiality. He who feels in
 complete harmony with the present state of affairs and who acquiesces
-in it _as something_ "_selbstverstaendliches_,"[1] excites our envy
+in it as something "selbstverstaendliches,"[1] excites our envy
 neither in regard to his faith nor in regard to that egregious word
-"_selbstverstaendlich_," so frequently heard in fashionable circles.
+"selbstverstaendlich," so frequently heard in fashionable circles.
 
 He, however, who holds the opposite view and is therefore in despair,
 does not need to fight any longer: all he requires is to give himself
 up to solitude in order soon to be alone. Albeit, between those who
 take everything for granted and these anchorites, there stand the
-_fighters_--that is to say, those who still have hope, and as the
+fighters--that is to say, those who still have hope, and as the
 noblest and sublimest example of this class, we recognise Schiller as
 he is described by Goethe in his "Epilogue to the Bell."
 
@@ -278,8 +302,8 @@ Two seemingly antagonistic forces, equally deleterious in their
 actions and ultimately combining to produce their results, are at
 present ruling over our educational institutions, although these were
 based originally upon very different principles. These forces are: a
-striving to achieve the greatest possible _extension of education_ on
-the one hand, and a tendency _to minimise and to weaken it_ on the
+striving to achieve the greatest possible extension of education on
+the one hand, and a tendency to minimise and to weaken it on the
 other. The first-named would fain spread learning among the greatest
 possible number of people, the second would compel education to
 renounce its highest and most independent claims in order to
@@ -288,9 +312,9 @@ two antagonistic tendencies, we could but give ourselves up to
 despair, did we not see the possibility of promoting the cause of two
 other contending factors which are fortunately as completely German as
 they are rich in promises for the future; I refer to the present
-movement towards _limiting and concentrating_ education as the
+movement towards limiting and concentrating education as the
 antithesis of the first of the forces above mentioned, and that other
-movement towards the _strengthening and the independence_ of education
+movement towards the strengthening and the independence of education
 as the antithesis of the second force. If we should seek a warrant for
 our belief in the ultimate victory of the two last-named movements, we
 could find it in the fact that both of the forces which we hold to be
@@ -303,7 +327,7 @@ FOOTNOTES:
 
 [1] Selbstverstaendlich = "granted or self-understood."
 
-[2] _The Poems of Goethe._ Edgar Alfred Bowring's Translation. (Ed.
+[2] The Poems of Goethe. Edgar Alfred Bowring's Translation. (Ed.
 1853.)
 
 
@@ -316,7 +340,7 @@ THE FUTURE OF OUR EDUCATIONAL INSTITUTIONS.
 
 FIRST LECTURE.
 
-(_Delivered on the 16th of January 1872._)
+(Delivered on the 16th of January 1872.)
 
 
 Ladies and Gentlemen,--The subject I now propose to consider with you
@@ -325,11 +349,11 @@ that, like you, I would gladly turn to any one who could proffer some
 information concerning it,--were he ever so young, were his ideas ever
 so improbable--provided that he were able, by the exercise of his own
 faculties, to furnish some satisfactory and sufficient explanation. It
-is just possible that he may have had the opportunity of _hearing_
+is just possible that he may have had the opportunity of hearing
 sound views expressed in reference to the vexed question of the future
 of our educational institutions, and that he may wish to repeat them
 to you; he may even have had distinguished teachers, fully qualified
-to foretell what is to come, and, like the _haruspices_ of Rome, able
+to foretell what is to come, and, like the haruspices of Rome, able
 to do so after an inspection of the entrails of the Present.
 
 Indeed, you yourselves may expect something of this kind from me. I
@@ -354,8 +378,8 @@ consideration I now wish to commend that conversation--I know it to be
 a community which is striving to educate and enlighten its members on
 a scale so magnificently out of proportion to its size that it must
 put all larger cities to shame. This being so, I presume I may take it
-for granted that in a quarter where so much is _done_ for the things
-of which I wish to speak, people must also _think_ a good deal about
+for granted that in a quarter where so much is done for the things
+of which I wish to speak, people must also think a good deal about
 them. In my account of the conversation already mentioned, I shall be
 able to make myself completely understood only to those among my
 audience who will be able to guess what I can do no more than suggest,
@@ -647,7 +671,7 @@ They have understood us, do you hear? If you insist upon having that
 place among the trees, grant us at least the permission to recline
 there also. You will find a number of benches on the spot: we shall
 not disturb you; we shall sit quite still and shall not utter a word:
-but it is now past seven o'clock and we _must_ go there at once.
+but it is now past seven o'clock and we must go there at once.
 
 "That sounds more mysterious than it is," I added after a pause; "we
 have made a solemn vow to spend this coming hour on that ground, and
@@ -669,7 +693,7 @@ how quiet they were a moment ago, when we were contemplating the sun?
 They neither spoke nor smoked, they stood stone still, I even believe
 they meditated."
 
-Turning suddenly in our direction, he said: "_Were_ you meditating?
+Turning suddenly in our direction, he said: "Were you meditating?
 Just tell me about it as we proceed in the direction of our common
 trysting-place." We took a few steps together and went down the slope
 into the warm balmy air of the woods where it was already much darker.
@@ -760,7 +784,7 @@ us!
 --That, ladies and gentlemen, was our standpoint then!--
 
 Absorbed in these reflections, I was just about to give an answer to
-the question of the future of _our_ Educational Institutions in the
+the question of the future of our Educational Institutions in the
 same self-sufficient way, when it gradually dawned upon me that the
 "natural music," coming from the philosopher's bench had lost its
 original character and travelled to us in much more piercing and
@@ -842,8 +866,8 @@ questions now attracting such enormous and pressing attention. It
 seemed to me that I must recognise two main directions in the forces
 at work--two seemingly antagonistic tendencies, equally deleterious in
 their action, and ultimately combining to produce their results: a
-striving to achieve the greatest possible _expansion_ of education on
-the one hand, and a tendency to _minimise and weaken_ it on the
+striving to achieve the greatest possible expansion of education on
+the one hand, and a tendency to minimise and weaken it on the
 other. The first-named would, for various reasons, spread learning
 among the greatest number of people; the second would compel education
 to renounce its highest, noblest and sublimest claims in order to
@@ -881,7 +905,7 @@ Culture--Epicureanism.' According to the morality reigning here, the
 demands are quite different; what is required above all is 'rapid
 education,' so that a money-earning creature may be produced with all
 speed; there is even a desire to make this education so thorough that
-a creature may be reared that will be able to earn a _great deal_ of
+a creature may be reared that will be able to earn a great deal of
 money. Men are allowed only the precise amount of culture which is
 compatible with the interests of gain; but that amount, at least, is
 expected from them. In short: mankind has a necessary right to
@@ -930,7 +954,7 @@ desire,--the desire to minimise and weaken education.
 "In all cultivated circles people are in the habit of whispering to
 one another words something after this style: that it is a general
 fact that, owing to the present frantic exploitation of the scholar in
-the service of his science, his _education_ becomes every day more
+the service of his science, his education becomes every day more
 accidental and more uncertain. For the study of science has been
 extended to such interminable lengths that he who, though not
 exceptionally gifted, yet possesses fair abilities, will need to
@@ -1006,7 +1030,7 @@ despair. I shall now proceed to say a few words of consolation."
 
 SECOND LECTURE.
 
-(_Delivered on the 6th of February 1872._)
+(Delivered on the 6th of February 1872.)
 
 
 LADIES AND GENTLEMEN,--Those among you whom I now have the pleasure of
@@ -1108,14 +1132,14 @@ importance as centres of influence, seeing that, as they now stand,
 they are at least, in one important aspect, only a kind of annex to
 the public school system, as I shall shortly point out to you. For the
 moment, let us consider, together, what to my mind constitutes the
-very hopeful struggle of the two possibilities: _either_ that the
+very hopeful struggle of the two possibilities: either that the
 motley and evasive spirit of public schools which has hitherto been
 fostered, will completely vanish, or that it will have to be
 completely purified and rejuvenated. And in order that I may not shock
 you with general propositions, let us first try to recall one of those
 public school experiences which we have all had, and from which we
 have all suffered. Under severe examination what, as a matter of fact,
-is the present _system of teaching German_ in public schools?
+is the present system of teaching German in public schools?
 
 "I shall first of all tell you what it should be. Everybody speaks and
 writes German as thoroughly badly as it is just possible to do so in
@@ -1145,9 +1169,9 @@ many of you will ever attain to culture.'
 at a public school would be forced to call his pupil's attention to
 thousands of details, and with the absolute certainty of good taste,
 to forbid their using such words and expressions, for instance, as:
-'_beanspruchen_,' '_vereinnahmen_,' '_einer Sache Rechnung tragen_,'
-'_die Initiative ergreifen_,' '_selbstverstaendlich_,'[3] etc., _cum
-taedio in infinitum_. The same teacher would also have to take our
+'beanspruchen,' 'vereinnahmen,' 'einer Sache Rechnung tragen,'
+'die Initiative ergreifen,' 'selbstverstaendlich,'[3] etc., cum
+taedio in infinitum. The same teacher would also have to take our
 classical authors and show, line for line, how carefully and with what
 precision every expression has to be chosen when a writer has the
 correct feeling in his heart and has before his eyes a perfect
@@ -1160,7 +1184,7 @@ developed great enthusiasm for it.
 "Here then is a task for so-called 'formal' education[4] [the
 education tending to develop the mental faculties, as opposed to
 'material' education,[5] which is intended to deal only with the
-acquisition of facts, _e.g._ history, mathematics, etc.], and one of
+acquisition of facts, e.g. history, mathematics, etc.], and one of
 the utmost value: but what do we find in the public school--that is to
 say, in the head-quarters of formal education? He who understands how
 to apply what he has heard here will also know what to think of the
@@ -1184,9 +1208,9 @@ language is sacrificed for the sake of anatomical study. But this is
 precisely where culture begins--namely, in understanding how to treat
 the quick as something vital, and it is here too that the mission of
 the cultured teacher begins: in suppressing the urgent claims of
-'historical interests' wherever it is above all necessary to _do_
-properly and not merely to _know_ properly. Our mother-tongue,
-however, is a domain in which the pupil must learn how to _do_
+'historical interests' wherever it is above all necessary to do
+properly and not merely to know properly. Our mother-tongue,
+however, is a domain in which the pupil must learn how to do
 properly, and to this practical end, alone, the teaching of German is
 essential in our scholastic establishments. The historical method may
 certainly be a considerably easier and more comfortable one for the
@@ -1195,15 +1219,15 @@ ability and, in general, with a smaller display of energy and will on
 his part. But we shall find that this observation holds good in every
 department of pedagogic life: the simpler and more comfortable method
 always masquerades in the disguise of grand pretensions and stately
-titles; the really practical side, the _doing_, which should belong to
+titles; the really practical side, the doing, which should belong to
 culture and which, at bottom, is the more difficult side, meets only
 with disfavour and contempt. That is why the honest man must make
-himself and others quite clear concerning this _quid pro quo_.
+himself and others quite clear concerning this quid pro quo.
 
 "Now, apart from these learned incentives to a study of the language,
 what is there besides which the German teacher is wont to offer? How
 does he reconcile the spirit of his school with the spirit of the
-_few_ that Germany can claim who are really cultured,--_i.e._ with the
+few that Germany can claim who are really cultured,--i.e. with the
 spirit of its classical poets and artists? This is a dark and thorny
 sphere, into which one cannot even bear a light without dread; but
 even here we shall conceal nothing from ourselves; for sooner or later
@@ -1213,7 +1237,7 @@ unformed minds of youths. Here, too, the teacher sows the seeds of
 that crude and wilful misinterpretation of the classics, which later
 on disports itself as art-criticism, and which is nothing but
 bumptious barbarity. Here the pupils learn to speak of our unique
-_Schiller_ with the superciliousness of prigs; here they are taught to
+Schiller with the superciliousness of prigs; here they are taught to
 smile at the noblest and most German of his works--at the Marquis of
 Posa, at Max and Thekla--at these smiles German genius becomes
 incensed and a worthier posterity will blush.
@@ -1221,13 +1245,13 @@ incensed and a worthier posterity will blush.
 "The last department in which the German teacher in a public school is
 at all active, which is often regarded as his sphere of highest
 activity, and is here and there even considered the pinnacle of public
-school education, is the so-called _German composition_. Owing to the
+school education, is the so-called German composition. Owing to the
 very fact that in this department it is almost always the most gifted
 pupils who display the greatest eagerness, it ought to have been made
 clear how dangerously stimulating, precisely here, the task of the
-teacher must be. _German composition_ makes an appeal to the
+teacher must be. German composition makes an appeal to the
 individual, and the more strongly a pupil is conscious of his various
-qualities, the more personally will he do his _German composition_.
+qualities, the more personally will he do his German composition.
 This 'personal doing' is urged on with yet an additional fillip in
 some public schools by the choice of the subject, the strongest proof
 of which is, in my opinion, that even in the lower classes the
@@ -1290,7 +1314,7 @@ written word is a piece of barbarism. Now let us consider, besides,
 the danger of arousing the self-complacency which is so easily
 awakened in youths; let us think how their vanity must be flattered
 when they see their literary reflection for the first time in the
-mirror. Who, having seen all these effects at _one_ glance, could any
+mirror. Who, having seen all these effects at one glance, could any
 longer doubt whether all the faults of our public, literary, and
 artistic life were not stamped upon every fresh generation by the
 system we are examining: hasty and vain production, the disgraceful
@@ -1301,14 +1325,14 @@ short, the literary peculiarities of both our journalism and our
 scholarship.
 
 "None but the very fewest are aware that, among many thousands,
-perhaps only _one_ is justified in describing himself as literary, and
+perhaps only one is justified in describing himself as literary, and
 that all others who at their own risk try to be so deserve to be met
 with Homeric laughter by all competent men as a reward for every
 sentence they have ever had printed;--for it is truly a spectacle meet
 for the gods to see a literary Hephaistos limping forward who would
 pretend to help us to something. To educate men to earnest and
 inexorable habits and views, in this respect, should be the highest
-aim of all mental training, whereas the general _laisser aller_ of the
+aim of all mental training, whereas the general laisser aller of the
 'fine personality' can be nothing else than the hall-mark of
 barbarism. From what I have said, however, it must be clear that, at
 least in the teaching of German, no thought is given to culture;
@@ -1321,7 +1345,7 @@ the mother-tongue as if it were only a necessary evil or a dead body,
 I shall not regard these institutions as belonging to real culture.
 
 "In regard to the language, what is surely least noticeable is any
-trace of the influence of _classical examples_: that is why, on the
+trace of the influence of classical examples: that is why, on the
 strength of this consideration alone, the so-called 'classical
 education' which is supposed to be provided by our public school,
 strikes me as something exceedingly doubtful and confused. For how
@@ -1512,7 +1536,7 @@ systematically spoiled, and taught to stutter independently instead of
 being taught to speak; to aestheticise on your own account, when you
 ought to be taught to approach works of art almost piously; to
 philosophise without assistance, while you ought to be compelled to
-_listen_ to great thinkers. All this with the result that you remain
+listen to great thinkers. All this with the result that you remain
 eternally at a distance from antiquity and become the servants of the
 day.
 
@@ -1537,8 +1561,8 @@ for one's own tongue, is, in the case of German, never conducted with
 that fitting categorical strictness and dignity which would be above
 all necessary in dealing with an undisciplined language. Of late,
 exercises of this kind have tended to decrease ever more and more:
-people are satisfied to _know_ the foreign classical tongues, they
-would scorn being able to _apply_ them.
+people are satisfied to know the foreign classical tongues, they
+would scorn being able to apply them.
 
 "Here one gets another glimpse of the scholarly tendency of public
 schools: a phenomenon which throws much light upon the object which
@@ -1654,18 +1678,18 @@ FOOTNOTES:
 [3] It is not practicable to translate these German solecisms by
 similar instances of English solecisms. The reader who is interested
 in the subject will find plenty of material in a book like the Oxford
-_King's English_.
+King's English.
 
-[4] German: _Formelle Bildung._
+[4] German: Formelle Bildung.
 
-[5] German: _Materielle Bildung._
+[5] German: Materielle Bildung.
 
 
 
 
 THIRD LECTURE.
 
-(_Delivered on the 27th of February 1872._)
+(Delivered on the 27th of February 1872.)
 
 
 Ladies and Gentlemen,--At the close of my last lecture, the
@@ -1734,7 +1758,7 @@ contrary, and grew serious over something quite different----"
 
 "Now, my friend," interrupted the philosopher, laughingly, "you speak
 as one who would fain dive into the water without being able to swim,
-and who fears something even more than the mere drowning; _not_ being
+and who fears something even more than the mere drowning; not being
 drowned, but laughed at. But being laughed at should be the very last
 thing for us to dread; for we are in a sphere where there are too many
 truths to tell, too many formidable, painful, unpardonable truths, for
@@ -1744,7 +1768,7 @@ of teachers, who, in all good faith, have assimilated the system of
 education which has prevailed up to the present, that they may
 cheerfully and without over-much deliberation carry it further on.
 What do you think it will seem like to these men when they hear of
-projects from which they are excluded _beneficio naturae_; of commands
+projects from which they are excluded beneficio naturae; of commands
 which their mediocre abilities are totally unable to carry out; of
 hopes which find no echo in them; of battles the war-cries of which
 they do not understand, and in the fighting of which they can take
@@ -1752,7 +1776,7 @@ part only as dull and obtuse rank and file? But, without exaggeration,
 that must necessarily be the position of practically all the teachers
 in our higher educational establishments: and indeed we cannot wonder
 at this when we consider how such a teacher originates, how he
-_becomes_ a teacher of such high status. Such a large number of higher
+becomes a teacher of such high status. Such a large number of higher
 educational establishments are now to be found everywhere that far
 more teachers will continue to be required for them than the nature of
 even a highly-gifted people can produce; and thus an inordinate stream
@@ -1762,7 +1786,7 @@ gradually come to determine the nature of these institutions. There
 may be a few people, hopelessly unfamiliar with pedagogical matters,
 who believe that our present profusion of public schools and teachers,
 which is manifestly out of all proportion, can be changed into a real
-profusion, an _ubertas ingenii_, merely by a few rules and
+profusion, an ubertas ingenii, merely by a few rules and
 regulations, and without any reduction in the number of these
 institutions. But we may surely be unanimous in recognising that by
 the very nature of things only an exceedingly small number of people
@@ -1796,7 +1820,7 @@ their time. Then we should meet with a strange disillusionment, one
 which we, my good friend, have often met with: those blatant heralds
 of educational needs, when examined at close quarters, are suddenly
 seen to be transformed into zealous, yea, fanatical opponents of true
-culture, _i.e._ all those who hold fast to the aristocratic nature of
+culture, i.e. all those who hold fast to the aristocratic nature of
 the mind; for, at bottom, they regard as their goal the emancipation
 of the masses from the mastery of the great few; they seek to
 overthrow the most sacred hierarchy in the kingdom of the
@@ -1870,7 +1894,7 @@ accuracy of your similitude. On the other hand, I fully understand
 what you have said about the surplus of public schools and the
 corresponding surplus of higher grade teachers; and in this regard I
 myself have collected some information which assures me that the
-educational tendency of the public school _must_ right itself by this
+educational tendency of the public school must right itself by this
 very surplus of teachers who have really nothing at all to do with
 education, and who are called into existence and pursue this path
 solely because there is a demand for them. Every man who, in an
@@ -2000,13 +2024,13 @@ philology and allied professions have increased their numbers to such
 an unheard-of degree."
 
 "What I mean is," said the other, "it would depend upon whether a
-teacher of classical culture did _not_ confuse his Greeks and Romans
-with the other peoples, the barbarians, whether he could _never_ put
-Greek and Latin _on a level with_ other languages: so far as his
+teacher of classical culture did not confuse his Greeks and Romans
+with the other peoples, the barbarians, whether he could never put
+Greek and Latin on a level with other languages: so far as his
 classicalism is concerned, it is a matter of indifference whether the
 framework of these languages concurs with or is in any way related to
 the other languages: such a concurrence does not interest him at all;
-his real concern is with _what is not common to both_, with what shows
+his real concern is with what is not common to both, with what shows
 him that those two peoples were not barbarians as compared with the
 others--in so far, of course, as he is a true teacher of culture and
 models himself after the majestic patterns of the classics."
@@ -2022,7 +2046,7 @@ importance of the subject to such an extent that, at best, their
 scholars ultimately turn into little Sanskritists, etymological
 spitfires, or reckless conjecturers; but not one of them can read his
 Plato or Tacitus with pleasure, as we old folk can. The public schools
-may still be seats of learning: not, however of _the_ learning which,
+may still be seats of learning: not, however of the learning which,
 as it were, is only the natural and involuntary auxiliary of a culture
 that is directed towards the noblest ends; but rather of that culture
 which might be compared to the hypertrophical swelling of an unhealthy
@@ -2068,7 +2092,7 @@ certainly makes the same impression upon most people as if they were
 addressed by the eternal law of things. For the rest, a 'Culture-State,'
 to use the current expression, which makes such demands, is rather a
 novelty, and has only come to a 'self-understanding' within the last
-half century, _i.e._ in a period when (to use the favourite popular
+half century, i.e. in a period when (to use the favourite popular
 word) so many 'self-understood' things came into being, but which are in
 themselves not 'self-understood' at all. This right to higher education
 has been taken so seriously by the most powerful of modern
@@ -2107,7 +2131,7 @@ tendency of the Hegelian philosophy: yea, it would perhaps be no
 exaggeration to say that, in the subordination of all strivings after
 education to reasons of State, Prussia has appropriated, with success,
 the principle and the useful heirloom of the Hegelian philosophy,
-whose apotheosis of the State in _this_ subordination certainly
+whose apotheosis of the State in this subordination certainly
 reaches its height."
 
 "But," said the philosopher's companion, "what purposes can the State
@@ -2156,7 +2180,7 @@ what is here called 'education'; and surrounding likewise the culture
 thus promoted, which subordinates itself to this purpose of the State.
 With the real German spirit and the education derived therefrom, such
 as I have slowly outlined for you, this purpose of the State is at
-war, hiddenly or openly: _the_ spirit of education, which is welcomed
+war, hiddenly or openly: the spirit of education, which is welcomed
 and encouraged with such interest by the State, and owing to which the
 schools of this country are so much admired abroad, must accordingly
 originate in a sphere that never comes into contact with this true
@@ -2183,13 +2207,13 @@ themselves--following the guiding star of the State!
 "A new phenomenon! The State as the guiding star of culture! In the
 meantime one thing consoles me: this German spirit, which people are
 combating so much, and for which they have substituted a gaudily
-attired _locum tenens_, this spirit is brave: it will fight and redeem
+attired locum tenens, this spirit is brave: it will fight and redeem
 itself into a purer age; noble, as it is now, and victorious, as it
 one day will be, it will always preserve in its mind a certain pitiful
 toleration of the State, if the latter, hard-pressed in the hour of
 extremity, secures such a pseudo-culture as its associate. For what,
 after all, do we know about the difficult task of governing men,
-_i.e._ to keep law, order, quietness, and peace among millions of
+i.e. to keep law, order, quietness, and peace among millions of
 boundlessly egoistical, unjust, unreasonable, dishonourable, envious,
 malignant, and hence very narrow-minded and perverse human beings; and
 thus to protect the few things that the State has conquered for itself
@@ -2209,7 +2233,7 @@ culture!'"
 
 FOURTH LECTURE.
 
-(_Delivered on the 5th of March 1872._)
+(Delivered on the 5th of March 1872.)
 
 
 LADIES AND GENTLEMEN,--Now that you have followed my tale up to this
@@ -2231,7 +2255,7 @@ evident that we have no educational institutions at all; but that we
 ought to have them. Our public schools--established, it would seem,
 for this high object--have either become the nurseries of a
 reprehensible culture which repels the true culture with profound
-hatred--_i.e._ a true, aristocratic culture, founded upon a few
+hatred--i.e. a true, aristocratic culture, founded upon a few
 carefully chosen minds; or they foster a micrological and sterile
 learning which, while it is far removed from culture, has at least
 this merit, that it avoids that reprehensible culture as well as the
@@ -2240,7 +2264,7 @@ attention to the strange corruption which must have entered into the
 heart of culture when the State thought itself capable of tyrannising
 over it and of attaining its ends through it; and further when the
 State, in conjunction with this culture, struggled against other
-hostile forces as well as against _the_ spirit which the philosopher
+hostile forces as well as against the spirit which the philosopher
 ventured to call the "true German spirit." This spirit, linked to the
 Greeks by the noblest ties, and shown by its past history to have been
 steadfast and courageous, pure and lofty in its aims, its faculties
@@ -2283,7 +2307,7 @@ illusory.
 "But even in this highest form of the ego, in the enhanced needs of
 such a distended and, as it were, collective individual, true culture
 is never touched upon; and if, for example, art is sought after, only
-its disseminating and stimulating actions come into prominence, _i.e._
+its disseminating and stimulating actions come into prominence, i.e.
 those which least give rise to pure and noble art, and most of all to
 low and degraded forms of it. For in all his efforts, however great
 and exceptional they seem to the onlooker, he never succeeds in
@@ -2387,9 +2411,9 @@ expressions 'real' and 'realism' to such a degree as to think them the
 contraries of mind and matter, and to interpret 'realism' as 'the road
 to knowledge, formation, and mastery of reality.'
 
-"I for my own part know of only two exact contraries: _institutions
+"I for my own part know of only two exact contraries: institutions
 for teaching culture and institutions for teaching how to succeed in
-life_. All our present institutions belong to the second class; but I
+life. All our present institutions belong to the second class; but I
 am speaking only of the first."
 
 About two hours went by while the philosophically-minded couple
@@ -2554,7 +2578,7 @@ production of immortal works. But now you call these the apexes of the
 intellectual pyramid: it would, however, seem that between the broad,
 heavily burdened foundation up to the highest of the free and
 unencumbered peaks there must be countless intermediate degrees, and
-that here we must apply the saying _natura non facit saltus_. Where
+that here we must apply the saying natura non facit saltus. Where
 then are we to look for the beginning of what you call culture; where
 is the line of demarcation to be drawn between the spheres which are
 ruled from below upwards and those which are ruled from above
@@ -2649,7 +2673,7 @@ sculptors--and not only in the case of gifts of the highest order--I
 everywhere see immaturity, overstrained nerves, or prematurely
 exhausted energies, abilities wasted and nipped in the bud; I
 everywhere feel that 'resistance of the stupid world,' in other words,
-_your_ guiltiness. That is what I am talking about when I speak of
+your guiltiness. That is what I am talking about when I speak of
 lacking educational establishments, and why I think those which at
 present claim the name in such a pitiful condition. Whoever is pleased
 to call this an 'ideal desire,' and refers to it as 'ideal' as if he
@@ -2692,7 +2716,7 @@ ourselves instructed, why should the three of us have contradicted him
 in such clumsy terms?
 
 For now we saw how thoughtless, unprepared, and baseless were all the
-objections we had made, and how greatly the echo of _the_ present was
+objections we had made, and how greatly the echo of the present was
 heard in them, the voice of which, in the province of culture, the old
 man would fain not have heard. Our objections, however, were not
 purely intellectual ones: our reasons for protesting against the
@@ -2763,7 +2787,7 @@ overwhelmed by the first huge crowd, to prevent their few select
 spirits from losing sight of their splendid and noble task through
 premature weariness, or from being turned aside from the true path,
 corrupted, or subverted. These select spirits must complete their
-work: that is the _raison d'etre_ of their common institution--a work,
+work: that is the raison d'etre of their common institution--a work,
 indeed, which, as it were, must be free from subjective traces, and
 must further rise above the transient events of future times as the
 pure reflection of the eternal and immutable essence of things. And
@@ -2804,7 +2828,7 @@ preparation for it. I have no doubt, either, that they took the first
 bold steps in the wonderful and stirring times of the Reformation, and
 that afterwards, in the era which gave birth to Schiller and Goethe,
 there was again a growing demand for culture, like the first
-protuberance of that wing spoken of by Plato in the _Phaedrus_, which,
+protuberance of that wing spoken of by Plato in the Phaedrus, which,
 at every contact with the beautiful, bears the soul aloft into the
 upper regions, the habitations of the gods."
 
@@ -2863,14 +2887,14 @@ the influence of Schopenhauer.--TR.
 
 [7] This prophecy has come true.--TR.
 
-[8] _Phaedrus_; Jowett's translation.
+[8] Phaedrus; Jowett's translation.
 
 
 
 
 FIFTH LECTURE.
 
-(_Delivered on the 23rd of March 1872._)
+(Delivered on the 23rd of March 1872.)
 
 
 LADIES AND GENTLEMEN,--If you have lent a sympathetic ear to what I
@@ -2948,7 +2972,7 @@ procession will have arrived here in less than half an hour."
 
 The philosopher jumped back. "What do you say?" he ejaculated, "your
 comrades from Bonn--students--can my friend have come here with
-_students_?"
+students?"
 
 This question, uttered almost wrathfully, provoked us. "What's your
 objection to students?" we demanded; but there was no answer. It was
@@ -2957,8 +2981,8 @@ addressing us directly, as it were, but rather some one in the
 distance: "So, my friend, even at midnight, even on the top of a
 lonely mountain, we shall not be alone; and you yourself are bringing
 a pack of mischief-making students along with you, although you well
-know that I am only too glad to get out of the way of _hoc genus
-omne_. I don't quite understand you, my friend: it must mean something
+know that I am only too glad to get out of the way of hoc genus
+omne. I don't quite understand you, my friend: it must mean something
 when we arrange to meet after a long separation at such an
 out-of-the-way place and at such an unusual hour. Why should we want a
 crowd of witnesses--and such witnesses! What calls us together to-day
@@ -3079,7 +3103,7 @@ We answer: 'By the ear, as a hearer.' The foreigner is astonished.
 'Only by the ear?' he repeats. 'Only by the ear,' we again reply. The
 student hears. When he speaks, when he sees, when he is in the company
 of his companions when he takes up some branch of art: in short, when
-he _lives_ he is independent, _i.e._ not dependent upon the
+he lives he is independent, i.e. not dependent upon the
 educational institution. The student very often writes down something
 while he hears; and it is only at these rare moments that he hangs to
 the umbilical cord of his alma mater. He himself may choose what he is
@@ -3101,7 +3125,7 @@ and this double independence is enthusiastically designated as
 still more, the one may speak what he likes and the other may hear
 what he likes; except that, behind both of them, at a modest distance,
 stands the State, with all the intentness of a supervisor, to remind
-the professors and students from time to time that _it_ is the aim,
+the professors and students from time to time that it is the aim,
 the goal, the be-all and end-all, of this curious speaking and hearing
 procedure.
 
@@ -3128,7 +3152,7 @@ independence! Do you clearly see, my good friends, why I, from the
 standpoint of culture, regard the present type of university as a mere
 appendage to the public school? The culture instilled by the public
 school passes through the gates of the university as something ready
-and entire, and with its own particular claims: _it_ demands, it gives
+and entire, and with its own particular claims: it demands, it gives
 laws, it sits in judgment. Do not, then, let yourselves be deceived in
 regard to the cultured student; for he, in so far as he thinks he has
 absorbed the blessings of education, is merely the public school boy
@@ -3177,7 +3201,7 @@ we can see such a naive recklessness in bringing the irrational to
 'rationality' and 'reason' and making black look like white, that one
 is even inclined to parody Hegel's phrase and ask: 'Is all this
 irrationality real?' Ah, it is only the irrational that now seems to
-be 'real,' _i.e._ really doing something; and to bring this kind of
+be 'real,' i.e. really doing something; and to bring this kind of
 reality forward for the elucidation of history is reckoned as true
 'historical culture.' It is into this that the philosophical impulse
 of our time has pupated itself; and the peculiar philosophers of our
@@ -3195,11 +3219,11 @@ philosophy like these that our students in philosophical seminaries
 are stimulated; whence I have long accustomed myself to regard such
 science as a mere ramification of philology, and to value its
 representatives in proportion as they are good or bad philologists. So
-it has come about that _philosophy itself_ is banished from the
+it has come about that philosophy itself is banished from the
 universities: wherewith our first question as to the value of our
 universities from the standpoint of culture is answered.
 
-"In what relationship these universities stand to _art_ cannot be
+"In what relationship these universities stand to art cannot be
 acknowledged without shame: in none at all. Of artistic thinking,
 learning, striving, and comparison, we do not find in them a single
 trace; and no one would seriously think that the voice of the
@@ -3240,8 +3264,8 @@ Greeks, the modern student is unsuited to and unprepared for
 philosophy, that he has no truly artistic instincts, and is merely a
 barbarian believing himself to be free, you will not on this account
 turn away from him in disgust, although you will, of course, avoid
-coming into too close proximity with him. For, as he now is, _he is
-not to blame_: as you have perceived him he is the dumb but terrible
+coming into too close proximity with him. For, as he now is, he is
+not to blame: as you have perceived him he is the dumb but terrible
 accuser of those who are to blame.
 
 "You should understand the secret language spoken by this guilty
@@ -3325,7 +3349,7 @@ do justice to our learned men, who pay untiring attention to, and even
 co-operate in the journalistic corruption of the people, how else than
 by the acknowledgment that their learning must fill a want of their
 own similar to that filled by novel-writing in the case of others:
-_i.e._ a flight from one's self, an ascetic extirpation of their
+i.e. a flight from one's self, an ascetic extirpation of their
 cultural impulses, a desperate attempt to annihilate their own
 individuality. From our degenerate literary art, as also from that
 itch for scribbling of our learned men which has now reached such
@@ -3365,7 +3389,7 @@ the people's looks in the direction of the high welkin of the German
 spirit. In all the annals of our universities we cannot find any trace
 of a second attempt, and he who would impressively demonstrate what is
 now necessary for us will never find a better example. I refer to the
-old, primitive _Burschenschaft_.[11]
+old, primitive Burschenschaft.[11]
 
 "When the war of liberation was over, the young student brought back
 home the unlooked-for and worthiest trophy of battle--the freedom of
@@ -3378,7 +3402,7 @@ barbarism, hiding itself in the guise of all kinds of scholasticism;
 he suddenly discovered that his own leaderless comrades were abandoned
 to a repulsive kind of youthful intoxication. And he was exasperated.
 He rose with the same aspect of proud indignation as Schiller may have
-had when reciting the _Robbers_ to his companions: and if he had
+had when reciting the Robbers to his companions: and if he had
 prefaced his drama with the picture of a lion, and the motto, 'in
 tyrannos,' his follower himself was that very lion preparing to
 spring; and every 'tyrant' began to tremble. Yes, if these indignant
@@ -3389,7 +3413,7 @@ compared with these new spirits. The consternation raised by these
 young men was indeed far more general than had ever been caused by
 those other 'robbers' in court circles, of which a German prince,
 according to Goethe, is said to have expressed the opinion: 'If he had
-been God, and had foreseen the appearance of the _Robbers_, he would
+been God, and had foreseen the appearance of the Robbers, he would
 not have created the world.'
 
 "Whence came the incomprehensible intensity of this alarm? For those
@@ -3408,7 +3432,7 @@ of this institution, that earnest, manly, stern, and daring German
 spirit; that spirit of the miner's son, Luther, which has come down to
 us unbroken from the time of the Reformation.
 
-"Think of the _fate_ of the Burschenschaft when I ask you, Did the
+"Think of the fate of the Burschenschaft when I ask you, Did the
 German university then understand that spirit, as even the German
 princes in their hatred appear to have understood it? Did the alma
 mater boldly and resolutely throw her protecting arms round her noble
@@ -3463,14 +3487,14 @@ divine only by means of a simile.
 "Have you ever, at a musical rehearsal, looked at the strange,
 shrivelled-up, good-natured species of men who usually form the German
 orchestra? What changes and fluctuations we see in that capricious
-goddess 'form'! What noses and ears, what clumsy, _danse macabre_
+goddess 'form'! What noses and ears, what clumsy, danse macabre
 movements! Just imagine for a moment that you were deaf, and had never
 dreamed of the existence of sound or music, and that you were looking
 upon the orchestra as a company of actors, and trying to enjoy their
 performance as a drama and nothing more. Undisturbed by the idealising
 effect of the sound, you could never see enough of the stern,
 medieval, wood-cutting movement of this comical spectacle, this
-harmonious parody on the _homo sapiens_.
+harmonious parody on the homo sapiens.
 
 "Now, on the other hand, assume that your musical sense has returned,
 and that your ears are opened. Look at the honest conductor at the
@@ -3520,9 +3544,7 @@ intellectual lawlessness.--TR.
 [10] Hegel's.--TR.
 
 [11] A German students' association, of liberal principles, founded
-for patriotic purposes at Jena in 1813.
-
-[12] Weber set one or two of Koerner's "Lyre and Sword" songs to music.
+for patriotic purposes at Jena in 1813. [12] Weber set one or two of Koerner's "Lyre and Sword" songs to music.
 The reader will remember that these lectures were delivered when
 Nietzsche was only in his twenty-eighth year. Like Goethe, he
 afterwards freed himself from all patriotic trammels and prejudices,
@@ -3530,6 +3552,18 @@ and aimed at a general European culture. Luther, Schiller, Kant,
 Koerner, and Weber did not continue to be the objects of his veneration
 for long, indeed, they were afterwards violently attacked by him, and
 the superficial student who speaks of inconsistency may be reminded of
-Nietzsche's phrase in stanza 12 of the epilogue to _Beyond Good and
-Evil_: "Nur wer sich wandelt, bleibt mit mir verwandt"; _i.e._ only
+Nietzsche's phrase in stanza 12 of the epilogue to Beyond Good and
+Evil: "Nur wer sich wandelt, bleibt mit mir verwandt"; i.e. only
 the changing ones have anything in common with me.--TR.
+
+       *       *       *       *       *
+
+    +-----------------------------------------------------------+
+    | Typographical errors corrected in text:                   |
+    |                                                           |
+    | Page 124: neigbourhood replaced with neighbourhood        |
+    | Page 130: universites replaced by universities            |
+    |                                                           |
+    +-----------------------------------------------------------+
+
+       *       *       *       *       *

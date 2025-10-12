@@ -1,6 +1,6 @@
-﻿ECCE HOMO
+ECCE HOMO
 
-(_NIETZSCHES AUTOBIOGRAPHY_)
+(NIETZSCHES AUTOBIOGRAPHY)
 
 BY
 
@@ -9,16 +9,13 @@ FRIEDRICH NIETZSCHE
 
 TRANSLATED BY
 
-ANTHONY M. LUDOVICI
-
-
-POETRY RENDERED BY
+ANTHONY M. LUDOVICI POETRY RENDERED BY
 
 PAUL V. COHN -- FRANCIS BICKLEY
 
 HERMAN SCHEFFAUER -- DR. G. T. WRENCH
 
-HYMN TO LIFE (_composed by F. NIETZSCHE_)
+HYMN TO LIFE (composed by F. NIETZSCHE)
 
 
 The Complete Works of Friedrich Nietzsche
@@ -35,12 +32,7 @@ T.N. FOULIS
 
 EDINBURGH: AND LONDON
 
-1911
-
-
-
-
-CONTENTS
+1911 CONTENTS
 
 
 TRANSLATOR'S INTRODUCTION
@@ -72,23 +64,23 @@ HYMN TO LIFE, COMPOSED BY F. NIETZSCHE
 TRANSLATOR'S INTRODUCTION
 
 
-_Ecce Homo_ is the last prose work that Nietzsche wrote. It is true
-that the pamphlet _Nietzsche contra Wagner_ was prepared a month
+Ecce Homo is the last prose work that Nietzsche wrote. It is true
+that the pamphlet Nietzsche contra Wagner was prepared a month
 later than the Autobiography; but we cannot consider this pamphlet as
 anything more than a compilation, seeing that it consists entirely of
-aphorisms drawn from such previous works as _Joyful Wisdom, Beyond
-Good and Evil, The Genealogy of Morals,_ etc. Coming at the end of a
-year in which he had produced the _Case of Wagner, The Twilight of the
-Idols,_ and _The Antichrist, Ecce Homo_ is not only a coping-stone
+aphorisms drawn from such previous works as Joyful Wisdom, Beyond
+Good and Evil, The Genealogy of Morals, etc. Coming at the end of a
+year in which he had produced the Case of Wagner, The Twilight of the
+Idols, and The Antichrist, Ecce Homo is not only a coping-stone
 worthy of the wonderful creations of that year, but also a fitting
 conclusion to his whole life, in the form of a grand summing up of his
 character as a man, his purpose as a reformer, and his achievement
 as a thinker. As if half conscious of his approaching spiritual end,
 Nietzsche here bids his friends farewell, just in the manner in which,
-in the _Twilight of the Idols_ (Aph. 36, Part ix.), he declares that
+in the Twilight of the Idols (Aph. 36, Part ix.), he declares that
 every one should be able to take leave of his circle of relatives and
 intimates when his time seems to have come--that is to say, while he
-is still _himself_ while he still knows what he is about, and is able
+is still himself while he still knows what he is about, and is able
 to measure his own life and life in general, and speak of both in a
 manner which is not vouchsafed to the groaning invalid, to the man
 lying on his back, decrepit and exhausted, or to the moribund victim
@@ -119,7 +111,7 @@ as modest citizens; or humble Christians. If, however, they demand a
 like modesty on the part of the truly great; if they raise their voices
 against Nietzsche's lack of the very virtue they so abundantly possess
 or pretend to possess, it is time to remind them of Goethe's famous
-remark: "_Nur Lumpe sind bescheiden_" (Only nobodies are ever modest).
+remark: "Nur Lumpe sind bescheiden" (Only nobodies are ever modest).
 
 It took Nietzsche barely three weeks to write this story of his life.
 Begun on the 15th of October 1888, his four-and-fourtieth birthday,
@@ -131,13 +123,13 @@ years after Nietzsche's death. In a letter dated the 27th of December
 the object of the work to be to dispose of all discussion, doubt, and
 inquiry concerning his own personality, in order to leave the public
 mind free to consider merely "the things for the sake of which he
-existed" ("_die Dinge, derentwegen ich da bin_"). And, true to his
+existed" ("die Dinge, derentwegen ich da bin"). And, true to his
 intention, Nietzsche's honesty in these pages is certainly one of
 the most remarkable features about them. From the first chapter, in
 which he frankly acknowledges the decadent elements within him, to
 the last page, whereon he characterises his mission, his life-task,
-and his achievement, by means of the one symbol, _Dionysus_ versus
-_Christ,_--everything comes straight from the shoulder, without
+and his achievement, by means of the one symbol, Dionysus versus
+Christ,--everything comes straight from the shoulder, without
 hesitation, without fear of consequences, and, above all, without
 concealment. Only in one place does he appear to conceal something, and
 then he actually leads one to understand that he is doing so. It is in
@@ -151,7 +143,7 @@ work of the year 1888 to his breakdown at the beginning of 1889, and
 to argue that in all its main features it foretells the catastrophe
 that is imminent, seems a little too plausible, a little too obvious
 and simple to require refutation. That Nietzsche really was in a state
-which in medicine is known as _euphoria_--that is to say, that state
+which in medicine is known as euphoria--that is to say, that state
 of highest well-being and capacity which often precedes a complete
 breakdown, cannot, I suppose, be questioned; for his style, his
 penetrating vision, and his vigour, reach their zenith in the works
@@ -190,7 +182,7 @@ we find in these pages? Is it the old countenance with which we are
 familiar, or are the features distorted, awry, disfigured? What will
 the answer be? Obviously there is no new or even deformed Nietzsche
 here, because he is still faithful to the position which he assumed
-in _Thus spake Zarathustra,_ five years previously, and is perfectly
+in Thus spake Zarathustra, five years previously, and is perfectly
 conscious of this fidelity (see p. 141); neither can he be even on the
 verge of any marked change, because the whole of the third chapter,
 in which he reviews his life-work, is simply a reiteration and a
@@ -199,8 +191,8 @@ more telling by additional arguments suggested, no doubt, by maturer
 thought. In fact, if anything at all is new in this work, it is its
 cool certainty, its severe deliberateness, and its extraordinarily
 incisive vision, as shown, for instance, in the summing up of the
-genuine import of the third and fourth essays in the _Thoughts out of
-Season_ (pp. 75-76, 80, 81, 82), a summing up which a most critical
+genuine import of the third and fourth essays in the Thoughts out of
+Season (pp. 75-76, 80, 81, 82), a summing up which a most critical
 analysis of the essays in question can but verify. Romanticism,
 idealism, Christianity, are still scorned and despised; another
 outlook, a nobler, braver, and more earthly outlook, is still upheld
@@ -226,7 +218,7 @@ with Fate, for whom recognition, in the persons of Brandes, Taine, and
 Strindberg, had come all too late, and whom even support, sympathy, and
 help, arriving as it did at last, through Deussen and from Madame de
 Salis Marschlins, could no longer cheer or comfort,--this was the man
-who was able notwithstanding to inscribe the device _amor fati_ upon
+who was able notwithstanding to inscribe the device amor fati upon
 his shield on the very eve of his final collapse as a victim of the
 unspeakable suffering he had endured.
 
@@ -239,7 +231,7 @@ problems. We happen to know from another artist and profound thinker,
 Benjamin Disraeli, who himself had experienced a dangerous breakdown,
 what the consequences precisely are of indulging in excessive activity
 in the sphere of the spirit, more particularly when that spirit is
-highly organised. Disraeli says in _Contarini Fleming_ (Part iv. chap.
+highly organised. Disraeli says in Contarini Fleming (Part iv. chap.
 v.):--
 
     "I have sometimes half believed, although the suspicion is
@@ -254,7 +246,7 @@ And artists are the proper judges of artists,--not Oxford Dons, like
 Dr. Schiller, who, in his imprudent attempt at dealing with something
 for which his pragmatic hands are not sufficiently delicate, eagerly
 av-ails himself of popular help in his article on Nietzsche in the
-eleventh edition of the _Encyclopedia Britannica,_ and implies the
+eleventh edition of the Encyclopedia Britannica, and implies the
 hackneyed and wholly exploded belief that Nietzsche's philosophy is
 madness in the making. As German philosophies, however, are said to
 go to Oxford only when they die, we may, perhaps, conclude from this
@@ -280,19 +272,12 @@ pontifical pride and surging self-reliance, with undue haste, or with
 that arrogant assurance with which the ignorance of "the humble" and
 "the modest" has always confronted everything truly great.
 
-ANTHONY M. LUDOVICI.
+ANTHONY M. LUDOVICI. PREFACE
 
 
-
-
-PREFACE
-
-
-1
-
-As it is my intention within a very short time to confront my
+1 As it is my intention within a very short time to confront my
 fellow-men with the very greatest demand that has ever yet been made
-upon them, it seems to me _above_ all necessary to declare here who
+upon them, it seems to me above all necessary to declare here who
 and what I am. As a matter of fact, this ought to be pretty well
 known already, for I have not "held my tongue" about myself. But
 the disparity which obtains between the greatness of my task and the
@@ -301,16 +286,14 @@ have neither heard me nor yet seen me. I live on my own self-made
 credit, and it is probably only a prejudice to suppose that I am alive
 at all. I do but require to speak to any one of the scholars who come
 to the Ober-Engadine in the summer in order to convince myself that I
-am _not_ alive.... Under these circumstances, it is a duty--and one
+am not alive.... Under these circumstances, it is a duty--and one
 against which my customary reserve, and to a still greater degree the
-pride of my instincts, rebel--to say: _Listen! for I am such and such a
-person. For Heaven's sake do not confound me with any one else!_
+pride of my instincts, rebel--to say: Listen! for I am such and such a
+person. For Heaven's sake do not confound me with any one else!
 
 
 
-2
-
-I am, for instance, in no wise a bogey man, or moral monster. On the
+2 I am, for instance, in no wise a bogey man, or moral monster. On the
 contrary, I am the very opposite in nature to the kind of man that
 has been honoured hitherto as virtuous. Between ourselves, it seems
 to me that this is precisely a matter on which I may feel proud. I
@@ -327,17 +310,15 @@ is the name I give to all ideals) is much more like my business. In
 proportion as an ideal world has been falsely assumed, reality has been
 robbed of its value, its meaning, and its truthfulness.... The "true
 world" and the "apparent world"--in plain English, the fictitious world
-and reality.... Hitherto the _lie_ of the ideal has been the curse of
+and reality.... Hitherto the lie of the ideal has been the curse of
 reality; by means of it the very source of mankind's instincts has
 become mendacious and false; so much so that those values have come to
-be worshipped which are the exact _opposite_ of the ones which would
+be worshipped which are the exact opposite of the ones which would
 ensure man's prosperity, his future, and his great right to a future.
 
 
 
-3
-
-He who knows how to breathe in the air of my writings is conscious
+3 He who knows how to breathe in the air of my writings is conscious
 that it is the air of the heights, that it is bracing. A man must be
 built for it, otherwise the chances are that it will chill him. The
 ice is near, the loneliness is terrible--but how serenely everything
@@ -356,16 +337,14 @@ me ever more and more the actual test of values. Error (the belief in
 the ideal) is not blindness; error is cowardice.... Every conquest,
 every step forward in knowledge, is the outcome of courage, of hardness
 towards one's self, of cleanliness towards one's self. I do not refute
-ideals; all I do is to draw on my gloves in their presence.... _Nitimur
-in vetitum;_ with this device my philosophy will one day be victorious;
+ideals; all I do is to draw on my gloves in their presence.... Nitimur
+in vetitum; with this device my philosophy will one day be victorious;
 for that which has hitherto been most stringently forbidden is, without
 exception, Truth.
 
 
 
-4
-
-In my lifework, my _Zarathustra_ holds a place apart. With it, I gave
+4 In my lifework, my Zarathustra holds a place apart. With it, I gave
 my fellow-men the greatest gift that has ever been bestowed upon them.
 This book, the voice of which speaks out across the ages, is not only
 the loftiest book on earth, literally the book of mountain air,--the
@@ -398,7 +377,7 @@ well of joy, drop by drop, my words fall out--a slow and gentle gait
 is the cadence of these discourses. Such things can reach only the
 most elect; it is a rare privilege to be a listener here; not every
 one who likes can have ears to hear Zarathustra. Is not Zarathustra,
-because of these things, a _seducer?_ ... But what, indeed, does he
+because of these things, a seducer? ... But what, indeed, does he
 himself say, when for the first time he goes back to his solitude? Just
 the reverse of that which any "Sage," "Saint," "Saviour of the world,"
 and other decadent would say.... Not only his words, but he himself is
@@ -439,12 +418,12 @@ On this perfect day, when everything is ripening, and not only the
 grapes are getting brown, a ray of sunshine has fallen on my life: I
 looked behind me, I looked before me, and never have I seen so many
 good things all at once. Not in vain have I buried my four-and-fortieth
-year to-day; I had the _right_ to bury it--that in it which still
+year to-day; I had the right to bury it--that in it which still
 had life, has been saved and is immortal. The first book of the
-_Transvaluation of all Values, The Songs of Zarathustra, The Twilight
-of the Idols,_ my attempt, to philosophise with the hammer--all these
-things are the gift of this year, and even of its last quarter. _How
-could I help being thankful to the whole of my life?_
+Transvaluation of all Values, The Songs of Zarathustra, The Twilight
+of the Idols, my attempt, to philosophise with the hammer--all these
+things are the gift of this year, and even of its last quarter. How
+could I help being thankful to the whole of my life?
 
 That is why I am now going to tell myself the story of my life.
 
@@ -463,10 +442,7 @@ WHY I AM SO WISE
 
 
 
-1
-
-
-The happiness of my existence, its unique character perhaps, consists
+1 The happiness of my existence, its unique character perhaps, consists
 in its fatefulness: to speak in a riddle, as my own father I am already
 dead, as my own mother I still live and grow old. This double origin,
 taken as it were from the highest and lowest rungs of the ladder of
@@ -485,11 +461,11 @@ could distinguish nothing that lay three paces away from me. At that
 time--it was the year 1879--I resigned my professorship at Bâle, lived
 through the summer like a shadow in St. Moritz, and spent the following
 winter, the most sunless of my life, like a shadow in Naumburg. This
-was my lowest ebb. During this period I wrote _The Wanderer and His
-Shadow._ Without a doubt I was conversant with shadows then. The winter
+was my lowest ebb. During this period I wrote The Wanderer and His
+Shadow. Without a doubt I was conversant with shadows then. The winter
 that followed, my first winter in Genoa, brought forth that sweetness
 and spirituality which is almost inseparable from extreme poverty
-of blood and muscle, in the shape of _The Dawn of Day,_ The perfect
+of blood and muscle, in the shape of The Dawn of Day, The perfect
 lucidity and cheerfulness, the intellectual exuberance even, that this
 work reflects, coincides, in my case, not only with the most profound
 physiological weakness, but also with an excess of suffering. In the
@@ -528,14 +504,11 @@ laden and self-reliant with the richness of life--this has been my
 longest exercise, my principal experience. If in anything at all, it
 was in this that I became a master. To-day my hand knows the trick, I
 now have the knack of reversing perspectives: the first reason perhaps
-why a _Transvaluation of all Values_ has been possible to me alone.
+why a Transvaluation of all Values has been possible to me alone.
 
 
 
-2
-
-
-For, apart from the fact that I am a decadent, I am also the reverse of
+2 For, apart from the fact that I am a decadent, I am also the reverse of
 such a creature. Among other things my proof of this is, that I always
 instinctively select the proper remedy when my spiritual or bodily
 health is low; whereas the decadent, as such, invariably chooses those
@@ -583,10 +556,7 @@ described is none other than myself.
 
 
 
-3
-
-
-This double thread of experiences, this means of access to two worlds
+3 This double thread of experiences, this means of access to two worlds
 that seem so far asunder, finds in every detail its counterpart in my
 own nature--I am my own complement: I have a "second" sight, as well
 as a first. And perhaps I also have a third sight. By the very nature
@@ -596,7 +566,7 @@ a "good European." On the other hand, I am perhaps more German than
 modern Germans--mere Imperial Germans--can hope to be,--I, the last
 anti-political German. Be this as it may, my ancestors were Polish
 noblemen: it is owing to them that I have so much race instinct in my
-blood--who knows? perhaps even the _liberum veto_[1] When I think of
+blood--who knows? perhaps even the liberum veto[1] When I think of
 the number of times in my travels that I have been accosted as a Pole,
 even by Poles themselves, and how seldom I have been taken for a German,
 it seems to me as if I belonged to those only who have a sprinkling
@@ -632,23 +602,20 @@ intention, but merely a little patience, in order involuntarily to
 enter a world of higher and more delicate things. There I am at home,
 there alone does my inmost passion become free. The fact that I had
 to pay for this privilege almost with my life, certainly does not
-make it a bad bargain. In order to understand even a little of _my
-Zarathustra,_ perhaps a man must be situated and constituted very much
+make it a bad bargain. In order to understand even a little of my
+Zarathustra, perhaps a man must be situated and constituted very much
 as I am myself--with one foot beyond the realm of the living.
 
 
 
-4
-
-
-I have never understood the art of arousing ill-feeling against
+4 I have never understood the art of arousing ill-feeling against
 myself,--this is also something for which I have to thank my
 incomparable father,--even when it seemed to me highly desirable
 to do so. However un-Christian it may seem, I do not even bear any
 ill-feeling towards myself. Turn my life about as you may, you will
 find but seldom--perhaps indeed only once--any trace of some one's
 having shown me ill-will. You might perhaps discover, however, too
-many traces of _goodwill...._ My experiences even with those on whom
+many traces of goodwill.... My experiences even with those on whom
 every other man has burnt his fingers, speak without exception in their
 favour; I tame every bear, I can make even clowns behave decently.
 During the seven years in which I taught Greek to the sixth form of
@@ -664,7 +631,7 @@ beautiful things.... This was said to me most delightfully perhaps by
 that young fellow Heinrich von Stein, who died at such an unpardonably
 early age, and who, after having considerately asked leave to do
 so, once appeared in Sils-Maria for a three days' sojourn, telling
-everybody there that it was _not_ for the Engadine that he had come.
+everybody there that it was not for the Engadine that he had come.
 This excellent person, who with all the impetuous simplicity of a
 young Prussian nobleman, had waded deep into the swamp of Wagnerism
 (and into that of Dübringism[2] into the bargain!), seemed almost
@@ -677,12 +644,12 @@ I have been the victim of many a small or even great offence, it was
 not "will," and least of all ill-will that actuated the offenders; but
 rather, as I have already suggested, it was goodwill, the cause of no
 small amount of mischief in f my life, about which I had to complain.
-_My_ experience gave me a right to feel suspicious in regard to all
+My experience gave me a right to feel suspicious in regard to all
 so-called "unselfish" instincts, in regard to the whole of "neighbourly
 love" which is ever ready and waiting with deeds or with advice. To
 me it seems that these instincts are a sign of weakness, they are an
 example of the inability to withstand a stimulus--it is only among
-decadents that this _pity_ is called a virtue. What I reproach the
+decadents that this pity is called a virtue. What I reproach the
 pitiful with is, that they are too ready to forget shame, reverence,
 and the delicacy of feeling which knows how to keep at a distance; they
 do not remember that this gushing pity stinks of the mob, and that it
@@ -701,17 +668,14 @@ has to undergo--the actual proof of his power.
 
 
 
-5
-
-
-In yet another respect I am no more than my father over again, and as
+5 In yet another respect I am no more than my father over again, and as
 it were the continuation of his life after an all-too-early death.
 Like every man who has never been able to meet his equal, and unto
 whom the concept "retaliation" is just as incomprehensible as the
 notion of "equal rights," I have forbidden myself the use of any sort
 of measure of security or protection--and also, of course, of defence
 and "justification"--in all cases in which I have been made the victim
-either of trifling or even _very great_ foolishness. My form of
+either of trifling or even very great foolishness. My form of
 retaliation consists in this: as soon as possible to set a piece of
 cleverness at the heels of an act of stupidity; by this means perhaps
 it may still be possible to overtake it. To speak in a parable: I
@@ -719,26 +683,23 @@ dispatch a pot of jam in order to get rid of a bitter experience....
 Let anybody only give me offence, I shall "retaliate," he can be quite
 sure of that: before long I discover an opportunity of expressing my
 thanks to the "offender" (among other things even for the offence)--or
-of _asking_ him for something, which can be more courteous even than
+of asking him for something, which can be more courteous even than
 giving. It also seems to me that the rudest word, the rudest letter,
 is more good-natured, more straightforward, than silence. Those--who
 keep silent are almost always lacking in subtlety and refinement of
 heart; silence is an objection, to swallow a grievance must necessarily
 produce a bad temper--it even upsets the stomach. All silent people
 are dyspeptic. You perceive that I should not like to see rudeness
-undervalued; it is by far the most _humane_ form of contradiction, and,
+undervalued; it is by far the most humane form of contradiction, and,
 in the midst of modern effeminacy, it is one of our first virtues; If
 one is sufficiently rich for it, it may even be a joy to be wrong. If
 a god were to descend to this earth, he would have to do nothing but
-wrong--to take _guilt_ not punishment, on one's shoulders, is the first
+wrong--to take guilt not punishment, on one's shoulders, is the first
 proof of divinity.
 
 
 
-6
-
-
-Freedom from resentment and the understanding of the nature of
+6 Freedom from resentment and the understanding of the nature of
 resentment--who knows how very much after all I am indebted to my long
 illness for these two things? The problem is not exactly simple: a
 man must have experienced both through his strength and through his
@@ -750,7 +711,7 @@ terms with anything, and how to cast anything behind him. Everything
 wounds him. People and things draw importunately near, all experiences
 strike deep, memory is a gathering wound. To be ill is a sort of
 resentment in itself. Against this resentment the invalid has only
-one great remedy--I call it _Russian fatalism,_ that fatalism which
+one great remedy--I call it Russian fatalism, that fatalism which
 is free from revolt, and with which the Russian soldier, to whom a
 campaign proves unbearable, ultimately lays himself down in the snow.
 To accept nothing more, to undertake nothing more, to absorb nothing
@@ -770,7 +731,7 @@ most injurious manner of reacting which could possibly be conceived by
 exhausted men. It involves a rapid wasting away of nervous energy, an
 abnormal increase of detrimental secretions, as, for instance, that
 of bile into the stomach. To the sick man resentment ought to be more
-strictly forbidden than anything else--it is _his_ special danger:
+strictly forbidden than anything else--it is his special danger:
 unfortunately, however, it is also his most natural propensity. This
 was fully grasped by that profound physiologist Buddha. His "religion,"
 which it would be better to call a system of hygiene, in order to avoid
@@ -793,7 +754,7 @@ my practical instincts precisely in this matter. In my moments of
 decadence I forbade myself the indulgence of the above feelings,
 because they were harmful; as soon as my life recovered enough riches
 and pride, however, I regarded them again as forbidden, but this time
-because they were _beneath_ me. That "Russian fatalism" of which I have
+because they were beneath me. That "Russian fatalism" of which I have
 spoken manifested itself in me in such a way that for years I held
 tenaciously to almost insufferable conditions, places, habitations,
 and companions, once chance had placed them on my path--it was better
@@ -806,12 +767,9 @@ self "different"--this, in such circumstances, is sagacity, itself.
 
 
 
-7
-
-
-War, on the other hand, is something different. At heart I am a
-warrior. Attacking belongs to my instincts. To _be able to be_ an
-enemy, to _be_ an enemy--maybe these things presuppose a strong nature;
+7 War, on the other hand, is something different. At heart I am a
+warrior. Attacking belongs to my instincts. To be able to be an
+enemy, to be an enemy--maybe these things presuppose a strong nature;
 in any case all strong natures involve these things. Such natures need
 resistance, consequently they go in search of obstacles: the pathos of
 aggression belongs of necessity to strength as much as the feelings
@@ -827,13 +785,13 @@ whom one has to summon all one's strength, one's skill, and one's
 swordsmanship--in fact, opponents who are one's equals.... To be one's
 enemy's equal--this is the first condition of an honourable duel. Where
 one despises, one cannot wage war. Where one commands, where one sees
-something _beneath_ one, one _ought_ not to wage war. My war tactics
+something beneath one, one ought not to wage war. My war tactics
 can be reduced to four principles A First, I attack only things that
 are triumphant--if necessary I wait until they become triumphant.
 Secondly, I attack only those things against which I find no allies,
 against which I stand alone--against which I compromise nobody but
 myself.... I have not yet taken one single step before the public eye,
-which did not compromise me: that is _my_ criterion of a proper mode
+which did not compromise me: that is my criterion of a proper mode
 of action. Thirdly, I never make personal attacks--I use a personality
 merely as a magnifying-glass, by means of which I render a general,
 but elusive and scarcely noticeable evil, more apparent. In this way I
@@ -847,7 +805,7 @@ which any such thing as a background of disagreeable experiences is
 lacking. On the contrary, attacking is to me a proof of goodwill and,
 in certain circumstances, of gratitude. By means of it, I do honour to
 a thing, I distinguish a thing; whether I associate my name with that
-of an institution or a person, by being _against_ or _for_ either,
+of an institution or a person, by being against or for either,
 is all the same to me. If I wage war against Christianity, I feel
 justified in doing so, because in that quarter I have met with no fatal
 experiences and difficulties--the most earnest Christians have always
@@ -878,7 +836,7 @@ humanity does not consist in the fact that I understand the feelings
 of my fellows, but that I can endure to understand.... My humanity
 is a perpetual process of self-mastery. But I need solitude--that is
 to say, recovery, return to myself, the breathing of free, crisp,
-bracing air.... The whole of my _Zarathustra_ is a dithyramb in honour
+bracing air.... The whole of my Zarathustra is a dithyramb in honour
 of solitude, or, if I have been understood, in honour of purity. Thank
 Heaven, it is not in honour of "pure foolery"![3] He who has an eye for
 colour will call him a diamond. The loathing of mankind, of the rabble,
@@ -945,15 +903,15 @@ spitting against the wind!'"
 
 [Footnote 1: The right which every Polish deputy, whether a great or an
 inferior nobleman, possessed of forbidding the passing of any measure
-by the Diet, was called in Poland the _liberum veto_ (in Polish _nie
-pozwalam_), and brought all legislation to a standstill.--TR.]
+by the Diet, was called in Poland the liberum veto (in Polish nie
+pozwalam), and brought all legislation to a standstill.--TR.]
 
 [Footnote 2: Eugen Dübring is a philosopher and political economist
 whose general doctrine might be characterised as a sort of abstract
 Materialism with an optimistic colouring.--TR.]
 
-[Footnote 3: This, of course, is a reference to Wagner's _Parsifal._
-See my note on p. 96 of _The Will to Power_ vol. i.--TR.]
+[Footnote 3: This, of course, is a reference to Wagner's Parsifal.
+See my note on p. 96 of The Will to Power vol. i.--TR.]
 
 
 
@@ -962,10 +920,7 @@ WHY I AM SO CLEVER
 
 
 
-1
-
-
-Why do I know more things than other people? Why, in fact, am I so
+1 Why do I know more things than other people? Why, in fact, am I so
 clever? I have never pondered over questions that are not questions. I
 have never squandered my strength. Of actual religious difficulties,
 for instance, I have no experience. I have never known what it is to
@@ -982,24 +937,24 @@ failed should be honoured all the more jealously, precisely because
 it has failed--this is much more in keeping with my morality.--"God,"
 "the immortality of the soul," "salvation," a "beyond"--to all these
 notions, even as a child, I never paid any attention whatsoever, nor
-did I waste any time upon them,--maybe I was never _naif_ enough for
+did I waste any time upon them,--maybe I was never naif enough for
 that?--I am quite unacquainted with atheism as a result, and still
 less as an event in my life: in me it is inborn, instinctive. I am
 too inquisitive, too incredulous, too high spirited, to be satisfied
 with such a palpably clumsy solution of things. God is a too palpably
 clumsy solution of things; a solution which shows a lack of delicacy
 towards us thinkers--at bottom He is really no more than a coarse
-and rude _prohibition_ of us: ye shall not think!... I am much more
+and rude prohibition of us: ye shall not think!... I am much more
 interested in another question,--a question upon which the "salvation
 of humanity" depends to a far greater degree than it does upon any
 piece of theological curiosity: I refer to nutrition. For ordinary
-purposes, it may be formulated as follows: "How precisely must _thou_
-feed thyself in order to attain to thy maximum of power, or _virtù_
+purposes, it may be formulated as follows: "How precisely must thou
+feed thyself in order to attain to thy maximum of power, or virtù
 in the Renaissance style,--of virtue free from moralic acid?" My
 experiences in regard to this matter have been as bad as they possibly
 could be; I am surprised that I set myself this question so late in
 life, and that it took me so long to draw "rational" conclusions
-from my experiences. Only the absolute worth-_1_ lessness of German
+from my experiences. Only the absolute worth-1 lessness of German
 culture--its "idealism"--can to some extent explain how it was that
 precisely in this matter I was so backward that my ignorance was almost
 saintly. This "culture," which from first to last teaches one to lose
@@ -1017,11 +972,11 @@ stomach by absorbing insufficient nourishment--this problem seemed to
 my mind solved with admirable felicity by the above-mentioned cookery.
 (It is said that in the year 1866 changes were introduced into this
 department.) But as to German cookery in general--what has it not got
-on its conscience! Soup _before_ the meal (still called _alla tedesca_
+on its conscience! Soup before the meal (still called alla tedesca
 in the Venetian cookery books of the sixteenth century); meat boiled
 to shreds, vegetables cooked with fat and flour; the degeneration of
 pastries into paper-weights! And, if you add thereto the absolutely
-bestial post-prandial drinking habits of the _ancients,_ and not alone
+bestial post-prandial drinking habits of the ancients, and not alone
 of the ancient Germans, you will understand where German intellect
 took its origin--that is to say, in sadly disordered intestines....
 German intellect is indigestion; it can assimilate nothing. But even
@@ -1053,10 +1008,10 @@ dignified Pforta. Later on, towards the middle of my life, I grew more
 and more opposed to alcoholic drinks: I, an opponent of vegetarianism,
 who have experienced what vegetarianism is,--just as Wagner, who
 converted me back to meat, experienced it,--cannot with sufficient
-earnestness advise all more _spiritual_ natures to abstain absolutely
+earnestness advise all more spiritual natures to abstain absolutely
 from alcohol. Water answers the purpose.... I have a predilection in
 favour of those places where in all directions one has opportunities
-of drinking from running brooks (Nice, Turin, Sils). _In vino Veritas_:
+of drinking from running brooks (Nice, Turin, Sils). In vino Veritas:
 it seems that here once more I am at variance with the rest of the
 world about the concept "Truth"--with me spirit moves on the face of
 the waters.... Here are a few more indications as to my morality. A
@@ -1082,10 +1037,7 @@ the real sin against the Holy Spirit.
 
 
 
-2.
-
-
-To the question of nutrition, that of locality and climate is next of
+2. To the question of nutrition, that of locality and climate is next of
 kin. Nobody is so constituted as to be able to live everywhere and
 anywhere; and he who has great duties to perform, which lay claim
 to all his strength, has, in this respect, a very limited choice.
@@ -1151,26 +1103,23 @@ state of "disinterestedness," a forgetting of one's distance from
 others--something, in short, for which I can never forgive myself.
 When I had well-nigh reached the end of my tether, simply because I
 had almost reached my end, I began to reflect upon the fundamental
-absurdity of my life--"Idealism." It was _illness_ that first brought
+absurdity of my life--"Idealism." It was illness that first brought
 me to reason.
 
 
 
-3
-
-
-After the choice of nutrition, the choice of climate and locality, the
+3 After the choice of nutrition, the choice of climate and locality, the
 third matter concerning which one must not on any account make a
-blunder, is the choice of the manner in which one _recuperates one's
-strength._ Here, again, according to the extent to which a spirit is
-_sui generis,_ the limits of that which he can allow himself--in other
+blunder, is the choice of the manner in which one recuperates one's
+strength. Here, again, according to the extent to which a spirit is
+sui generis, the limits of that which he can allow himself--in other
 words, the limits of that which is beneficial to him--become more and
-more confined. As far as I in particular am concerned, _reading_ in
+more confined. As far as I in particular am concerned, reading in
 general belongs to my means of recuperation; consequently it belongs
 to that which rids me of myself, to that which enables me to wander
 in strange sciences and strange souls--to that, in fact, about which
 I am no longer in earnest. Indeed, it is while reading that I recover
-from _my_ earnestness. During the time that I am deeply absorbed in
+from my earnestness. During the time that I am deeply absorbed in
 my work, no books are found within my reach; it would never occur
 to me to allow any one to speak or even to think in my presence.
 For that is what reading would mean.... Has any one ever actually
@@ -1187,14 +1136,14 @@ ye delightful, intellectual, intelligent books! Shall I read German
 books?... I must go back six months to catch myself with a book in
 my hand. What was it? An excellent study by Victor Brochard upon the
 Greek sceptics, in which my Laertiana[1] was used to advantage. The
-sceptics!--the only _honourable_ types among that double-faced and
+sceptics!--the only honourable types among that double-faced and
 sometimes quintuple-faced throng, the philosophers!.... Otherwise I
 almost always take refuge in the same books: altogether their number
 is small; they are books which are precisely my proper fare. It is
 not perhaps in my nature to read much, and of all sorts: a library
 makes me ill. Neither is it my nature to love much or many kinds of
 things. Suspicion or even hostility towards new books is much more
-akin to my instinctive feeling than "toleration," _largeur de cœur,_
+akin to my instinctive feeling than "toleration," largeur de cœur,
 and other forms of "neighbour-love." ... It is to a small number of
 old French authors, that I always return again and again; I believe
 only in French culture, and regard everything else in Europe which
@@ -1222,13 +1171,13 @@ particularly fond, Guy de Maupassant. Between ourselves, I prefer this
 generation even to its masters, all of whom were corrupted by German
 philosophy (Taine, for instance, by Hegel, whom he has to thank for
 his misunderstanding of great men and great periods). Wherever Germany
-extends her sway, she _ruins_ culture. It was the war which first saved
+extends her sway, she ruins culture. It was the war which first saved
 the spirit of France.... Stendhal is one of the happiest accidents of
 my life--for everything that marks an epoch in it has been brought
 to me by accident and never by means of a recommendation. He is quite
 priceless, with his psychologist's eye, quick at forestalling and
 anticipating; with his grasp of facts, which is reminiscent of the same
-art in the greatest of all masters of facts (_ex ungue Napoleonem_);
+art in the greatest of all masters of facts (ex ungue Napoleonem);
 and, last but not least, as an honest atheist--a specimen which is
 both rare and difficult to discover in France--all honour to Prosper
 Mérimée!... Maybe that I am even envious of Stendhal? He robbed
@@ -1239,10 +1188,7 @@ hitherto?--God....
 
 
 
-4
-
-
-It was Heinrich Heine who gave me the most perfect idea of what a
+4 It was Heinrich Heine who gave me the most perfect idea of what a
 lyrical poet could be. In vain do I search through all the kingdoms of
 antiquity or of modern times for anything to resemble his sweet and
 passionate music. He possessed that divine wickedness, without which
@@ -1253,14 +1199,14 @@ what mastery he wields his native tongue! One day it will be said of
 Heine and me that we were by far the greatest artists of the German
 language that have ever existed, and that we left all the efforts that
 mere Germans made in this language an incalculable distance behind
-us. I must be profoundly related to Byron's _Manfred:_ of all the
+us. I must be profoundly related to Byron's Manfred: of all the
 dark abysses in this work I found the counterparts in my own soul--at
 the age of thirteen I was ripe for this book. Words fail me, I have
-only a look, for those who dare to utter the name of _Faust_ in the
-presence of _Manfred._ The Germans are _incapable_ of conceiving
+only a look, for those who dare to utter the name of Faust in the
+presence of Manfred. The Germans are incapable of conceiving
 anything sublime: for a proof of this, look at Schumann! Out of anger
 for this mawkish Saxon, I once deliberately composed a counter-overture
-to _Manfred,_ of which Hans von Bülow declared he had never seen the
+to Manfred, of which Hans von Bülow declared he had never seen the
 like before on paper: such compositions amounted to a violation of
 Euterpe. When I cast about me for my highest formula of Shakespeare,
 I find invariably but this one: that he conceived the type of Cæsar.
@@ -1268,11 +1214,11 @@ Such things a man cannot guess--he either is the thing, or he is not.
 The great poet draws his creations only from out of his own reality.
 This is so to such an extent, that often after a lapse of time he
 can no longer endure his own work.... After casting a glance between
-the pages of my _Zarathustra,_ I pace my room to and fro for half
+the pages of my Zarathustra, I pace my room to and fro for half
 an hour at a time, unable to overcome an insufferable fit of tears.
 I know of no more heartrending reading than Shakespeare: how a man
 must have suffered to be so much in need of playing the clown! Is
-Hamlet _understood_? It is not doubt, but certitude that drives one
+Hamlet understood? It is not doubt, but certitude that drives one
 mad.... But in order to feel this, one must be profound, one must be
 an abyss, a philosopher.... We all fear the truth.... And, to make a
 confession; I feel instinctively certain and convinced that Lord Bacon
@@ -1280,22 +1226,19 @@ is the originator, the self-torturer, of this most sinister kind of
 literature: what do I care about the miserable gabble of American
 muddlers and blockheads? But the power for the greatest realism in
 vision is not only compatible with the greatest realism in deeds,
-with the monstrous in deeds, with crime--_it actually presupposes the
-latter._ ... We do not know half enough about Lord Bacon--the first
+with the monstrous in deeds, with crime--it actually presupposes the
+latter. ... We do not know half enough about Lord Bacon--the first
 realist in all the highest acceptation of this word--to be sure of
 everything he did, everything he willed, and everything he experienced
 in his inmost soul.... Let the critics go to hell! Suppose I had
-christened my _Zarathustra_ with a name not my own,--let us say with
+christened my Zarathustra with a name not my own,--let us say with
 Richard Wagner's name,--the acumen of two thousand years would not have
-sufficed to guess that the author of _Human, all-too-Human_ was the
-visionary of _Zarathustra._
+sufficed to guess that the author of Human, all-too-Human was the
+visionary of Zarathustra.
 
 
 
-5
-
-
-As I am speaking here of the recreations of my life, I feel I must
+5 As I am speaking here of the recreations of my life, I feel I must
 express a word or two of gratitude for that which has refreshed me by
 far the most heartily and most profoundly. This, without the slightest
 doubt, was my intimate relationship with Richard Wagner. All my other
@@ -1303,8 +1246,8 @@ relationships with men I treat quite lightly; but I would not have the
 days I spent at Tribschen--those days of confidence, of cheerfulness,
 of sublime flashes, and of profound moments--blotted from my life
 at any price. I know not what Wagner may have been for others; but
-no cloud ever darkened _our_ sky. And this brings me back again to
-France,--I have no arguments against Wagnerites, and _hoc genus omne_
+no cloud ever darkened our sky. And this brings me back again to
+France,--I have no arguments against Wagnerites, and hoc genus omne
 who believe that they do honour to Wagner by believing him to be
 like themselves; for such people I have only a contemptuous curl of
 my lip. With a nature like mine, which is so strange to everything
@@ -1324,43 +1267,40 @@ of all the five senses which Wagner's art presupposes, those fingers
 that can detect slight gradations, psychological morbidity--all these
 things can be found only in Paris. Nowhere else can you meet with
 this passion for questions of form, this earnestness in matters of
-_mise-en-scène,_ which is the Parisian earnestness _par excellence._
+mise-en-scène, which is the Parisian earnestness par excellence.
 In Germany no one has any idea of the tremendous ambition that fills
 the heart of a Parisian artist. The German is a good fellow. Wagner was
 by no means a good fellow.... But I have already said quite enough
-on the subject of Wagner's real nature (see _Beyond Good and Evil,_
+on the subject of Wagner's real nature (see Beyond Good and Evil,
 Aphorism 269), and about those to whom he is most closely related.
 He is one of the late French romanticists, that high-soaring and
 heaven-aspiring band of artists, like Delacroix and Berlioz, who in
 their inmost nacres are sick and incurable, and who are all fanatics
-of _expression,_ and virtuosos through and through.... Who, in sooth,
+of expression, and virtuosos through and through.... Who, in sooth,
 was the first intelligent follower of Wagner? Charles Baudelaire, the
 very man who first understood Delacroix--that typical decadent, in whom
 a whole generation of artists saw their reflection; he was perhaps the
 last of them too.... What is it that I have never forgiven Wagner?
 The fact that he condescended to the Germans--that he became a German
-Imperialist.... Wherever Germany spreads, she _ruins_ culture.
+Imperialist.... Wherever Germany spreads, she ruins culture.
 
 
 
-6
-
-
-Taking everything into consideration, I could never have survived my
+6 Taking everything into consideration, I could never have survived my
 youth without Wagnerian music. For I was condemned to the society
 of Germans. If a man wish to get rid of a feeling of insufferable
 oppression, he has to take to hashish. Well, I had to take to Wagner.
 Wagner is the counter-poison to everything essentially German--the fact
-that he is a poison too, I do not deny. From the moment that _Tristan_
+that he is a poison too, I do not deny. From the moment that Tristan
 was arranged for the piano--all honour to you, Herr von Bülow!--I was
 a Wagnerite. Wagner's previous works seemed beneath me--they were too
 commonplace, too "German." ... But to this day I am still seeking for a
-work which would be a match to _Tristan_ in dangerous fascination, and
+work which would be a match to Tristan in dangerous fascination, and
 possess the same gruesome and dulcet quality of infinity; I seek among
 all the arts in vain. All the quaint features of Leonardo da Vinci's
-work lose their charm at the sound of the first bar in _Tristan._
-This work is without question Wagner's _non plus ultra_; after its
-creation, the composition of the _Mastersingers_ and of the _Ring_ was
+work lose their charm at the sound of the first bar in Tristan.
+This work is without question Wagner's non plus ultra; after its
+creation, the composition of the Mastersingers and of the Ring was
 a relaxation to him. To become more healthy--this in a nature like
 Wagner's amounts to going backwards. The curiosity of the psychologist
 is so great in me, that I regard it as quite a special privilege
@@ -1384,23 +1324,20 @@ recover the time lost.
 
 
 
-7
-
-
-To the most exceptional of my readers I should like to say just one
+7 To the most exceptional of my readers I should like to say just one
 word about what I really exact from music. It must be cheerful and yet
 profound, like an October afternoon. It must be original, exuberant,
 and tender, and like a dainty, soft woman in roguishness and grace ... I
-shall never admit that a German _can_ understand what music is. Those
+shall never admit that a German can understand what music is. Those
 musicians who are called German, the greatest and most famous foremost,
 are all foreigners, either Slavs, Croats, Italians, Dutchmen--or Jews;
 or else, like Heinrich Schütz, Bach, and Händel, they are Germans of
 a strong race which is now extinct. For my own part, I have still
 enough of the Pole left in me to let all other music go, if only I
-can keep Chopin. For three reasons I would except Wagner's _Siegfried
-Idyll,_ and perhaps also one or two things of Liszt, who excelled all
+can keep Chopin. For three reasons I would except Wagner's Siegfried
+Idyll, and perhaps also one or two things of Liszt, who excelled all
 other musicians in the noble tone of his orchestration; and finally
-everything that has been produced beyond the Alps_--this side_ of the
+everything that has been produced beyond the Alps--this side of the
 Alps.[3] I could not possibly dispense with Rossini, and still less
 with my Southern soul in music, the work of my Venetian maestro, Pietro
 Gasti. And when I say beyond the Alps, all I really mean is Venice.
@@ -1425,19 +1362,16 @@ Gleaming for gaudy blessedness.
 
 
 
-8
-
-
-In all these things--in the choice of food, place, climate, and
+8 In all these things--in the choice of food, place, climate, and
 recreation--the instinct of self-preservation is dominant, and this
 instinct manifests itself with least ambiguity when it acts as an
 instinct of defence. To close one's eyes to much, to seal one's ears to
 much, to keep certain things at a distance--this is the first principle
 of prudence, the first proof of the fact that a man is not an accident
 but a necessity. The popular word for this instinct of defence is
-_taste._ A man's imperative command is not only to say "no" in cases
+taste. A man's imperative command is not only to say "no" in cases
 where "yes" would be a sign of "disinterestedness," but also to say
-"no" _as seldom as possible._ One must part with all that which compels
+"no" as seldom as possible. One must part with all that which compels
 one to repeat "no," with ever greater frequency. The rationale of this
 principle is that all discharges of defensive forces, however slight
 they may be, involve enormous and absolutely superfluous losses when
@@ -1483,13 +1417,10 @@ read a book--this I call positively vicious!
 
 
 
-9
-
-
-At this point I can no longer evade a direct answer to the question,
-_how one becomes what one is._ And in giving it, I shall have to
+9 At this point I can no longer evade a direct answer to the question,
+how one becomes what one is. And in giving it, I shall have to
 touch upon that masterpiece in the art of self-preservation, which is
-_selfishness._ ... Granting that one's life-task--the determination and
+selfishness. ... Granting that one's life-task--the determination and
 the fate of one's life-task--greatly exceeds the average measure of
 such things, nothing more dangerous could be conceived than to come
 face to face with one's self by the side of this life-task. The fact
@@ -1499,17 +1430,17 @@ one's life have their own meaning and value, the temporary deviations
 and aberrations, the moments of hesitation and of modesty, the
 earnestness wasted upon duties which lie outside the actual life-task.
 In these matters great wisdom, perhaps even the highest wisdom, comes
-into activity: in these circumstances, in which _nosce teipsum_ would
+into activity: in these circumstances, in which nosce teipsum would
 be the sure road to ruin, forgetting one's self, misunderstanding
 one's self, belittling one's self, narrowing one's self, and making
 one's self mediocre, amount to reason itself. Expressed morally, to
 love one's neighbour and to live for others and for other things
-_may_ be the means of protection employed to maintain the hardest
+may be the means of protection employed to maintain the hardest
 kind of egoism. This is the exceptional case in which I, contrary
 to my principle and conviction, take the side of the altruistic
 instincts; for here they are concerned in subserving selfishness
 and self-discipline. The whole surface of consciousness--for
-consciousness _is_ a surface--must be kept free from any one of the
+consciousness is a surface--must be kept free from any one of the
 great imperatives. Beware even of every striking word, of every
 striking attitude! They are all so many risks which the instinct runs
 of "understanding itself" too soon. Meanwhile the organising "idea,"
@@ -1521,7 +1452,7 @@ to the whole of your task,--step by step it cultivates all the
 serviceable faculties, before it ever whispers a word concerning the
 dominant task, the "goal," the "object," and the "meaning" of it all.
 Looked at from this standpoint my life is simply amazing. For the task
-of _transvaluing values,_ more capacities were needful perhaps than
+of transvaluing values, more capacities were needful perhaps than
 could well be found side by side in one individual; and above all,
 antagonistic capacities which had to be free from the mutual strife
 and destruction which they involve. An order of rank among capacities;
@@ -1534,22 +1465,22 @@ with such exceeding strength, that not once did I ever dream of what
 was growing within me--until suddenly all my capacities were ripe, and
 one day burst forth in all the perfection of their highest bloom. I
 cannot remember ever having exerted myself, I can point to no trace of
-_struggle_ in my life; I am the reverse of a heroic nature. To "will"
+struggle in my life; I am the reverse of a heroic nature. To "will"
 something, to "strive" after something, to have an "aim" or a "desire"
 in my mind--I know none of these things from experience. Even at this
-moment I look out upon my future--a _broad_ future!--as upon a calm
+moment I look out upon my future--a broad future!--as upon a calm
 sea: no sigh of longing makes a ripple on its surface. I have not the
 slightest wish that anything should be otherwise than it is: I myself
 would not be otherwise.... But in this matter I have always been the
 same. I have never had a desire. A man who, after his four-and-fortieth
-year, can say that he has never bothered himself about _honours,
-women,_ or _money_!--not that they did not come his way.... It was
+year, can say that he has never bothered himself about honours,
+women, or money!--not that they did not come his way.... It was
 thus that I became one day a University Professor--I had never had
 the remotest idea of such a thing; for I was scarcely four-and-twenty
 years of age. In the same way, two years previously, I had one day
-become a philologist, in the sense that my _first_ philological work,
+become a philologist, in the sense that my first philological work,
 my start in every way, was expressly obtained by my master Ritschl for
-publication in his _Rheinisches Museum._[4] (Ritschl--and I say it
+publication in his Rheinisches Museum.[4] (Ritschl--and I say it
 in all reverence--was the only genial scholar that I have ever met.
 He possessed that pleasant kind of depravity which distinguishes us
 Thuringians, and which makes even a German sympathetic--even in the
@@ -1559,10 +1490,7 @@ brother, the intelligent Leopold von Ranke....)
 
 
 
-10
-
-
-You may be wondering why I should actually have related all these
+10 You may be wondering why I should actually have related all these
 trivial and, according to traditional accounts, insignificant details
 to you; such action can but tell against me, more particularly if I
 am fated to figure in great causes. To this I reply that these trivial
@@ -1572,7 +1500,7 @@ all that which has hitherto been held in high esteem! It is precisely
 in this quarter that we must begin to learn afresh. All those things
 which mankind has valued with such earnestness heretofore are not even
 real; they are mere creations of fancy, or, more strictly speaking,
-_lies_ born of the evil instincts of diseased and, in the deepest
+lies born of the evil instincts of diseased and, in the deepest
 sense, noxious natures--all the concepts, "God," "soul," "virtue,"
 "sin," "Beyond," "truth," "eternal life." ... But the greatness of
 human nature, its "divinity," was sought for in them.... All questions
@@ -1602,11 +1530,11 @@ responsibility for all the ages yet to come, would have noticed no sign
 of tension in my condition, but rather a state of overflowing freshness
 and good cheer. Never have I eaten with more pleasant sensations,
 never has my sleep been better. I know of no other manner of dealing
-with great tasks, than as _play_: this, as a sign of greatness, is
+with great tasks, than as play: this, as a sign of greatness, is
 an essential prerequisite. The slightest constraint, a sombre mien,
 any hard accent in the voice--all these things are objections to a
 man, but how much more to his work!... One must not have nerves....
-Even to _suffer_ from solitude is an objection--the only thing I have
+Even to suffer from solitude is an objection--the only thing I have
 always suffered from is "multitude."[5] At an absurdly tender age, in
 fact when I was seven years old, I already knew that no human speech
 would ever reach me: did any one ever see me sad on that account? At
@@ -1615,22 +1543,22 @@ even full of consideration for the lowest: in all this there is not
 an atom of haughtiness or of secret contempt. He whom I despise soon
 guesses that he is despised by me: the very fact of my existence is
 enough to rouse indignation in all those who have polluted blood in
-their veins. My formula for greatness in man is! _amor fati_: the fact
+their veins. My formula for greatness in man is! amor fati: the fact
 that a man wishes nothing to be different, either in front of him or
 behind him, or for all eternity. Not only must the necessary be borne,
 and on no account concealed,--all idealism is falsehood in the face of
-necessity,--but it must also be _loved...._
+necessity,--but it must also be loved....
 
 
 [Footnote 1: Nietzsche, as is well known, devoted much time when a
 student at Leipzig to the study of three Greek philosophers, Theognis,
 Diogenes Laertius, and Democritus. This study first bore fruit in the
-case of a paper, _Zur Geschichte der Theognideischen Spruchsammlung_,
+case of a paper, Zur Geschichte der Theognideischen Spruchsammlung,
 which was subsequently published by the most influential journal of
 classical philology in Germany. Later, however, it enabled Nietzsche to
 enter for the prize offered by the University of Leipzig for an essay,
-_De fontibus Diogenis Laertii._ He was successful in gaining the prize,
-and the treatise was afterwards published in the _Rheinisches Museum,_
+De fontibus Diogenis Laertii. He was successful in gaining the prize,
+and the treatise was afterwards published in the Rheinisches Museum,
 and is still quoted as an authority. It is to this essay, written when
 he was twenty-three years of age, that he here refers.--TR.]
 
@@ -1642,7 +1570,7 @@ made Italy his home.--TR.]
 
 [Footnote 4: See note on page 37.]
 
-[Footnote 5: The German words are, _Einsamkeit_ and _Vielsamkeit._ The
+[Footnote 5: The German words are, Einsamkeit and Vielsamkeit. The
 latter was coined by Nietzsche. The English word "multitude" should,
 therefore, be understood as signifying multifarious instincts and
 gifts, which in Nietzsche strove for ascendancy and caused him more
@@ -1657,10 +1585,7 @@ WHY I WRITE SUCH EXCELLENT BOOKS
 
 
 
-1
-
-
-I am one thing, my creations are another. Here, before I speak of the
+1 I am one thing, my creations are another. Here, before I speak of the
 books themselves, I shall touch upon the question of the understanding
 and misunderstanding with which they have met. I shall proceed to
 do this in as perfunctory a manner as the occasion demands; for the
@@ -1668,7 +1593,7 @@ time has by no means come for this question. My time has not yet
 come either; some are born posthumously. One s day institutions will
 be needed in which men will live and teach, as I understand living
 and teaching; maybe, also, that by that time, chairs will be founded
-and endowed for the interpretation of _Zarathustra. _ But I should
+and endowed for the interpretation of Zarathustra.  But I should
 regard it as a complete contradiction of myself, if I expected to
 find ears and eyes for my truths to-day: the fact that no one listens
 to me, that no one knows how to receive at my hands to-day, is not
@@ -1677,17 +1602,17 @@ wish to be mistaken for another--and to this end I must not mistake
 myself. To repeat what I have already said, I can point to but few
 instances of ill-will in my life: and as for literary ill-will, I
 could mention scarcely a single example of it. On the other hand, I
-have met with far too much _pure foolery_!... It seems to me that to
+have met with far too much pure foolery!... It seems to me that to
 take up one of my books is one of the rarest honours that a man can
 pay himself--even supposing that he put his shoes from off his feet
 beforehand, not to mention boots.... When on one occasion Dr. Heinrich
 von Stein honestly complained that he could not understand a word of
-my _Zarathustra,_ I said to him that this was just as it should be: to
+my Zarathustra, I said to him that this was just as it should be: to
 have understood six sentences in that book--that is to say, to have
 lived them--raises a man to a higher level among mortals than "modern"
 men can attain. With this feeling of distance how could I even wish to
 be read by the "moderns" whom I know! My triumph is just the opposite
-of what Schopenhauer's was--I say "_Non_ legor, _non_ legar."--Not
+of what Schopenhauer's was--I say "Non legor, non legar."--Not
 that I should like to underestimate the pleasure I have derived from
 the innocence with which my works have frequently been contradicted.
 As late as last summer, at a time when I was attempting, perhaps by
@@ -1696,12 +1621,12 @@ literature off its balance, a certain professor of Berlin University
 kindly gave me to understand that I ought really to make use of a
 different form: no one could read such stuff as I wrote.--Finally, it
 was not Germany, but Switzerland that presented me with the two most
-extreme cases. An essay on _Beyond Good and Evil,_ by Dr. V. Widmann in
-the paper called the _Bund,_ under the heading "Nietzsche's Dangerous
+extreme cases. An essay on Beyond Good and Evil, by Dr. V. Widmann in
+the paper called the Bund, under the heading "Nietzsche's Dangerous
 Book," and a general account of all my works, from the pen of Herr
-Karl Spitteler, also in the _Bund,_ constitute a maximum in my life--I
-shall not say of what.... The latter treated my _Zarathustra,_ for
-instance as "_advanced exercises in style_," and expressed the wish
+Karl Spitteler, also in the Bund, constitute a maximum in my life--I
+shall not say of what.... The latter treated my Zarathustra, for
+instance as "advanced exercises in style," and expressed the wish
 that later on I might try and attend to the question of substance as
 well; Dr. Widmann assured me of his respect for the courage I showed
 in endeavouring to abolish all decent feeling. Thanks to a little
@@ -1715,7 +1640,7 @@ draw more out of things, books included, than he already knows. A man
 has no ears for that to which experience has given him no access. To
 take an extreme case, suppose a book contains simply incidents which
 lie quite outside the range of general or even rare experience--suppose
-it to be the _first_ language to express a whole series of experiences.
+it to be the first language to express a whole series of experiences.
 In this case nothing it contains will really be heard at all, and,
 thanks to an acoustic delusion, people will believe that where nothing
 is heard there is nothing to hear.... This, at least, has been my
@@ -1742,20 +1667,17 @@ The fact that I am quite free from curiosity in regard to criticisms of
 my books, more particularly when they appear in newspapers, will have
 to be forgiven me. My friends and my publishers know this, and never
 speak to me of such things. In one particular case, I once saw all the
-sins that had been committed against a single book--it was _Beyond Good
-and Evil;_ I could tell you a nice story about it. Is it possible that
-the _National-Zeitung_--a Prussian paper (this comment is for the sake
-of my foreign readers--for my own part, I beg to state, I read only _Le
-Journal des Débats_)--really and seriously regarded the book as a "sign
+sins that had been committed against a single book--it was Beyond Good
+and Evil; I could tell you a nice story about it. Is it possible that
+the National-Zeitung--a Prussian paper (this comment is for the sake
+of my foreign readers--for my own part, I beg to state, I read only Le
+Journal des Débats)--really and seriously regarded the book as a "sign
 of the times," or a genuine and typical example of Tory philosophy,[1]
-for which the _Kreuz-Zeitung_ had not sufficient courage?...
+for which the Kreuz-Zeitung had not sufficient courage?...
 
 
 
-2
-
-
-This was said for the benefit of Germans: for everywhere else I have
+2 This was said for the benefit of Germans: for everywhere else I have
 my readers--all of them exceptionally intelligent men, characters that
 have won their spurs and that have been reared in high offices and
 superior duties; I have even real geniuses among my readers. In Vienna,
@@ -1776,8 +1698,8 @@ embarrassed.... I can think in German, I can feel in German--I can do
 most things; but this is beyond my powers.... My old master Ritschl
 went so far as to declare that I planned even my philological treatises
 after the manner of a Parisian novelist--that I made them absurdly
-thrilling. In Paris itself people are surprised at "_toutes mes audaces
-et finesses_";--the words are Monsieur Taine's;--I fear that even in
+thrilling. In Paris itself people are surprised at "toutes mes audaces
+et finesses";--the words are Monsieur Taine's;--I fear that even in
 the highest forms of the dithyramb, that salt will be found pervading
 my work which never becomes insipid, which never becomes "German"--and
 that is, wit.... I can do nought else. God help me! Amen.--We all know,
@@ -1786,14 +1708,11 @@ venture to assert that I have the smallest ears that have ever been
 seen. This fact is not without interest to women--it seems to me they
 feel that I understand them better!... I am essentially the anti-ass,
 and on this account alone a monster in the world's history--in Greek,
-and not only in Greek, I am the _Antichrist._
+and not only in Greek, I am the Antichrist.
 
 
 
-3
-
-
-I am to a great extent aware of my privileges as a writer: in one
+3 I am to a great extent aware of my privileges as a writer: in one
 or two cases it has even been brought home to me how very much the
 habitual > reading of my works "spoils" a man's taste. Other books
 simply cannot be endured after mine, and least of all philosophical
@@ -1829,7 +1748,7 @@ with the beautiful consistency of all beautiful souls, they regard
 my work as beneath them. The cattle among my acquaintances, the mere
 Germans, leave me to understand, if you please, that they are not
 always of my opinion, though here and there they agree with me.... I
-have heard this said even about _Zarathustra._ "Feminism," whether in
+have heard this said even about Zarathustra. "Feminism," whether in
 mankind or in man, is likewise a barrier to my writings; with it, no
 one could ever enter into this labyrinth of fearless knowledge. To
 this end, a man must never have spared himself, he must have been hard
@@ -1837,7 +1756,7 @@ in his habits, in order to be good-humoured and merry among a host of
 inexorable truths. When I try to picture the character of a perfect
 reader, I always imagine a monster of courage and curiosity, as well as
 of suppleness, cunning, and prudence--in short, a born adventurer and
-explorer. After all, I could not describe better than _Zarathustra_ has
+explorer. After all, I could not describe better than Zarathustra has
 done unto whom I really address myself: unto whom alone would he reveal
 his riddle?
 
@@ -1848,22 +1767,19 @@ ever embarked beneath cunning sails upon terrible seas;
 by flutes unto every treacherous abyss:
 
 "For ye care not to grope your way along a thread with craven fingers;
-and where ye are able to _guess,_ ye hate to _argue_?"
+and where ye are able to guess, ye hate to argue?"
 
 
 
-4
-
-
-I will now pass just one or two general remarks about my _art of
-style._ To communicate a state an inner tension of pathos by means
+4 I will now pass just one or two general remarks about my art of
+style. To communicate a state an inner tension of pathos by means
 of signs, including the tempo of these signs,--that is the meaning of
 every style; and in view of the fact that the multiplicity of inner
 states in me is enormous, I am capable of many kinds of style--in
 short, the most multifarious art of style that any man has ever had at
-his disposal. Any style is _good_ which genuinely communicates an inner
+his disposal. Any style is good which genuinely communicates an inner
 condition, which does not blunder over the signs, over the tempo of the
-signs, or over _moods_--all the laws of phrasing are the outcome of
+signs, or over moods--all the laws of phrasing are the outcome of
 representing moods artistically. Good style, in itself, is a piece of
 sheer foolery, mere idealism, like "beauty in itself," for instance,
 or "goodness in itself," or "the thing-in-itself." All this takes for
@@ -1883,15 +1799,12 @@ with language in general. The art of grand rhythm, of grand style in
 periods, for expressing the tremendous fluctuations of sublime and
 superhuman passion, was first discovered by me: with the dithyramb
 entitled "The Seven Seals," which constitutes the last discourse of
-the third part of _Zarathustra,_ I soared miles above all that which
+the third part of Zarathustra, I soared miles above all that which
 heretofore has been called poetry.
 
 
 
-5
-
-
-The fact that the voice which speaks in my works is that of a
+5 The fact that the voice which speaks in my works is that of a
 psychologist who has not his peer, is perhaps the first conclusion
 at which a good reader will arrive--a reader such as I deserve, and
 one who reads me just as the good old philologists used to read their
@@ -1922,7 +1835,7 @@ a dangerous, creeping, subterranean little beast of prey she is! And
 so agreeable withal! ... A little woman, pursuing her vengeance, would
 force open even the iron gates of Fate itself. Woman is incalculably
 more wicked than man, she is also cleverer. Goodness in a woman is
-already a sign of _degeneration._ All cases of "beautiful souls" in
+already a sign of degeneration. All cases of "beautiful souls" in
 women may be traced to a faulty physiological condition--but I go no
 further, lest I should become medicynical. The struggle for equal
 rights is even a symptom of disease; every doctor knows this. The more
@@ -1938,7 +1851,7 @@ needs children, man is always only a means, thus spake Zarathustra.
 physiologically botched--that is to say, barren--women for those of
 their sisters who are well constituted: the fight against "man" is
 always only a means, a pretext, a piece of strategy. By trying to rise
-to "Woman _per se_," to "Higher Woman," to the "Ideal Woman," all they
+to "Woman per se," to "Higher Woman," to the "Ideal Woman," all they
 wish to do is to lower the general level of women's rank: and there are
 no more certain means to this end than university education, trousers,
 and the rights of voting cattle. Truth to tell, the emancipated are
@@ -1959,7 +1872,7 @@ essential crime against the Holy Spirit of Life."
 
 In order to give you some idea of myself as a psychologist, let me
 take this curious piece of psychological analysis out of the book
-_Beyond Good and Evil,_ in which it appears. I forbid, by the bye, any
+Beyond Good and Evil, in which it appears. I forbid, by the bye, any
 guessing as to whom I am describing in this passage. "The genius of
 the heart, as that great anchorite possesses it, the divine tempter
 and born Pied Piper of consciences, whose voice knows how to sink into
@@ -1986,9 +1899,9 @@ bruised; but full of hopes which as yet lack names, full of a new will
 and striving, full of a new unwillingness and counter-striving." ...
 
 
-[Footnote 1: _Junker-Philosophie._ The landed proprietors constitute
+[Footnote 1: Junker-Philosophie. The landed proprietors constitute
 the dominating class in Prussia, and it is from this class that all
-officers and higher officials are drawn. The _Kreuz-Zeitung_ is the
+officers and higher officials are drawn. The Kreuz-Zeitung is the
 organ of the Junker party.--TR.]
 
 
@@ -1998,16 +1911,13 @@ organ of the Junker party.--TR.]
 
 
 
-1
-
-
-In order to be fair to the _Birth of Tragedy_ (1872) it is necessary
+1 In order to be fair to the Birth of Tragedy (1872) it is necessary
 to forget a few things. It created a sensation and even fascinated by
 means of its mistakes--by means of its application to Wagnerism, as
 if the latter were the sign of an ascending tendency. On that account
 alone, this treatise was an event in Wagner's life: thenceforward
 great hopes surrounded the name of Wagner. Even to this day, people
-remind me, sometimes in the middle of _Parsifal,_ that it rests on
+remind me, sometimes in the middle of Parsifal, that it rests on
 my conscience if the opinion, that this movement is of great value
 to culture, at length became prevalent I have often seen the book
 quoted as "The Second Birth of Tragedy from the Spirit of Music":
@@ -2019,7 +1929,7 @@ at showing how the Greeks succeeded in disposing: of pessimism--in
 what manner they overcame it. ... Tragedy itself is the proof of
 the fact that the Greeks were not pessimists: Schopenhauer blundered
 here as he blundered in everything else.--Regarded impartially,
-_The Birth of Tragedy_ is a book quite strange to its age: no one
+The Birth of Tragedy is a book quite strange to its age: no one
 would dream that it was begun in the thunder of the battle of Wörth.
 I thought out these problems on cold September nights beneath the
 walls of Metz, in the midst of my duties as nurse to the wounded; it
@@ -2039,11 +1949,11 @@ provides the first psychological analysis of this phenomenon, and
 sees in it the single root of all Greek art; and, secondly, the
 comprehension of Socraticism--Socrates being presented for the first
 time as the instrument of Greek dissolution, as a typical decadent.
-"Reason" _versus_ Instinct. "Reason" at any cost, as a dangerous,
+"Reason" versus Instinct. "Reason" at any cost, as a dangerous,
 life-undermining force. The whole book is profoundly and politely
 silent concerning Christianity: the latter is neither Apollonian nor
 Dionysian; it denies all æsthetic values, which are the only values
-that _The Birth of Tragedy_ recognises. Christianity is most profoundly
+that The Birth of Tragedy recognises. Christianity is most profoundly
 nihilistic, whereas in the Dionysian symbol, the most extreme limits of
 a yea-saying attitude to life are attained. In one part of the book the
 Christian priesthood is referred to as a "perfidious order of goblins,"
@@ -2073,7 +1983,7 @@ confirmed and supported by truth and science. Nothing that exists must
 be suppressed, nothing can be dispensed with. Those aspects of life
 which Christians and other Nihilists reject, belong to an incalculably
 higher order in the hierarchy of values, than that which the instinct
-of degeneration calls good, and _may_ call good. In order to understand
+of degeneration calls good, and may call good. In order to understand
 this, a certain courage is necessary, and, as a prerequisite of this,
 a certain superfluity of strength: for a man can approach only as near
 to truth as he has the courage to advance--that is to say, everything
@@ -2083,18 +1993,15 @@ as cowardice, the flight from reality--in fact, the "ideal"--are
 necessary to the weak inspired by weakness.... These people are not
 at liberty to "know,"--decadents stand in need of lies,--it is one of
 their self-preservative measures. He who not only understands the word
-"Dionysian," but understands _himself_ in that term, does not require
+"Dionysian," but understands himself in that term, does not require
 any refutation of Plato, or of Christianity, or of Schopenhauer--for
-his nose _scents decomposition._
+his nose scents decomposition.
 
 
 
-3
-
-
-The extent to which I had by means of these doctrines discovered the
+3 The extent to which I had by means of these doctrines discovered the
 idea of "tragedy," the ultimate explanation of what the psychology of
-tragedy is, I discussed finally in _The Twilight of the Idols_ (Aph.
+tragedy is, I discussed finally in The Twilight of the Idols (Aph.
 5, part 10).... "The saying of yea to life, and even to its weirdest
 and most difficult problems: the will to life rejoicing at its own
 infinite vitality in the sacrifice of its highest types--that is what I
@@ -2104,7 +2011,7 @@ self of dangerous passion by discharging it with vehemence,--this was
 Aristotle's[2] misunderstanding of it,--but to be far beyond terror
 and pity and to be the eternal lust of Becoming itself--that lust
 which also involves the joy of destruction." ... In this sense I have
-the right to regard myself as the first _tragic philosopher_--that is
+the right to regard myself as the first tragic philosopher--that is
 to say, the most extreme antithesis and antipodes of a pessimistic
 philosopher. Before my time no such thing existed as this translation
 of the Dionysian phenomenon into philosophic emotion: tragic wisdom was
@@ -2115,7 +2022,7 @@ presence, alone, I felt warmer and more at ease than anywhere else.
 The yea-saying to the impermanence and annihilation of things, which
 is the decisive feature of a Dionysian philosophy; the yea-saying to
 contradiction and war, the postulation of Becoming, together with the
-radical rejection even of the concept _Being_-- in all these things, at
+radical rejection even of the concept Being-- in all these things, at
 all events, I must recognise him who has come nearest to me in thought
 hither to. The doctrine of the "Eternal Recurrence"--that is to say,
 of the absolute and eternal repetition of all things in periodical
@@ -2130,8 +2037,8 @@ to destroy two millenniums of hostility to Nature and of the violation
 of humanity be crowned with success That new party of life-advocates,
 which will undertake the greatest of all tasks, the elevation and
 perfection of mankind, as well as the relentless destruction of all
-degenerate and parasitical elements, will make that _superabundance
-of life_ on earth once more possible, out of which the Dionysian
+degenerate and parasitical elements, will make that superabundance
+of life on earth once more possible, out of which the Dionysian
 state will perforce arise again. I promise the advent of a tragic
 age: the highest art in the saying of yea to life, "tragedy," will be
 born again when mankind has the knowledge of the hardest, but most
@@ -2139,24 +2046,24 @@ necessary of wars, behind it, without, however, suffering from that
 knowledge.... A psychologist might add that what I heard in Wagnerian
 music in my youth and early manhood had nothing whatsoever to do with
 Wagner; that when I described Dionysian music, I described merely
-what _I_ personally had heard--that I was compelled instinctively to
+what I personally had heard--that I was compelled instinctively to
 translate and transfigure everything into the new spirit which filled
 my breast. A proof of this, and as strong a proof as you could have,
-is my essay, _Wagner in Bayreuth_: in all its decisive psychological
+is my essay, Wagner in Bayreuth: in all its decisive psychological
 passages I am the only person concerned--without any hesitation you may
 read my name or the word "Zarathustra" wherever the text contains the
-name of Wagner. The whole panorama of the _dithyrambic_ artist is the
-representation of the already existing author of _Zarathustra,_ and
+name of Wagner. The whole panorama of the dithyrambic artist is the
+representation of the already existing author of Zarathustra, and
 it is drawn with an abysmal depth which does not even once come into
 contact with the real Wagner. Wagner himself had a notion of the truth;
 he did not recognise himself in the essay.--In this way, "the idea of
 Bayreuth" was changed into something which to those who are acquainted
-with my _Zarathustra_ will be no riddle--that is to say, into the
+with my Zarathustra will be no riddle--that is to say, into the
 Great Noon when the highest of the elect will consecrate themselves
 for the greatest of all duties--who knows? the vision of a feast which
 I may live to see.... The pathos of the first few pages is universal
 history; the look which is discussed on page 105[3] of the book, is the
-actual look of _Zarathustra;_ Wagner, Bayreuth, the whole of this petty
+actual look of Zarathustra; Wagner, Bayreuth, the whole of this petty
 German wretchedness, is a cloud upon which an infinite Fata Morgana
 of the future is reflected. Even from the psychological standpoint,
 all the decisive traits in my character are introduced into Wagner's
@@ -2170,24 +2077,24 @@ of Greek culture, after it has been cut. Listen to the world-historic
 accent with which the concept "sense for the tragic" is introduced
 on page 180: there are little else but world-historic accents in
 this essay. This is the strangest kind of "objectivity" that ever
-existed: my absolute certainty in regard to what I _am,_ projected
+existed: my absolute certainty in regard to what I am, projected
 itself into any chance reality--truth about myself was voiced from out
-appalling depths. On pages 174 and 175 the style of _Zarathustra_ is
+appalling depths. On pages 174 and 175 the style of Zarathustra is
 described and foretold with incisive certainty, and no more magnificent
 expression will ever be found than that on pages 144-147 for the event
-for which _Zarathustra_ stands--that prodigious act of the purification
+for which Zarathustra stands--that prodigious act of the purification
 and consecration of mankind.
 
 
 [Footnote 1: Those Germans who, like Nietzsche or Goethe, recognised
 that politics constituted a danger to culture, and who appreciated the
 literature of maturer cultures, such as that of France, are called
-_un-deutsch_ (un-German) by Imperialistic Germans.--Tr.]
+un-deutsch (un-German) by Imperialistic Germans.--Tr.]
 
-[Footnote 2: Aristotle's _Poetics_, c. vi.--Tr.]
+[Footnote 2: Aristotle's Poetics, c. vi.--Tr.]
 
-[Footnote 3: This number and those which follow refer to _Thoughts out
-of Season,_ Part I. in this edition of Nietzsche's Works.--TR.]
+[Footnote 3: This number and those which follow refer to Thoughts out
+of Season, Part I. in this edition of Nietzsche's Works.--TR.]
 
 
 
@@ -2196,10 +2103,7 @@ of Season,_ Part I. in this edition of Nietzsche's Works.--TR.]
 
 
 
-1
-
-
-The four essays composing the _Thoughts out of Season_ are thoroughly
+1 The four essays composing the Thoughts out of Season are thoroughly
 warlike in tone. They prove that I was no mere dreamer, that I delight
 in drawing the sword--and perhaps, also, that my wrist is dangerously
 supple. The first onslaught (1873) was directed against German culture,
@@ -2223,14 +2127,11 @@ and two pictures of the hardest self-love and self-discipline are
 presented, two essentially un-modern types, full of the most sovereign
 contempt for all that which lay around them and was called "Empire,"
 "Culture," "Christianity," "Bismarck," and "Success,"--these two types
-were Schopenhauer and Wagner, _or,_ in a word, Nietzsche....
+were Schopenhauer and Wagner, or, in a word, Nietzsche....
 
 
 
-2
-
-
-Of these four attacks, the first met with extraordinary success. The
+2 Of these four attacks, the first met with extraordinary success. The
 stir which it created was in every way gorgeous. I had put my finger
 on the vulnerable spot of a triumphant nation--I had told it that its
 victory was not a red-letter day for culture, but, perhaps, something
@@ -2238,14 +2139,14 @@ very different. The reply rang out from all sides, and certainly not
 only from old friends of David Strauss, whom I had made ridiculous
 as the type of a German Philistine of Culture and a man of smug
 self-content--in short, as the author of that suburban gospel of his,
-called _The Old and the New Faith_ (the term "Philistine of Culture"
+called The Old and the New Faith (the term "Philistine of Culture"
 passed into the current language of Germany after the appearance of my
 book). These old friends, whose vanity as Würtembergians and Swabians
 I had deeply wounded in regarding their unique animal, their bird
 of Paradise, as a trifle comic, replied to me as ingenuously and as
 grossly as I could have wished. The Prussian replies were smarter; they
 contained more "Prussian blue." The most disreputable attitude was
-assumed by a Leipzig paper, the egregious _Grentzboten_; and it cost me
+assumed by a Leipzig paper, the egregious Grentzboten; and it cost me
 some pains to prevent my indignant friends in Bâle from taking action
 against it. Only a few old gentlemen decided in my favour, and for
 very diverse and sometimes unaccountable reasons. Among them was one,
@@ -2265,8 +2166,8 @@ advocate. It was atheism that had drawn me to Schopenhauer. The review
 which received by far the most attention, and which excited the most
 bitterness, was an extraordinarily powerful and plucky appreciation of
 my work by Carl Hillebrand, a man who was usually so mild, and the last
-_humane_ German who knew how to wield a pen. The article appeared in
-the _Augsburg Gazette,_ and it can be read to-day, couched in rather
+humane German who knew how to wield a pen. The article appeared in
+the Augsburg Gazette, and it can be read to-day, couched in rather
 more cautious language, among his collected essays. In it my work was
 referred to as an event, as a decisive turning-point, as the first sign
 of an awakening, as an excellent symptom, and as an actual revival
@@ -2295,21 +2196,18 @@ opponent!--the foremost free-thinker of Germany. As a matter of fact,
 quite a novel kind of free thought found its expression in this way:
 up to the present nothing has been more strange and more foreign to my
 blood than the whole of that European and American species known as
-_litres penseurs._ Incorrigible blockheads and clowns of "modern ideas"
+litres penseurs. Incorrigible blockheads and clowns of "modern ideas"
 that they are, I feel much more profoundly at variance with them than
 with any one of their adversaries. They also wish to "improve" mankind,
 after their own fashion--that is to say, in their own image; against
 that which I stand for and desire, they would wage an implacable war,
 if only they understood it; the whole gang of them still believe in an
-"ideal." ... I am the first _Immoralist_.
+"ideal." ... I am the first Immoralist.
 
 
 
-3
-
-
-I should not like to say that the last two essays in the _Thoughts
-out of Season,_ associated with the names of Schopenhauer and Wagner
+3 I should not like to say that the last two essays in the Thoughts
+out of Season, associated with the names of Schopenhauer and Wagner
 respectively, serve any special purpose in throwing light upon these
 two cases, or in formulating their psychological problems. This of
 course does not apply to a few details. Thus, for instance, in the
@@ -2326,17 +2224,17 @@ types by the forelock, after the manner in which one seizes
 opportunities, simply in order to speak my mind on certain questions,
 in order to have a few more formulas, signs, and means of expression
 at my disposal. Indeed I actually suggest this, with most unearthly
-sagacity, on page 183 of _Schopenhauer as Educator._ Plato made use
+sagacity, on page 183 of Schopenhauer as Educator. Plato made use
 of Socrates in the same way--that is to say, as a cipher for Plato.
 Now that, from some distance, I can look back upon the conditions of
 which these essays are the testimony, I would be loth to deny that they
-refer simply to me. The essay _Wagner in Bayreuth_ is a vision of my
+refer simply to me. The essay Wagner in Bayreuth is a vision of my
 own future; on the other hand, my most secret history, my development,
-is written down in _Schopenhauer as Educator._ But, above all, the
-_vow_ I made I What I am to-day, the place I now hold--at a height from
+is written down in Schopenhauer as Educator. But, above all, the
+vow I made I What I am to-day, the place I now hold--at a height from
 which I speak no longer with words but with thunderbolts!--oh, how
 far I was from all this in those days! But I saw the land--I did not
-deceive myself for one moment as to the way, the sea, the danger--_and_
+deceive myself for one moment as to the way, the sea, the danger--and
 success! The great calm in promising, this happy prospect of a future
 which must not remain only a promise!--In this book every word has
 been lived, profoundly and intimately; the most painful things are not
@@ -2362,7 +2260,7 @@ my fate to be a scholar for a while.
 
 
 [Footnote 1: The Purists constitute a definite body in Germany, which
-is called the _Deutscher Sprach-Verein._ Their object is to banish
+is called the Deutscher Sprach-Verein. Their object is to banish
 every foreign word from the language, and they carry this process of
 ostracism even into the domain of the menu, where their efforts at
 rendering the meaning of French dishes are extremely comical. Strange
@@ -2377,10 +2275,7 @@ doubtless to this curious anomaly that Nietzsche here refers.--TR.]
 
 
 
-1
-
-
-_Human all-too-Human,_ with its two sequels, is the memorial of a
+1 Human all-too-Human, with its two sequels, is the memorial of a
 crisis. It is called a book for free spirits: almost every sentence in
 it is the expression of a triumph--by means of it I purged myself of
 everything in me which was foreign to my nature. Idealism is foreign
@@ -2414,10 +2309,7 @@ almost everywhere the "thing in itself" is freezing to death.
 
 
 
-2
-
-
-This book was begun during the first musical festival at Bayreuth; a
+2 This book was begun during the first musical festival at Bayreuth; a
 feeling of profound strangeness towards everything that surrounded
 me there, is one of its first conditions. He who has any notion of
 the visions which even at that time had flitted across my path, will
@@ -2428,19 +2320,19 @@ in vain that I called up reminiscences. Tribschen--remote island of
 bliss: not the shadow of a resemblance! The incomparable days devoted
 to the laying of the first stone, the small group of the initiated
 who celebrated them, and who were far from lacking fingers for the
-handling of delicate things: not the shadow of a resemblance! _What
-had happened?_--Wagner had been translated into German! The Wagnerite
-had become master of Wagner!_--German_ art! the German master! German
+handling of delicate things: not the shadow of a resemblance! What
+had happened?--Wagner had been translated into German! The Wagnerite
+had become master of Wagner!--German art! the German master! German
 beer!... We who know only too well the kind of refined artists and
 cosmopolitanism in taste, to which alone Wagner's art can appeal, were
 beside ourselves at the sight of Wagner bedecked with German virtues.
 I think I know the Wagnerite, I have experienced three generations
 of them, from Brendel of blessed memory, who confounded Wagner with
-Hegel, to the "idealists" of the _Bayreuth Gazette,_ who confound
+Hegel, to the "idealists" of the Bayreuth Gazette, who confound
 Wagner with themselves,--I have been the recipient of every kind of
 confession about Wagner, from "beautiful souls." My kingdom for just
 one intelligent word I--In very truth, a blood-curdling company! Nohl,
-Pohl, and _Kohl_[1] and others of their kidney to infinity! There
+Pohl, and Kohl[1] and others of their kidney to infinity! There
 was not a single abortion that was lacking among them--no, not even
 the anti-Semite.--Poor Wagner! Into whose hands had he fallen? If
 only he had gone into a herd of swine! But among Germans! Some day,
@@ -2457,14 +2349,11 @@ recesses of the Bohmerwald, I carried my melancholy and my contempt of
 Germans about with me like an illness--and, from time to time, under
 the general title of "The Plough-share," I wrote a sentence or two down
 in my note-book, nothing but severe psychological stuff, which it is
-possible may have found its way into _Human, all-too-Human._
+possible may have found its way into Human, all-too-Human.
 
 
 
-3
-
-
-That which had taken place in me, then, was not only a breach with
+3 That which had taken place in me, then, was not only a breach with
 Wagner--I was suffering from a general aberration of my instincts,
 of which a mere isolated blunder, whether it were Wagner or my
 professorship at Bâle, was nothing more than a symptom. I was seized
@@ -2501,10 +2390,7 @@ moment.... What am I saying!--for five or six hours.
 
 
 
-4
-
-
-At this time my instincts turned resolutely against any further
+4 At this time my instincts turned resolutely against any further
 yielding or following on my part, and any further misunderstanding
 of myself. Every kind of life, the most unfavourable circumstances,
 illness, poverty--anything seemed to me preferable to that undignified
@@ -2528,19 +2414,16 @@ boon I ever conferred upon myself! That nethermost self, which was,
 as it were, entombed, and which had grown dumb because it had been
 forced to listen perpetually to other selves (for that is what reading
 means!), slowly awakened; at first it was shy and doubtful, but at
-last it _spoke again_ Never have I rejoiced more over my condition
+last it spoke again Never have I rejoiced more over my condition
 than during the sickest and most painful moments of my life. You have
-only to examine _The Dawn of Day,_ or, perhaps, _The Wanderer and
-his Shadow,_[3] in order to understand what this "return to myself"
+only to examine The Dawn of Day, or, perhaps, The Wanderer and
+his Shadow,[3] in order to understand what this "return to myself"
 actually meant: in itself it was the highest kind of recovery!... My
 cure was simply the result of it.
 
 
 
-5
-
-
-_Human, all-too-Human,_ this monument of a course of vigorous
+5 Human, all-too-Human, this monument of a course of vigorous
 self-discipline, by means of which I put an abrupt end to all the
 "Superior Bunkum," "Idealism," "Beautiful Feelings," and other
 effeminacies that had percolated into my being, was written principally
@@ -2555,7 +2438,7 @@ When the completed book ultimately reached me,--to the great surprise
 of the serious invalid I then was,--I sent, among others, two copies
 to Bayreuth. Thanks to a miraculous flash of intelligence on the part
 of chance, there reached me precisely at the same time a splendid copy
-of the _Parsifal_ text, with the following inscription from Wagner's
+of the Parsifal text, with the following inscription from Wagner's
 pen: "To his dear friend Friedrich Nietzsche, from Richard Wagner,
 Ecclesiastical Councillor." At this crossing of the two books I seemed
 to hear an ominous note. Did it not sound as if two swords had crossed?
@@ -2566,10 +2449,7 @@ Wagner had become pious.
 
 
 
-6
-
-
-My attitude to myself at that time (1876), and the unearthly certitude
+6 My attitude to myself at that time (1876), and the unearthly certitude
 with which I grasped my life-task and all its world-historic
 consequences, is well revealed throughout the book, but more
 particularly in one very significant passage, despite the fact that,
@@ -2583,16 +2463,16 @@ German professor for instance, who can always be recognised from the
 fact that, judging from the passage in question, he feels compelled to
 regard the whole book as a sort of superior Realism. As a matter of
 fact it contradicts five or six of my friend's utterances: only read
-the introduction to _The Genealogy of Morals_ on this question.--The
+the introduction to The Genealogy of Morals on this question.--The
 passage above referred to reads: "What, after all, is the principal
 axiom to which the boldest and coldest thinker, the author of the
-book "_On the Origin of Moral Sensations_" (read Nietzsche, the first
+book "On the Origin of Moral Sensations" (read Nietzsche, the first
 Immoralist), "has attained by means of his incisive and decisive
 analysis of human actions? 'The moral man,' he says is no nearer to the
 intelligible (metaphysical) world than is the physical man, for there
 is no intelligible world.' This theory, hardened and sharpened under
-the hammer-blow of historical knowledge" (read _The Transvaluation
-of all Values_), "may some time or other, perhaps in some future
+the hammer-blow of historical knowledge" (read The Transvaluation
+of all Values), "may some time or other, perhaps in some future
 period,--1890!--serve as the axe which is applied to the root of the
 'metaphysical need' of man,--whether more as a blessing than a curse to
 the general welfare it is not easy to say; but in any case as a theory
@@ -2609,9 +2489,9 @@ nonsense.--TR.]
 Bismarckian Germany and that other Germany--Austria, Switzerland, and
 the Baltic Provinces--where the German language is also spoken.--TR.]
 
-[Footnote 3: _Human, all-too-Human,_ Part II. in this edition.--TR.]
+[Footnote 3: Human, all-too-Human, Part II. in this edition.--TR.]
 
-[Footnote 4: _Human, all-too-Human,_ vol. i. Aph. 37.]
+[Footnote 4: Human, all-too-Human, vol. i. Aph. 37.]
 
 
 
@@ -2622,15 +2502,12 @@ THOUGHTS ABOUT MORALITY AS A PREJUDICE"
 
 
 
-1
-
-
-With this book I open my campaign against morality. Not that it is at
+1 With this book I open my campaign against morality. Not that it is at
 all redolent of powder--you will find quite other and much nicer smells
 in it, provided that you have any keenness in your nostrils. There
 is nothing either of light or of heavy artillery in its composition,
 and if its general end be a negative one, its means are not so--means
-out of which the end follows like a logical conclusion, _not_ like a
+out of which the end follows like a logical conclusion, not like a
 cannon-shot. And if the reader takes leave of this book with a feeling
 of timid caution in regard to everything which has hitherto been
 honoured and even worshipped under the name of morality, it does not
@@ -2639,7 +2516,7 @@ and not one single piece of malice in the whole work--on the contrary,
 it lies in the sunshine, smooth and happy, like a marine animal,
 basking in the sun between two rocks. For, after all, I was this marine
 animal: almost every sentence in the book was thought out, or rather
-_caught,_ among that medley of rocks in the neighbourhood of Genoa,
+caught, among that medley of rocks in the neighbourhood of Genoa,
 where I lived quite alone, and exchanged secrets with the ocean. Even
 to this day, when by chance I happen to turn over the leaves of this
 book, almost every sentence seems to me like a hook by means of which I
@@ -2653,7 +2530,7 @@ many dawns which have not yet shed their light"--this Indian maxim is
 written over the doorway of this book. Where does its author seek that
 new morning, that delicate red, as yet undiscovered, with which another
 day--ah! a whole series of days, a whole world of new days!--will
-begin? In the _Transvaluation of all Values,_ in an emancipation from
+begin? In the Transvaluation of all Values, in an emancipation from
 all moral values, in a saying of yea, and in an attitude of trust, to
 all that which hitherto has been forbidden, despised, and damned. This
 yea-saying book projects its light, its love, its tenderness, over all
@@ -2664,15 +2541,12 @@ the word "or?"--it is the only book which closes with an "or?".
 
 
 
-2
-
-
-My life-task is to prepare for humanity one supreme moment in which it
+2 My life-task is to prepare for humanity one supreme moment in which it
 can come to its senses, a Great Noon in which it will turn its gaze
 backwards and forwards, in which it will step from under the yoke
 of accident and of priests, and for the first time set the question
 of the Why and Wherefore of humanity as a whole--this life-task
-naturally follows out of the conviction that mankind does _not_ get
+naturally follows out of the conviction that mankind does not get
 on the right road of its own accord, that it is by no means divinely
 ruled, but rather that it is precisely under the cover of its most
 holy valuations that the instinct of negation, of corruption, and of
@@ -2684,7 +2558,7 @@ hands, that a certain book, the Bible, gives us the definite and
 comforting assurance that there is a Providence that wisely rules the
 fate of man,--when translated back into reality amounts simply to this,
 namely, the will to stifle the truth which maintains the reverse of
-all this, which is that hitherto man has been in the _worst possible_
+all this, which is that hitherto man has been in the worst possible
 hands, and that he has been governed by the physiologically botched,
 the men of cunning and burning revengefulness, and the so-called
 "saints"--those slanderers of the world and traducers of humanity.
@@ -2692,7 +2566,7 @@ The definite proof of the fact that the priest (including the priest
 in disguise, the philosopher) has become master, not only within a
 certain limited religious community, but everywhere, and that the
 morality of decadence, the will to nonentity, has become morality
-_per se,_ is to be found in this: that altruism is now an absolute
+per se, is to be found in this: that altruism is now an absolute
 value, and egoism is regarded with hostility everywhere. He who
 disagrees with me on this point, I regard as infected. But all the
 world disagrees with me. To a physiologist a like antagonism between
@@ -2708,12 +2582,12 @@ costs humanity. What meaning have those lying concepts, those handmaids
 of morality, "Soul," "Spirit," "Free will," "God," if their aim is not
 the physiological ruin of mankind? When earnestness is diverted from
 the instincts that aim at self-preservation and an increase of bodily
-energy, _i.e._ at an _increase of life_; when anæmia is raised to an
+energy, i.e. at an increase of life; when anæmia is raised to an
 ideal and the contempt of the body is construed as "the salvation of
 the soul," what is all this if it is not a recipe for decadence? Loss
 of ballast, resistance offered to natural instincts, selflessness,
-in fact--this is what has hitherto been known as morality. With _The
-Dawn of Day_ I first engaged in a struggle against the morality of
+in fact--this is what has hitherto been known as morality. With The
+Dawn of Day I first engaged in a struggle against the morality of
 self-renunciation.
 
 
@@ -2723,11 +2597,8 @@ self-renunciation.
 
 
 
-1
-
-
-_Dawn of Day_ is a yea-saying book, profound, but clear and kindly. The
-same applies once more and in the highest degree to _La Gaya Scienza:_
+1 Dawn of Day is a yea-saying book, profound, but clear and kindly. The
+same applies once more and in the highest degree to La Gaya Scienza:
 in almost every sentence of this book, profundity and playfulness go
 gently hand in hand. A verse which expresses my gratitude for the most
 wonderful month of January which I have ever lived--the whole book is a
@@ -2749,15 +2620,15 @@ words as they appear in a glow of light at the close of the fourth
 book? Or when he reads the granite sentences at the end of the third
 book, wherein a fate for all times is first given a formula? The songs
 of Prince Free-as-a-Bird, which, for the most part, were written in
-Sicily, remind me quite forcibly of that Provencal notion of "_Gaya
-Scienza,_" of that union of _singer, knight, and free spirit,_ which
+Sicily, remind me quite forcibly of that Provencal notion of "Gaya
+Scienza," of that union of singer, knight, and free spirit, which
 distinguishes that wonderfully early culture of the Provencals from
 all ambiguous cultures. The last poem of all, "To the Mistral,"--an
 exuberant dance song in which, if you please, the new spirit dances
 freely upon the corpse of morality,--is a perfect Provençalism.
 
 
-[Footnote 1: Translated for _Joyful Wisdom_ by Paul V. Cohn.--TR.]
+[Footnote 1: Translated for Joyful Wisdom by Paul V. Cohn.--TR.]
 
 
 
@@ -2766,11 +2637,8 @@ freely upon the corpse of morality,--is a perfect Provençalism.
 
 
 
-1
-
-
-I now wish to relate the history of _Zarathustra._ The fundamental
-idea of the work, the _Eternal Recurrence,_ the highest formula of
+1 I now wish to relate the history of Zarathustra. The fundamental
+idea of the work, the Eternal Recurrence, the highest formula of
 a Yea-saying to life that can ever be attained, was first conceived
 in the month of August 1881. I made a note of the idea on a sheet of
 paper, with the postscript: "Six thousand feet beyond man and time."
@@ -2780,7 +2648,7 @@ rock that towered aloft like a pyramid. It was then that the thought
 struck me. Looking back now, I find that exactly two months before
 this inspiration I had an omen of its coming in the form of a sudden
 and decisive change in my tastes--more particularly in music. The
-whole of _Zarathustra_ might perhaps be classified under the rubric
+whole of Zarathustra might perhaps be classified under the rubric
 music. At all events, the essential condition of its production was
 a second birth within me of the art of hearing. In Recoaro, a small
 mountain resort near Vicenza, where I spent the spring of 1881, I and
@@ -2794,12 +2662,12 @@ precisely in the hallowed hour when Richard Wagner gave up the ghost
 in Venice,--I come to the conclusion that the period of gestation
 covered eighteen months. This period of exactly eighteen months,
 might suggest, at least to Buddhists, that I am in reality a female
-elephant The interval was devoted to the _Gaya Scienza,_ which contains
+elephant The interval was devoted to the Gaya Scienza, which contains
 hundreds of indications of the proximity of something unparalleled;
-for, after all, it shows the beginning of _Zarathustra,_ since it
-presents _Zarathustra's_ fundamental thought in the last aphorism
-but one of the fourth book. To this interval also belongs that _Hymn
-to Life_ (for a mixed choir and orchestra), the score of which was
+for, after all, it shows the beginning of Zarathustra, since it
+presents Zarathustra's fundamental thought in the last aphorism
+but one of the fourth book. To this interval also belongs that Hymn
+to Life (for a mixed choir and orchestra), the score of which was
 published in Leipzig two years ago by E. W. Fritsch, and which gave
 perhaps no slight indication of my spiritual state during this year,
 in which the essentially yea-saying pathos, which I call the tragic
@@ -2818,13 +2686,13 @@ the oboe, by the bye, is C sharp, not C. The latter is a misprint.)
 During the following winter, I was living on that charmingly peaceful
 Gulf of Rapallo, not far from Genoa, which cuts inland between Chiavari
 and Cape Porto Fino. My health was not very good; the winter was cold
-and exceptionally rainy; and the small _albergo_ in which I lived
+and exceptionally rainy; and the small albergo in which I lived
 was so close to the water that at night my sleep was disturbed if
 the sea was rough. These circumstances were surely the very reverse
 of favourable; and yet, in spite of it all, and as if in proof of my
 belief that everything decisive comes to life in defiance of every
 obstacle, it was precisely during this winter and in the midst of these
-unfavourable circumstances that my _Zarathustra_ originated. In the
+unfavourable circumstances that my Zarathustra originated. In the
 morning I used to start out in a southerly direction up the glorious
 road to Zoagli, which rises up through a forest of pines and gives
 one a view far out to sea. In the afternoon, or as often as my health
@@ -2833,21 +2701,18 @@ Porto Fino. This spot affected me all the more deeply because it was
 so dearly loved by the Emperor Frederick III. In the autumn of 1886 I
 chanced to be there again when he was revisiting this small forgotten
 world of happiness for the last time. It was on these two roads that
-all _Zarathustra_ came to me, above all, Zarathustra himself as a
-type--I ought rather to say that it was on these walks that _he waylaid
-me_.
+all Zarathustra came to me, above all, Zarathustra himself as a
+type--I ought rather to say that it was on these walks that he waylaid
+me.
 
 
 
-2
-
-
-In order to understand this type, you must first be quite clear
+2 In order to understand this type, you must first be quite clear
 concerning its fundamental physiological condition: this condition
-is what I call _great healthiness._ In regard to this idea I cannot
+is what I call great healthiness. In regard to this idea I cannot
 make my meaning more plain or more personal than I have done already
-in one of the last aphorisms (No. 382) of the fifth book of the _Gaya
-Scienza_: "We new, nameless, and unfathomable creatures," so reads
+in one of the last aphorisms (No. 382) of the fifth book of the Gaya
+Scienza: "We new, nameless, and unfathomable creatures," so reads
 the passage, "we firstlings of a future still unproved--we who have a
 new end in view also require new means to that end, that is to say,
 a new healthiness, a stronger, keener, tougher, bolder, and merrier
@@ -2859,7 +2724,7 @@ own inmost experience, would fain know how it feels to be a conqueror
 and discoverer of the ideal;--as also how it is with the artist, the
 saint, the legislator, the sage, the scholar, the man of piety and the
 godlike anchorite of yore;--such a man requires one thing above all
-for his purpose, and that is, _great healthiness_--such healthiness as
+for his purpose, and that is, great healthiness--such healthiness as
 he not only possesses, but also constantly acquires and must acquire,
 because he is continually sacrificing it again, and is compelled to
 sacrifice it! And now, therefore, after having been long on the way,
@@ -2873,13 +2738,13 @@ refuge of the ideal that man has ever known, a world so overflowing
 with beauty, strangeness, doubt, terror, and divinity, that both our
 curiosity and our lust of possession are frantic with eagerness. Alas!
 how in the face of such vistas, and with such burning desire in our
-conscience and consciousness, could we still be content with _the man
-of the present day_? This is bad indeed; but, that we should regard
+conscience and consciousness, could we still be content with the man
+of the present day? This is bad indeed; but, that we should regard
 his worthiest aims and hopes with ill-concealed amusement, or perhaps
 give them no thought at all, is inevitable. Another ideal now leads
 us on, a wonderful, seductive ideal, full of danger, the pursuit of
 which we should be loath to urge upon any one, because we are not so
-ready to acknowledge any one's _right to it:_ the ideal of a spirit who
+ready to acknowledge any one's right to it: the ideal of a spirit who
 plays ingenuously (that is to say, involuntarily, and as the outcome
 of superabundant energy and power) with everything that, hitherto,
 has been called holy, good, inviolable, and divine; to whom even the
@@ -2890,16 +2755,13 @@ of a humanly superhuman well-being and goodwill, which often enough
 will seem inhuman--as when, for instance, it stands beside all past
 earnestness on earth, and all past solemnities in hearing, speech,
 tone, look, morality, and duty, as their most lifelike and unconscious
-parody--but with which, nevertheless, _great earnestness_ perhaps alone
+parody--but with which, nevertheless, great earnestness perhaps alone
 begins, the first note of interrogation is affixed, the fate of the
 soul changes, the hour hand moves, and tragedy begins."
 
 
 
-3
-
-
-Has any one at the end of the nineteenth century any distinct notion
+3 Has any one at the end of the nineteenth century any distinct notion
 of what poets of a stronger age understood by the word inspiration?
 If not, I will describe it. If one had the smallest vestige of
 superstition left in one, it would hardly be possible completely to
@@ -2940,13 +2802,10 @@ also!"
 
 
 
-4
-
-
-For a few weeks afterwards I lay an invalid in Genoa. Then followed
+4 For a few weeks afterwards I lay an invalid in Genoa. Then followed
 a melancholy spring in Rome, where I only just managed to live--and
 this was no easy matter. This city, which is absolutely unsuited to
-the poet-author of _Zarathustra,_ and for the choice of which I was
+the poet-author of Zarathustra, and for the choice of which I was
 not responsible, made me inordinately miserable. I tried to leave it.
 I wanted to go to Aquila--the opposite of Rome in every respect, and
 actually founded in a spirit of hostility towards that city, just as
@@ -2964,12 +2823,12 @@ plashing far below, the loneliest of all songs was composed--"The
 Night-Song." About this time I was obsessed by an unspeakably sad
 melody, the refrain of which I recognised in the affords, "dead through
 immortality," ... In the summer, finding myself once more in the sacred
-place where the first thought of _Zarathustra_ flashed like a light
+place where the first thought of Zarathustra flashed like a light
 across my mind, I conceived the second part. Ten days sufficed. Neither
 for the second, the first, nor the third part, have I required a day
 longer. In the ensuing winter, beneath the halcyon sky of Nice, which
 then for the first time poured its light into my life, I found the
-third _Zarathustra_--and came to the end of my task: the whole having
+third Zarathustra--and came to the end of my task: the whole having
 occupied me scarcely a year. Many hidden corners and heights in the
 country round about Nice are hallowed for me by moments that I can
 never forget. That decisive chapter, entitled "Old and New Tables,"
@@ -2984,11 +2843,8 @@ perfectly robust and patient.
 
 
 
-5
-
-
-With the exception of these periods of industry lasting ten days, the
-years I spent during the production of _Zarathustra,_ and thereafter,
+5 With the exception of these periods of industry lasting ten days, the
+years I spent during the production of Zarathustra, and thereafter,
 were for me years of unparalleled distress. A man pays dearly for
 being immortal: to this end he must die many times over during his
 life. There is such a thing as what I call the rancour of greatness:
@@ -3011,7 +2867,7 @@ who know not how to live unless they can revere. A third thing is
 the absurd susceptibility of the skin to small pin-pricks, a kind of
 helplessness in the presence of all small things. This seems to me a
 necessary outcome of the appalling expenditure of all defensive forces,
-which is the first condition of every _creative_ act, of every act
+which is the first condition of every creative act, of every act
 which proceeds from the most intimate, most secret, and most concealed
 recesses of a man's being. The small defensive forces are thus, as it
 were, suspended, and no fresh energy reaches them. I even think it
@@ -3021,22 +2877,19 @@ suspicion; for, in a large number of cases, suspicion is merely a
 blunder in etiology. On one occasion when I felt like this I became
 conscious of the proximity of a herd of cows, some time before I could
 possibly have seen it with my eyes, simply owing to a return in me of
-milder and more humane sentiments: _they_ communicated warmth to me....
+milder and more humane sentiments: they communicated warmth to me....
 
 
 
-6
-
-
-This work stands alone. Do not let us mention the poets in the
+6 This work stands alone. Do not let us mention the poets in the
 same breath; nothing perhaps has ever been produced out of such a
 superabundance of strength. My concept "Dionysian" here became the
-_highest_ deed; compared with it everything that other men have done
+highest deed; compared with it everything that other men have done
 seems poor and limited. The fact that a Goethe or a Shakespeare would
 not for an instant have known how to take breath in this atmosphere of
 passion and of the heights; the fact that by the side of Zarathustra,
-Dante is no more than a believer, and not one who first _creates_ the
-truth--that is to say, not a world-ruling spirit, a _Fate_; the fact
+Dante is no more than a believer, and not one who first creates the
+truth--that is to say, not a world-ruling spirit, a Fate; the fact
 that the poets of the Veda were priests and not even fit to unfasten
 Zarathustra's sandal--all this is the least of things, and gives no
 idea of the distance, of the azure solitude, in which this work dwells.
@@ -3046,7 +2899,7 @@ heights. I build me a mountain range of ever holier mountains." If all
 the spirit and goodness of every great soul were collected together,
 the whole could not create a single one of Zarathustra's discourses.
 The ladder upon which he rises and descends is of boundless length;
-he has seen further, he has willed further, and _gone_ further than
+he has seen further, he has willed further, and gone further than
 any other man. There is contradiction in every word that he utters,
 this most yea-saying of all spirits. Through him all contradictions
 are bound up into a new unity. The loftiest and the basest powers of
@@ -3072,7 +2925,7 @@ brightness, the light feet, the presence of wickedness and exuberance
 throughout, and all that is the essence of the type Zarathustra, was
 never dreamt of before as a prerequisite of greatness. In precisely
 these limits of space and in this accessibility to opposites
-Zarathustra feels himself the _highest of all living things_: and when
+Zarathustra feels himself the highest of all living things: and when
 you hear how he defines this highest, you will give up trying to find
 his equal.
 
@@ -3097,7 +2950,7 @@ ebb and flow."
 But this is the very idea of Dionysus. Another consideration leads
 to this idea. The psychological problem presented by the type of
 Zarathustra is, how can he, who in an unprecedented manner says
-no, and _acts_ no, in regard to all that which has been affirmed
+no, and acts no, in regard to all that which has been affirmed
 hitherto, remain nevertheless a yea-saying spirit? how can he who
 bears the heaviest destiny on his shoulders and whose very life-task
 is a fatality, yet be the brightest and the most transcendental
@@ -3106,20 +2959,17 @@ hardest and most terrible grasp of reality, and who has thought the
 most "abysmal thoughts," nevertheless avoid conceiving these things
 as objections to existence, or even as objections to the eternal
 recurrence of existence?--how is it that on the contrary he finds
-reasons for _being himself_ the eternal affirmation of all things, "the
+reasons for being himself the eternal affirmation of all things, "the
 tremendous and unlimited saying of Yea and Amen"?... "Into every abyss
 do I bear the benediction of my yea to Life." ... But this, once more,
 is precisely the idea of Dionysus.
 
 
 
-7
-
-
-What language will such a spirit speak, when he speaks unto his soul?
-The language of the _dithyramb._ I am the inventor of the dithyramb.
-Hearken unto the manner in which Zarathustra speaks to his soul _Before
-Sunrise_ (iii. 48). Before my time such emerald joys and divine
+7 What language will such a spirit speak, when he speaks unto his soul?
+The language of the dithyramb. I am the inventor of the dithyramb.
+Hearken unto the manner in which Zarathustra speaks to his soul Before
+Sunrise (iii. 48). Before my time such emerald joys and divine
 tenderness had found no tongue. Even the profoundest melancholy of
 such a Dionysus takes shape as a dithyramb. As an example of this I
 take "The Night-Song,"--the immortal plaint of one who, thanks to his
@@ -3220,11 +3070,8 @@ is the song of a lover."
 
 
 
-8
-
-
-Such things have never been written, never been felt, never been
-_suffered:_ only a God, only Dionysus suffers in this way. The reply
+8 Such things have never been written, never been felt, never been
+suffered: only a God, only Dionysus suffers in this way. The reply
 to such a dithyramb on the sun's solitude in light would be Ariadne.
 ... Who knows, but I, who Ariadne is! To all such riddles no one
 heretofore had ever found an answer; I doubt even whether any one had
@@ -3268,7 +3115,7 @@ Thus driveth it the hammer to the stone.
 image of all my dreams! Alas, that it should have to sleep in the
 hardest and ugliest stone!
 
-"_Now rageth my hammer ruthlessly against its prison._ From the stone
+"Now rageth my hammer ruthlessly against its prison. From the stone
 the fragments fly: what's that to me?
 
 "I will finish it: for a shadow came unto me--the stillest and lightest
@@ -3279,9 +3126,9 @@ brethren! What are the--gods to me now?"
 
 Let me call attention to one last point of view. The line in italics is
 my pretext for this remark. A Dionysian life-task needs the hardness of
-the hammer, and one of its first essentials is without doubt the _joy
-even of destruction._ The command, "Harden yourselves!" and the deep
-conviction that _all creators are hard,_ is the really distinctive sign
+the hammer, and one of its first essentials is without doubt the joy
+even of destruction. The command, "Harden yourselves!" and the deep
+conviction that all creators are hard, is the really distinctive sign
 of a Dionysian nature.
 
 
@@ -3294,53 +3141,47 @@ BEYOND GOOD AND EVIL:
 
 
 
-1
-
-
-My work for the years that followed was prescribed as distinctly
+1 My work for the years that followed was prescribed as distinctly
 as possible. Now that the yea-saying part of my life-task was
 accomplished, there came the turn of the negative portion, both in
 word and deed: the transvaluation of all values that had existed
 hitherto, the great war,--the conjuring-up of the day when the fatal
 outcome of the struggle would be decided. Meanwhile, I had slowly to
-look about me for my peers, for those who, _out of strength,_ would
+look about me for my peers, for those who, out of strength, would
 proffer me a helping hand in my work of destruction. From that time
 onward, all my writings are so much bait: maybe I understand as much
-about fishing as most people? If nothing was _caught,_ it was not I who
-was at fault _There were no fish to come and bite._
+about fishing as most people? If nothing was caught, it was not I who
+was at fault There were no fish to come and bite.
 
 
 
-2
-
-
-In all its essential points, this book (1886) is a criticism of
-_modernity,_ embracing the modern sciences, arts, even politics,
+2 In all its essential points, this book (1886) is a criticism of
+modernity, embracing the modern sciences, arts, even politics,
 together with certain indications as to a type which would be the
 reverse of modern man, or as little like him as possible, a noble
-and yea-saying type. In this last respect the book is a _school
-for gentlemen_--the term _gentleman_ being understood here in a
+and yea-saying type. In this last respect the book is a school
+for gentlemen--the term gentleman being understood here in a
 much more spiritual and radical sense than it has implied hitherto.
 All those things of which the age is proud,--as, for instance,
 far-famed "objectivity," "sympathy with all that suffers," "the
 historical sense," with its subjection to foreign tastes, with its
-lying-in-the-dust before _petits faits,_ and the rage for science,--are
+lying-in-the-dust before petits faits, and the rage for science,--are
 shown to be the contradiction of the type recommended, and are
 regarded as almost ill-bred. If you remember that this book follows
-upon _Zarathustra,_ you may possibly guess to what system of diet it
+upon Zarathustra, you may possibly guess to what system of diet it
 owes its life. The eye which, owing to tremendous constraint, has
-become accustomed to see at a great distance,--_Zarathustra_ is even
+become accustomed to see at a great distance,--Zarathustra is even
 more far-sighted than the Tsar,--is here forced to focus sharply that
 which is close at hand, the present time, the things that lie about
 him. In all the aphorisms and more particularly in the form of this
-book, the reader will find the same _voluntary_ turning away from those
-instincts which made a _Zarathustra_ a possible feat. Refinement in
+book, the reader will find the same voluntary turning away from those
+instincts which made a Zarathustra a possible feat. Refinement in
 form, in aspiration, and in the art of keeping silent, are its more or
 less obvious qualities; psychology is handled with deliberate hardness
 and cruelty,--the whole book does not contain one single good-natured
 word.... All this sort of thing refreshes a man. Who can guess the kind
 of recreation that is necessary after such an expenditure of goodness
-as is to be found in _Zarathustra_? From a theological standpoint--now
+as is to be found in Zarathustra? From a theological standpoint--now
 pay ye heed; for it is but on rare occasions that I speak as a
 theologian--it was God Himself who, at the end of His great work,
 coiled Himself up in the form of a serpent at the foot of the tree of
@@ -3379,13 +3220,13 @@ the origin of the formidable power of the ascetic ideal, of the priest
 ideal, despite the fact that this ideal is essentially detrimental,
 that it is a will to nonentity and to decadence. Reply: it flourished
 not because God was active behind the priests, as is generally
-believed, but because it was a _faute de mieux_--from the fact that
+believed, but because it was a faute de mieux--from the fact that
 hitherto it has been the only ideal and has had no competitors. "For
 man prefers to aspire to nonentity than not to aspire at all." But
-above all, until the time of _Zarathustra_ there was no such thing
+above all, until the time of Zarathustra there was no such thing
 as a counter-ideal. You have understood my meaning. Three decisive
-overtures on the part of a psychologist to a _Transvaluation of all
-Values._--This book contains the first psychology of the priest.
+overtures on the part of a psychologist to a Transvaluation of all
+Values.--This book contains the first psychology of the priest.
 
 
 
@@ -3396,10 +3237,7 @@ HOW TO PHILOSOPHISE WITH THE HAMMER"
 
 
 
-1
-
-
-This work--which covers scarcely one hundred and fifty pages, with its
+1 This work--which covers scarcely one hundred and fifty pages, with its
 cheerful and fateful tone, like a laughing demon, and the production
 of which occupied so few days that I hesitate to give their number--is
 altogether an exception among books: there is no work more rich in
@@ -3407,15 +3245,12 @@ substance, more independent, more upsetting--more wicked. If any one
 should desire to obtain a rapid sketch of how everything, before my
 time, was standing on its head, he should begin reading me in this
 book. That which is called "Idols" on the title page is simply the
-old truth that has been believed in hitherto. In plain English, _The
-Twilight of the Idols_ means that the old truth is on its last legs.
+old truth that has been believed in hitherto. In plain English, The
+Twilight of the Idols means that the old truth is on its last legs.
 
 
 
-2
-
-
-There is no reality, no "ideality," which has not been touched in
+2 There is no reality, no "ideality," which has not been touched in
 this book (touched! what a cautious euphemism!). Not only the eternal
 idols, but also the youngest--that is to say, the most senile: modern
 ideas, for instance. A strong wind blows between the trees and in
@@ -3423,26 +3258,23 @@ all directions fall the fruit--the truths. There is the waste of an
 all-too-rich autumn in this book: you trip over truths. You even crush
 some to death, there are too many of them. Those things that you can
 grasp, however, are quite unquestionable; they are irrevocable decrees.
-I alone have the criterion of "truths" in my possession. I alone _can_
+I alone have the criterion of "truths" in my possession. I alone can
 decide. It would seem as if a second consciousness had grown up in me,
 as if the "life-will" in me had thrown a light upon the downward path
-along which it has been running throughout the ages. The _downward
-path_--hitherto this had been called the road to "Truth." All obscure
-impulse--"darkness and dismay"--is at an end, the "_good man_" was
+along which it has been running throughout the ages. The downward
+path--hitherto this had been called the road to "Truth." All obscure
+impulse--"darkness and dismay"--is at an end, the "good man" was
 precisely he who was least aware of the proper way.[1] And, speaking
 in all earnestness, no one before me knew the proper way, the way
 upwards: only after my time could men once more find hope, life-tasks,
-and roads mapped out that lead to culture--_I am the joyful harbinger
-of this culture._ ... On this account alone I am also a fatality.
+and roads mapped out that lead to culture--I am the joyful harbinger
+of this culture. ... On this account alone I am also a fatality.
 
 
 
-3
-
-
-Immediately after the completion of the above-named work, and without
+3 Immediately after the completion of the above-named work, and without
 letting even one day go by, I tackled the formidable task of the
-_Transvaluation_ with a supreme feeling of pride which nothing could
+Transvaluation with a supreme feeling of pride which nothing could
 equal; and, certain at each moment of my immortality, I cut sign after
 sign upon tablets of brass with the sureness of Fate. The Preface
 came into being on 3rd September 1888. When, after having written it
@@ -3465,7 +3297,7 @@ Without hesitating, or allowing myself to be disturbed for a single
 moment, I returned to my work, only the last quarter of which had still
 to be written. On the 30th September, tremendous triumph; the seventh
 day; the leisure of a god on the banks of the Po.[2] On the same day,
-I wrote the Preface to _The Twilight of the Idols,_ the correction of
+I wrote the Preface to The Twilight of the Idols, the correction of
 the proofs of which provided me with recreation during the month of
 September. Never in my life have I experienced such an autumn; nor
 had I ever imagined that such things were possible on earth--a Claude
@@ -3474,7 +3306,7 @@ perfection.
 
 
 [Footnote 1: A witty reference to Goethe's well-known passage in the
-Prologue to _Faust_:--
+Prologue to Faust:--
 
 "A good man, though in darkness and dismay,
 May still be conscious of the proper way."
@@ -3492,10 +3324,7 @@ fond.--TR.]
 
 
 
-1
-
-
-In order to do justice to this essay a man ought to suffer from the
+1 In order to do justice to this essay a man ought to suffer from the
 fate of music as from an open wound.--From what do I suffer when I
 suffer from the fate of music? From the fact that music has lost
 its world-transfiguring, yea-saying character--that it is decadent
@@ -3504,17 +3333,17 @@ the fate of music be as dear to man as his own life, because joy and
 suffering are alike bound up with it; then he will find this pamphlet
 comparatively mild and full of consideration. To be cheerful in
 such circumstances, and laugh good-naturedly with others at one's
-self,--_ridendodicere severum_[1] when the _verum dicere_ would
+self,--ridendodicere severum[1] when the verum dicere would
 justify every sort of hardness,--is humanity itself. Who doubts that
 I, old artillery-man that I am, would be able if I liked to point my
-_heavy_ guns at Wagner?--Everything decisive in this question I kept
+heavy guns at Wagner?--Everything decisive in this question I kept
 to myself--I have loved Wagner.--After all, an attack upon a more than
 usually subtle "unknown person" whom another would not have divined
 so easily, lies in the meaning and path of my life-task. Oh, I have
 still quite a number of other "unknown persons" to unmask besides a
 Cagliostro of Music! Above all, I have to direct an attack against
 the German people, who, in matters of the spirit, grow every day
-more indolent, poorer in instincts, and more _honest_ who, with an
+more indolent, poorer in instincts, and more honest who, with an
 appetite for which they are to be envied, continue to diet themselves
 on contradictions, and gulp down "Faith" in company with science,
 Christian love together with anti-Semitism, and the will to power (to
@@ -3525,27 +3354,24 @@ in the presence of opposites! Fancy this gastric neutrality and
 which can grant equal rights to all,--which finds everything tasteful!
 Without a shadow of a doubt the Germans are idealists. When I was last
 in Germany, I found German taste striving to grant Wagner and the
-_Trumpeter of Sakkingen_[2] equal rights; while I myself witnessed
+Trumpeter of Sakkingen[2] equal rights; while I myself witnessed
 the attempts of the people of Leipzig to do honour to one of the most
 genuine and most German of musicians,--using German here in the old
 sense of the word,--a man who was no mere German of the Empire, the
 master Heinrich Schütz, by founding a Liszt Society, the object of
-which was to cultivate and spread artful (_listige_[3]) Church music.
+which was to cultivate and spread artful (listige[3]) Church music.
 Without a shadow of doubt the Germans are idealists.
 
 
 
-2
-
-
-But here nothing shall stop me from being rude, and from telling the
+2 But here nothing shall stop me from being rude, and from telling the
 Germans one or two unpleasant home truths: who else would do it if I
 did not? I refer to their laxity in matters historical. Not only have
-the Germans entirely lost the _breadth of vision_ which enables one
+the Germans entirely lost the breadth of vision which enables one
 to grasp the course of culture and the values of culture; not only
 are they one and all political (or Church) puppets; but they have
-also actually _put a ban upon_ this very breadth of vision. A man
-must first and foremost be "German," he must belong to "_the_ race";
+also actually put a ban upon this very breadth of vision. A man
+must first and foremost be "German," he must belong to "the race";
 then only can he pass judgment upon all values and lack of values
 in history--then only can he establish them.... To be German is in
 itself an argument, "Germany, Germany above all,"[4] is a principle;
@@ -3556,16 +3382,16 @@ morality, of the "Categorical Imperative." There is such a thing as
 the writing of history according to the lights of Imperial Germany;
 there is, I fear, anti-Semitic history--there is also history written
 with an eye to the Court, and Herr von Treitschke is not ashamed
-of himself. Quite recently an idiotic opinion _in historicis,_ an
+of himself. Quite recently an idiotic opinion in historicis, an
 observation of Vischer the Swabian æsthete, since happily deceased,
 made the round of the German newspapers as a "truth" to which every
-German _must assent_ The observation was this: "The Renaissance _and_
+German must assent The observation was this: "The Renaissance and
 the Reformation only together constitute a whole--the æsthetic
 rebirth, and the moral rebirth." When I listen to such things, I lose
 all patience, and I feel inclined, I even feel it my duty, to tell the
 Germans, for once in a way, all that they have on their conscience.
-_Every great crime against culture for the last four centuries lies
-on their conscience...._ And always for the same reason, always owing
+Every great crime against culture for the last four centuries lies
+on their conscience.... And always for the same reason, always owing
 to their bottomless cowardice in the face of reality, which is also
 cowardice in the face of truth; always owing to the love of falsehood
 which has become almost instinctive in them--in short, "idealism."
@@ -3574,11 +3400,11 @@ meaning of her last period of greatness--the period of the Renaissance.
 At a moment when a higher order of values, values that were noble,
 that said yea to life, and that guaranteed a future, had succeeded
 in triumphing over the opposite values, the values of degeneration,
-in the very seat of Christianity itself,--and _even in the hearts of
-those sitting there,_--Luther, that cursed monk, not only restored the
+in the very seat of Christianity itself,--and even in the hearts of
+those sitting there,--Luther, that cursed monk, not only restored the
 Church, but, what was a thousand times worse, restored Christianity,
-and at a time too when it lay defeated. Christianity, the _Denial of
-the Will to Live,_ exalted to a religion! Luther was an impossible
+and at a time too when it lay defeated. Christianity, the Denial of
+the Will to Live, exalted to a religion! Luther was an impossible
 monk who, thanks to his own "impossibility," attacked the Church,
 and in so doing restored it! Catholics would be perfectly justified
 in celebrating feasts in honour of Luther, and in producing festival
@@ -3599,7 +3425,7 @@ their Wars of Independence, robbed Europe of the significance--the
 marvellous significance, of Napoleon's life. And in so doing they laid
 on their conscience everything that followed, everything that exists
 to-day,--this sickliness and want of reason which is most opposed to
-culture, and which is called Nationalism,--this _névrose nationale_
+culture, and which is called Nationalism,--this névrose nationale
 from which Europe is suffering acutely; this eternal subdivision of
 Europe into petty states, with politics on a municipal scale: they have
 robbed Europe itself of its significance, of its reason,--and have
@@ -3610,10 +3436,7 @@ together?
 
 
 
-3
-
-
-And after all, why should I not express my suspicions? In my case,
+3 And after all, why should I not express my suspicions? In my case,
 too, the Germans will attempt to make a great fate give birth merely
 to a mouse. Up to the present they have compromised themselves with
 me; I doubt whether the future will improve them. Alas! how happy I
@@ -3621,9 +3444,9 @@ should be to prove a false prophet in this matter! My natural readers
 and listeners are already Russians, Scandinavians, and Frenchmen--will
 they always be the same? In the history of knowledge, Germans are
 represented only by doubtful names, they have been able to produce only
-"_unconscious_" swindlers (this word applies to Fichte, Schelling,
+"unconscious" swindlers (this word applies to Fichte, Schelling,
 Schopenhauer, Hegel, and Schleiermacher, just as well as to Kant or
-Leibniz; they were all mere _Schleiermachers_).[6] The Germans must
+Leibniz; they were all mere Schleiermachers).[6] The Germans must
 not have the honour of seeing the first upright intellect in their
 history of intellects, that intellect in which truth ultimately got the
 better of the fraud of four thousand years, reckoned as one with the
@@ -3656,13 +3479,10 @@ to spell his name aloud.
 
 
 
-4
-
-
-And why should I not proceed to the end? I am fond of clearing the
+4 And why should I not proceed to the end? I am fond of clearing the
 air. It is even part of my ambition to be considered as essentially a
 despiser of Germans. I expressed my suspicions of the German character
-even at the age of six-and-twenty (see _Thoughts out of Season,_
+even at the age of six-and-twenty (see Thoughts out of Season,
 vol. ii. pp. 164, 165),--to my mind the Germans are impossible.
 When I try to think of the kind of man who is opposed to me in all
 my instincts, my mental image takes the form of a German. The first
@@ -3671,7 +3491,7 @@ feeling for distance in him; whether he sees rank, gradation, and order
 everywhere between man and man; whether he makes distinctions; for
 this is what constitutes a gentleman. Otherwise he belongs hopelessly
 to that open-hearted, open-minded--alas! and always very good-natured
-species, _la canaille_! But the Germans are _canaille_--alas! they are
+species, la canaille! But the Germans are canaille--alas! they are
 so good-natured! A man lowers himself by frequenting the society of
 Germans: the German places every one on an equal footing. With the
 exception of my intercourse with one or two artists, and above all
@@ -3681,7 +3501,7 @@ of all ages were to appear among Germans, then one of the saviours
 of the Capitol would be sure to arise and declare that his own ugly
 soul was just as great. I can no longer abide this race with which
 a man is always in bad company, which; has no idea of nuances--woe
-to me! I am a nuance--and which has not _esprit_ in its feet, and
+to me! I am a nuance--and which has not esprit in its feet, and
 cannot even walk withal! In short, the Germans have no feet at all,
 they simply have legs. The Germans have not the faintest idea of how
 vulgar they are--but this in itself is the acme of vulgarity,--they are
@@ -3699,9 +3519,9 @@ always made points of honour. Albeit, the truth remains that for many
 years I have considered almost every letter that has reached me as a
 piece of cynicism. There is more cynicism in an attitude of goodwill
 towards me than in any sort of hatred. I tell every friend to his face
-that he has never thought it worth his while to _study_ any one of my
+that he has never thought it worth his while to study any one of my
 writings: from the slightest hints I gather that they do not even know
-what lies hidden in my books. And with regard even to my _Zarathustra,_
+what lies hidden in my books. And with regard even to my Zarathustra,
 which of my friends would have seen more in it than a piece of
 unwarrantable, though fortunately harmless, arrogance? Ten years have
 elapsed, and no one has yet felt it a duty to his conscience to defend
@@ -3712,12 +3532,12 @@ against my so-called friends. At what German University to-day would
 such lectures on my philosophy be possible, as those which Dr. Brandes
 delivered last spring in Copenhagen, thus proving once more his right
 to the title psychologist? For my part, these things have never caused
-me any pain; that which is _necessary_ does not offend me. _Amor fati_
+me any pain; that which is necessary does not offend me. Amor fati
 is the core of my nature. This, however, does not alter the fact that
 I love irony and even world-historic irony. And thus, about two years
-before hurling the destructive thunderbolt of the _Transvaluation,_
+before hurling the destructive thunderbolt of the Transvaluation,
 which will send the whole of civilisation into convulsions, I sent
-my _Case of Wagner_ out into the world. The Germans were given the
+my Case of Wagner out into the world. The Germans were given the
 chance of blundering and immortalising their stupidity once more on my
 account, and they still have just enough time to do it in. And have
 they fallen in with my plans? Admirably! my dear Germans. Allow me to
@@ -3725,7 +3545,7 @@ congratulate you.
 
 
 
-[Footnote 1: The motto of _The Case of Wagner._--TR.]
+[Footnote 1: The motto of The Case of Wagner.--TR.]
 
 [Footnote 2: An opera by Nessler which was all the rage in Germany
 twenty years ago.--TR.]
@@ -3733,13 +3553,13 @@ twenty years ago.--TR.]
 [Footnote 3: Unfortunately it is impossible to render this play on the
 words in English.--TR.]
 
-[Footnote 4: The German National Song (_Deutschland, Deutschland über
-alles_).--TR.]
+[Footnote 4: The German National Song (Deutschland, Deutschland über
+alles).--TR.]
 
 [Footnote 5: Ever since the year 1617 such plays have been produced by
 the Protestants of Germany.--TR.]
 
-[Footnote 6: _Schleiermacher_ literally means a weaver or maker of
+[Footnote 6: Schleiermacher literally means a weaver or maker of
 veils.--TR.]
 
 
@@ -3749,10 +3569,7 @@ WHY I AM A FATALITY
 
 
 
-1
-
-
-I know my destiny. There will come a day when my name will recall
+1 I know my destiny. There will come a day when my name will recall
 the memory of something formidable--a crisis the like of which has
 never been known on earth, the memory of the most profound clash
 of consciences, and the passing of a sentence upon all that which
@@ -3766,10 +3583,10 @@ masses. I am horribly frightened that one day I shall be pronounced
 "holy." You will understand why I publish this book beforehand--it is
 to prevent people from wronging me. I refuse to be a saint; I would
 rather be a clown. Maybe I am a clown. And I am notwithstanding, or
-rather not _not_withstanding, the mouthpiece of truth; for nothing
+rather not notwithstanding, the mouthpiece of truth; for nothing
 more blown-out with falsehood has ever existed, than a saint. But
-my truth is terrible: for hitherto _lies_ have been called truth.
-_The Transvaluation of all Values,_ this is my formula for mankind's
+my truth is terrible: for hitherto lies have been called truth.
+The Transvaluation of all Values, this is my formula for mankind's
 greatest step towards coming to its senses--a step which in me became
 flesh and genius. My destiny ordained that I should be the first decent
 human being, and that I should feel myself opposed to the falsehood
@@ -3794,11 +3611,8 @@ exist on earth.
 
 
 
-2
-
-
-If you should require a formula for a destiny of this kind that has
-taken human form, you will find it in my _Zarathustra_.
+2 If you should require a formula for a destiny of this kind that has
+taken human form, you will find it in my Zarathustra.
 
 "And he who would be a creator in good and evil--verily, he must first
 be a destroyer, and break values into pieces.
@@ -3808,17 +3622,14 @@ the creative good."
 
 I am by far the most terrible man that has ever existed; but this does
 not alter the fact that I shall become the most beneficent. I know the
-joy of _annihilation_ to a degree which is commensurate with my power
+joy of annihilation to a degree which is commensurate with my power
 to annihilate. In both cases I obey my Dionysian nature, which knows
 not how to separate the negative deed from the saying of yea. I am the
 first immoralist, and in this sense I am essentially the annihilator.
 
 
 
-3
-
-
-People have never asked me as they should have done, what the name
+3 People have never asked me as they should have done, what the name
 of Zarathustra precisely meant in my mouth, in the mouth of the
 first immoralist; for that which distinguishes this Persian from all
 others in the past is the very fact that he was the exact reverse
@@ -3844,12 +3655,9 @@ in my mouth.
 
 
 
-4
-
-
-In reality two negations are involved in my title Immoralist. I first
+4 In reality two negations are involved in my title Immoralist. I first
 of all deny the type of man that has hitherto been regarded as the
-highest--the _good,_ the _kind,_ and the _charitable_; and I also
+highest--the good, the kind, and the charitable; and I also
 deny that kind of morality which has become recognised and paramount
 as morality-in-itself--I speak of the morality of decadence, or, to
 use a still cruder term, Christian morality. I would agree to the
@@ -3861,7 +3669,7 @@ annihilation are inseparable from a yea-saying attitude towards life.
 Let me halt for a moment at the question of the psychology of the
 good man. In order to appraise the value of a certain type of man, the
 cost of his maintenance must be calculated,--and the conditions of his
-existence must be known. The condition of the existence of the _good_
+existence must be known. The condition of the existence of the good
 is falsehood: or, otherwise expressed, the refusal at any price to
 see how reality is actually constituted. The refusal to see that this
 reality is not so constituted as always to be stimulating beneficent
@@ -3878,41 +3686,38 @@ it is even needful to practise leniency in order so much as to allow
 the latter a place at all, seeing that it is based upon a falsification
 of the instincts. I shall have an excellent opportunity of showing the
 incalculably calamitous consequences to the whole of history, of the
-credo of optimism, this monstrous offspring of the _homines optimi._
+credo of optimism, this monstrous offspring of the homines optimi.
 Zarathustra,[1] the first who recognised that the optimist is just as
 degenerate as the pessimist, though perhaps more detrimental, says:
-"_Good men never speak the truth. False shores and false harbours
+"Good men never speak the truth. False shores and false harbours
 were ye taught by the good. In the lies of the good were ye born and
 bred. Through the good everything hath become false and crooked from
-the roots._" Fortunately the world is not built merely upon those
+the roots." Fortunately the world is not built merely upon those
 instincts which would secure to the good-natured herd animal his paltry
 happiness. To desire everybody to become a "good man," "a gregarious
 animal," "a blue-eyed, benevolent, beautiful soul," or--as Herbert
 Spencer wished--a creature of altruism, would mean robbing existence of
 its greatest character, castrating man, and reducing humanity to a sort
-of wretched Chinadom. _And this some have tried to do! It is precisely
-this that men called morality._ In this sense Zarathustra calls "the
+of wretched Chinadom. And this some have tried to do! It is precisely
+this that men called morality. In this sense Zarathustra calls "the
 good," now "the last men," and anon "the beginning of the end"; and
-above all, he considers them as _the most detrimental kind of men,_
+above all, he considers them as the most detrimental kind of men,
 because they secure their existence at the cost of Truth and at the
 cost of the Future.
 
 "The good--they cannot create; they are ever the beginning of the end.
 
 "They crucify him who writeth new values on new tables; they sacrifice
-_unto themselves_ the future; they crucify the whole future of humanity!
+unto themselves the future; they crucify the whole future of humanity!
 
 "The good--they are ever the beginning of the end.
 
-"And whatever harm the slanderers of the world may do, _the harm of the
-good is the most calamitous of all harm._"
+"And whatever harm the slanderers of the world may do, the harm of the
+good is the most calamitous of all harm."
 
 
 
-5
-
-
-Zarathustra, as the first psychologist of the good man, is perforce the
+5 Zarathustra, as the first psychologist of the good man, is perforce the
 friend of the evil man. When a degenerate kind of man has succeeded
 to the highest rank among the human species, his position must have
 been gained at the cost of the reverse type--at the cost of the strong
@@ -3927,7 +3732,7 @@ it was out of this feeling of repulsion that he grew the wings which
 allowed him to soar into remote futures. He does not conceal the fact
 that his type of man is one which is relatively superhuman--especially
 as opposed to the "good" man, and that the good and the just would
-regard his superman as the _devil._
+regard his superman as the devil.
 
 "Ye higher men, on whom my gaze now falls, this is the doubt that ye
 wake in my breast, and this is my secret laughter: methinks ye would
@@ -3937,17 +3742,14 @@ goodness."
 
 It is from this passage, and from no other, that you must set out to
 understand the goal to which Zarathustra aspires--the kind of man that
-he conceives sees reality _as it is;_ he is strong enough for this--he
+he conceives sees reality as it is; he is strong enough for this--he
 is not estranged or far removed from it, he is that reality himself, in
 his own nature can be found all the terrible and questionable character
-of reality: _only thus can man have greatness._
+of reality: only thus can man have greatness.
 
 
 
-6
-
-
-But I have chosen the title of Immoralist as a surname and as a badge
+6 But I have chosen the title of Immoralist as a surname and as a badge
 of honour in yet another sense; I am very proud to possess this name
 which distinguishes me from all the rest of mankind. No one hitherto
 has felt Christian morality beneath him; to that end there were needed
@@ -3961,29 +3763,26 @@ they were underground caverns? Was a single one of the philosophers
 who preceded me a psychologist at all, and not the very reverse of a
 psychologist--that is to say, a "superior swindler," an "Idealist"?
 Before my time there was no psychology. To be the first in this new
-realm may amount to a curse; at all events, it is a fatality: _for one
-is also the first to despise._ My danger is the loathing of mankind.
+realm may amount to a curse; at all events, it is a fatality: for one
+is also the first to despise. My danger is the loathing of mankind.
 
 
 
-7
-
-
-Have you understood me? That which defines me, that which makes me
+7 Have you understood me? That which defines me, that which makes me
 stand apart from the whole of the rest of humanity, is the fact that
-I _unmasked_ Christian morality. For this reason I was in need of a
+I unmasked Christian morality. For this reason I was in need of a
 word which conveyed the idea of a challenge to everybody. Not to have
 awakened to these discoveries before, struck me as being the sign
 of the greatest uncleanliness that mankind has on its conscience,
 as self-deception become instinctive, as the fundamental will to
 be blind to every phenomenon, all causality and all reality; in
-fact, as an almost criminal fraud _in psychologicis._ Blindness in
+fact, as an almost criminal fraud in psychologicis. Blindness in
 regard to Christianity is the essence of criminality--for it is the
-crime _against_ life. Ages and peoples, the first as well as the
+crime against life. Ages and peoples, the first as well as the
 last, philosophers and old women, with the exception of five or six
 moments in history (and of myself, the seventh), are all alike in
-this. Hitherto the Christian has been _the_ "moral being," a peerless
-oddity, and, _as_ "a moral being," he was more absurd, more vain, more
+this. Hitherto the Christian has been the "moral being," a peerless
+oddity, and, as "a moral being," he was more absurd, more vain, more
 thoughtless, and a greater disadvantage to himself, than the greatest
 despiser of humanity could have deemed possible. Christian morality
 is the most malignant form of all false too the actual Circe of
@@ -3992,18 +3791,18 @@ which infuriates me at the sight of this spectacle; it is not the
 millenniums of absence of "goodwill," of discipline, of decency, and
 of bravery in spiritual things, which betrays itself in the triumph of
 Christianity; it is rather the absence of nature, it is the perfectly
-ghastly fact that _anti-nature_ itself received the highest honours as
+ghastly fact that anti-nature itself received the highest honours as
 morality and as law, and remained suspended over man as the Categorical
-Imperative. Fancy blundering in this way, _not_ as an individual,
-_not_ as a people, but as a whole species! as _humanity_! To teach the
+Imperative. Fancy blundering in this way, not as an individual,
+not as a people, but as a whole species! as humanity! To teach the
 contempt of all the principal instincts of life; to posit falsely the
 existence of a "soul," of a "spirit," in order to be able to defy the
 body; to spread the feeling that there is something impure in the very
 first prerequisite of life--in sex; to seek the principle of evil in
 the profound need of growth and expansion--that is to say, in severe
 self-love (the term itself is slanderous); and conversely to see a
-higher moral value--but what am I talking about?--I mean the _moral
-value per se,_ in the typical signs of decline, in the antagonism of
+higher moral value--but what am I talking about?--I mean the moral
+value per se, in the typical signs of decline, in the antagonism of
 the instincts, in "selflessness," in the loss of ballast, in "the
 suppression of the personal element," and in "love of one's neighbour"
 (neighbouritis!). What! is humanity itself in a state of degeneration?
@@ -4022,20 +3821,17 @@ Christian morality his road to power. And, to tell the truth, this
 is my opinion. The teachers and I leaders of mankind--including the
 theologians--have been, every one of them, decadents: hence their)
 transvaluation of all values into a hostility towards; life; hence
-morality. _The definition of morality;_ Morality is the idiosyncrasy of
-decadents, actuated by a desire _to avenge themselves with success upon
-life._ I attach great value to this definition.
+morality. The definition of morality; Morality is the idiosyncrasy of
+decadents, actuated by a desire to avenge themselves with success upon
+life. I attach great value to this definition.
 
 
 
-8
-
-
-Have you understood me? I have not uttered a single word which I had
+8 Have you understood me? I have not uttered a single word which I had
 not already said five years ago through my mouthpiece Zarathustra.
 The unmasking of Christian morality is an event which unequalled in
 history, it is a real catastrophe. The man who throws light upon it
-is a _force majeure,_ a fatality; he breaks the history of man into
+is a force majeure, a fatality; he breaks the history of man into
 two. Time is reckoned up before him and after him. The lightning
 flash of truth struck precisely that which theretofore had stood
 highest: he who understands what was destroyed by that flash should
@@ -4044,12 +3840,12 @@ which until then was called truth, has been revealed as the most
 detrimental, most spiteful, and most subterranean form of life; the
 holy pretext, which was the "improvement" of man, has been recognised
 as a ruse for draining life of its energy and of its blood. Morality
-conceived as _Vampirism_.... The man who unmasks morality has also
+conceived as Vampirism.... The man who unmasks morality has also
 unmasked the worthlessness of the values in which men either believe
 or have believed; he no longer sees anything to be revered in the most
 venerable man--even in the types of men that have been pronounced
 holy; all he can see in them is the most fatal kind of abortions,
-fatal, _because they fascinate._ The concept "God" was invented as
+fatal, because they fascinate. The concept "God" was invented as
 the opposite of the concept life--everything detrimental, poisonous,
 and slanderous, and all deadly hostility to life, wad bound together
 in one horrible unit in Him. The concepts "beyond" and "true world"
@@ -4059,10 +3855,10 @@ reality. The concepts "soul," "spirit," and last of all the concept
 "immortal soul," were invented in order to throw contempt on the body,
 in order to make it sick and "holy," in order to cultivate an attitude
 of appalling levity towards all things in life which deserve to be
-treated seriously, _i.e._ the questions of nutrition and habitation,
+treated seriously, i.e. the questions of nutrition and habitation,
 of intellectual diet, the treatment of the sick, cleanliness, and
 weather. Instead of health, we find the "salvation of the soul"--that
-is to say, a _folie circulate_ fluctuating between convulsions and
+is to say, a folie circulate fluctuating between convulsions and
 penitence and the hysteria of redemption. The concept "sin," together
 with the torture instrument appertaining to it, which is the concept
 "free will," was invented in order to confuse and muddle our instincts,
@@ -4072,20 +3868,17 @@ are to be found. The allurement of that which is detrimental, the
 inability to discover one's own advantage and self-destruction, are
 made into absolute qualities, into the "duty," the "holiness," and
 the "divinity" of man. Finally--to keep the worst to the last--by the
-notion of the _good_ man, all that is favoured which is weak, ill,
-botched, and sick-in-itself, which _ought to be wiped out._ The law
+notion of the good man, all that is favoured which is weak, ill,
+botched, and sick-in-itself, which ought to be wiped out. The law
 of selection is thwarted, an ideal is made out of opposition to the
 proud, well-constituted man, to him who says yea to life, to him who
 is certain of the future, and who guarantees the future--this man is
-henceforth called the _evil_ one. And all this was believed in as
-_morality!--Ecrasez l'infâme!_
+henceforth called the evil one. And all this was believed in as
+morality!--Ecrasez l'infâme!
 
 
 
-9
-
-
-Have you understood me? _Dionysus_ versus _Christ._
+9 Have you understood me? Dionysus versus Christ.
 
 
 [Footnote 1: Needless to say this is Nietzsche, and no longer the
@@ -4098,12 +3891,12 @@ EDITORIAL NOTE TO POETRY
 
 
 The editor begs to state that, contrary to his announcement in
-the Editorial Note to _The Joyful Wisdom,_ in which he declared
+the Editorial Note to The Joyful Wisdom, in which he declared
 his intention of publishing all of Nietzsche's poetry, he has
 nevertheless withheld certain less important verses from publication.
 This alteration in his plans is due to his belief that it is an
 injustice and an indiscretion on the part of posterity to surprise an
-author, as it were, in his _négligé,_ or, in plain English, "in his
+author, as it were, in his négligé, or, in plain English, "in his
 shirt-sleeves." Authors generally are very sensitive on this point, and
 rightly so: a visit behind the scenes is not precisely to the advantage
 of the theatre, and even finished pictures not yet framed are not
@@ -4112,12 +3905,12 @@ contains nearly all that Nietzsche left behind, either in small
 notebooks or on scraps of paper, the editor could not well suppress
 everything that was not prepared for publication by Nietzsche himself,
 more particularly as some of the verses are really very remarkable.
-He has, therefore, made a very plentiful selection from the _Songs
-and Epigrams,_ nearly all of which are to be found translated here,
+He has, therefore, made a very plentiful selection from the Songs
+and Epigrams, nearly all of which are to be found translated here,
 and from the Fragments of the Dionysus Dithyrambs, of which over half
 have been given. All the complete Dionysus Dithyrambs appear in this
 volume, save those which are duplicates of verses already translated
-in the Fourth Part of _Zarathustra._ These Dionysus Dithyrambs were
+in the Fourth Part of Zarathustra. These Dionysus Dithyrambs were
 prepared ready for press by Nietzsche himself. He wrote the final
 manuscript during the summer of 1888 in Sils Maria; their actual
 composition, however, belongs to an earlier date.
@@ -4153,7 +3946,7 @@ SONGS
       Rolled hither, thither, proud and overweening.
     What though they did not soar unto thine height,
       or reached those far-off, cloud-reared precipices,
-    For _that_ they sank the deeper so they might
+    For that they sank the deeper so they might
       Within themselves light Destiny's abysses.
 
     Thus oft in sullenness perverse and free,
@@ -4235,12 +4028,10 @@ SONGS
     HYMNS TO FRIENDSHIP
 
 
-    (_Two Fragments_)
+    (Two Fragments)
 
 
-    1
-
-    Goddess Friendship, deign to hear the song
+    1 Goddess Friendship, deign to hear the song
       That we sing in friendship's honour!
     Where the eye of friendship glances,
       Filled with all the joy of friendship
@@ -4249,9 +4040,7 @@ SONGS
     In holy hand the faithful pledge of youth eternal.
 
 
-    2
-
-    Morning's past: the sun of noonday
+    2 Morning's past: the sun of noonday
       Scorches with hot ray our heads.
     Let us sit beneath the arbour
     Singing songs in praise of friendship.
@@ -4406,7 +4195,7 @@ SONGS
     And break me, ah!--
     So that within their eyes shall gleam
     Remembrance swift,
-    _Remembrance of far fairer things than I_:--
+    Remembrance of far fairer things than I:--
     I see it--see it--and I perish so."
 
     'Tis Autumn:--Autumn yet shall break thy heart!
@@ -4607,7 +4396,7 @@ SONGS
     AMONG FOES (OR AGAINST CRITICS)
 
 
-    (_After a Gipsy Proverb_)
+    (After a Gipsy Proverb)
 
 
     Here the gallows, there the cord,
@@ -4624,8 +4413,7 @@ SONGS
     True, I suffer agony,
       But for you--your life is done.
     Many times I've faced death's plight,
-      Yet steam and light and breath am I.
-    Hanging me is useless quite:
+      Yet steam and light and breath am I. Hanging me is useless quite:
       Die? Nay, nay, I cannot die!
 
 
@@ -4690,7 +4478,7 @@ SONGS
     Soon come the snows--
       Woe unto him who hath no home!
 
-    _My Answer_
+    My Answer
 
     The man presumes--
       Good Lord!--to think that I'd return
@@ -4699,7 +4487,7 @@ SONGS
 
     My friend, you see
       'Tis but thy folly drives me far,--
-    Pity for _thee_
+    Pity for thee
       And all that German blockheads are!
 
 
@@ -4738,7 +4526,7 @@ with a lamb on the tombstone, with the words underneath--
 "Pia, caritatevole, amorosissima."]
 
 [Footnote 6: Published by Nietzsche himself. The poem was inspired
-by a ship that was christened _Angiolina,_ in memory of a
+by a ship that was christened Angiolina, in memory of a
 love-sick girl who leapt into the sea.--TR.]
 
 [Footnote 7: See above, p. 157. Both poems were inspired by the same
@@ -4810,7 +4598,7 @@ EPIGRAMS
     THE WANDERER AND HIS SHADOW
 
 
-    _A Book_
+    A Book
 
 
     You'll ne'er go on nor yet go back?
@@ -4883,10 +4671,10 @@ EPIGRAMS
 
     A fool this honest Britisher
     Was not ... But a Philosopher!
-      As _that_ you really rate him?
+      As that you really rate him?
     Set Darwin up by Goethe's side?
     But majesty you thus deride--
-      _Genii majestatem_!
+      Genii majestatem!
 
 
 
@@ -4894,7 +4682,7 @@ EPIGRAMS
     To HAFIZ
 
 
-    (_Toast Question of a Water-Drinker_)
+    (Toast Question of a Water-Drinker)
 
 
     What you have builded, yonder inn,
@@ -4921,7 +4709,7 @@ EPIGRAMS
 
 
     Of "All in One" a fervent devotee
-    _Amore Dei,_ of reasoned piety,
+    Amore Dei, of reasoned piety,
     Doff shoes! A land thrice holy this must be!--
     Yet underneath this love there sate
     A torch of vengeance, burning secretly
@@ -5074,7 +4862,7 @@ EPIGRAMS
 
 [Footnote 1: Translated by Francis Bickley.]
 
-[Footnote 2: On the title-page of a copy of _Joyful Wisdom,_ dedicated
+[Footnote 2: On the title-page of a copy of Joyful Wisdom, dedicated
 to Herr August Bungal.--TR.]
 
 [Footnote 3: Translated by Francis Bickley.]
@@ -5178,7 +4966,7 @@ himself so as to endure his last solitude.
     Come, come, beloved truth!
 
     --Silence!
-    'Tis _my_ truth!
+    'Tis my truth!
     From timid eyes,
     From velvet shudders,
     Her glance meets mine,
@@ -5328,9 +5116,7 @@ himself so as to endure his last solitude.
     THE SUN SINKS
 
 
-    I
-
-    Not much longer thirstest thou,
+    I Not much longer thirstest thou,
     O burnt-up heart!
     Promise is in the air,
     From unknown mouths I feel a breath,
@@ -5348,9 +5134,7 @@ himself so as to endure his last solitude.
     And ask not "Why?"
 
 
-    2
-
-    The day of my life!
+    2 The day of my life!
     The sun sinks,
     And the calm flood
     Already is gilded.
@@ -5371,9 +5155,7 @@ himself so as to endure his last solitude.
     Thy last hesitating holiness....
 
 
-    3
-
-    Golden gaiety, come!
+    3 Golden gaiety, come!
     Thou, the sweetest foretaste--
     Foretaste of death!
     --Went I my way too swiftly?
@@ -5475,12 +5257,10 @@ himself so as to endure his last solitude.
     FAME AND ETERNITY[2]
 
 
-    I
-
-    Speak, tell me, how long wilt thou brood
+    I Speak, tell me, how long wilt thou brood
     Upon this adverse fate of thine?
     Beware, lest from thy doleful mood
-    A countenance _90_ dark is brewed
+    A countenance 90 dark is brewed
     That men in seeing thee divine
     A hate more bitter than the brine.
         *     *     *     *
@@ -5508,9 +5288,7 @@ himself so as to endure his last solitude.
     The flaming curse of Zarathustra's wrath.
 
 
-    2
-
-    This fame, which all the wide world loves,
+    2 This fame, which all the wide world loves,
     I touch with gloves,
     And scorning beat
     Beneath my feet.
@@ -5549,9 +5327,7 @@ himself so as to endure his last solitude.
     Beneath my feet.
 
 
-    3
-
-    Hush! I see vastness!--and of vasty things
+    3 Hush! I see vastness!--and of vasty things
     Shall man be dumb, unless he can enshrine
     Them with his words? Then take the might which brings
     The heart upon thy tongue, charmed wisdom mine!
@@ -5562,13 +5338,11 @@ himself so as to endure his last solitude.
     A shining constellation falls towards me.
 
 
-    4
-
-    O loftiest, star-clustered crown of Being!
+    4 O loftiest, star-clustered crown of Being!
     O carved tablets of Eternity!
     And dost thou truly bend thy way to me?
     Thy loveliness, to all--obscurity,
-    What? Fear'st not to unveil before _my_ seeing?
+    What? Fear'st not to unveil before my seeing?
         *     *     *     *
     O shield of Destiny!
     O carven tablets of Eternity!
@@ -5600,9 +5374,7 @@ FRAGMENTS OF DIONYSUS-DITHYRAMBS
 SPEECHES, PARABLES, AND SIMILES
 
 
-    3
-
-    My home's in the highlands,
+    3 My home's in the highlands,
     For the highlands I yearn not,
     I raise not mine eyes aloft:
     I am one that looks downward,
@@ -5610,22 +5382,16 @@ SPEECHES, PARABLES, AND SIMILES
     blessers look downward.
 
 
-    11
-
-    Thus I began,
+    11 Thus I began,
     I unlearned all self-pity!
 
 
-    13
-
-    Not in shattering idols,
+    13 Not in shattering idols,
     But in shattering the idol-worshipper in thee,
     Consisted thy valour.
 
 
-    14
-
-    See, there stand
+    14 See, there stand
     Those heavy cats of granite,
     Those old, old Values.
     Woe is me! How overthrow them?
@@ -5636,16 +5402,12 @@ SPEECHES, PARABLES, AND SIMILES
     And their glance is poison.
 
 
-    17
-
-    A lightning-flash became my wisdom:
+    17 A lightning-flash became my wisdom:
     With sword of adamant it clove me every
         darkness!
 
 
-    19
-
-    A thought that still
+    19 A thought that still
     Flows hot, like lava:
     But all streams of lava
     Build a fortress around them,
@@ -5653,9 +5415,7 @@ SPEECHES, PARABLES, AND SIMILES
     Oppresses itself with laws.
 
 
-    20
-
-    Such is my will:
+    20 Such is my will:
     And since 'tis my will,
     All goes as I wish--
     That was my final wisdom:
@@ -5664,17 +5424,13 @@ SPEECHES, PARABLES, AND SIMILES
     Since then has been for me no "must."
 
 
-    23
-
-    Deceit
+    23 Deceit
     Is war's whole art
     The fox's skin
     Is my secret shirt of mail
 
 
-    25
-
-    We of the new underworld
+    25 We of the new underworld
     Grub for new treasures.
     Godless it seemed to the ancients
     To disturb the earth's bowels for treasures
@@ -5682,43 +5438,31 @@ SPEECHES, PARABLES, AND SIMILES
     Hear ye not earth's bowels thunder?
 
 
-    28
-
-    Looking for love and finding masks,
+    28 Looking for love and finding masks,
     Finding accursed masks and having to break them!
 
 
-    29
-
-    Do I love you?
+    29 Do I love you?
     Yes, as the rider loves his steed,
     That carryeth him to his goal.
 
 
-    30
-
-    His pity is cruel,
+    30 His pity is cruel,
     His loving hand-clasp bruises,
     Give not a giant your hand!
 
 
-    31
-
-    Ye fear me?
+    31 Ye fear me?
     Ye fear the taut-strung bow?
     Ye fear a man might set his arrow to the bow?
 
 
-    33
-
-    I am naught but a word-maker.
+    33 I am naught but a word-maker.
     What matter words?
     What matter I?
 
 
-    34
-
-    Ah, my friends,
+    34 Ah, my friends,
     Whither has flown all that is called "good"?
     Whither all good people?
     Whither the innocence of all these falsehoods?
@@ -5726,37 +5470,27 @@ SPEECHES, PARABLES, AND SIMILES
     Leaves and grass, happiness, blessing, and rain.
 
 
-    35
-
-    Not through his sins and greatest follies.
+    35 Not through his sins and greatest follies.
     Through his perfection I suffered,
     As I suffered most from men.[1]
 
 
-    36
-
-    "Man is evil."
+    36 "Man is evil."
     So spake the wisest
     For my consolement.
 
 
-    37
-
-    And only when I to myself am a burden
+    37 And only when I to myself am a burden
     Do ye fall heavy upon me!
 
 
-    38
-
-    Too soon, already
+    38 Too soon, already
     I laugh again:
     For a foe 'tis easy
     To make me amends.
 
 
-    39
-
-    Gentle am I towards man and chance;
+    39 Gentle am I towards man and chance;
     Gentle with all men, and even with grasses:
     A spot of sunshine on winter curtains,
     Moist with tenderness,
@@ -5769,15 +5503,11 @@ SPEECHES, PARABLES, AND SIMILES
     Such is the bidding of my fastidious taste.
 
 
-    40
-
-    A strange breath breathes and spits at me,
+    40 A strange breath breathes and spits at me,
     Am I a mirror, that straightway is clouded?
 
 
-    41
-
-    Little people,
+    41 Little people,
     Confiding, open-hearted,
     But low-built portals,
     Where only the low of stature can enter.
@@ -5786,9 +5516,7 @@ SPEECHES, PARABLES, AND SIMILES
     Who had forgotten to live among dwarfs?
 
 
-    42
-
-    My wisdom was like to the sun,
+    42 My wisdom was like to the sun,
     I longed to give them light,
     But I only deceived them.
     The sun of my wisdom
@@ -5796,40 +5524,30 @@ SPEECHES, PARABLES, AND SIMILES
     Of these poor bats....
 
 
-    43
-
-    Blacker and eviller things didst thou see than ever
+    43 Blacker and eviller things didst thou see than ever
         a seer did:
     Through the revels of Hell no sage had ever
         journeyed.
 
 
-    44
-
-    Back! on my heels too closely ye follow!
+    44 Back! on my heels too closely ye follow!
     Back! lest my wisdom should tread on you, crush
        you!
 
 
-    45
-
-    "He goes to hell who goes thy ways!"
+    45 "He goes to hell who goes thy ways!"
     So be it I to my hell
     I'll pave the way myself with well-made maxims.
 
 
-    46
-
-    Your God, you tell me,
+    46 Your God, you tell me,
     Is a God of love?
     The sting of conscience
     A sting from God?
     A sting of love?
 
 
-    48
-
-    They chew gravel,
+    48 They chew gravel,
     They lie on their bellies
     Before little round things,
     They adore all that falleth not down--
@@ -5837,28 +5555,21 @@ SPEECHES, PARABLES, AND SIMILES
     Believers (in reality)!
 
 
-    50
-
-    They made their God out of nothing,
+    50 They made their God out of nothing,
     What wonder if now he is naught?
 
 
-    51
-
-    Ye loftier men! There have once been
+    51 Ye loftier men! There have once been
     More thoughtful times, more reflective,
     Than is our to-day and to-morrow.
 
 
-    52
-    Our time is like a sick woman--
+    52 Our time is like a sick woman--
     Let her but shriek, rave, scold,
     And break the tables and dishes!
 
 
-    54
-
-    Ye mount?
+    54 Ye mount?
     Is it true that ye mount,
     Ye loftier men?
 
@@ -5869,82 +5580,60 @@ SPEECHES, PARABLES, AND SIMILES
     Do ye not flee from yourselves, O ye climbers?
 
 
-    55
-
-    All that you thought
+    55 All that you thought
     You had to despise,
     Where you only renounced!
 
 
-    56
-
-    All men repeat the refrain!
+    56 All men repeat the refrain!
     No, no, and thrice say No!
     What's all this yap-yap talk of heaven?
     We would not enter the kingdom of heaven,
     The kingdom of earth shall be ours?
 
 
-    57
-
-    The will redeemeth,
+    57 The will redeemeth,
     He that has nothing to do
     In a Nothing finds food for trouble.
 
 
-    58
-
-    You cannot endure it more,
+    58 You cannot endure it more,
     Your tyrannous destiny,
     Love it--you're given no choice!
 
 
-    59
-
-    These alone free us from woes
+    59 These alone free us from woes
     (Choose now I)
     Sudden death
     Or long-drawn-out love.
 
 
-    60
-
-    Of death we are sure,
+    60 Of death we are sure,
     So why not be merry?
 
 
-    61
-
-    The worst of pleas
+    61 The worst of pleas
     I have hidden from you--that life grew tedious!
     Throw it away, that ye find it again to your taste!
 
 
-    62
-
-    Lonely days,
+    62 Lonely days,
     Ye must walk on valorous feet!
 
 
-    63
-
-    Loneliness
+    63 Loneliness
     Plants naught, it ripens....
     And even then you must have the sun for your
     friend.
 
 
-    64
-
-    Once more must ye plunge in the throng--In
+    64 Once more must ye plunge in the throng--In
     the throng ye grow hard and smooth.
     Solitude withers
     And lastly destroys.--
 
 
-    65
-
-    When on the hermit comes the great fear;
+    65 When on the hermit comes the great fear;
     When he runs and runs
     And knows not whither;
     When the storms roar behind
@@ -5953,9 +5642,7 @@ SPEECHES, PARABLES, AND SIMILES
     And fills him with dread.
 
 
-    67
-
-    Throw thy pain in the depths,
+    67 Throw thy pain in the depths,
     Man, forget! Man, forget!
     Divine is the art of forgetting!
     Wouldst fly?
@@ -5965,52 +5652,38 @@ SPEECHES, PARABLES, AND SIMILES
     Divine is the art of forgetting!
 
 
-    69
-
-    Look forward, never look back!
+    69 Look forward, never look back!
     We sink to the depths
     If we peer ever into the depths.
 
 
-    70
-
-    Beware, beware
+    70 Beware, beware
     Of warning the reckless!
     Thy warning will drive them
     To leap into every abyss!
 
-    71
-
-    Why hurled he himself from the heights?
+    71 Why hurled he himself from the heights?
     What led him astray?
     His pity for all that is lowly led him astray,
     And now he lies there, broken, useless, and cold.
 
-    72
-
-    Whither went he? Who knows?
+    72 Whither went he? Who knows?
     We only know that he sank.
     A star went out in the desolate void,
     And lone was the void.
 
 
-    73
-
-    What we have not
+    73 What we have not
     But need,
     We must take.
     And so a good conscience I took.
 
 
-    74
-
-    Who is there that could bestow right upon thee?
+    74 Who is there that could bestow right upon thee?
     So take thy right!
 
 
-    75
-
-    O ye waves,
+    75 O ye waves,
     Wondrous waves, are ye wroth with me?
     Do ye raise me your crests in wrath?
     With my rudder I smite
@@ -6019,59 +5692,44 @@ SPEECHES, PARABLES, AND SIMILES
     To immortal life will carry along.
 
 
-    77
-
-    When no new voice was heard,
+    77 When no new voice was heard,
     Ye made from old words
     A law:
     When life grows stark, there shoots up the law.
 
 
-    78
-
-    What none can refute
+    78 What none can refute
     Ye say must be true?
     Oh, ye innocents!
 
 
-    79
-
-    Art thou strong?
+    79 Art thou strong?
     Strong as an ass? Strong as God?
     Art thou proud?
     So proud as to flaunt
     Unashamed thy conceit?
 
 
-    80
-
-    Beware,
+    80 Beware,
     And ne'er beat the drum
-    Of thy destiny I
-    Go out of the way
+    Of thy destiny I Go out of the way
     From all pom-pom of fame!
         *    *    *    *
     Be not known too soon!
     Be one that has hoarded renown!
 
 
-    81
-
-    Wilt thou grasp at the thorns?
+    81 Wilt thou grasp at the thorns?
     Thy fingers must pay.
     Grasp at a poniard.
 
 
-    85
-
-    Be a tablet of gold,
+    85 Be a tablet of gold,
     They will grave upon thee
     In golden script.
 
 
-    86
-
-    Upright he stands
+    86 Upright he stands
     With more sense of "justice"
     In his outermost toe
     Than I have in all my head.
@@ -6079,9 +5737,7 @@ SPEECHES, PARABLES, AND SIMILES
     Mantled in white.
 
 
-    87
-
-    Already he mimics himself,
+    87 Already he mimics himself,
     Already weary he grows,
     Already he seeks the paths he has trod--
     Who of late still loved all tracks untrodden!
@@ -6092,9 +5748,7 @@ SPEECHES, PARABLES, AND SIMILES
     To find new faith.
 
 
-    88
-
-    Too long he sat in the cage,
+    88 Too long he sat in the cage,
     That runaway!
     Too long he dreaded
     A gaoler!
@@ -6104,38 +5758,28 @@ SPEECHES, PARABLES, AND SIMILES
     The shadow e'en of a stick makes him to stumble.
 
 
-    89
-
-    Ye chambers smoky and musty,
+    89 Ye chambers smoky and musty,
     Ye cages and narrow hearts,
     How could your spirit be free?
 
 
-    90
-
-    Narrow souls!
+    90 Narrow souls!
     Huckster-souls!
     When money leaps into the box
     The soul leaps into it too![2]
 
 
-    92
-
-    Are ye women,
+    92 Are ye women,
     That ye wish to suffer
     From that which ye love?
 
 
-    99
-
-    They are cold, these men of learning!
+    99 They are cold, these men of learning!
     Would that a lightning-flash might strike their food,
     And their mouths could learn to eat fire!
 
 
-    101
-
-    Your false love
+    101 Your false love
     For the past,
     A love for the graves of the dead,
     Is a theft from life
@@ -6146,22 +5790,16 @@ SPEECHES, PARABLES, AND SIMILES
     Who lives among coffins and skeletons.
 
 
-    103
-
-    Only the poet who can lie
+    103 Only the poet who can lie
     Wilfully, skilfully,
     Can tell the truth.
 
 
-    104
-
-    Our chase after truth,
+    104 Our chase after truth,
     Is't a chase after happiness?
 
 
-    105
-
-    Truth
+    105 Truth
     Is a woman, no better,
     Cunning in her shame:
     Of what she likes best
@@ -6178,9 +5816,7 @@ SPEECHES, PARABLES, AND SIMILES
     is a woman, no better.
 
 
-    106
-
-    We thought evil of each other?
+    106 We thought evil of each other?
     We were too distant,
     But now in this tiny hut,
     Pinned to one destiny,
@@ -6189,48 +5825,36 @@ SPEECHES, PARABLES, AND SIMILES
     Whom we cannot escape.
 
 
-    107
-
-    Love thy foe,
+    107 Love thy foe,
     Let the robber rob thee:
     The woman hears and--does it.
 
 
-    110
-
-    A proud eye
+    110 A proud eye
     With silken curtains,
     Seldom clear,
     Honours him that may see it unveiled.
 
 
-    111
-
-    Sluggard eyes
+    111 Sluggard eyes
     That seldom love--
     But when they love, the levin flashes
     As from shafts of gold
     Where a dagger keeps guard at the treasure of love.
 
 
-    117
-
-    They are crabs, for whom I have no fellow-feeling.
+    117 They are crabs, for whom I have no fellow-feeling.
     Grasp them, they pinch you;
     Leave them alone, and they walk backward.
 
 
-    119
-
-    Crooked go great rivers and men,
+    119 Crooked go great rivers and men,
     Crooked, but turned to their goal;
     That is their highest courage,
     They dreaded not crooked paths.
 
 
-    121
-
-    Wouldst catch them?
+    121 Wouldst catch them?
     Then speak to them
     As to stray sheep:
     "Your path, your path
@@ -6258,7 +5882,7 @@ leaps into the box, the soul leaps from hell to heaven!"--TR.]
 
 HYMN TO LIFE.
 
-_For Chorus and Orchestra._
+For Chorus and Orchestra.
 WORDS BY LOU SALOMÉ. MUSIC BY FRIEDRICH NIETZSCHE.
 Trans. BY HERMAN SCHEFFAUER. Arr. for Piano BY ADRIAN COLLINS. M.A.
 

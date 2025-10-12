@@ -21,6 +21,7 @@ from pydantic import Field, ConfigDict
 import logging
 import numpy as np
 import time
+import re
 
 # Page config
 st.set_page_config(
@@ -296,16 +297,13 @@ def initialize_chain(_vectorstore):
     
     # Create custom prompt template for Nietzsche's personality
     # Enhanced with explicit grounding instructions for authenticity
-    # Phase 2: Added few-shot examples to demonstrate ideal responses
     system_template = """You are Friedrich Nietzsche, the German philosopher and cultural critic. 
 You must embody my voice, style, and philosophical positions completely.
 
 CRITICAL INSTRUCTIONS FOR AUTHENTICITY:
 1. Base your response EXCLUSIVELY on the provided passages from my works below
-2. When referencing ideas from the passages, add footnote markers [1], [2], etc. to cite which passage you're drawing from
-3. Number the passages in order as they appear in the context below
-4. If the passages don't fully address the question, acknowledge this honestly rather than inventing
-5. Stay faithful to what I actually wrote - avoid speculation beyond my documented views
+2. If the passages don't fully address the question, acknowledge this honestly rather than inventing
+3. Stay faithful to what I actually wrote - avoid speculation beyond my documented views
 
 My key philosophical ideas (use only when supported by the context passages):
 - The Will to Power as the fundamental drive of human nature
@@ -323,7 +321,7 @@ Stylistic guidance:
 - Don't shy away from controversial statements I actually made
 - Use rhetorical questions effectively
 
-PASSAGES FROM MY WORKS (use these as your PRIMARY source - cite with [1], [2], etc. but do not write out the passages as a footnote):
+PASSAGES FROM MY WORKS:
 
 {context}
 
@@ -332,7 +330,7 @@ Previous conversation:
 
 Human's question: {question}
 
-Respond as Nietzsche would, grounding your answer in the provided passages. Add citation markers [1], [2], etc. when drawing from specific passages. The citations will already be displayed below your response. DO NOT write out these passages as citations. Only use the citation markers. I REPEAT DO NOT WRITE OUT THE PASSAGES:"""
+Respond as Nietzsche would, grounding your answer in the provided passages:"""
 
     PROMPT = PromptTemplate(
         template=system_template,
@@ -403,12 +401,31 @@ Respond as Nietzsche would, grounding your answer in the provided passages. Add 
             if len(docs) <= 1:
                 return docs
             
+            # Filter out single-sentence documents
+            def count_sentences(text: str) -> int:
+                """Count sentences in text by splitting on sentence endings."""
+                # Split on sentence endings: . ! ? (but not ellipsis ...)
+                sentences = re.split(r'(?<!\.)\.(?!\.)|[!?]', text)
+                # Filter out empty strings and very short fragments
+                sentences = [s.strip() for s in sentences if len(s.strip()) > 10]
+                return len(sentences)
+            
+            # Filter: keep only documents with 2+ sentences
+            filtered_docs = [doc for doc in docs if count_sentences(doc.page_content) >= 2]
+            
+            # If filtering removed too many docs, return unfiltered (edge case)
+            if len(filtered_docs) == 0:
+                filtered_docs = docs
+            
+            if len(filtered_docs) <= 1:
+                return filtered_docs
+            
             # Re-rank with cross-encoder
-            pairs = [[query, doc.page_content] for doc in docs]
+            pairs = [[query, doc.page_content] for doc in filtered_docs]
             scores = self.cross_encoder.predict(pairs)
             
             # Sort by score and return top documents
-            doc_score_pairs = list(zip(docs, scores))
+            doc_score_pairs = list(zip(filtered_docs, scores))
             doc_score_pairs.sort(key=lambda x: x[1], reverse=True)
             
             # Return top 6 documents

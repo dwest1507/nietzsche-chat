@@ -1,4 +1,4 @@
-﻿THUS SPAKE ZARATHUSTRA
+THUS SPAKE ZARATHUSTRA
 
 A BOOK FOR ALL AND NONE
 
@@ -195,9 +195,7 @@ CONTENTS.
      LXXX.  The Sign.
 
 
-     APPENDIX.
-
-     Notes on “Thus Spake Zarathustra” by Anthony M. Ludovici.
+     APPENDIX. Notes on “Thus Spake Zarathustra” by Anthony M. Ludovici.
 
 
 
@@ -654,12 +652,7 @@ ELIZABETH FORSTER-NIETZSCHE.
 
 Nietzsche Archives,
 
-Weimar, December 1905.
-
-
-
-
-THUS SPAKE ZARATHUSTRA.
+Weimar, December 1905. THUS SPAKE ZARATHUSTRA.
 
 
 
@@ -672,9 +665,7 @@ FIRST PART. ZARATHUSTRA’S DISCOURSES.
 ZARATHUSTRA’S PROLOGUE.
 
 
-1.
-
-When Zarathustra was thirty years old, he left his home and the lake of
+1. When Zarathustra was thirty years old, he left his home and the lake of
 his home, and went into the mountains. There he enjoyed his spirit and
 solitude, and for ten years did not weary of it. But at last his heart
 changed,—and rising one morning with the rosy dawn, he went before the
@@ -713,9 +704,7 @@ going to be a man.
 
 Thus began Zarathustra’s down-going.
 
-2.
-
-Zarathustra went down the mountain alone, no one meeting him. When he
+2. Zarathustra went down the mountain alone, no one meeting him. When he
 entered the forest, however, there suddenly stood before him an old man,
 who had left his holy cot to seek roots. And thus spake the old man to
 Zarathustra:
@@ -785,9 +774,7 @@ When Zarathustra was alone, however, he said to his heart: “Could it be
 possible! This old saint in the forest hath not yet heard of it, that
 GOD IS DEAD!”
 
-3.
-
-When Zarathustra arrived at the nearest town which adjoineth the forest,
+3. When Zarathustra arrived at the nearest town which adjoineth the forest,
 he found many people assembled in the market-place; for it had been
 announced that a rope-dancer would give a performance. And Zarathustra
 spake thus unto the people:
@@ -881,9 +868,7 @@ now heard enough of the rope-dancer; it is time now for us to see him!”
  And all the people laughed at Zarathustra. But the rope-dancer, who
 thought the words applied to him, began his performance.
 
-4.
-
-Zarathustra, however, looked at the people and wondered. Then he spake
+4. Zarathustra, however, looked at the people and wondered. Then he spake
 thus:
 
 Man is a rope stretched between the animal and the Superman—a rope over
@@ -959,9 +944,7 @@ and succumb as heralds.
 Lo, I am a herald of the lightning, and a heavy drop out of the cloud:
 the lightning, however, is the SUPERMAN.—
 
-5.
-
-When Zarathustra had spoken these words, he again looked at the people,
+5. When Zarathustra had spoken these words, he again looked at the people,
 and was silent. “There they stand,” said he to his heart; “there they
 laugh: they understand me not; I am not the mouth for these ears.
 
@@ -1060,9 +1043,7 @@ think me cold, and a mocker with terrible jests.
 And now do they look at me and laugh: and while they laugh they hate me
 too. There is ice in their laughter.”
 
-6.
-
-Then, however, something happened which made every mouth mute and every
+6. Then, however, something happened which made every mouth mute and every
 eye fixed. In the meantime, of course, the rope-dancer had commenced his
 performance: he had come out at a little door, and was going along the
 rope which was stretched between two towers, so that it hung above the
@@ -1106,9 +1087,7 @@ calling: therefore will I bury thee with mine own hands.”
 When Zarathustra had said this the dying one did not reply further; but
 he moved his hand as if he sought the hand of Zarathustra in gratitude.
 
-7.
-
-Meanwhile the evening came on, and the market-place veiled itself in
+7. Meanwhile the evening came on, and the market-place veiled itself in
 gloom. Then the people dispersed, for even curiosity and terror become
 fatigued. Zarathustra, however, still sat beside the dead man on the
 ground, absorbed in thought: so he forgot the time. But at last it
@@ -1131,9 +1110,7 @@ Gloomy is the night, gloomy are the ways of Zarathustra. Come, thou cold
 and stiff companion! I carry thee to the place where I shall bury thee
 with mine own hands.
 
-8.
-
-When Zarathustra had said this to his heart, he put the corpse upon his
+8. When Zarathustra had said this to his heart, he put the corpse upon his
 shoulders and set out on his way. Yet had he not gone a hundred steps,
 when there stole a man up to him and whispered in his ear—and lo!
 he that spake was the buffoon from the tower. “Leave this town, O
@@ -1193,9 +1170,7 @@ head—for he wanted to protect him from the wolves—and laid himself
 down on the ground and moss. And immediately he fell asleep, tired in
 body, but with a tranquil soul.
 
-9.
-
-Long slept Zarathustra; and not only the rosy dawn passed over his head,
+9. Long slept Zarathustra; and not only the rosy dawn passed over his head,
 but also the morning. At last, however, his eyes opened, and amazedly he
 gazed into the forest and the stillness, amazedly he gazed into himself.
 Then he arose quickly, like a seafarer who all at once seeth the land;
@@ -1263,9 +1238,7 @@ heavy with my happiness.
 I make for my goal, I follow my course; over the loitering and tardy
 will I leap. Thus let my on-going be their down-going!
 
-10.
-
-This had Zarathustra said to his heart when the sun stood at noontide.
+10. This had Zarathustra said to his heart when the sun stood at noontide.
 Then he looked inquiringly aloft,—for he heard above him the sharp call
 of a bird. And behold! An eagle swept through the air in wide circles,
 and on it hung a serpent, not like a prey, but like a friend: for it
@@ -1762,7 +1735,7 @@ Let thy virtue be too high for the familiarity of names, and if thou
 must speak of it, be not ashamed to stammer about it.
 
 Thus speak and stammer: “That is MY good, that do I love, thus doth it
-please me entirely, thus only do _I_ desire the good.
+please me entirely, thus only do I desire the good.
 
 Not as the law of a God do I desire it, not as a human law or a human
 need do I desire it; it is not to be a guide-post for me to superearths
@@ -2853,8 +2826,8 @@ unto you: your neighbour-love is your bad love of yourselves.
 Ye flee unto your neighbour from yourselves, and would fain make a
 virtue thereof: but I fathom your “unselfishness.”
 
-The THOU is older than the _I_; the THOU hath been consecrated, but not
-yet the _I_: so man presseth nigh unto his neighbour.
+The THOU is older than the I; the THOU hath been consecrated, but not
+yet the I: so man presseth nigh unto his neighbour.
 
 Do I advise you to neighbour-love? Rather do I advise you to
 neighbour-flight and to furthest love!
@@ -3355,7 +3328,7 @@ But to the fighter equally hateful as to the victor, is your grinning
 death which stealeth nigh like a thief,—and yet cometh as master.
 
 My death, praise I unto you, the voluntary death, which cometh unto me
-because _I_ want it.
+because I want it.
 
 And when shall I want it?—He that hath a goal and an heir, wanteth
 death at the right time for the goal and the heir.
@@ -3448,9 +3421,7 @@ Thus spake Zarathustra.
 XXII. THE BESTOWING VIRTUE.
 
 
-1.
-
-When Zarathustra had taken leave of the town to which his heart was
+1. When Zarathustra had taken leave of the town to which his heart was
 attached, the name of which is “The Pied Cow,” there followed him many
 people who called themselves his disciples, and kept him company. Thus
 came they to a crossroad. Then Zarathustra told them that he now wanted
@@ -3539,9 +3510,7 @@ voice of a new fountain!
 Power is it, this new virtue; a ruling thought is it, and around it a
 subtle soul: a golden sun, with the serpent of knowledge around it.
 
-2.
-
-Here paused Zarathustra awhile, and looked lovingly on his disciples.
+2. Here paused Zarathustra awhile, and looked lovingly on his disciples.
 Then he continued to speak thus—and his voice had changed:
 
 Remain true to the earth, my brethren, with the power of your virtue!
@@ -3594,9 +3563,7 @@ arise:—and out of it the Superman.
 Verily, a place of healing shall the earth become! And already is a new
 odour diffused around it, a salvation-bringing odour—and a new hope!
 
-3.
-
-When Zarathustra had spoken these words, he paused, like one who had not
+3. When Zarathustra had spoken these words, he paused, like one who had not
 said his last word; and long did he balance the staff doubtfully in his
 hand. At last he spake thus—and his voice had changed:
 
@@ -5067,7 +5034,7 @@ XXXIV. SELF-SURPASSING.
 “Will to Truth” do ye call it, ye wisest ones, that which impelleth you
 and maketh you ardent?
 
-Will for the thinkableness of all being: thus do _I_ call your will!
+Will for the thinkableness of all being: thus do I call your will!
 
 All being would ye MAKE thinkable: for ye doubt with good reason whether
 it be already thinkable.
@@ -5353,9 +5320,7 @@ But how did it turn out with me? Although so alarmed—I had yet to
 laugh! Never did mine eye see anything so motley-coloured!
 
 I laughed and laughed, while my foot still trembled, and my heart as
-well. “Here forsooth, is the home of all the paintpots,”—said I.
-
-With fifty patches painted on faces and limbs—so sat ye there to mine
+well. “Here forsooth, is the home of all the paintpots,”—said I. With fifty patches painted on faces and limbs—so sat ye there to mine
 astonishment, ye present-day men!
 
 And with fifty mirrors around you, which flattered your play of colours,
@@ -5397,7 +5362,7 @@ Indeed, how would ye be ABLE to believe, ye divers-coloured ones!—ye
 who are pictures of all that hath ever been believed!
 
 Perambulating refutations are ye, of belief itself, and a dislocation of
-all thought. UNTRUSTWORTHY ONES: thus do _I_ call you, ye real ones!
+all thought. UNTRUSTWORTHY ONES: thus do I call you, ye real ones!
 
 All periods prate against one another in your spirits; and the dreams
 and pratings of all periods were even realer than your awakeness!
@@ -5426,7 +5391,7 @@ And woe unto me if I could not laugh at your marvelling, and had to
 swallow all that is repugnant in your platters!
 
 As it is, however, I will make lighter of you, since I have to carry
-_what is heavy;_ and what matter if beetles and May-bugs also alight on
+what is heavy; and what matter if beetles and May-bugs also alight on
 my load!
 
 Verily, it shall not on that account become heavier to me! And not from
@@ -5477,7 +5442,7 @@ Every honest one’s step speaketh; the cat however, stealeth along over
 the ground. Lo! cat-like doth the moon come along, and dishonestly.—
 
 This parable speak I unto you sentimental dissemblers, unto you, the
-“pure discerners!” You do _I_ call—covetous ones!
+“pure discerners!” You do I call—covetous ones!
 
 Also ye love the earth, and the earthly: I have divined you well!—but
 shame is in your love, and a bad conscience—ye are like the moon!
@@ -5981,7 +5946,7 @@ think of it!” said he once more.
 
 “Why did the ghost cry: ‘It is time! It is the highest time!’
 
-_For what_ is it then—the highest time?”—
+For what is it then—the highest time?”—
 
 Thus spake Zarathustra.
 
@@ -6431,7 +6396,7 @@ From you would he learn his belief in himself; he feedeth upon your
 glances, he eateth praise out of your hands.
 
 Your lies doth he even believe when you lie favourably about him: for in
-its depths sigheth his heart: “What am _I_?”
+its depths sigheth his heart: “What am I?”
 
 And if that be the true virtue which is unconscious of itself—well, the
 vain man is unconscious of his modesty!—
@@ -6547,7 +6512,7 @@ how can I do it! Exempt me only from this! It is beyond my power!”
 Then was there again spoken unto me without voice: “What matter about
 thyself, Zarathustra! Speak thy word, and succumb!”
 
-And I answered: “Ah, is it MY word? Who am _I_? I await the worthier
+And I answered: “Ah, is it MY word? Who am I? I await the worthier
 one; I am not worthy even to succumb by it.”
 
 Then was there again spoken unto me without voice: “What matter about
@@ -6791,9 +6756,7 @@ longing wept Zarathustra bitterly.
 XLVI. THE VISION AND THE ENIGMA.
 
 
-1.
-
-When it got abroad among the sailors that Zarathustra was on board the
+1. When it got abroad among the sailors that Zarathustra was on board the
 ship—for a man who came from the Happy Isles had gone on board along
 with him,—there was great curiosity and expectation. But Zarathustra
 kept silent for two days, and was cold and deaf with sadness; so that he
@@ -6879,9 +6842,7 @@ more!”
 In such speech, however, there is much sound of triumph. He who hath
 ears to hear, let him hear.—
 
-2.
-
-“Halt, dwarf!” said I. “Either I—or thou! I, however, am the stronger
+2. “Halt, dwarf!” said I. “Either I—or thou! I, however, am the stronger
 of the two:—thou knowest not mine abysmal thought! IT—couldst thou not
 endure!”
 
@@ -7271,7 +7232,7 @@ star—this leaven is mixed in all things: for the sake of folly, wisdom
 is mixed in all things!
 
 A little wisdom is indeed possible; but this blessed security have I
-found in all things, that they prefer—_to dance_ on the feet of chance.
+found in all things, that they prefer—to dance on the feet of chance.
 
 O heaven above me! thou pure, thou lofty heaven! This is now thy purity
 unto me, that there is no eternal reason-spider and reason-cobweb:—
@@ -7300,9 +7261,7 @@ Thus spake Zarathustra.
 XLIX. THE BEDWARFING VIRTUE.
 
 
-1.
-
-When Zarathustra was again on the continent, he did not go straightway
+1. When Zarathustra was again on the continent, he did not go straightway
 to his mountains and his cave, but made many wanderings and
 questionings, and ascertained this and that; so that he said of himself
 jestingly: “Lo, a river that floweth back unto its source in many
@@ -7332,9 +7291,7 @@ Zarathustra sighed, and gazed into the distance.—
 
 The same day, however, he gave his discourse on the bedwarfing virtue.
 
-2.
-
-I pass through this people and keep mine eyes open: they do not forgive
+2. I pass through this people and keep mine eyes open: they do not forgive
 me for not envying their virtues.
 
 They bite at me, because I say unto them that for small people, small
@@ -7433,7 +7390,7 @@ one.
 
 That, however, is COWARDICE, though it be called “virtue.”—
 
-And when they chance to speak harshly, those small people, then do _I_
+And when they chance to speak harshly, those small people, then do I
 hear therein only their hoarseness—every draught of air maketh them
 hoarse.
 
@@ -7448,9 +7405,7 @@ as far from dying gladiators as from satisfied swine.”
 
 That, however, is—MEDIOCRITY, though it be called moderation.—
 
-3.
-
-I pass through this people and let fall many words: but they know
+3. I pass through this people and let fall many words: but they know
 neither how to take nor how to retain them.
 
 They wonder why I came not to revile venery and vice; and verily, I came
@@ -7836,9 +7791,7 @@ Thus spake Zarathustra, and passed by the fool and the great city.
 LII. THE APOSTATES.
 
 
-1.
-
-Ah, lieth everything already withered and grey which but lately stood
+1. Ah, lieth everything already withered and grey which but lately stood
 green and many-hued on this meadow! And how much honey of hope did I
 carry hence into my beehives!
 
@@ -7890,9 +7843,7 @@ to blow amongst them with rustling winds,—
 —Blow amongst those leaves, O Zarathustra, that everything WITHERED may
 run away from thee the faster!—
 
-2.
-
-“We have again become pious”—so do those apostates confess; and some of
+2. “We have again become pious”—so do those apostates confess; and some of
 them are still too pusillanimous thus to confess.
 
 Unto them I look into the eye,—before them I say it unto their face and
@@ -8175,9 +8126,7 @@ Thus spake Zarathustra.
 LIV. THE THREE EVIL THINGS.
 
 
-1.
-
-In my dream, in my last morning-dream, I stood to-day on a promontory—
+1. In my dream, in my last morning-dream, I stood to-day on a promontory—
 beyond the world; I held a pair of scales, and WEIGHED the world.
 
 Alas, that the rosy dawn came too early to me: she glowed me awake, the
@@ -8244,9 +8193,7 @@ grow upwards?—
 Now stand the scales poised and at rest: three heavy questions have I
 thrown in; three heavy answers carrieth the other scale.
 
-2.
-
-Voluptuousness: unto all hair-shirted despisers of the body, a sting and
+2. Voluptuousness: unto all hair-shirted despisers of the body, a sting and
 stake; and, cursed as “the world,” by all backworldsmen: for it mocketh
 and befooleth all erring, misinferring teachers.
 
@@ -8382,9 +8329,7 @@ Thus spake Zarathustra.
 LV. THE SPIRIT OF GRAVITY.
 
 
-1.
-
-My mouthpiece—is of the people: too coarsely and cordially do I
+1. My mouthpiece—is of the people: too coarsely and cordially do I
 talk for Angora rabbits. And still stranger soundeth my word unto all
 ink-fish and pen-foxes.
 
@@ -8413,9 +8358,7 @@ Other singers are there, to be sure, to whom only the full house
 maketh the voice soft, the hand eloquent, the eye expressive, the heart
 wakeful:—those do I not resemble.—
 
-2.
-
-He who one day teacheth men to fly will have shifted all landmarks; to
+2. He who one day teacheth men to fly will have shifted all landmarks; to
 him will all landmarks themselves fly into the air; the earth will he
 christen anew—as “the light body.”
 
@@ -8425,7 +8368,7 @@ cannot yet fly.
 
 Heavy unto him are earth and life, and so WILLETH the spirit of gravity!
 But he who would become light, and be a bird, must love himself:—thus
-do _I_ teach.
+do I teach.
 
 Not, to be sure, with the love of the sick and infected, for with them
 stinketh even self-love!
@@ -8562,9 +8505,7 @@ Thus spake Zarathustra.
 LVI. OLD AND NEW TABLES.
 
 
-1.
-
-Here do I sit and wait, old broken tables around me and also new
+1. Here do I sit and wait, old broken tables around me and also new
 half-written tables. When cometh mine hour?
 
 —The hour of my descent, of my down-going: for once more will I go unto
@@ -8576,9 +8517,7 @@ it is MINE hour—namely, the laughing lion with the flock of doves.
 Meanwhile do I talk to myself as one who hath time. No one telleth me
 anything new, so I tell myself mine own story.
 
-2.
-
-When I came unto men, then found I them resting on an old infatuation:
+2. When I came unto men, then found I them resting on an old infatuation:
 all of them thought they had long known what was good and bad for men.
 
 An old wearisome business seemed to them all discourse about virtue; and
@@ -8640,9 +8579,7 @@ For must there not be that which is danced OVER, danced beyond? Must
 there not, for the sake of the nimble, the nimblest,—be moles and
 clumsy dwarfs?—
 
-3.
-
-There was it also where I picked up from the path the word “Superman,”
+3. There was it also where I picked up from the path the word “Superman,”
  and that man is something that must be surpassed.
 
 —That man is a bridge and not a goal—rejoicing over his noontides and
@@ -8682,9 +8619,7 @@ Like the sun will also Zarathustra go down: now sitteth he here
 and waiteth, old broken tables around him, and also new
 tables—half-written.
 
-4.
-
-Behold, here is a new table; but where are my brethren who will carry it
+4. Behold, here is a new table; but where are my brethren who will carry it
 with me to the valley and into hearts of flesh?—
 
 Thus demandeth my great love to the remotest ones: BE NOT CONSIDERATE OF
@@ -8701,9 +8636,7 @@ What thou doest can no one do to thee again. Lo, there is no requital.
 He who cannot command himself shall obey. And many a one CAN command
 himself, but still sorely lacketh self-obedience!
 
-5.
-
-Thus wisheth the type of noble souls: they desire to have nothing
+5. Thus wisheth the type of noble souls: they desire to have nothing
 GRATUITOUSLY, least of all, life.
 
 He who is of the populace wisheth to live gratuitously; we others,
@@ -8720,9 +8653,7 @@ For enjoyment and innocence are the most bashful things. Neither like
 to be sought for. One should HAVE them,—but one should rather SEEK for
 guilt and pain!—
 
-6.
-
-O my brethren, he who is a firstling is ever sacrificed. Now, however,
+6. O my brethren, he who is a firstling is ever sacrificed. Now, however,
 are we firstlings!
 
 We all bleed on secret sacrificial altars, we all burn and broil in
@@ -8739,9 +8670,7 @@ But so wisheth our type; and I love those who do not wish to preserve
 themselves, the down-going ones do I love with mine entire love: for
 they go beyond.—
 
-7.
-
-To be true—that CAN few be! And he who can, will not! Least of all,
+7. To be true—that CAN few be! And he who can, will not! Least of all,
 however, can the good be true.
 
 Oh, those good ones! GOOD MEN NEVER SPEAK THE TRUTH. For the spirit,
@@ -8762,9 +8691,7 @@ such seed, however—is truth produced!
 BESIDE the bad conscience hath hitherto grown all KNOWLEDGE! Break up,
 break up, ye discerning ones, the old tables!
 
-8.
-
-When the water hath planks, when gangways and railings o’erspan the
+8. When the water hath planks, when gangways and railings o’erspan the
 stream, verily, he is not believed who then saith: “All is in flux.”
 
 But even the simpletons contradict him. “What?” say the simpletons, “all
@@ -8795,9 +8722,7 @@ railings and gangways fallen into the water? Who would still HOLD ON to
 “Woe to us! Hail to us! The thawing wind bloweth!”—Thus preach, my
 brethren, through all the streets!
 
-9.
-
-There is an old illusion—it is called good and evil. Around soothsayers
+9. There is an old illusion—it is called good and evil. Around soothsayers
 and astrologers hath hitherto revolved the orbit of this illusion.
 
 Once did one BELIEVE in soothsayers and astrologers; and THEREFORE did
@@ -8811,9 +8736,7 @@ O my brethren, concerning the stars and the future there hath hitherto
 been only illusion, and not knowledge; and THEREFORE concerning good and
 evil there hath hitherto been only illusion and not knowledge!
 
-10.
-
-“Thou shalt not rob! Thou shalt not slay!”—such precepts were once
+10. “Thou shalt not rob! Thou shalt not slay!”—such precepts were once
 called holy; before them did one bow the knee and the head, and take off
 one’s shoes.
 
@@ -8827,9 +8750,7 @@ precepts to be called holy, was not TRUTH itself thereby—slain?
 dissuaded from life?—O my brethren, break up, break up for me the old
 tables!
 
-11.
-
-It is my sympathy with all the past that I see it is abandoned,—
+11. It is my sympathy with all the past that I see it is abandoned,—
 
 —Abandoned to the favour, the spirit and the madness of every
 generation that cometh, and reinterpreteth all that hath been as its
@@ -8854,9 +8775,7 @@ For many noble ones are needed, and many kinds of noble ones, FOR A NEW
 NOBILITY! Or, as I once said in parable: “That is just divinity, that
 there are Gods, but no God!”
 
-12.
-
-O my brethren, I consecrate you and point you to a new nobility: ye
+12. O my brethren, I consecrate you and point you to a new nobility: ye
 shall become procreators and cultivators and sowers of the future;—
 
 —Verily, not to a nobility which ye could purchase like traders with
@@ -8896,9 +8815,7 @@ Unto your children shall ye MAKE AMENDS for being the children of your
 fathers: all the past shall ye THUS redeem! This new table do I place
 over you!
 
-13.
-
-“Why should one live? All is vain! To live—that is to thrash straw; to
+13. “Why should one live? All is vain! To live—that is to thrash straw; to
 live—that is to burn oneself and yet not get warm.”—
 
 Such ancient babbling still passeth for “wisdom”; because it is old,
@@ -8917,9 +8834,7 @@ good hunger:—and then do they rail: “All is vain!”
 But to eat and drink well, my brethren, is verily no vain art! Break up,
 break up for me the tables of the never-joyous ones!
 
-14.
-
-“To the clean are all things clean”—thus say the people. I, however,
+14. “To the clean are all things clean”—thus say the people. I, however,
 say unto you: To the swine all things become swinish!
 
 Therefore preach the visionaries and bowed-heads (whose hearts are also
@@ -8944,9 +8859,7 @@ something that must be surpassed!—
 O my brethren, there is much wisdom in the fact that much filth is in
 the world!—
 
-15.
-
-Such sayings did I hear pious backworldsmen speak to their consciences,
+15. Such sayings did I hear pious backworldsmen speak to their consciences,
 and verily without wickedness or guile,—although there is nothing more
 guileful in the world, or more wicked.
 
@@ -8962,9 +8875,7 @@ the world.”—
 —Shatter, shatter, O my brethren, those old tables of the pious! Tatter
 the maxims of the world-maligners!—
 
-16.
-
-“He who learneth much unlearneth all violent cravings”—that do people
+16. “He who learneth much unlearneth all violent cravings”—that do people
 now whisper to one another in all the dark lanes.
 
 “Wisdom wearieth, nothing is worth while; thou shalt not crave!”—this
@@ -9006,9 +8917,7 @@ for creating shall ye learn!
 And also the learning shall ye LEARN only from me, the learning
 well!—He who hath ears let him hear!
 
-17.
-
-There standeth the boat—thither goeth it over, perhaps into vast
+17. There standeth the boat—thither goeth it over, perhaps into vast
 nothingness—but who willeth to enter into this “Perhaps”?
 
 None of you want to enter into the death-boat! How should ye then be
@@ -9041,9 +8950,7 @@ Zarathustra:—so shall ye pass away!
 But more COURAGE is needed to make an end than to make a new verse: that
 do all physicians and poets know well.—
 
-18.
-
-O my brethren, there are tables which weariness framed, and tables
+18. O my brethren, there are tables which weariness framed, and tables
 which slothfulness framed, corrupt slothfulness: although they speak
 similarly, they want to be heard differently.—
 
@@ -9073,9 +8980,7 @@ skulkers, and all the swarming vermin:—
 —All the swarming vermin of the “cultured,” that—feast on the sweat of
 every hero!—
 
-19.
-
-I form circles around me and holy boundaries; ever fewer ascend with
+19. I form circles around me and holy boundaries; ever fewer ascend with
 me ever higher mountains: I build a mountain-range out of ever holier
 mountains.—
 
@@ -9114,9 +9019,7 @@ circuit; the wisest soul, unto which folly speaketh most sweetly:—
 counter-current, their ebb and their flow:—oh, how could THE LOFTIEST
 SOUL fail to have the worst parasites?
 
-20.
-
-O my brethren, am I then cruel? But I say: What falleth, that shall one
+20. O my brethren, am I then cruel? But I say: What falleth, that shall one
 also push!
 
 Everything of to-day—it falleth, it decayeth; who would preserve it!
@@ -9130,9 +9033,7 @@ according to mine example!
 
 And him whom ye do not teach to fly, teach I pray you—TO FALL FASTER!—
 
-21.
-
-I love the brave: but it is not enough to be a swordsman,—one must also
+21. I love the brave: but it is not enough to be a swordsman,—one must also
 know WHEREON to use swordsmanship!
 
 And often is it greater bravery to keep quiet and pass by, that THEREBY
@@ -9170,9 +9071,7 @@ when a people said to itself: “I will be—MASTER over peoples!”
 For, my brethren, the best shall rule, the best also WILLETH to rule!
 And where the teaching is different, there—the best is LACKING.
 
-22.
-
-If THEY had—bread for nothing, alas! for what would THEY cry! Their
+22. If THEY had—bread for nothing, alas! for what would THEY cry! Their
 maintainment—that is their true entertainment; and they shall have it
 hard!
 
@@ -9189,17 +9088,13 @@ all animals it hath been hardest for man.
 Only the birds are still beyond him. And if man should yet learn to fly,
 alas! TO WHAT HEIGHT—would his rapacity fly!
 
-23.
-
-Thus would I have man and woman: fit for war, the one; fit for
+23. Thus would I have man and woman: fit for war, the one; fit for
 maternity, the other; both, however, fit for dancing with head and legs.
 
 And lost be the day to us in which a measure hath not been danced. And
 false be every truth which hath not had laughter along with it!
 
-24.
-
-Your marriage-arranging: see that it be not a bad ARRANGING! Ye have
+24. Your marriage-arranging: see that it be not a bad ARRANGING! Ye have
 arranged too hastily: so there FOLLOWETH therefrom—marriage-breaking!
 
 And better marriage-breaking than marriage-bending,
@@ -9223,9 +9118,7 @@ otherwise!
 Not only to propagate yourselves onwards but UPWARDS—thereto, O my
 brethren, may the garden of marriage help you!
 
-25.
-
-He who hath grown wise concerning old origins, lo, he will at last seek
+25. He who hath grown wise concerning old origins, lo, he will at last seek
 after the fountains of the future and new origins.—
 
 O my brethren, not long will it be until NEW PEOPLES shall arise and new
@@ -9250,9 +9143,7 @@ however the ruler!—
 —An attempt, my brethren! And NO “contract”! Destroy, I pray you,
 destroy that word of the soft-hearted and half-and-half!
 
-26.
-
-O my brethren! With whom lieth the greatest danger to the whole human
+26. O my brethren! With whom lieth the greatest danger to the whole human
 future? Is it not with the good and just?—
 
 —As those who say and feel in their hearts: “We already know what
@@ -9294,9 +9185,7 @@ UNTO THEMSELVES the future—they crucify the whole human future!
 
 The good—they have always been the beginning of the end.—
 
-27.
-
-O my brethren, have ye also understood this word? And what I once said
+27. O my brethren, have ye also understood this word? And what I once said
 of the “last man”?—
 
 With whom lieth the greatest danger to the whole human future? Is it not
@@ -9305,9 +9194,7 @@ with the good and just?
 BREAK UP, BREAK UP, I PRAY YOU, THE GOOD AND JUST!—O my brethren, have
 ye understood also this word?
 
-28.
-
-Ye flee from me? Ye are frightened? Ye tremble at this word?
+28. Ye flee from me? Ye are frightened? Ye tremble at this word?
 
 O my brethren, when I enjoined you to break up the good, and the tables
 of the good, then only did I embark man on his high seas.
@@ -9331,12 +9218,10 @@ seaman-hearts!
 What of fatherland! THITHER striveth our helm where our CHILDREN’S LAND
 is! Thitherwards, stormier than the sea, stormeth our great longing!—
 
-29.
-
-“Why so hard!”—said to the diamond one day the charcoal; “are we then
+29. “Why so hard!”—said to the diamond one day the charcoal; “are we then
 not near relatives?”—
 
-Why so soft? O my brethren; thus do _I_ ask you: are ye then not—my
+Why so soft? O my brethren; thus do I ask you: are ye then not—my
 brethren?
 
 Why so soft, so submissive and yielding? Why is there so much negation
@@ -9358,9 +9243,7 @@ noblest.
 
 This new table, O my brethren, put I up over you: BECOME HARD!—
 
-30.
-
-O thou, my Will! Thou change of every need, MY needfulness! Preserve me
+30. O thou, my Will! Thou change of every need, MY needfulness! Preserve me
 from all small victories!
 
 Thou fatedness of my soul, which I call fate! Thou In-me! Over-me!
@@ -9396,9 +9279,7 @@ Thus spake Zarathustra.
 LVII. THE CONVALESCENT.
 
 
-1.
-
-One morning, not long after his return to his cave, Zarathustra sprang
+1. One morning, not long after his return to his cave, Zarathustra sprang
 up from his couch like a madman, crying with a frightful voice, and
 acting as if some one still lay on the couch who did not wish to rise.
 Zarathustra’s voice also resounded in such a manner that his animals
@@ -9434,9 +9315,7 @@ depth have I turned over into the light!
 Joy to me! Come hither! Give me thy hand—ha! let be! aha!—Disgust,
 disgust, disgust—alas to me!
 
-2.
-
-Hardly, however, had Zarathustra spoken these words, when he fell down
+2. Hardly, however, had Zarathustra spoken these words, when he fell down
 as one dead, and remained long as one dead. When however he again came
 to himself, then was he pale and trembling, and remained lying; and for
 long he would neither eat nor drink. This condition continued for seven
@@ -9794,9 +9673,7 @@ Thus spake Zarathustra.
 LIX. THE SECOND DANCE-SONG.
 
 
-1.
-
-“Into thine eyes gazed I lately, O Life: gold saw I gleam in thy
+1. “Into thine eyes gazed I lately, O Life: gold saw I gleam in thy
 night-eyes,—my heart stood still with delight:
 
 —A golden bark saw I gleam on darkened waters, a sinking, drinking,
@@ -9874,9 +9751,7 @@ if I have hitherto sung unto thee, now shalt THOU—cry unto me!
 To the rhythm of my whip shalt thou dance and cry! I forget not my
 whip?—Not I!”—
 
-2.
-
-Then did Life answer me thus, and kept thereby her fine ears closed:
+2. Then did Life answer me thus, and kept thereby her fine ears closed:
 
 “O Zarathustra! Crack not so terribly with thy whip! Thou knowest surely
 that noise killeth thought,—and just now there came to me such delicate
@@ -9924,53 +9799,51 @@ was Life dearer unto me than all my Wisdom had ever been.—
 
 Thus spake Zarathustra.
 
-3.
-
-_One!_
+3. One!
 
 O man! Take heed!
 
-_Two!_
+Two!
 
 What saith deep midnight’s voice indeed?
 
-_Three!_
+Three!
 
 “I slept my sleep—
 
-_Four!_
+Four!
 
 “From deepest dream I’ve woke and plead:—
 
-_Five!_
+Five!
 
 “The world is deep,
 
-_Six!_
+Six!
 
 “And deeper than the day could read.
 
-_Seven!_
+Seven!
 
 “Deep is its woe—
 
-_Eight!_
+Eight!
 
 “Joy—deeper still than grief can be:
 
-_Nine!_
+Nine!
 
 “Woe saith: Hence! Go!
 
-_Ten!_
+Ten!
 
 “But joys all want eternity—
 
-_Eleven!_
+Eleven!
 
 “Want deep profound eternity!”
 
-_Twelve!_
+Twelve!
 
 
 
@@ -9980,9 +9853,7 @@ LX. THE SEVEN SEALS.
 (OR THE YE-A AND AMEN LAY.)
 
 
-1.
-
-If I be a diviner and full of the divining spirit which wandereth on
+1. If I be a diviner and full of the divining spirit which wandereth on
 high mountain-ridges, ‘twixt two seas,—
 
 Wandereth ‘twixt the past and the future as a heavy cloud—hostile to
@@ -10004,9 +9875,7 @@ unless it be this woman whom I love: for I love thee, O Eternity!
 
 FOR I LOVE THEE, O ETERNITY!
 
-2.
-
-If ever my wrath hath burst graves, shifted landmarks, or rolled old
+2. If ever my wrath hath burst graves, shifted landmarks, or rolled old
 shattered tables into precipitous depths:
 
 If ever my scorn hath scattered mouldered words to the winds, and if I
@@ -10028,9 +9897,7 @@ unless it be this woman whom I love: for I love thee, O Eternity!
 
 FOR I LOVE THEE, O ETERNITY!
 
-3.
-
-If ever a breath hath come to me of the creative breath, and of the
+3. If ever a breath hath come to me of the creative breath, and of the
 heavenly necessity which compelleth even chances to dance star-dances:
 
 If ever I have laughed with the laughter of the creative lightning,
@@ -10052,9 +9919,7 @@ unless it be this woman whom I love: for I love thee, O Eternity!
 
 FOR I LOVE THEE, O ETERNITY!
 
-4.
-
-If ever I have drunk a full draught of the foaming spice- and
+4. If ever I have drunk a full draught of the foaming spice- and
 confection-bowl in which all things are well mixed:
 
 If ever my hand hath mingled the furthest with the nearest, fire with
@@ -10074,9 +9939,7 @@ unless it be this woman whom I love: for I love thee, O Eternity!
 
 FOR I LOVE THEE, O ETERNITY!
 
-5.
-
-If I be fond of the sea, and all that is sealike, and fondest of it when
+5. If I be fond of the sea, and all that is sealike, and fondest of it when
 it angrily contradicteth me:
 
 If the exploring delight be in me, which impelleth sails to the
@@ -10096,9 +9959,7 @@ unless it be this woman whom I love: for I love thee, O Eternity!
 
 FOR I LOVE THEE, O ETERNITY!
 
-6.
-
-If my virtue be a dancer’s virtue, and if I have often sprung with both
+6. If my virtue be a dancer’s virtue, and if I have often sprung with both
 feet into golden-emerald rapture:
 
 If my wickedness be a laughing wickedness, at home among rose-banks and
@@ -10119,9 +9980,7 @@ unless it be this woman whom I love: for I love thee, O Eternity!
 
 FOR I LOVE THEE, O ETERNITY!
 
-7.
-
-If ever I have spread out a tranquil heaven above me, and have flown
+7. If ever I have spread out a tranquil heaven above me, and have flown
 into mine own heaven with mine own pinions:
 
 If I have swum playfully in profound luminous distances, and if my
@@ -10447,9 +10306,7 @@ Thus spake Zarathustra.
 LXIII. TALK WITH THE KINGS.
 
 
-1.
-
-Ere Zarathustra had been an hour on his way in the mountains and
+1. Ere Zarathustra had been an hour on his way in the mountains and
 forests, he saw all at once a strange procession. Right on the path
 which he was about to descend came two kings walking, bedecked with
 crowns and purple girdles, and variegated like flamingoes: they drove
@@ -10526,7 +10383,7 @@ Forgive me; I rejoiced when ye said to each other: ‘What doth it matter
 about us kings!’
 
 Here, however, is MY domain and jurisdiction: what may ye be seeking in
-my domain? Perhaps, however, ye have FOUND on your way what _I_ seek:
+my domain? Perhaps, however, ye have FOUND on your way what I seek:
 namely, the higher man.”
 
 When the kings heard this, they beat upon their breasts and said with
@@ -10564,9 +10421,7 @@ the Sybil thus deplored:—“How ill things go! Decline! Decline! Ne’er
 sank the world so low! Rome now hath turned harlot and harlot-stew,
 Rome’s Caesar a beast, and God—hath turned Jew!”
 
-2.
-
-With those rhymes of Zarathustra the kings were delighted; the king on
+2. With those rhymes of Zarathustra the kings were delighted; the king on
 the right, however, said: “O Zarathustra, how well it was that we set
 out to see thee!
 
@@ -10760,9 +10615,7 @@ Thus spake Zarathustra.
 LXV. THE MAGICIAN.
 
 
-1.
-
-When however Zarathustra had gone round a rock, then saw he on the same
+1. When however Zarathustra had gone round a rock, then saw he on the same
 path, not far below him, a man who threw his limbs about like a maniac,
 and at last tumbled to the ground on his belly. “Halt!” said then
 Zarathustra to his heart, “he there must surely be the higher man, from
@@ -10892,9 +10745,7 @@ curling-himself-up, he began to lament thus:
      Mine unfamiliar God! my PAIN!
      My final bliss!
 
-2.
-
-—Here, however, Zarathustra could no longer restrain himself; he took
+2. —Here, however, Zarathustra could no longer restrain himself; he took
 his staff and struck the wailer with all his might. “Stop this,” cried
 he to him with wrathful laughter, “stop this, thou stage-player! Thou
 false coiner! Thou liar from the very heart! I know thee well!
@@ -11274,7 +11125,7 @@ pride doth not here break its legs!
 
 Thou thinkest thyself wise, thou proud Zarathustra! Read then the
 riddle, thou hard nut-cracker,—the riddle that I am! Say then: who am
-_I_!”
+I!”
 
 —When however Zarathustra had heard these words,—what think ye then
 took place in his soul? PITY OVERCAME HIM; and he sank down all at
@@ -11325,7 +11176,7 @@ Art thou angry with me because I have already racked language too long?
 Because I have already counselled thee? But know that it is I, the
 ugliest man,
 
-—Who have also the largest, heaviest feet. Where _I_ have gone, the way
+—Who have also the largest, heaviest feet. Where I have gone, the way
 is bad. I tread all paths to death and destruction.
 
 But that thou passedst me by in silence, that thou blushedst—I saw it
@@ -11707,9 +11558,9 @@ Too much hath become clear unto me: now it doth not concern me any more.
 Nothing liveth any longer that I love,—how should I still love myself?
 
 ‘To live as I incline, or not to live at all’: so do I wish; so wisheth
-also the holiest. But alas! how have _I_ still—inclination?
+also the holiest. But alas! how have I still—inclination?
 
-Have _I_—still a goal? A haven towards which MY sail is set?
+Have I—still a goal? A haven towards which MY sail is set?
 
 A good wind? Ah, he only who knoweth WHITHER he saileth, knoweth what
 wind is good, and a fair wind for him.
@@ -12206,9 +12057,7 @@ this there was nothing else spoken of but THE HIGHER MAN.
 LXXIII. THE HIGHER MAN.
 
 
-1.
-
-When I came unto men for the first time, then did I commit the anchorite
+1. When I came unto men for the first time, then did I commit the anchorite
 folly, the great folly: I appeared on the market-place.
 
 And when I spake unto all, I spake unto none. In the evening, however,
@@ -12230,9 +12079,7 @@ Before God!—Now, however, this God hath died. Before the populace,
 however, we will not be equal. Ye higher men, away from the
 market-place!
 
-2.
-
-Before God!—Now however this God hath died! Ye higher men, this God was
+2. Before God!—Now however this God hath died! Ye higher men, this God was
 your greatest danger.
 
 Only since he lay in the grave have ye again arisen. Now only cometh the
@@ -12245,9 +12092,7 @@ here yelp at you?
 Well! Take heart! ye higher men! Now only travaileth the mountain of the
 human future. God hath died: now do WE desire—the Superman to live.
 
-3.
-
-The most careful ask to-day: “How is man to be maintained?” Zarathustra
+3. The most careful ask to-day: “How is man to be maintained?” Zarathustra
 however asketh, as the first and only one: “How is man to be SURPASSED?”
 
 The Superman, I have at heart; THAT is the first and only thing to
@@ -12286,9 +12131,7 @@ And rather despair than submit yourselves. And verily, I love you,
 because ye know not to-day how to live, ye higher men! For thus do YE
 live—best!
 
-4.
-
-Have ye courage, O my brethren? Are ye stout-hearted? NOT the courage
+4. Have ye courage, O my brethren? Are ye stout-hearted? NOT the courage
 before witnesses, but anchorite and eagle courage, which not even a God
 any longer beholdeth?
 
@@ -12299,12 +12142,10 @@ seeth the abyss, but with PRIDE.
 He who seeth the abyss, but with eagle’s eyes,—he who with eagle’s
 talons GRASPETH the abyss: he hath courage.—
 
-5.
-
-“Man is evil”—so said to me for consolation, all the wisest ones. Ah,
+5. “Man is evil”—so said to me for consolation, all the wisest ones. Ah,
 if only it be still true to-day! For the evil is man’s best force.
 
-“Man must become better and eviler”—so do _I_ teach. The evilest is
+“Man must become better and eviler”—so do I teach. The evilest is
 necessary for the Superman’s best.
 
 It may have been well for the preacher of the petty people to suffer and
@@ -12315,9 +12156,7 @@ Such things, however, are not said for long ears. Every word, also,
 is not suited for every mouth. These are fine far-away things: at them
 sheep’s claws shall not grasp!
 
-6.
-
-Ye higher men, think ye that I am here to put right what ye have put
+6. Ye higher men, think ye that I am here to put right what ye have put
 wrong?
 
 Or that I wished henceforth to make snugger couches for you sufferers?
@@ -12336,11 +12175,9 @@ of what account to me are your many little, short miseries!
 
 Ye do not yet suffer enough for me! For ye suffer from yourselves, ye
 have not yet suffered FROM MAN. Ye would lie if ye spake otherwise! None
-of you suffereth from what _I_ have suffered.—
+of you suffereth from what I have suffered.—
 
-7.
-
-It is not enough for me that the lightning no longer doeth harm. I do
+7. It is not enough for me that the lightning no longer doeth harm. I do
 not wish to conduct it away: it shall learn—to work for ME.—
 
 My wisdom hath accumulated long like a cloud, it becometh stiller and
@@ -12349,9 +12186,7 @@ darker. So doeth all wisdom which shall one day bear LIGHTNINGS.—
 Unto these men of to-day will I not be LIGHT, nor be called light.
 THEM—will I blind: lightning of my wisdom! put out their eyes!
 
-8.
-
-Do not will anything beyond your power: there is a bad falseness in
+8. Do not will anything beyond your power: there is a bad falseness in
 those who will beyond their power.
 
 Especially when they will great things! For they awaken distrust in
@@ -12368,9 +12203,7 @@ Is this to-day not that of the populace? The populace however knoweth
 not what is great and what is small, what is straight and what is
 honest: it is innocently crooked, it ever lieth.
 
-9.
-
-Have a good distrust to-day ye, higher men, ye enheartened ones! Ye
+9. Have a good distrust to-day ye, higher men, ye enheartened ones! Ye
 open-hearted ones! And keep your reasons secret! For this to-day is that
 of the populace.
 
@@ -12394,9 +12227,7 @@ Freedom from fever is still far from being knowledge! Refrigerated
 spirits I do not believe in. He who cannot lie, doth not know what truth
 is.
 
-10.
-
-If ye would go up high, then use your own legs! Do not get yourselves
+10. If ye would go up high, then use your own legs! Do not get yourselves
 CARRIED aloft; do not seat yourselves on other people’s backs and heads!
 
 Thou hast mounted, however, on horseback? Thou now ridest briskly up
@@ -12406,9 +12237,7 @@ horseback!
 When thou reachest thy goal, when thou alightest from thy horse:
 precisely on thy HEIGHT, thou higher man,—then wilt thou stumble!
 
-11.
-
-Ye creating ones, ye higher men! One is only pregnant with one’s own
+11. Ye creating ones, ye higher men! One is only pregnant with one’s own
 child.
 
 Do not let yourselves be imposed upon or put upon! Who then is YOUR
@@ -12431,9 +12260,7 @@ Where your entire love is, namely, with your child, there is also your
 entire virtue! Your work, your will is YOUR “neighbour”: let no false
 values impose upon you!
 
-12.
-
-Ye creating ones, ye higher men! Whoever hath to give birth is sick;
+12. Ye creating ones, ye higher men! Whoever hath to give birth is sick;
 whoever hath given birth, however, is unclean.
 
 Ask women: one giveth birth, not because it giveth pleasure. The pain
@@ -12445,9 +12272,7 @@ have had to be mothers.
 A new child: oh, how much new filth hath also come into the world! Go
 apart! He who hath given birth shall wash his soul!
 
-13.
-
-Be not virtuous beyond your powers! And seek nothing from yourselves
+13. Be not virtuous beyond your powers! And seek nothing from yourselves
 opposed to probability!
 
 Walk in the footsteps in which your fathers’ virtue hath already walked!
@@ -12477,9 +12302,7 @@ Hath there ever been anything filthier on earth than the saints of
 the wilderness? AROUND THEM was not only the devil loose—but also the
 swine.
 
-14.
-
-Shy, ashamed, awkward, like the tiger whose spring hath failed—thus, ye
+14. Shy, ashamed, awkward, like the tiger whose spring hath failed—thus, ye
 higher men, have I often seen you slink aside. A CAST which ye made had
 failed.
 
@@ -12492,9 +12315,7 @@ therefore—been a failure? And if ye yourselves have been a failure,
 hath man therefore—been a failure? If man, however, hath been a
 failure: well then! never mind!
 
-15.
-
-The higher its type, always the seldomer doth a thing succeed. Ye higher
+15. The higher its type, always the seldomer doth a thing succeed. Ye higher
 men here, have ye not all—been failures?
 
 Be of good cheer; what doth it matter? How much is still possible! Learn
@@ -12515,9 +12336,7 @@ small, good, perfect things, in well-constituted things!
 Set around you small, good, perfect things, ye higher men. Their golden
 maturity healeth the heart. The perfect teacheth one to hope.
 
-16.
-
-What hath hitherto been the greatest sin here on earth? Was it not the
+16. What hath hitherto been the greatest sin here on earth? Was it not the
 word of him who said: “Woe unto them that laugh now!”
 
 Did he himself find no cause for laughter on the earth? Then he sought
@@ -12543,9 +12362,7 @@ Go out of the way of all such absolute ones! They have heavy feet and
 sultry hearts:—they do not know how to dance. How could the earth be
 light to such ones!
 
-17.
-
-Tortuously do all good things come nigh to their goal. Like cats
+17. Tortuously do all good things come nigh to their goal. Like cats
 they curve their backs, they purr inwardly with their approaching
 happiness,—all good things laugh.
 
@@ -12563,9 +12380,7 @@ Lift up your hearts, my brethren, high, higher! And do not forget your
 legs! Lift up also your legs, ye good dancers, and better still, if ye
 stand upon your heads!
 
-18.
-
-This crown of the laughter, this rose-garland crown: I myself have put
+18. This crown of the laughter, this rose-garland crown: I myself have put
 on this crown, I myself have consecrated my laughter. No one else have I
 found to-day potent enough for this.
 
@@ -12577,9 +12392,7 @@ Zarathustra the soothsayer, Zarathustra the sooth-laugher, no impatient
 one, no absolute one, one who loveth leaps and side-leaps; I myself have
 put on this crown!
 
-19.
-
-Lift up your hearts, my brethren, high, higher! And do not forget your
+19. Lift up your hearts, my brethren, high, higher! And do not forget your
 legs! Lift up also your legs, ye good dancers, and better still if ye
 stand upon your heads!
 
@@ -12599,9 +12412,7 @@ So unlearn, I pray you, the sorrow-sighing, and all the
 populace-sadness! Oh, how sad the buffoons of the populace seem to me
 to-day! This to-day, however, is that of the populace.
 
-20.
-
-Do like unto the wind when it rusheth forth from its mountain-caves:
+20. Do like unto the wind when it rusheth forth from its mountain-caves:
 unto its own piping will it dance; the seas tremble and leap under its
 footsteps.
 
@@ -12636,9 +12447,7 @@ I pray you—to laugh!
 LXXIV. THE SONG OF MELANCHOLY.
 
 
-1.
-
-When Zarathustra spake these sayings, he stood nigh to the entrance of
+1. When Zarathustra spake these sayings, he stood nigh to the entrance of
 his cave; with the last words, however, he slipped away from his guests,
 and fled for a little while into the open air.
 
@@ -12655,9 +12464,7 @@ words, and looked up to him. In this attitude were they all three silent
 together, and sniffed and sipped the good air with one another. For the
 air here outside was better than with the higher men.
 
-2.
-
-Hardly, however, had Zarathustra left the cave when the old magician got
+2. Hardly, however, had Zarathustra left the cave when the old magician got
 up, looked cunningly about him, and said: “He is gone!
 
 And already, ye higher men—let me tickle you with this complimentary
@@ -12701,9 +12508,7 @@ woman—this spirit of evening-melancholy is!”
 Thus spake the old magician, looked cunningly about him, and then seized
 his harp.
 
-3.
-
-     In evening’s limpid air,
+3. In evening’s limpid air,
      What time the dew’s soothings
      Unto the earth downpour,
      Invisibly and unheard—
@@ -12921,8 +12726,8 @@ and said wisely: “Well! It is gone, mine evil spirit!
 And did I not myself warn you against it when I said that it was a
 deceiver, a lying and deceiving spirit?
 
-Especially when it showeth itself naked. But what can _I_ do with regard
-to its tricks! Have _I_ created it and the world?
+Especially when it showeth itself naked. But what can I do with regard
+to its tricks! Have I created it and the world?
 
 Well! Let us be good again, and of good cheer! And although Zarathustra
 looketh with evil eye—just see him! he disliketh me—:
@@ -12946,9 +12751,7 @@ his animals,—and wished to steal out.
 LXXVI. AMONG DAUGHTERS OF THE DESERT.
 
 
-1.
-
-“Go not away!” said then the wanderer who called himself Zarathustra’s
+1. “Go not away!” said then the wanderer who called himself Zarathustra’s
 shadow, “abide with us—otherwise the old gloomy affliction might again
 fall upon us.
 
@@ -13001,9 +12804,7 @@ nostrils, however, he inhaled the air slowly and questioningly, like one
 who in new countries tasteth new foreign air. Afterward he began to sing
 with a kind of roaring.
 
-2.
-
-THE DESERTS GROW: WOE HIM WHO DOTH THEM HIDE!
+2. THE DESERTS GROW: WOE HIM WHO DOTH THEM HIDE!
 
      —Ha!
      Solemnly!
@@ -13166,9 +12967,7 @@ THE DESERTS GROW: WOE HIM WHO DOTH THEM HIDE!
 LXXVII. THE AWAKENING.
 
 
-1.
-
-After the song of the wanderer and shadow, the cave became all at once
+1. After the song of the wanderer and shadow, the cave became all at once
 full of noise and laughter: and since the assembled guests all spake
 simultaneously, and even the ass, encouraged thereby, no longer
 remained silent, a little aversion and scorn for his visitors came over
@@ -13236,9 +13035,7 @@ They are CONVALESCENTS!” Thus spake Zarathustra joyfully to his heart
 and gazed outward; his animals, however, pressed up to him, and honoured
 his happiness and his silence.
 
-2.
-
-All on a sudden however, Zarathustra’s ear was frightened: for the cave
+2. All on a sudden however, Zarathustra’s ear was frightened: for the cave
 which had hitherto been full of noise and laughter, became all at once
 still as death;—his nose, however, smelt a sweet-scented vapour and
 incense-odour, as if from burning pine-cones.
@@ -13313,9 +13110,7 @@ wisdom of a God therein.
 LXXVIII. THE ASS-FESTIVAL.
 
 
-1.
-
-At this place in the litany, however, Zarathustra could no longer
+1. At this place in the litany, however, Zarathustra could no longer
 control himself; he himself cried out YE-A, louder even than the ass,
 and sprang into the midst of his maddened guests. “Whatever are you
 about, ye grown-up children?” he exclaimed, pulling up the praying ones
@@ -13420,9 +13215,7 @@ Zarathustra: he who wanteth to kill most thoroughly, LAUGHETH.
 O Zarathustra, thou hidden one, thou destroyer without wrath, thou
 dangerous saint,—thou art a rogue!”
 
-2.
-
-Then, however, did it come to pass that Zarathustra, astonished at such
+2. Then, however, did it come to pass that Zarathustra, astonished at such
 merely roguish answers, jumped back to the door of his cave, and turning
 towards all his guests, cried out with a strong voice:
 
@@ -13446,9 +13239,7 @@ THAT kingdom of heaven.” (And Zarathustra pointed aloft with his hands.)
 “But we do not at all want to enter into the kingdom of heaven: we have
 become men,—SO WE WANT THE KINGDOM OF EARTH.”
 
-3.
-
-And once more began Zarathustra to speak. “O my new friends,” said he,—
+3. And once more began Zarathustra to speak. “O my new friends,” said he,—
 “ye strange ones, ye higher men, how well do ye now please me,—
 
 —Since ye have again become joyful! Ye have, verily, all blossomed
@@ -13473,9 +13264,7 @@ Thus spake Zarathustra.
 LXXIX. THE DRUNKEN SONG.
 
 
-1.
-
-Meanwhile one after another had gone out into the open air, and into the
+1. Meanwhile one after another had gone out into the open air, and into the
 cool, thoughtful night; Zarathustra himself, however, led the ugliest
 man by the hand, that he might show him his night-world, and the great
 round moon, and the silvery water-falls near his cave. There they at
@@ -13494,7 +13283,7 @@ good, deep, clear question, which moved the hearts of all who listened
 to him.
 
 “My friends, all of you,” said the ugliest man, “what think ye? For the
-sake of this day—_I_ am for the first time content to have lived mine
+sake of this day—I am for the first time content to have lived mine
 entire life.
 
 And that I testify so much is still not enough for me. It is worth while
@@ -13522,9 +13311,7 @@ there nevertheless happened then greater and rarer wonders than
 the dancing of an ass would have been. In short, as the proverb of
 Zarathustra saith: “What doth it matter!”
 
-2.
-
-When, however, this took place with the ugliest man, Zarathustra stood
+2. When, however, this took place with the ugliest man, Zarathustra stood
 there like one drunken: his glance dulled, his tongue faltered and his
 feet staggered. And who could divine what thoughts then passed through
 Zarathustra’s soul? Apparently, however, his spirit retreated and fled
@@ -13552,9 +13339,7 @@ however, laid his hand upon his mouth for the third time, and said:
 COME! COME! COME! LET US NOW WANDER! IT IS THE HOUR: LET US WANDER INTO
 THE NIGHT!
 
-3.
-
-Ye higher men, it is getting on to midnight: then will I say something
+3. Ye higher men, it is getting on to midnight: then will I say something
 into your ears, as that old clock-bell saith it into mine ear,—
 
 —As mysteriously, as frightfully, and as cordially as that midnight
@@ -13577,9 +13362,7 @@ speaketh unto THEE, the old deep, deep midnight?
 
 O MAN, TAKE HEED!
 
-4.
-
-Woe to me! Whither hath time gone? Have I not sunk into deep wells? The
+4. Woe to me! Whither hath time gone? Have I not sunk into deep wells? The
 world sleepeth—
 
 Ah! Ah! The dog howleth, the moon shineth. Rather will I die, rather
@@ -13597,9 +13380,7 @@ flow, ye great and small streams!”
 —The hour approacheth: O man, thou higher man, take heed! this talk is
 for fine ears, for thine ears—WHAT SAITH DEEP MIDNIGHT’S VOICE INDEED?
 
-5.
-
-It carrieth me away, my soul danceth. Day’s-work! Day’s-work! Who is to
+5. It carrieth me away, my soul danceth. Day’s-work! Day’s-work! Who is to
 be master of the world?
 
 The moon is cool, the wind is still. Ah! Ah! Have ye already flown high
@@ -13618,9 +13399,7 @@ worm still burrow? There approacheth, there approacheth, the hour,—
 burroweth still the wood-worm, the heart-worm. Ah! Ah! THE WORLD IS
 DEEP!
 
-6.
-
-Sweet lyre! Sweet lyre! I love thy tone, thy drunken, ranunculine
+6. Sweet lyre! Sweet lyre! I love thy tone, thy drunken, ranunculine
 tone!—how long, how far hath come unto me thy tone, from the distance,
 from the ponds of love!
 
@@ -13641,9 +13420,7 @@ gold-wine-odour of old happiness,
 —Of drunken midnight-death happiness, which singeth: the world is deep,
 AND DEEPER THAN THE DAY COULD READ!
 
-7.
-
-Leave me alone! Leave me alone! I am too pure for thee. Touch me not!
+7. Leave me alone! Leave me alone! I am too pure for thee. Touch me not!
 Hath not my world just now become perfect?
 
 My skin is too pure for thy hands. Leave me alone, thou dull, doltish,
@@ -13664,9 +13441,7 @@ unhappiness, grasp after some God; grasp not after me:
 —Mine unhappiness, my happiness is deep, thou strange day, but yet am I
 no God, no God’s-hell: DEEP IS ITS WOE.
 
-8.
-
-God’s woe is deeper, thou strange world! Grasp at God’s woe, not at me!
+8. God’s woe is deeper, thou strange world! Grasp at God’s woe, not at me!
 What am I! A drunken sweet lyre,—
 
 —A midnight-lyre, a bell-frog, which no one understandeth, but which
@@ -13687,9 +13462,7 @@ ruminate?
 midnight—and still more her joy. For joy, although woe be deep, JOY IS
 DEEPER STILL THAN GRIEF CAN BE.
 
-9.
-
-Thou grape-vine! Why dost thou praise me? Have I not cut thee! I am
+9. Thou grape-vine! Why dost thou praise me? Have I not cut thee! I am
 cruel, thou bleedest—: what meaneth thy praise of my drunken cruelty?
 
 “Whatever hath become perfect, everything mature—wanteth to die!” so
@@ -13711,9 +13484,7 @@ Woe saith: “Break, bleed, thou heart! Wander, thou leg! Thou wing, fly!
 Onward! upward! thou pain!” Well! Cheer up! O mine old heart: WOE SAITH:
 “HENCE! GO!”
 
-10.
-
-Ye higher men, what think ye? Am I a soothsayer? Or a dreamer? Or a
+10. Ye higher men, what think ye? Am I a soothsayer? Or a dreamer? Or a
 drunkard? Or a dream-reader? Or a midnight-bell?
 
 Or a drop of dew? Or a fume and fragrance of eternity? Hear ye it not?
@@ -13735,9 +13506,7 @@ did ye LOVE the world,—
 —Ye eternal ones, ye love it eternally and for all time: and also unto
 woe do ye say: Hence! Go! but come back! FOR JOYS ALL WANT—ETERNITY!
 
-11.
-
-All joy wanteth the eternity of all things, it wanteth honey, it
+11. All joy wanteth the eternity of all things, it wanteth honey, it
 wanteth lees, it wanteth drunken midnight, it wanteth graves, it wanteth
 grave-tears’ consolation, it wanteth gilded evening-red—
 
@@ -13764,9 +13533,7 @@ that joys want eternity.
 —Joys want the eternity of ALL things, they WANT DEEP, PROFOUND
 ETERNITY!
 
-12.
-
-Have ye now learned my song? Have ye divined what it would say? Well!
+12. Have ye now learned my song? Have ye divined what it would say? Well!
 Cheer up! Ye higher men, sing now my roundelay!
 
 Sing now yourselves the song, the name of which is “Once more,” the
@@ -13803,7 +13570,7 @@ And if they remained in their chambers whilst thou art already awake,
 and comest and bestowest and distributest, how would thy proud modesty
 upbraid for it!
 
-Well! they still sleep, these higher men, whilst _I_ am awake: THEY are
+Well! they still sleep, these higher men, whilst I am awake: THEY are
 not my proper companions! Not for them do I wait here in my mountains.
 
 At my work I want to be, at my day: but they understand not what are the
@@ -13910,12 +13677,7 @@ morning sun coming out of gloomy mountains.
 
 
 
-APPENDIX.
-
-
-NOTES ON “THUS SPAKE ZARATHUSTRA” BY ANTHONY M. LUDOVICI.
-
-I have had some opportunities of studying the conditions under which
+APPENDIX. NOTES ON “THUS SPAKE ZARATHUSTRA” BY ANTHONY M. LUDOVICI. I have had some opportunities of studying the conditions under which
 Nietzsche is read in Germany, France, and England, and I have found
 that, in each of these countries, students of his philosophy, as if
 actuated by precisely similar motives and desires, and misled by the
@@ -14277,9 +14039,7 @@ Notes on Chapters LVI., par. 5, and LXXIII., pars. 10, 11).
 
  ...
 
-PART II.
-
-Chapter XXIII. The Child with the Mirror.
+PART II. Chapter XXIII. The Child with the Mirror.
 
 Nietzsche tells us here, in a poetical form, how deeply grieved he was
 by the manifold misinterpretations and misunderstandings which were
@@ -14343,9 +14103,7 @@ Chapter XXXIV. Self-Surpassing.
 
 In this discourse we get the best exposition in the whole book of
 Nietzsche’s doctrine of the Will to Power. I go into this question
-thoroughly in the Note on Chapter LVII.
-
-Nietzsche was not an iconoclast from choice. Those who hastily class him
+thoroughly in the Note on Chapter LVII. Nietzsche was not an iconoclast from choice. Those who hastily class him
 with the anarchists (or the Progressivists of the last century) fail
 to understand the high esteem in which he always held both law and
 discipline. In verse 41 of this most decisive discourse he truly
@@ -14509,9 +14267,7 @@ which forces him to reveal his deepest thoughts.
 
  ...
 
-PART III.
-
-This is perhaps the most important of all the four parts. If it
+PART III. This is perhaps the most important of all the four parts. If it
 contained only “The Vision and the Enigma” and “The Old and New Tables”
  I should still be of this opinion; for in the former of these discourses
 we meet with what Nietzsche regarded as the crowning doctrine of his
@@ -14682,8 +14438,7 @@ first to last it is extremely valuable as an autobiographical note. The
 inevitable superficiality of the rabble is contrasted with the peaceful
 and profound depths of the anchorite. Here we first get a direct hint
 concerning Nietzsche’s fundamental passion—the main force behind all
-his new values and scathing criticism of existing values. In verse 30
-we are told that pity was his greatest danger. The broad altruism of the
+his new values and scathing criticism of existing values. In verse 30 we are told that pity was his greatest danger. The broad altruism of the
 law-giver, thinking over vast eras of time, was continually being pitted
 by Nietzsche, in himself, against that transient and meaner sympathy for
 the neighbour which he more perhaps than any of his contemporaries had
@@ -14691,8 +14446,7 @@ suffered from, but which he was certain involved enormous dangers not
 only for himself but also to the next and subsequent generations (see
 Note B., where “pity” is mentioned among the degenerate virtues). Later
 in the book we shall see how his profound compassion leads him into
-temptation, and how frantically he struggles against it. In verses 31
-and 32, he tells us to what extent he had to modify himself in order
+temptation, and how frantically he struggles against it. In verses 31 and 32, he tells us to what extent he had to modify himself in order
 to be endured by his fellows whom he loved (see also verse 12 in “Manly
 Prudence”). Nietzsche’s great love for his fellows, which he confesses
 in the Prologue, and which is at the root of all his teaching, seems
@@ -14782,9 +14536,7 @@ the right way. In his teaching he does not coerce us, nor does he
 overpersuade; he simply says: “I am a law only for mine own, I am not a
 law for all. This—is now MY way,—where is yours?”
 
-Chapter LVI. Old and New Tables. Par. 2.
-
-Nietzsche himself declares this to be the most decisive portion of
+Chapter LVI. Old and New Tables. Par. 2. Nietzsche himself declares this to be the most decisive portion of
 the whole of “Thus Spake Zarathustra”. It is a sort of epitome of his
 leading doctrines. In verse 12 of the second paragraph, we learn how he
 himself would fain have abandoned the poetical method of expression had
@@ -14797,9 +14549,7 @@ existence among opinions and values is so great, that an art-form
 is practically the only garb in which a new philosophy can dare to
 introduce itself to us.
 
-Pars. 3 and 4.
-
-Many of the paragraphs will be found to be merely reminiscent of former
+Pars. 3 and 4. Many of the paragraphs will be found to be merely reminiscent of former
 discourses. For instance, par. 3 recalls “Redemption”. The last verse
 of par. 4 is important. Freedom which, as I have pointed out before,
 Nietzsche considered a dangerous acquisition in inexperienced or
@@ -14811,20 +14561,14 @@ however, shall thine eye answer me: free FOR WHAT?” And in “The
 Bedwarfing Virtue”: “Ah that ye understood my word: ‘Do ever what ye
 will—but first be such as CAN WILL.’”
 
-Par. 5.
-
-Here we have a description of the kind of altruism Nietzsche exacted
+Par. 5. Here we have a description of the kind of altruism Nietzsche exacted
 from higher men. It is really a comment upon “The Bestowing Virtue” (see
 Note on Chapter XXII.).
 
-Par. 6.
-
-This refers, of course, to the reception pioneers of Nietzsche’s stamp
+Par. 6. This refers, of course, to the reception pioneers of Nietzsche’s stamp
 meet with at the hands of their contemporaries.
 
-Par. 8.
-
-Nietzsche teaches that nothing is stable,—not even values,—not
+Par. 8. Nietzsche teaches that nothing is stable,—not even values,—not
 even the concepts good and evil. He likens life unto a stream. But
 foot-bridges and railings span the stream, and they seem to stand
 firm. Many will be reminded of good and evil when they look upon these
@@ -14839,13 +14583,7 @@ been reached. “Oh, my brethren, is not everything AT PRESENT IN FLUX?
 Have not all railings and foot-bridges fallen into the water? Who would
 still HOLD ON to ‘good’ and ‘evil’?”
 
-Par. 9.
-
-This is complementary to the first three verses of par. 2.
-
-Par. 10.
-
-So far, this is perhaps the most important paragraph. It is a protest
+Par. 9. This is complementary to the first three verses of par. 2. Par. 10. So far, this is perhaps the most important paragraph. It is a protest
 against reading a moral order of things in life. “Life is something
 essentially immoral!” Nietzsche tells us in the introduction to the
 “Birth of Tragedy”. Even to call life “activity,” or to define it
@@ -14858,9 +14596,7 @@ suppression, severity, obtrusion of its own forms, incorporation and
 at least, putting it mildest, exploitation.” Adaptation is merely a
 secondary activity, a mere re-activity (see Note on Chapter LVII.).
 
-Pars. 11, 12.
-
-These deal with Nietzsche’s principle of the desirability of rearing a
+Pars. 11, 12. These deal with Nietzsche’s principle of the desirability of rearing a
 select race. The biological and historical grounds for his insistence
 upon this principle are, of course, manifold. Gobineau in his great
 work, “L’Inegalite des Races Humaines”, lays strong emphasis upon the
@@ -14874,20 +14610,12 @@ types of animals through the action of promiscuous breeding, brings
 Gobineau support from the realm of biology.
 
 The last two verses of par. 12 were discussed in the Notes on Chapters
-XXXVI. and LIII.
-
-Par. 13.
-
-This, like the first part of “The Soothsayer”, is obviously a reference
+XXXVI. and LIII. Par. 13. This, like the first part of “The Soothsayer”, is obviously a reference
 to the Schopenhauerian Pessimism.
 
-Pars. 14, 15, 16, 17.
+Pars. 14, 15, 16, 17. These are supplementary to the discourse “Backworld’s-men”.
 
-These are supplementary to the discourse “Backworld’s-men”.
-
-Par. 18.
-
-We must be careful to separate this paragraph, in sense, from the
+Par. 18. We must be careful to separate this paragraph, in sense, from the
 previous four paragraphs. Nietzsche is still dealing with Pessimism
 here; but it is the pessimism of the hero—the man most susceptible of
 all to desperate views of life, owing to the obstacles that are arrayed
@@ -14900,9 +14628,7 @@ proceeds from an unhealthy body—the dyspeptic’s lack of appetite; it
 is rather the desperation of the netted lion that ultimately stops all
 movement, because the more it moves the more involved it becomes.
 
-Par. 20.
-
-“All that increases power is good, all that springs from weakness is
+Par. 20. “All that increases power is good, all that springs from weakness is
 bad. The weak and ill-constituted shall perish: first principle of our
 charity. And one shall also help them thereto.” Nietzsche partly divined
 the kind of reception moral values of this stamp would meet with at
@@ -14910,9 +14636,7 @@ the hands of the effeminate manhood of Europe. Here we see that he had
 anticipated the most likely form their criticism would take (see also
 the last two verses of par. 17).
 
-Par. 21.
-
-The first ten verses, here, are reminiscent of “War and Warriors” and
+Par. 21. The first ten verses, here, are reminiscent of “War and Warriors” and
 of “The Flies in the Market-place.” Verses 11 and 12, however, are
 particularly important. There is a strong argument in favour of the
 sharp differentiation of castes and of races (and even of sexes; see
@@ -14929,9 +14653,7 @@ Herbert Spencer, are signs of a physiological condition which is the
 reverse of that bounding and irresponsible healthiness in which harder
 and more tragic values rule.
 
-Par. 24.
-
-This should be read in conjunction with “Child and Marriage”. In the
+Par. 24. This should be read in conjunction with “Child and Marriage”. In the
 fifth verse we shall recognise our old friend “Marriage on the ten-years
 system,” which George Meredith suggested some years ago. This, however,
 must not be taken too literally. I do not think Nietzsche’s profoundest
@@ -14941,13 +14663,9 @@ sister, and although their wisdom is unquestionable, the nature of the
 reforms he suggests render it impossible for them to become popular just
 now.
 
-Pars. 26, 27.
+Pars. 26, 27. See Note on “The Prologue”.
 
-See Note on “The Prologue”.
-
-Par. 28.
-
-Nietzsche was not an iconoclast from predilection. No bitterness or
+Par. 28. Nietzsche was not an iconoclast from predilection. No bitterness or
 empty hate dictated his vituperations against existing values and
 against the dogmas of his parents and forefathers. He knew too well what
 these things meant to the millions who profess them, to approach the
@@ -15069,9 +14787,7 @@ marriage-ring of rings, the ring of the Eternal Recurrence.
 
  ...
 
-PART IV.
-
-In my opinion this part is Nietzsche’s open avowal that all his
+PART IV. In my opinion this part is Nietzsche’s open avowal that all his
 philosophy, together with all his hopes, enthusiastic outbursts,
 blasphemies, prolixities, and obscurities, were merely so many gifts
 laid at the feet of higher men. He had no desire to save the world. What
@@ -15398,41 +15114,27 @@ pessimist, be it remembered, Schopenhauer led quite an extraordinary
 life. He ate well, loved well, played the flute well, and I believe he
 smoked the best cigars. What follows is clear enough.
 
-Chapter LXXIII. The Higher Man. Par. 1.
-
-Nietzsche admits, here, that at one time he had thought of appealing to
+Chapter LXXIII. The Higher Man. Par. 1. Nietzsche admits, here, that at one time he had thought of appealing to
 the people, to the crowd in the market-place, but that he had ultimately
 to abandon the task. He bids higher men depart from the market-place.
 
-Par. 3.
-
-Here we are told quite plainly what class of men actually owe all their
+Par. 3. Here we are told quite plainly what class of men actually owe all their
 impulses and desires to the instinct of self-preservation. The struggle
 for existence is indeed the only spur in the case of such people.
 To them it matters not in what shape or condition man be preserved,
 provided only he survive. The transcendental maxim that “Life per se is
 precious” is the ruling maxim here.
 
-Par. 4.
-
-In the Note on Chapter LVII. (end) I speak of Nietzsche’s elevation of
+Par. 4. In the Note on Chapter LVII. (end) I speak of Nietzsche’s elevation of
 the virtue, Courage, to the highest place among the virtues. Here he
 tells higher men the class of courage he expects from them.
 
-Pars. 5, 6.
-
-These have already been referred to in the Notes on Chapters LVII. (end)
-and LXXI.
-
-Par. 7.
-
-I suggest that the last verse in this paragraph strongly confirms the
+Pars. 5, 6. These have already been referred to in the Notes on Chapters LVII. (end)
+and LXXI. Par. 7. I suggest that the last verse in this paragraph strongly confirms the
 view that Nietzsche’s teaching was always meant by him to be esoteric
 and for higher man alone.
 
-Par. 9.
-
-In the last verse, here, another shaft of light is thrown upon the
+Par. 9. In the last verse, here, another shaft of light is thrown upon the
 Immaculate Perception or so-called “pure objectivity” of the scientific
 mind. “Freedom from fever is still far from being knowledge.” Where a
 man’s emotions cease to accompany him in his investigations, he is
@@ -15441,23 +15143,17 @@ Autobiography:—“In the genesis of a system of thought, the emotional
 nature is a large factor: perhaps as large a factor as the intellectual
 nature” (see pages 134, 141 of Vol. I., “Thoughts out of Season”).
 
-Pars. 10, 11.
-
-When we approach Nietzsche’s philosophy we must be prepared to be
+Pars. 10, 11. When we approach Nietzsche’s philosophy we must be prepared to be
 independent thinkers; in fact, the greatest virtue of his works is
 perhaps the subtlety with which they impose the obligation upon one
 of thinking alone, of scoring off one’s own bat, and of shifting
 intellectually for oneself.
 
-Par. 13.
-
-“I am a railing alongside the torrent; whoever is able to grasp me, may
+Par. 13. “I am a railing alongside the torrent; whoever is able to grasp me, may
 grasp me! Your crutch, however, I am not.” These two paragraphs are an
 exhortation to higher men to become independent.
 
-Par. 15.
-
-Here Nietzsche perhaps exaggerates the importance of heredity. As,
+Par. 15. Here Nietzsche perhaps exaggerates the importance of heredity. As,
 however, the question is by no means one on which we are all agreed,
 what he says is not without value.
 
@@ -15475,9 +15171,7 @@ organised being to attain to the fullest development and activity of all
 its functions, simply because it is so highly organised. The blind Will
 to Power in nature therefore stands in urgent need of direction by man.
 
-Pars. 16, 17, 18, 19, 20.
-
-These paragraphs deal with Nietzsche’s protest against the democratic
+Pars. 16, 17, 18, 19, 20. These paragraphs deal with Nietzsche’s protest against the democratic
 seriousness (Pobelernst) of modern times. “All good things laugh,” he
 says, and his final command to the higher men is, “LEARN, I pray you—to
 laugh.” All that is GOOD, in Nietzsche’s sense, is cheerful. To be able
@@ -15608,6 +15302,4 @@ all those who will be kind enough to show me where and how I have gone
 wrong; but I should like to point out that, as they stand, I have not
 given to these Notes by any means their final form.
 
-ANTHONY M. LUDOVICI.
-
-London, February 1909.
+ANTHONY M. LUDOVICI. London, February 1909.
