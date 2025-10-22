@@ -6,15 +6,15 @@ from pathlib import Path
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory
-from langchain.prompts import PromptTemplate
-from langchain.retrievers.multi_query import MultiQueryRetriever
-from langchain.retrievers import EnsembleRetriever
+from langchain_classic.chains import ConversationalRetrievalChain
+from langchain_classic.prompts import PromptTemplate
+from langchain_classic.retrievers.multi_query import MultiQueryRetriever
+from langchain_classic.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_core.documents import Document
+from langchain_core.messages import HumanMessage, AIMessage
 from sentence_transformers import CrossEncoder
 from typing import List, Any
 from pydantic import Field, ConfigDict
@@ -437,6 +437,7 @@ Respond as Nietzsche would, grounding your answer in the provided passages:"""
     )
     
     # Create conversational chain with Phase 3 advanced retriever
+    # Using langchain-classic ConversationalRetrievalChain for compatibility
     chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
         retriever=reranking_retriever,
