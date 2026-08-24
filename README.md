@@ -9,7 +9,7 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 - **Advanced RAG Pipeline**: Hybrid search, multi-query retrieval, cross-encoder re-ranking, and query expansion
 - **19 Complete Works**: Including *Thus Spake Zarathustra*, *Beyond Good and Evil*, *The Genealogy of Morals*, and more
 - **Authentic Responses**: Low temperature (0.3) and explicit grounding instructions ensure faithfulness to Nietzsche's actual writings
-- **Free to Use**: Powered by Groq's free Llama 3.1 8B API (no cost!)
+- **Free to Use**: Powered by Groq's free `openai/gpt-oss-120b` API (no cost!)
 - **Source Citations**: View the exact passages from Nietzsche's works used to generate each response
 - **High-Quality Embeddings**: Uses all-mpnet-base-v2 for superior semantic understanding
 
@@ -49,6 +49,12 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
    # GROQ_API_KEY = "your_actual_api_key_here"
    ```
 
+   Optionally override the model (defaults to `openai/gpt-oss-120b`) if Groq
+   retires it — see [supported models](https://console.groq.com/docs/models):
+   ```toml
+   GROQ_MODEL = "openai/gpt-oss-120b"
+   ```
+
 5. **Build the vector store** (one-time setup)
    ```bash
    python scripts/build_vectorstore.py
@@ -77,7 +83,7 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 4. **Hybrid search** → 70% semantic (FAISS with all-mpnet-base-v2) + 30% keyword (BM25)
 5. **Initial retrieval** → Top 3 passages per query from hybrid search (with 0.7 similarity threshold)
 6. **Cross-encoder re-ranking** → Re-ranks retrieved passages by relevance using ms-marco-MiniLM-L-6-v2
-7. **Grounded generation** → Llama 3.1 8B (temperature=0.3) generates response using only the re-ranked context
+7. **Grounded generation** → `openai/gpt-oss-120b` (temperature=0.3) generates response using only the re-ranked context
 8. **Response with sources** → Authentic answer with expandable source passages
 
 ### Key Technical Features
@@ -119,7 +125,7 @@ Chat with Nietzsche about philosophy, morality, religion, human nature, and more
 ## 🛠️ Technical Stack
 
 - **Frontend**: Streamlit
-- **LLM**: Groq API (Llama 3.1 8B)
+- **LLM**: Groq API (`openai/gpt-oss-120b`)
 - **Embeddings**: HuggingFace sentence-transformers (all-mpnet-base-v2)
 - **Vector Store**: FAISS (semantic search) + BM25 (keyword search)
 - **Re-ranking**: Cross-encoder (ms-marco-MiniLM-L-6-v2)
