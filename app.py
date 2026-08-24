@@ -263,9 +263,9 @@ def initialize_chain(_vectorstore):
     # Initialize Groq LLM with low temperature for faithfulness to source material
     llm = ChatGroq(
         groq_api_key=st.secrets["GROQ_API_KEY"],
-        model_name="llama-3.1-8b-instant",
+        model_name=st.secrets.get("GROQ_MODEL", "openai/gpt-oss-120b"),
         temperature=0.3,  # Reduced from 0.7 for more faithful, less creative responses
-        max_tokens=1024
+        max_tokens=2048  # gpt-oss emits reasoning tokens, so leave room for the answer
     )
     
     # Suppress MultiQueryRetriever logging (optional)
@@ -626,7 +626,7 @@ with st.sidebar:
         3. **Multi-Query** - 3x reformulation
         4. **Initial Retrieval** - Top 8 passages
         5. **Re-ranking** - Cross-encoder precision
-        6. **Generation** - Llama 3.1 (temp=0.3)
+        6. **Generation** - gpt-oss-120b (temp=0.3)
         7. **Citations** - Exact source tracking
         
         **Features:**
