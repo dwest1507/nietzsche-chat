@@ -30,6 +30,7 @@ from fastapi.responses import StreamingResponse
 from groq import RateLimitError
 from pydantic import BaseModel, Field
 
+from ..errors import report_exception
 from ..llm import Message, build_messages, condense_question, generate_stream
 from ..rag.pipeline import get_pipeline
 from ..ratelimit import CHAT_RATE_LIMIT, limiter
@@ -99,8 +100,14 @@ async def chat(request: Request, body: ChatRequest) -> StreamingResponse:
             yield _error_line(ERROR_PROVIDER_QUOTA)
         # Never leak provider errors into the stream; the client sees a
         # generic failure while the traceback goes to the server log.
-        except Exception:
+        except Exception as error:
             logger.exception("Chat generation failed")
+            # Report before yielding: the visitor's connection can drop at any
+            # point, and a failure lost to a closed stream is one nobody ever
+            # hears about. Only this arm reports — a spent provider quota (and
+            # a visitor meeting their own rate limit, which never reaches this
+            # generator) is the system working, not a bug to be mailed out.
+            report_exception(error)
             yield _error_line(ERROR_GENERIC)
 
     return StreamingResponse(

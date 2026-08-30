@@ -11,6 +11,7 @@ from slowapi.errors import RateLimitExceeded
 
 from . import readiness
 from .config import ALLOWED_ORIGINS
+from .errors import init_error_reporting
 from .rag.pipeline import get_pipeline
 from .ratelimit import limiter
 from .routes.chat import router as chat_router
@@ -37,6 +38,10 @@ def _warm_pipeline() -> None:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    # Arm error reporting first, and once: everything below it is a place a
+    # failure can hide, and in production nobody is watching the logs.
+    init_error_reporting()
+
     # Pre-load models so the first request isn't slow, but off the startup path:
     # loading takes tens of seconds, and on a cold cache it hits the network.
     # Doing it inline here means a slow or stalled load stops the API from ever

@@ -119,7 +119,10 @@ raw Project Gutenberg files.
   **Dockerfile** (models are baked into the image so cold starts never hit
   Hugging Face). Env: `GROQ_API_KEY`, `BACKEND_SHARED_SECRET` (identical to the
   Vercel value), `ALLOWED_ORIGINS` (the Vercel origins), optionally
-  `GROQ_MODEL`. Healthcheck path `/api/health` — liveness only, answered as
+  `GROQ_MODEL` and `SENTRY_DSN` — set the latter here and nowhere else, so
+  backend exceptions are reported instead of dying with the container that
+  logged them; with it unset, error reporting never starts.
+  Healthcheck path `/api/health` — liveness only, answered as
   soon as the port binds, so a deploy never waits on the model load. Whether
   the models are loaded is reported separately by `/api/ready`, which the
   frontend polls; see
