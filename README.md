@@ -68,10 +68,13 @@ backend isn't on `http://localhost:8000`.
 make ci-cd          # everything the PR gates run
 make test           # frontend Vitest + backend pytest
 make lint           # eslint/prettier/tsc + ruff
+make lighthouse     # Lighthouse CI budget check (needs Chrome)
 ```
 
 Backend tests mock the RAG pipeline and the Groq client, so they run without
-models, indexes, or API keys.
+models, indexes, or API keys. `make ci-cd` also runs a Lighthouse CI pass
+against the production build (`frontend/lighthouserc.json`), asserting
+≥ 0.9 on accessibility / best-practices / SEO (performance warns).
 
 ### Rebuilding the indexes
 

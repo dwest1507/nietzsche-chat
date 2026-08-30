@@ -1,6 +1,6 @@
 .PHONY: help install dev dev-frontend dev-backend build-index test lint clean stop \
 	frontend-quality frontend-test frontend-build backend-lint backend-test \
-	security-audit ci-cd
+	security-audit lighthouse ci-cd
 
 help:
 	@echo "Available commands:"
@@ -22,6 +22,7 @@ help:
 	@echo "  make backend-lint            - Ruff check + format check"
 	@echo "  make backend-test            - Pytest"
 	@echo "  make security-audit          - npm audit + pip-audit"
+	@echo "  make lighthouse              - Lighthouse CI budget check (needs Chrome)"
 	@echo ""
 	@echo "Deploys are handled by the Vercel and Railway git integrations"
 	@echo "(push to main) — see README.md."
@@ -74,9 +75,12 @@ backend-test:
 security-audit:
 	./scripts/security-audit.sh all
 
+lighthouse:
+	./scripts/lighthouse.sh
+
 # Everything the PR/push gates run, in one command. There is nothing to deploy
 # here — Vercel and Railway deploy from main via their git integrations.
-ci-cd: frontend-quality frontend-test frontend-build backend-lint backend-test security-audit
+ci-cd: frontend-quality frontend-test frontend-build backend-lint backend-test security-audit lighthouse
 	@echo ""
 	@echo "ci-cd: all checks passed ✔"
 
