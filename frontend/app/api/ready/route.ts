@@ -28,10 +28,12 @@ export async function GET() {
   }
 
   if (!backendResponse.ok) {
-    // A backend that is up and refusing us (a wrong secret, a 500) will not
-    // become ready by being asked again — report it terminally rather than
-    // leaving the chat polling for a readiness that never arrives.
-    return readiness('failed')
+    // A platform edge answers 5xx on behalf of a container it is still
+    // starting, which is the cold start this endpoint exists to report. Only a
+    // response that proves the backend is up and refusing us (a wrong secret, a
+    // 4xx) is terminal; treating a waking container as terminal would stop the
+    // poll and refuse every later question until the page is reloaded.
+    return readiness(backendResponse.status >= 500 ? 'loading' : 'failed')
   }
 
   let status: unknown

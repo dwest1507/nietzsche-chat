@@ -68,6 +68,20 @@ describe('GET /api/ready', () => {
     expect(await response.json()).toEqual({ status: 'failed' })
   })
 
+  it.each([502, 503, 504])(
+    'reports loading when the platform edge answers %i for a sleeping container',
+    async (httpStatus) => {
+      // Railway's edge answers for a container that is still starting, so a 5xx
+      // here is the cold start this endpoint exists to report — not a backend
+      // that is up and broken. Latching `failed` would stop the poll and refuse
+      // every later question until the page is reloaded.
+      fetchMock.mockResolvedValue(new Response('Bad Gateway', { status: httpStatus }))
+      const response = await GET()
+
+      expect(await response.json()).toEqual({ status: 'loading' })
+    }
+  )
+
   it('reports a terminal failure when the backend answers with an unknown state', async () => {
     fetchMock.mockResolvedValue(backendReadiness('warming-up-ish'))
     const response = await GET()
