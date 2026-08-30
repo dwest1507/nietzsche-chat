@@ -191,3 +191,26 @@ def test_sentence_filter_falls_back_when_all_short(fake_indexes):
 
     short_chunks = [{"text": "CHAPTER IV."}, {"text": "PREFACE."}]
     assert pipeline._filter_short_chunks(short_chunks) == short_chunks
+
+
+# ---------------------------------------------------------------------------
+# Model loading (app/rag/pipeline.py)
+# ---------------------------------------------------------------------------
+
+
+def test_load_model_prefers_the_local_cache():
+    """Cached weights must load without a Hub round-trip, which can hang forever."""
+    from app.rag.pipeline import load_model
+
+    factory = MagicMock(return_value="model")
+    assert load_model(factory, "some/model") == "model"
+    factory.assert_called_once_with("some/model", local_files_only=True)
+
+
+def test_load_model_falls_back_to_downloading_when_not_cached():
+    from app.rag.pipeline import load_model
+
+    factory = MagicMock(side_effect=[OSError("not in cache"), "model"])
+    assert load_model(factory, "some/model") == "model"
+    assert factory.call_args_list[-1].args == ("some/model",)
+    assert factory.call_args_list[-1].kwargs == {}

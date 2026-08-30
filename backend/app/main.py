@@ -1,5 +1,7 @@
 """FastAPI application entry point."""
 
+import logging
+import threading
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
@@ -14,11 +16,24 @@ from .rag.pipeline import get_pipeline
 from .routes.chat import router as chat_router
 from .routes.health import router as health_router
 
+logger = logging.getLogger("uvicorn.error")
+
+
+def _warm_pipeline() -> None:
+    try:
+        get_pipeline()
+        logger.info("RAG pipeline ready")
+    except Exception:
+        logger.exception("RAG pipeline warm-up failed; the first chat request will retry")
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Pre-load models at startup so the first request isn't slow
-    get_pipeline()
+    # Pre-load models so the first request isn't slow, but off the startup path:
+    # loading takes tens of seconds, and on a cold cache it hits the network.
+    # Doing it inline here means a slow or stalled load stops the API from ever
+    # binding its port, which reads to the frontend as "backend is down".
+    threading.Thread(target=_warm_pipeline, name="pipeline-warmup", daemon=True).start()
     yield
 
 

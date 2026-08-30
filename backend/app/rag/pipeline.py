@@ -3,6 +3,7 @@
 import json
 import pickle
 import re
+import threading
 from pathlib import Path
 
 import faiss
@@ -11,6 +12,24 @@ from rank_bm25 import BM25Okapi
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
 from ..config import INDEXES_DIR
+
+
+def load_model[ModelT: (SentenceTransformer, CrossEncoder)](
+    factory: type[ModelT], name: str
+) -> ModelT:
+    """Build a sentence-transformers model, preferring the local HF cache.
+
+    Constructing one of these normally asks the HuggingFace Hub whether the
+    cached weights are stale. That request has no timeout, so a stalled
+    connection wedges the caller forever — which, from the lifespan hook, means
+    the API never binds its port at all. Ask for the cached copy first and only
+    reach for the network when the model genuinely isn't downloaded yet.
+    """
+    try:
+        return factory(name, local_files_only=True)
+    except OSError:
+        # Not in the cache (first run on a new machine) — fetch it.
+        return factory(name)
 
 
 class RAGPipeline:
@@ -31,8 +50,12 @@ class RAGPipeline:
         with open(indexes_dir / "bm25.pkl", "rb") as f:
             self.bm25: BM25Okapi = pickle.load(f)
 
-        self.embedder = embedder or SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
-        self.cross_encoder = cross_encoder or CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+        self.embedder = embedder or load_model(
+            SentenceTransformer, "sentence-transformers/all-mpnet-base-v2"
+        )
+        self.cross_encoder = cross_encoder or load_model(
+            CrossEncoder, "cross-encoder/ms-marco-MiniLM-L-6-v2"
+        )
 
     def retrieve(self, query: str, top_k: int = 6) -> list[dict]:
         """Full pipeline: hybrid search → sentence filter → cross-encoder re-ranking."""
@@ -95,10 +118,14 @@ class RAGPipeline:
 
 
 _pipeline: RAGPipeline | None = None
+# The startup warm-up and the first chat request can race for the singleton;
+# the lock keeps them from building two copies of the models.
+_pipeline_lock = threading.Lock()
 
 
 def get_pipeline() -> RAGPipeline:
     global _pipeline
-    if _pipeline is None:
-        _pipeline = RAGPipeline()
-    return _pipeline
+    with _pipeline_lock:
+        if _pipeline is None:
+            _pipeline = RAGPipeline()
+        return _pipeline
