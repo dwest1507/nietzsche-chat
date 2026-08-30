@@ -3,7 +3,7 @@ SHELL := /bin/bash
 
 .PHONY: help install dev dev-frontend dev-backend build-index test lint clean stop \
 	frontend-quality frontend-test frontend-build backend-lint backend-test frontend-deps \
-	security-audit lighthouse ci-cd
+	security-audit lighthouse ci-cd setup-deploy
 
 help:
 	@echo "Available commands:"
@@ -27,8 +27,11 @@ help:
 	@echo "  make security-audit          - npm audit + pip-audit"
 	@echo "  make lighthouse              - Lighthouse CI budget check (needs Chrome)"
 	@echo ""
-	@echo "Deploys are handled by the Vercel and Railway git integrations"
-	@echo "(push to main) — see docs/deployment.md."
+	@echo "Deployment:"
+	@echo "  make setup-deploy            - Walk the first-time platform setup (interactive)"
+	@echo ""
+	@echo "Deploys themselves are handled by the Vercel and Railway git"
+	@echo "integrations (push to main) — see docs/deployment.md."
 
 install:
 	@echo "Installing backend dependencies..."
@@ -129,6 +132,12 @@ ci-cd: frontend-quality frontend-test frontend-build backend-lint backend-test s
 test: backend-test frontend-test
 
 lint: frontend-quality backend-lint
+
+# The dashboard half of a first deployment: Railway, Vercel, Sentry and branch
+# protection, which no script can click through for you. Read-only — it changes
+# nothing on either platform. `--verify-only` re-checks a live deployment.
+setup-deploy:
+	./scripts/setup-deploy.sh
 
 clean:
 	@echo "Cleaning up..."

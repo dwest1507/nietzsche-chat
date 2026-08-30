@@ -77,6 +77,27 @@ only, and a prefix would ship the backend URL and the secret to the browser.
 The steps are ordered because each one produces a value the next one needs. Doing them
 out of order means going back.
 
+There is a wizard for exactly these steps:
+
+```bash
+make setup-deploy
+```
+
+It walks them one at a time, generates the shared secret, says what to set in each
+dashboard, waits for you, and verifies what can be verified from here — the health
+endpoint, readiness, and a real chat request through the deployed frontend. It writes
+nothing to either platform and nothing to a tracked file, so running it again on a
+working deployment is a safe way to check that deployment is still correct.
+
+The wizard is the path for _doing_ this; the rest of this document is the reference for
+understanding it and for diagnosing it later. To re-run only the checks, with no prompts:
+
+```bash
+scripts/setup-deploy.sh --verify-only \
+  --backend-url https://<service>.up.railway.app \
+  --frontend-url https://<project>.vercel.app
+```
+
 ### 1. Verify the committed indexes — before touching either platform
 
 `backend/indexes/` is committed, and the Dockerfile copies it into the image; nothing is
