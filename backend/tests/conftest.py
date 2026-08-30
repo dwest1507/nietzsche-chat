@@ -131,6 +131,24 @@ def join_warm_up(timeout: float = 10.0) -> None:
 
 
 @pytest.fixture(autouse=True)
+def no_warm_up_backoff():
+    """Take the wall-clock sleeps out of the warm-up's retry backoff.
+
+    `_warm_pipeline` waits between attempts so a struggling hub is not hammered.
+    That wait is real time the suite must never spend: the tests that exercise
+    every attempt would each add the whole backoff. The delays themselves stay
+    as they are, so a test can still assert what would have been waited.
+
+    Replaces `app.main`'s own reference to the module, not `time.sleep` itself —
+    patching the function would reach every test in the suite, including
+    `test_retrieval_does_not_block_the_event_loop`, whose slow retrieval is a
+    real sleep and which would then pass without proving anything.
+    """
+    with patch("app.main.time"):
+        yield
+
+
+@pytest.fixture(autouse=True)
 def reset_readiness_state():
     """Keep the module-global readiness state from leaking between tests."""
     from app import readiness

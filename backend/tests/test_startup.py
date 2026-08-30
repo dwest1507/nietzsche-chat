@@ -94,11 +94,74 @@ def test_warm_up_records_loading_then_ready():
 
 
 def test_warm_up_failure_records_terminal_failure():
-    """A raising warm-up records `failed`, not the loading state it started in."""
+    """A warm-up that fails every attempt records `failed`, not `loading`."""
     with patch("app.main.get_pipeline", side_effect=RuntimeError("hub unreachable")):
         main._warm_pipeline()
 
     assert readiness.get_state() == "failed"
+
+
+def test_warm_up_retries_a_transient_failure():
+    """A blip fetching the models must not cost the container its whole life.
+
+    `mark_failed()` is terminal, and the frontend refuses to send a question to
+    a backend that reports it — so a single failed attempt would leave a
+    container that passes its healthcheck (and so is never restarted) and can
+    never answer. Retry before giving up.
+    """
+    attempts = [RuntimeError("hub timed out"), MagicMock()]
+
+    def load():
+        outcome = attempts.pop(0)
+        if isinstance(outcome, Exception):
+            raise outcome
+        return outcome
+
+    with patch("app.main.get_pipeline", side_effect=load) as get_pipeline:
+        main._warm_pipeline()
+
+    assert get_pipeline.call_count == 2
+    assert readiness.get_state() == "ready"
+
+
+def test_warm_up_stays_loading_between_attempts():
+    """Readiness must not read `failed` while an attempt is still to come."""
+    observed: list[str] = []
+    outcomes = [RuntimeError("hub timed out"), MagicMock()]
+
+    def load():
+        # What a readiness probe arriving mid-retry would be told.
+        observed.append(readiness.get_state())
+        outcome = outcomes.pop(0)
+        if isinstance(outcome, Exception):
+            raise outcome
+        return outcome
+
+    with patch("app.main.get_pipeline", side_effect=load):
+        main._warm_pipeline()
+
+    assert observed == ["loading", "loading"]
+
+
+def test_warm_up_gives_up_after_the_last_attempt():
+    """The retry is bounded: a pipeline that never loads is reported terminally."""
+    with patch("app.main.get_pipeline", side_effect=RuntimeError("hub down")) as get_pipeline:
+        main._warm_pipeline()
+
+    assert get_pipeline.call_count == len(main.WARM_UP_RETRY_DELAYS) + 1
+    assert readiness.get_state() == "failed"
+
+
+def test_warm_up_waits_between_attempts():
+    """Retries back off rather than hammering a hub that is already struggling."""
+    with (
+        patch("app.main.get_pipeline", side_effect=RuntimeError("hub down")),
+        patch("app.main.time") as clock,
+    ):
+        main._warm_pipeline()
+
+    waited = [call.args[0] for call in clock.sleep.call_args_list]
+    assert waited == list(main.WARM_UP_RETRY_DELAYS)
 
 
 def test_health_and_readiness_answer_while_the_pipeline_lock_is_held():

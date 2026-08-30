@@ -2,6 +2,7 @@
 
 import logging
 import threading
+import time
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
@@ -19,21 +20,48 @@ from .routes.health import router as health_router
 
 logger = logging.getLogger("uvicorn.error")
 
+# How long to wait before each retry of a failed warm-up; its length is also
+# how many retries there are. `mark_failed()` is terminal and the frontend
+# refuses to send a question to a backend reporting it, so a single transient
+# fault — a hub timeout on a cold cache — would otherwise strand a container
+# that still passes its healthcheck, and so is never restarted, until someone
+# redeploys by hand. Kept short: the frontend gives up on the wake after 90s.
+WARM_UP_RETRY_DELAYS = (2.0, 5.0)
+
 
 def _warm_pipeline() -> None:
     # This thread is the only writer of the readiness state; /api/ready reads
     # it rather than the pipeline, which would block on the load below.
-    readiness.mark_loading()
-    try:
-        get_pipeline()
+    attempts = len(WARM_UP_RETRY_DELAYS) + 1
+    for attempt in range(1, attempts + 1):
+        # Re-marked each time round: an earlier attempt must not leave a probe
+        # reading anything but "loading" while another attempt is still to come.
+        readiness.mark_loading()
+        try:
+            get_pipeline()
+        except Exception:
+            if attempt == attempts:
+                # Terminal for readiness only now that the retries are spent: a
+                # pipeline that cannot load must not read as "still loading", or
+                # the frontend waits for a wake that never comes.
+                readiness.mark_failed()
+                logger.exception("RAG pipeline warm-up failed after %d attempts", attempts)
+                return
+
+            delay = WARM_UP_RETRY_DELAYS[attempt - 1]
+            logger.exception(
+                "RAG pipeline warm-up attempt %d of %d failed; retrying in %.0fs",
+                attempt,
+                attempts,
+                delay,
+            )
+            # A hub that just refused us is not helped by an immediate retry.
+            time.sleep(delay)
+            continue
+
         readiness.mark_ready()
         logger.info("RAG pipeline ready")
-    except Exception:
-        # Terminal for readiness: a pipeline that cannot load must not read as
-        # "still loading", or the frontend waits for a wake that never comes.
-        # The first chat request still retries the load on its own.
-        readiness.mark_failed()
-        logger.exception("RAG pipeline warm-up failed; the first chat request will retry")
+        return
 
 
 @asynccontextmanager
