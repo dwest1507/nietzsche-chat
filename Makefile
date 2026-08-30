@@ -28,7 +28,7 @@ help:
 	@echo "  make lighthouse              - Lighthouse CI budget check (needs Chrome)"
 	@echo ""
 	@echo "Deploys are handled by the Vercel and Railway git integrations"
-	@echo "(push to main) — see README.md."
+	@echo "(push to main) — see docs/deployment.md."
 
 install:
 	@echo "Installing backend dependencies..."

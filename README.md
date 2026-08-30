@@ -113,23 +113,13 @@ raw Project Gutenberg files.
 
 ## Deployment
 
-- **Frontend — Vercel**: root directory `frontend`, framework preset Next.js.
-  Env: `CHAT_API_URL` pointing at the backend, `BACKEND_SHARED_SECRET`.
-- **Backend — Railway**: root directory `backend`, builder forced to
-  **Dockerfile** (models are baked into the image so cold starts never hit
-  Hugging Face). Env: `GROQ_API_KEY`, `BACKEND_SHARED_SECRET` (identical to the
-  Vercel value), `ALLOWED_ORIGINS` (the Vercel origins), optionally
-  `GROQ_MODEL` and `SENTRY_DSN` — set the latter here and nowhere else, so
-  backend exceptions are reported instead of dying with the container that
-  logged them; with it unset, error reporting never starts.
-  Healthcheck path `/api/health` — liveness only, answered as
-  soon as the port binds, so a deploy never waits on the model load. Whether
-  the models are loaded is reported separately by `/api/ready`, which the
-  frontend polls; see
-  [ADR 0003](docs/adr/0003-readiness-is-separate-from-liveness.md).
+Frontend on Vercel, backend on Railway, both deploying from `main` through the
+platforms' own git integrations. First-time setup, every environment variable,
+the platform traps, failure symptoms and rollback live in one place:
+**[docs/deployment.md](docs/deployment.md)**.
 
-Both platforms deploy from `main` via their git integrations; CI on GitHub
-Actions is advisory unless `main` is branch-protected.
+CI is described in [docs/ci-cd.md](docs/ci-cd.md) — it never deploys, and holds
+no deploy tokens.
 
 ## The corpus
 
