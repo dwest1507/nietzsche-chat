@@ -125,6 +125,31 @@ describe('ChatShell', () => {
     expect(screen.getByText(/Hybrid retrieval scores every passage/)).toBeInTheDocument()
   })
 
+  it('shows the waking notice while the backend is still stirring', () => {
+    setChatState({
+      messages: [{ id: '1', role: 'user', content: 'Q' }],
+      status: 'waking',
+    })
+    render(<ChatShell />)
+    expect(screen.getByText('Nietzsche is stirring…')).toBeInTheDocument()
+  })
+
+  it('keeps the starter questions on screen while the backend wakes', () => {
+    // The wake is hidden behind the reading and typing, not behind a spinner:
+    // see docs/adr/0001-scale-to-zero-with-warm-on-arrival.md.
+    setChatState({ status: 'waking' })
+    render(<ChatShell />)
+    expect(screen.getByText('What would you ask Nietzsche?')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'What is the will to power?' })).toBeInTheDocument()
+    expect(screen.getByText('Nietzsche is stirring…')).toBeInTheDocument()
+  })
+
+  it('leaves the input usable while the backend wakes', () => {
+    setChatState({ status: 'waking' })
+    render(<ChatShell />)
+    expect(screen.getByLabelText('Chat message input')).toBeEnabled()
+  })
+
   it('sends a typed message through the input', async () => {
     const user = userEvent.setup()
     setChatState({ messages: CONVERSATION })

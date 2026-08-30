@@ -12,4 +12,7 @@ export interface ChatMessageData {
   sources?: Source[]
 }
 
-export type ChatStatus = 'idle' | 'retrieving' | 'thinking' | 'streaming' | 'error'
+export type ChatStatus = 'idle' | 'waking' | 'retrieving' | 'thinking' | 'streaming' | 'error'
+
+/** What the backend says about its retrieval pipeline: see `/api/ready`. */
+export type ReadinessState = 'loading' | 'ready' | 'failed'

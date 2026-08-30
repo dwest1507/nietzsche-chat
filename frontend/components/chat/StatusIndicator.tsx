@@ -4,7 +4,10 @@ interface StatusIndicatorProps {
   status: ChatStatus
 }
 
+// Draft copy, in the app's voice: the backend is asleep and waking, and the
+// visitor is told so in Nietzsche's register rather than shown a bare spinner.
 const STATUS_TEXT: Partial<Record<ChatStatus, string>> = {
+  waking: 'Nietzsche is stirring…',
   retrieving: 'Searching through 19 works of Nietzsche…',
   thinking: 'Nietzsche is contemplating…',
 }

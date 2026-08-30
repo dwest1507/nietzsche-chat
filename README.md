@@ -105,8 +105,11 @@ raw Project Gutenberg files.
   **Dockerfile** (models are baked into the image so cold starts never hit
   Hugging Face). Env: `GROQ_API_KEY`, `BACKEND_SHARED_SECRET` (identical to the
   Vercel value), `ALLOWED_ORIGINS` (the Vercel origins), optionally
-  `GROQ_MODEL`. Healthcheck path `/api/health` with a generous
-  timeout (~300s) for first model load.
+  `GROQ_MODEL`. Healthcheck path `/api/health` — liveness only, answered as
+  soon as the port binds, so a deploy never waits on the model load. Whether
+  the models are loaded is reported separately by `/api/ready`, which the
+  frontend polls; see
+  [ADR 0003](docs/adr/0003-readiness-is-separate-from-liveness.md).
 
 Both platforms deploy from `main` via their git integrations; CI on GitHub
 Actions is advisory unless `main` is branch-protected.

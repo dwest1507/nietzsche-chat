@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
 
+from . import readiness
 from .config import ALLOWED_ORIGINS
 from .rag.pipeline import get_pipeline
 from .ratelimit import limiter
@@ -19,10 +20,18 @@ logger = logging.getLogger("uvicorn.error")
 
 
 def _warm_pipeline() -> None:
+    # This thread is the only writer of the readiness state; /api/ready reads
+    # it rather than the pipeline, which would block on the load below.
+    readiness.mark_loading()
     try:
         get_pipeline()
+        readiness.mark_ready()
         logger.info("RAG pipeline ready")
     except Exception:
+        # Terminal for readiness: a pipeline that cannot load must not read as
+        # "still loading", or the frontend waits for a wake that never comes.
+        # The first chat request still retries the load on its own.
+        readiness.mark_failed()
         logger.exception("RAG pipeline warm-up failed; the first chat request will retry")
 
 

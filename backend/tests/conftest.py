@@ -1,6 +1,7 @@
 """Shared fixtures for the test suite."""
 
 import os
+import threading
 from unittest.mock import MagicMock, patch
 
 import pytest
@@ -74,6 +75,10 @@ def mocked_app(mock_pipeline):
     with (
         patch("app.rag.pipeline.get_pipeline", return_value=mock_pipeline),
         patch("app.routes.chat.get_pipeline", return_value=mock_pipeline),
+        # `app.main` bound its own reference at import time, so patching the
+        # home module alone would leave the startup warm-up thread reaching for
+        # the real models — a download the suite must never make.
+        patch("app.main.get_pipeline", return_value=mock_pipeline),
     ):
         from app.main import app
 
@@ -111,3 +116,25 @@ def reset_rate_limiter():
     limiter.reset()
     yield
     limiter.reset()
+
+
+def join_warm_up(timeout: float = 10.0) -> None:
+    """Wait out the lifespan warm-up thread rather than racing it.
+
+    Starting the app starts a background thread that writes the readiness
+    state; a test that asserts on (or pins) that state has to let it finish
+    first. Joining the thread keeps that deterministic — no wall-clock sleeps.
+    """
+    for thread in threading.enumerate():
+        if thread.name == "pipeline-warmup":
+            thread.join(timeout)
+
+
+@pytest.fixture(autouse=True)
+def reset_readiness_state():
+    """Keep the module-global readiness state from leaking between tests."""
+    from app import readiness
+
+    readiness.mark_loading()
+    yield
+    readiness.mark_loading()

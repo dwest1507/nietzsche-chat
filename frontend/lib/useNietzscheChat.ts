@@ -1,10 +1,15 @@
 'use client'
 
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { isReadinessState } from './readiness'
 import { createStreamParser } from './streamParser'
-import type { ChatMessageData, ChatStatus, Source } from './types'
+import type { ChatMessageData, ChatStatus, ReadinessState, Source } from './types'
 
 const HISTORY_LIMIT = 10
+
+// Fast enough that a woken backend is noticed almost as soon as it is ready,
+// slow enough not to hammer the route while tens of seconds of models load.
+const READINESS_POLL_MS = 2000
 
 const GENERIC_ERROR =
   'Nietzsche is unreachable at the moment. Please check your connection and try again.'
@@ -28,9 +33,53 @@ export interface NietzscheChat {
 
 export default function useNietzscheChat(): NietzscheChat {
   const [messages, setMessages] = useState<ChatMessageData[]>([])
-  const [status, setStatus] = useState<ChatStatus>('idle')
+  const [chatStatus, setChatStatus] = useState<ChatStatus>('idle')
+  // `null` until the first readiness answer arrives — an already-warm backend
+  // goes straight to `ready`, so its visitor never sees the waking state.
+  const [readiness, setReadiness] = useState<ReadinessState | null>(null)
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
   const abortRef = useRef<AbortController | null>(null)
+
+  // The backend scales to zero and loads its models on a background thread, so
+  // ping readiness as the chat mounts: the ping is what wakes the container,
+  // and the models load while the visitor is still reading. Keep asking while
+  // it reports loading. See docs/adr/0001 and docs/adr/0003.
+  useEffect(() => {
+    let cancelled = false
+    let timer: ReturnType<typeof setTimeout> | null = null
+
+    async function poll(): Promise<void> {
+      // A route or network hiccup reads as "not yet" — the next poll retries.
+      let state: ReadinessState = 'loading'
+      try {
+        const response = await fetch('/api/ready')
+        const body = (await response.json()) as { status?: unknown }
+        if (response.ok && isReadinessState(body.status)) state = body.status
+      } catch {
+        // Left as 'loading': a sleeping container is waking, not broken.
+      }
+      if (cancelled) return
+
+      setReadiness(state)
+      // Stop once ready, and stop on a terminal failure: a pipeline that could
+      // not load will never become ready, so polling it would never end.
+      if (state === 'loading') {
+        timer = setTimeout(() => void poll(), READINESS_POLL_MS)
+      }
+    }
+
+    void poll()
+
+    return () => {
+      cancelled = true
+      if (timer) clearTimeout(timer)
+    }
+  }, [])
+
+  // Waking is an idle-chat state: it says the backend cannot answer yet, and
+  // must never mask the progress of a message already in flight.
+  const status: ChatStatus =
+    chatStatus === 'idle' && readiness === 'loading' ? 'waking' : chatStatus
 
   const updateMessage = useCallback(
     (id: string, patch: (m: ChatMessageData) => ChatMessageData) => {
@@ -47,7 +96,7 @@ export default function useNietzscheChat(): NietzscheChat {
     (text: string) => {
       const trimmed = text.trim()
       if (!trimmed) return
-      if (status !== 'idle' && status !== 'error') return
+      if (chatStatus !== 'idle' && chatStatus !== 'error') return
 
       const history = messages
         .filter((m) => m.content.length > 0)
@@ -64,7 +113,7 @@ export default function useNietzscheChat(): NietzscheChat {
         { id: assistantId, role: 'assistant', content: '' },
       ])
       setErrorMessage(null)
-      setStatus('retrieving')
+      setChatStatus('retrieving')
 
       const controller = new AbortController()
       abortRef.current = controller
@@ -81,7 +130,7 @@ export default function useNietzscheChat(): NietzscheChat {
 
           if (!response.ok || !response.body) {
             setErrorMessage(response.status === 429 ? RATE_LIMIT_ERROR : GENERIC_ERROR)
-            setStatus('error')
+            setChatStatus('error')
             removeIfEmpty(assistantId)
             return
           }
@@ -97,22 +146,22 @@ export default function useNietzscheChat(): NietzscheChat {
                   ...m,
                   sources: event.sources as Source[],
                 }))
-                setStatus('thinking')
+                setChatStatus('thinking')
                 break
               case 'token':
                 if (!gotContent) {
                   gotContent = true
-                  setStatus('streaming')
+                  setChatStatus('streaming')
                 }
                 updateMessage(assistantId, (m) => ({ ...m, content: m.content + event.token }))
                 break
               case 'error':
                 setErrorMessage(GENERIC_ERROR)
-                setStatus('error')
+                setChatStatus('error')
                 finished = true
                 break
               case 'done':
-                setStatus('idle')
+                setChatStatus('idle')
                 finished = true
                 break
             }
@@ -132,15 +181,15 @@ export default function useNietzscheChat(): NietzscheChat {
 
           if (!finished) {
             // Stream closed without a d: marker — treat as complete if we got text
-            setStatus(gotContent ? 'idle' : 'error')
+            setChatStatus(gotContent ? 'idle' : 'error')
             if (!gotContent) setErrorMessage(GENERIC_ERROR)
           }
         } catch (err) {
           if ((err as Error).name === 'AbortError') {
-            setStatus('idle')
+            setChatStatus('idle')
           } else {
             setErrorMessage(GENERIC_ERROR)
-            setStatus('error')
+            setChatStatus('error')
           }
         } finally {
           removeIfEmpty(assistantId)
@@ -150,7 +199,7 @@ export default function useNietzscheChat(): NietzscheChat {
 
       void run()
     },
-    [messages, status, removeIfEmpty, updateMessage]
+    [messages, chatStatus, removeIfEmpty, updateMessage]
   )
 
   const stop = useCallback(() => {
@@ -161,7 +210,7 @@ export default function useNietzscheChat(): NietzscheChat {
     abortRef.current?.abort()
     setMessages([])
     setErrorMessage(null)
-    setStatus('idle')
+    setChatStatus('idle')
   }, [])
 
   return { messages, status, errorMessage, sendMessage, stop, clear }
