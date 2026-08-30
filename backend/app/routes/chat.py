@@ -8,8 +8,10 @@ Stream protocol (Vercel AI SDK data stream v1 line format):
 """
 
 import json
+import logging
 
 from fastapi import APIRouter, Request
+from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 from slowapi import Limiter
@@ -17,6 +19,8 @@ from slowapi.util import get_remote_address
 
 from ..llm import Message, build_messages, condense_question, generate_stream
 from ..rag.pipeline import get_pipeline
+
+logger = logging.getLogger("uvicorn.error")
 
 router = APIRouter()
 limiter = Limiter(key_func=get_remote_address)
@@ -33,7 +37,11 @@ async def chat(request: Request, body: ChatRequest) -> StreamingResponse:
     async def generate():
         try:
             query = await condense_question(body.message, body.history)
-            chunks = get_pipeline().retrieve(query)
+            # Retrieval is synchronous and CPU-bound (embedding + cross-encoder
+            # inference, and the model load itself on the first call). Running it
+            # inline would stall the event loop for its whole duration, freezing
+            # every other request — including /health — so hand it to a worker.
+            chunks = await run_in_threadpool(lambda: get_pipeline().retrieve(query))
 
             sources = [
                 {
@@ -51,7 +59,10 @@ async def chat(request: Request, body: ChatRequest) -> StreamingResponse:
             async for token in generate_stream(messages):
                 yield f"0:{json.dumps(token)}\n"
             yield f"d:{json.dumps({'finishReason': 'stop'})}\n"
-        except Exception:  # noqa: BLE001 — never leak provider errors into the stream
+        # Never leak provider errors into the stream; the client sees a
+        # generic failure while the traceback goes to the server log.
+        except Exception:
+            logger.exception("Chat generation failed")
             yield '3:"Generation failed"\n'
 
     return StreamingResponse(

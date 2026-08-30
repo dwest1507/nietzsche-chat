@@ -43,6 +43,10 @@ export async function POST(request: NextRequest) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message, history }),
+      // Forward the client's disconnect so pressing Stop actually stops the
+      // backend. Without it the generation runs to completion, billing Groq
+      // tokens and holding a worker for an answer nobody will read.
+      signal: request.signal,
     })
   } catch {
     return new Response('Service unavailable', { status: 502 })

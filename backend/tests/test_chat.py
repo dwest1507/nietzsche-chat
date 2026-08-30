@@ -220,3 +220,69 @@ def test_groq_error_yields_error_event(client):
     # HTTP 200 because the response already started streaming
     assert response.status_code == 200
     assert '3:"Generation failed"' in response.text
+
+
+# ---------------------------------------------------------------------------
+# Event loop
+# ---------------------------------------------------------------------------
+
+
+def test_retrieval_does_not_block_the_event_loop(mock_pipeline):
+    """Retrieval is sync and CPU-bound, so it must run off the event loop.
+
+    Called inline it freezes every other request for its whole duration —
+    including /health and other users' in-flight streams.
+    """
+    import asyncio
+    import time
+
+    import httpx
+
+    stall = 0.4
+
+    def _slow_retrieve(_query):
+        time.sleep(stall)
+        return SAMPLE_CHUNKS[:1]
+
+    mock_pipeline.retrieve.side_effect = _slow_retrieve
+
+    async def _stream(_messages, client=None):
+        yield "ok"
+
+    async def _condense(message, _history, client=None):
+        return message
+
+    async def _run() -> float:
+        """Return the longest gap between heartbeat ticks during one request."""
+        gaps: list[float] = []
+        stop = asyncio.Event()
+
+        async def _heartbeat() -> None:
+            last = time.perf_counter()
+            while not stop.is_set():
+                await asyncio.sleep(0.01)
+                now = time.perf_counter()
+                gaps.append(now - last)
+                last = now
+
+        with (
+            patch("app.routes.chat.get_pipeline", return_value=mock_pipeline),
+            patch("app.routes.chat.generate_stream", _stream),
+            patch("app.routes.chat.condense_question", _condense),
+        ):
+            from app.main import app
+
+            beat = asyncio.create_task(_heartbeat())
+            transport = httpx.ASGITransport(app=app)
+            async with httpx.AsyncClient(transport=transport, base_url="http://test") as ac:
+                await asyncio.sleep(0.05)
+                response = await ac.post("/api/chat", json={"message": "Hello"})
+                assert response.status_code == 200
+            stop.set()
+            await beat
+        return max(gaps)
+
+    worst_stall = asyncio.run(_run())
+    assert worst_stall < stall / 2, (
+        f"event loop stalled {worst_stall:.3f}s while retrieval ran for {stall}s"
+    )

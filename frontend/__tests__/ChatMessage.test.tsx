@@ -128,6 +128,53 @@ Read more on [Gutenberg](https://www.gutenberg.org/).`
     expect(screen.queryByTestId('streaming-cursor')).not.toBeInTheDocument()
   })
 
+  it('preserves the single newlines the model writes inside a paragraph', () => {
+    const message: ChatMessageData = {
+      id: '10',
+      role: 'assistant',
+      content: 'Line one\nLine two\nLine three',
+    }
+    const { container } = render(<ChatMessage message={message} />)
+    const paragraph = container.querySelector('p')
+    // Markdown folds a single newline into a space, so the line breaks only
+    // survive if the paragraph opts into pre-line whitespace handling.
+    expect(paragraph?.textContent).toBe('Line one\nLine two\nLine three')
+    expect(paragraph?.className).toContain('whitespace-pre-line')
+  })
+
+  it('does not fetch images referenced by markdown in the answer', () => {
+    const message: ChatMessageData = {
+      id: '11',
+      role: 'assistant',
+      content: 'Consider this ![a tracking pixel](https://evil.example/p.png) closely.',
+    }
+    const { container } = render(<ChatMessage message={message} />)
+    expect(container.querySelector('img')).toBeNull()
+    expect(screen.getByText('a tracking pixel')).toBeInTheDocument()
+  })
+
+  it('does not leak the react-markdown AST node onto rendered elements', () => {
+    const message: ChatMessageData = { id: '12', role: 'assistant', content: 'Use `amor fati`.' }
+    const { container } = render(<ChatMessage message={message} />)
+    expect(container.querySelector('code')?.hasAttribute('node')).toBe(false)
+  })
+
+  it('places the streaming cursor after the final paragraph', () => {
+    const message: ChatMessageData = {
+      id: '13',
+      role: 'assistant',
+      content: 'First thought.\n\nSecond thought',
+    }
+    const { container } = render(<ChatMessage message={message} streaming />)
+    const wrapper = screen.getByTestId('streaming-cursor').parentElement
+    // The cursor span is the wrapper's last child, so a `p:last-child` rule
+    // would match nothing and drop the caret onto its own line.
+    expect(wrapper?.className).toContain('[&>p:last-of-type]:inline')
+    expect(container.querySelector('[class*="last-of-type"] > p:last-of-type')?.textContent).toBe(
+      'Second thought'
+    )
+  })
+
   it('shows source citations on completed assistant messages', () => {
     const message: ChatMessageData = {
       id: '10',
