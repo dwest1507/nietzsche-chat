@@ -15,6 +15,12 @@ const SOURCES = [
 
 // The hook polls readiness on this cadence; see lib/useNietzscheChat.ts.
 const POLL_MS = 2000
+// ...and gives up after this long, so a backend that never answers surfaces as
+// an error instead of an endless wake. See lib/useNietzscheChat.ts.
+const WAKE_TIMEOUT_MS = 90000
+// A `ready` older than this is re-checked before a question is sent, because a
+// scale-to-zero backend may have slept since. See lib/useNietzscheChat.ts.
+const READY_STALE_MS = 60000
 
 function streamResponse(lines: string[], status = 200): Response {
   const encoder = new TextEncoder()
@@ -259,6 +265,49 @@ describe('useNietzscheChat — readiness', () => {
 
     expect(seen).not.toContain('waking')
     expect(seen.at(-1)).toBe('idle')
+  })
+
+  it('gives up on a backend that never answers, rather than polling forever', async () => {
+    // An unset or wrong CHAT_API_URL reads as a container that never finishes
+    // waking. Without a bound the visitor sits in `waking` with the input
+    // disabled forever, and no error ever explains why.
+    const fetchMock = stubFetch({ readiness: () => readyResponse('loading') })
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    expect(result.current.status).toBe('waking')
+
+    await settle(WAKE_TIMEOUT_MS)
+    expect(result.current.status).not.toBe('waking')
+
+    const polledByDeadline = callsTo(fetchMock, '/api/ready').length
+    await settle(POLL_MS * 5)
+    expect(callsTo(fetchMock, '/api/ready')).toHaveLength(polledByDeadline)
+  })
+
+  it('surfaces an error for a question asked after the wake window expires', async () => {
+    stubFetch({ readiness: () => readyResponse('loading') })
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle(WAKE_TIMEOUT_MS)
+
+    act(() => result.current.sendMessage('Who is the Superman?'))
+    await settle()
+
+    expect(result.current.status).toBe('error')
+    expect(result.current.errorMessage).toBeTruthy()
+  })
+
+  it('keeps polling right up to the deadline while the backend is still waking', async () => {
+    // The bound must not cut a genuine cold start short: a model load takes
+    // tens of seconds, well inside the window.
+    const fetchMock = stubFetch({ readiness: () => readyResponse('loading') })
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle(WAKE_TIMEOUT_MS - POLL_MS * 2)
+
+    expect(result.current.status).toBe('waking')
+    expect(callsTo(fetchMock, '/api/ready').length).toBeGreaterThan(5)
   })
 
   it('keeps polling when the readiness route itself cannot be reached', async () => {
@@ -592,6 +641,99 @@ describe('useNietzscheChat — telling the three failures apart', () => {
     expect(result.current.messages.at(-1)).toMatchObject({
       role: 'assistant',
       content: 'Answered',
+    })
+  })
+})
+
+describe('useNietzscheChat — a backend that scaled back to zero while idle', () => {
+  beforeEach(() => {
+    vi.restoreAllMocks()
+    vi.useFakeTimers()
+  })
+
+  afterEach(() => {
+    vi.useRealTimers()
+    vi.unstubAllGlobals()
+  })
+
+  function readinessDial(initial: ReadinessState = 'ready') {
+    const dial = { state: initial }
+    const fetchMock = stubFetch({ readiness: () => readyResponse(dial.state) })
+    return { dial, fetchMock }
+  }
+
+  it('sends straight away while the observed readiness is still fresh', async () => {
+    // The re-check must not cost a round trip on every message in a live
+    // conversation — only on one asked after the container could have slept.
+    const { fetchMock } = readinessDial('ready')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    const polledOnMount = callsTo(fetchMock, '/api/ready').length
+
+    act(() => result.current.sendMessage('Who is the Superman?'))
+    await settle()
+
+    expect(callsTo(fetchMock, '/api/ready')).toHaveLength(polledOnMount)
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+  })
+
+  it('re-checks readiness for a question asked after a long idle', async () => {
+    const { fetchMock } = readinessDial('ready')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    const polledOnMount = callsTo(fetchMock, '/api/ready').length
+
+    // Long enough that the container may have scaled back to zero.
+    await settle(READY_STALE_MS + POLL_MS)
+    act(() => result.current.sendMessage('Who is the Superman?'))
+    await settle()
+
+    expect(callsTo(fetchMock, '/api/ready').length).toBeGreaterThan(polledOnMount)
+  })
+
+  it('holds the question while a slept backend wakes again, then sends it once', async () => {
+    // This is the hang the hold mechanism exists to prevent: a question fired
+    // into a cold pipeline blocks on the model lock with nothing on screen.
+    const { dial, fetchMock } = readinessDial('ready')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+
+    dial.state = 'loading'
+    await settle(READY_STALE_MS + POLL_MS)
+    act(() => result.current.sendMessage('Who is the Superman?'))
+    await settle()
+
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+    // Held, not sent: it reads to the visitor exactly as a wake does.
+    expect(result.current.status).toBe('held')
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+
+    // And exactly once, however many further polls observe the ready backend.
+    await settle(POLL_MS * 3)
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+  })
+
+  it('keeps the visitor\u2019s question in the transcript while the backend wakes again', async () => {
+    const { dial } = readinessDial('ready')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+
+    dial.state = 'loading'
+    await settle(READY_STALE_MS + POLL_MS)
+    act(() => result.current.sendMessage('Who is the Superman?'))
+    await settle()
+
+    expect(result.current.messages).toHaveLength(1)
+    expect(result.current.messages[0]).toMatchObject({
+      role: 'user',
+      content: 'Who is the Superman?',
     })
   })
 })

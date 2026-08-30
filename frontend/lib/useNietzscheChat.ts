@@ -11,6 +11,20 @@ const HISTORY_LIMIT = 10
 // slow enough not to hammer the route while tens of seconds of models load.
 const READINESS_POLL_MS = 2000
 
+// How long a wake may take before we call it a failure. A cold start loads the
+// models in tens of seconds, so this leaves generous room — but it must be
+// bounded: an unset or wrong CHAT_API_URL also reads as "still loading", and
+// without a deadline the visitor waits on a backend that will never answer,
+// with the input disabled and nothing explaining why.
+const READINESS_WAKE_TIMEOUT_MS = 90000
+
+// How long a `ready` answer stays evidence that the backend is still up. The
+// backend scales to zero when idle, so a readiness observed at mount says
+// nothing about a question asked much later in the same session — and a
+// question sent into a slept backend blocks on the model lock for the whole
+// reload, which is the unexplained hang the hold mechanism exists to prevent.
+const READINESS_STALE_MS = 60000
+
 const GENERIC_ERROR =
   'Nietzsche is unreachable at the moment. Please check your connection and try again.'
 // The visitor's own cap (10/minute, 100/day). It arrives as HTTP 429 from the
@@ -71,6 +85,12 @@ export default function useNietzscheChat(): NietzscheChat {
   // model lock for the rest of the load and read as an unexplained hang.
   // See docs/adr/0001-scale-to-zero-with-warm-on-arrival.md.
   const heldRef = useRef<HeldQuestion | null>(null)
+  // When readiness last answered `ready`, so a question asked long after can
+  // tell a live backend from one that has since scaled back to zero.
+  const readyAtRef = useRef(0)
+  // Bumped to re-open the question of readiness, which restarts the poll effect
+  // below with a fresh wake window.
+  const [pollCycle, setPollCycle] = useState(0)
   // Bumped whenever a question is held, so the dispatch effect below also runs
   // for a backend that turned out to be ready already.
   const [heldCount, setHeldCount] = useState(0)
@@ -82,6 +102,7 @@ export default function useNietzscheChat(): NietzscheChat {
   useEffect(() => {
     let cancelled = false
     let timer: ReturnType<typeof setTimeout> | null = null
+    const deadline = Date.now() + READINESS_WAKE_TIMEOUT_MS
 
     async function poll(): Promise<void> {
       // A route or network hiccup reads as "not yet" — the next poll retries.
@@ -95,6 +116,11 @@ export default function useNietzscheChat(): NietzscheChat {
       }
       if (cancelled) return
 
+      // A wake that outlasts the window is not a wake. Report it as failed so
+      // the visitor gets an explanation instead of an input that never enables.
+      if (state === 'loading' && Date.now() >= deadline) state = 'failed'
+
+      if (state === 'ready') readyAtRef.current = Date.now()
       setReadiness(state)
       // Stop once ready, and stop on a terminal failure: a pipeline that could
       // not load will never become ready, so polling it would never end.
@@ -109,7 +135,7 @@ export default function useNietzscheChat(): NietzscheChat {
       cancelled = true
       if (timer) clearTimeout(timer)
     }
-  }, [])
+  }, [pollCycle])
 
   // Waking is an idle-chat state: it says the backend cannot answer yet, and
   // must never mask the progress of a message already in flight.
@@ -247,10 +273,22 @@ export default function useNietzscheChat(): NietzscheChat {
       // question is clicked — and a question sent then would go into a backend
       // that may well be cold. A `failed` warm-up is held too, so the dispatch
       // effect below turns it into an error rather than an opaque failure.
-      if (readiness !== 'ready') {
+      // A `ready` observed before the container could have slept is no longer
+      // evidence that it is up: the backend scales to zero when idle, so treat
+      // a stale answer as unknown and ask again before committing a question.
+      const readinessIsStale =
+        readiness === 'ready' && Date.now() - readyAtRef.current >= READINESS_STALE_MS
+
+      if (readiness !== 'ready' || readinessIsStale) {
         heldRef.current = { text: trimmed, history }
         setChatStatus('held')
         setHeldCount((n) => n + 1)
+        if (readinessIsStale) {
+          // Hold the question behind a fresh poll rather than the stale answer,
+          // and let the poll itself be the request that wakes the container.
+          setReadiness('loading')
+          setPollCycle((n) => n + 1)
+        }
         return
       }
 
