@@ -168,10 +168,40 @@ describe('POST /api/chat — the forwarded visitor address', () => {
     expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('203.0.113.10')
   })
 
-  it('falls back to x-real-ip when x-forwarded-for is absent', async () => {
+  it('uses x-real-ip when x-forwarded-for is absent', async () => {
     await POST(post({ message: 'Hello' }, { headers: { 'x-real-ip': '198.51.100.7' } }))
 
     expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('198.51.100.7')
+  })
+
+  it('prefers x-real-ip over x-forwarded-for, which the visitor can write', async () => {
+    // The backend trusts this address as its only rate-limit key. Wherever the
+    // fronting proxy appends to `x-forwarded-for` rather than replacing it, the
+    // first entry is whatever the browser sent — so a visitor could rotate it
+    // per request and get a fresh bucket each time. `x-real-ip` is set by the
+    // platform from the connecting socket and cannot be forged that way.
+    await POST(
+      post(
+        { message: 'Hello' },
+        { headers: { 'x-forwarded-for': '10.0.0.1', 'x-real-ip': '198.51.100.7' } }
+      )
+    )
+
+    expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('198.51.100.7')
+  })
+
+  it('meters one visitor consistently however they rewrite x-forwarded-for', async () => {
+    for (const spoofed of ['10.0.0.1', '10.0.0.2', '10.0.0.3']) {
+      await POST(
+        post(
+          { message: 'Hello' },
+          { headers: { 'x-forwarded-for': spoofed, 'x-real-ip': '198.51.100.7' } }
+        )
+      )
+    }
+
+    const addresses = fetchMock.mock.calls.map(forwardedAddress)
+    expect(addresses).toEqual(['198.51.100.7', '198.51.100.7', '198.51.100.7'])
   })
 
   it('overwrites a client-supplied X-Client-IP rather than trusting it', async () => {

@@ -12,10 +12,18 @@ const MAX_MESSAGE_LENGTH = 1000
 const CLIENT_ADDRESS_HEADER = 'X-Client-IP'
 
 function visitorAddress(request: NextRequest): string | null {
-  // `x-forwarded-for` is a chain — client, then each proxy that added itself —
-  // so the visitor is the first entry, not the last.
-  const chain = request.headers.get('x-forwarded-for')?.split(',')[0].trim()
-  return chain || request.headers.get('x-real-ip')?.trim() || null
+  // `x-real-ip` first: the platform sets it from the connecting socket, so the
+  // visitor cannot write it. `x-forwarded-for` is only as trustworthy as the
+  // proxy in front — one that appends rather than replaces leaves the browser's
+  // own value at the head of the chain, and since the backend meters solely on
+  // the address we forward, a visitor rotating that header would get a fresh
+  // bucket per request and walk past the cap protecting the Groq quota.
+  const real = request.headers.get('x-real-ip')?.trim()
+  if (real) return real
+
+  // No `x-real-ip`: fall back to the chain's first entry — client, then each
+  // proxy that added itself, so the visitor is the first, not the last.
+  return request.headers.get('x-forwarded-for')?.split(',')[0].trim() || null
 }
 
 interface HistoryMessage {
