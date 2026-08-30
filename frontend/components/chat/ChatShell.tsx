@@ -22,7 +22,10 @@ export default function ChatShell() {
   const inputRef = useRef<HTMLInputElement>(null)
   const debounceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const isLoading = status === 'retrieving' || status === 'thinking' || status === 'streaming'
+  // A held question is work in flight too — it is accepted and waiting on the
+  // backend's warm-up — so the input stays closed until it has been answered.
+  const isLoading =
+    status === 'held' || status === 'retrieving' || status === 'thinking' || status === 'streaming'
   const userMessageCount = messages.filter((m) => m.role === 'user').length
   const limitReached = userMessageCount >= SESSION_LIMIT
 

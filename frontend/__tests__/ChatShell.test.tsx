@@ -150,6 +150,25 @@ describe('ChatShell', () => {
     expect(screen.getByLabelText('Chat message input')).toBeEnabled()
   })
 
+  it('does not accept a second submission while a message is held', async () => {
+    // A held question is work in flight: the visitor sees it accepted and the
+    // backend still stirring, and cannot pile a second question on top of it.
+    const user = userEvent.setup()
+    setChatState({
+      messages: [{ id: '1', role: 'user', content: 'What is the Übermensch?' }],
+      status: 'held',
+    })
+    render(<ChatShell />)
+
+    expect(screen.getByText('What is the Übermensch?')).toBeInTheDocument()
+    expect(screen.getByText('Nietzsche is stirring…')).toBeInTheDocument()
+
+    const input = screen.getByLabelText('Chat message input')
+    expect(input).toBeDisabled()
+    await user.type(input, 'And the eternal recurrence?{Enter}')
+    expect(mockChat.sendMessage).not.toHaveBeenCalled()
+  })
+
   it('sends a typed message through the input', async () => {
     const user = userEvent.setup()
     setChatState({ messages: CONVERSATION })

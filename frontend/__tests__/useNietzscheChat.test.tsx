@@ -1,7 +1,8 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
+import { StrictMode } from 'react'
 import { renderHook, act, waitFor } from '@testing-library/react'
 import useNietzscheChat from '@/lib/useNietzscheChat'
-import type { ChatStatus } from '@/lib/types'
+import type { ChatStatus, ReadinessState } from '@/lib/types'
 
 const SOURCES = [
   {
@@ -162,6 +163,16 @@ describe('useNietzscheChat', () => {
   })
 })
 
+/**
+ * Let pending work settle without waiting on the wall clock: flushes the
+ * microtasks a fetch resolves through, and any timer due within `ms`.
+ */
+async function settle(ms = 0) {
+  await act(async () => {
+    await vi.advanceTimersByTimeAsync(ms)
+  })
+}
+
 describe('useNietzscheChat — readiness', () => {
   beforeEach(() => {
     vi.restoreAllMocks()
@@ -172,13 +183,6 @@ describe('useNietzscheChat — readiness', () => {
     vi.useRealTimers()
     vi.unstubAllGlobals()
   })
-
-  /** Let the pending readiness fetch settle without waiting on the clock. */
-  async function settle(ms = 0) {
-    await act(async () => {
-      await vi.advanceTimersByTimeAsync(ms)
-    })
-  }
 
   it('pings readiness when the chat mounts, waking the backend while the visitor reads', async () => {
     const fetchMock = stubFetch()
@@ -269,5 +273,249 @@ describe('useNietzscheChat — readiness', () => {
 
     await settle(POLL_MS)
     expect(callsTo(fetchMock, '/api/ready')).toHaveLength(2)
+  })
+})
+
+describe('useNietzscheChat — holding a question sent while the backend wakes', () => {
+  beforeEach(() => {
+    vi.restoreAllMocks()
+    vi.useFakeTimers()
+  })
+
+  afterEach(() => {
+    vi.useRealTimers()
+    vi.unstubAllGlobals()
+  })
+
+  /**
+   * A readiness stub the test drives by hand: it answers whatever state the
+   * returned handle currently holds, so a test can wake (or fail) the backend
+   * mid-flight rather than counting poll responses.
+   */
+  function readinessDial(initial: ReadinessState = 'loading') {
+    const dial = { state: initial }
+    const fetchMock = stubFetch({ readiness: () => readyResponse(dial.state) })
+    return { dial, fetchMock }
+  }
+
+  it('fires no chat request when a question is sent while the backend is waking', async () => {
+    const { fetchMock } = readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    expect(result.current.status).toBe('waking')
+
+    act(() => result.current.sendMessage('What is the Übermensch?'))
+    await settle()
+    await settle(POLL_MS * 3)
+
+    // Not a deferred request, not an aborted one: none at all.
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+  })
+
+  it('holds a question sent before the first readiness answer arrives', async () => {
+    // The headline case: a starter question clicked the instant the page loads
+    // lands before /api/ready has answered at all. Readiness is still unknown,
+    // so the backend may well be cold — the question must not be fired into it.
+    let answerReadiness: (() => void) | null = null
+    const pending = new Promise<void>((resolve) => {
+      answerReadiness = resolve
+    })
+    const fetchMock = stubRoutes(async (...args: Parameters<typeof fetch>) => {
+      if (String(args[0]) === '/api/ready') {
+        await pending
+        return readyResponse('ready')
+      }
+      return streamResponse(['d:{"finishReason": "stop"}\n'])
+    })
+
+    const { result } = renderHook(() => useNietzscheChat())
+    act(() => result.current.sendMessage('What is the Übermensch?'))
+    await settle()
+
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+
+    await act(async () => {
+      answerReadiness?.()
+      await pending
+    })
+    await settle()
+
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+  })
+
+  it('shows the held question in the transcript as accepted', async () => {
+    readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('What is the Übermensch?'))
+    await settle()
+
+    expect(result.current.messages).toContainEqual(
+      expect.objectContaining({ role: 'user', content: 'What is the Übermensch?' })
+    )
+  })
+
+  it('dispatches the held question exactly once when readiness flips to ready', async () => {
+    const { dial, fetchMock } = readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('What is the Übermensch?'))
+    await settle()
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+
+    const chatCalls = callsTo(fetchMock, '/api/chat')
+    expect(chatCalls).toHaveLength(1)
+    expect(JSON.parse(chatCalls[0][1]!.body as string).message).toBe('What is the Übermensch?')
+  })
+
+  it('does not dispatch the held question more than once when readiness is observed repeatedly', async () => {
+    const { dial, fetchMock } = readinessDial('loading')
+
+    // StrictMode re-runs effects, and the extra renders below make every
+    // render-scoped dependency change identity — a dispatch keyed on the
+    // readiness value alone fires again on each of those observations.
+    const { result, rerender } = renderHook(() => useNietzscheChat(), { wrapper: StrictMode })
+    await settle()
+    act(() => result.current.sendMessage('Ask me once'))
+    await settle()
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+
+    rerender()
+    await settle(POLL_MS * 3)
+    rerender()
+    await settle(POLL_MS * 3)
+
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+  })
+
+  it('surfaces an error for a held question when warm-up fails terminally', async () => {
+    const { dial, fetchMock } = readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('Will you wake?'))
+    await settle()
+
+    dial.state = 'failed'
+    await settle(POLL_MS)
+
+    // A pipeline that will never load must not leave the question hanging.
+    expect(result.current.status).toBe('error')
+    expect(result.current.errorMessage).toBeTruthy()
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+    expect(result.current.messages).toContainEqual(
+      expect.objectContaining({ role: 'user', content: 'Will you wake?' })
+    )
+  })
+
+  it('answers a question held through the cold start, with its source passages', async () => {
+    const dial = { state: 'loading' as ReadinessState }
+    stubFetch({
+      readiness: () => readyResponse(dial.state),
+      chat: () =>
+        streamResponse([
+          `2:${JSON.stringify(SOURCES)}\n`,
+          '0:"I teach you the Superman."\n',
+          'd:{"finishReason": "stop"}\n',
+        ]),
+    })
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('What is the Übermensch?'))
+    await settle()
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+    for (let i = 0; i < 20 && result.current.status !== 'idle'; i += 1) await settle()
+
+    expect(result.current.status).toBe('idle')
+    expect(result.current.messages).toHaveLength(2)
+    expect(result.current.messages[1]).toMatchObject({
+      role: 'assistant',
+      content: 'I teach you the Superman.',
+      sources: SOURCES,
+    })
+  })
+
+  it('ignores a second question while one is held', async () => {
+    const { dial, fetchMock } = readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('First'))
+    await settle()
+    act(() => result.current.sendMessage('Second'))
+    await settle()
+
+    expect(result.current.messages.filter((m) => m.role === 'user')).toHaveLength(1)
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+
+    const chatCalls = callsTo(fetchMock, '/api/chat')
+    expect(chatCalls).toHaveLength(1)
+    expect(JSON.parse(chatCalls[0][1]!.body as string).message).toBe('First')
+  })
+
+  it('cancels a held question when the visitor presses stop', async () => {
+    // ChatShell shows Stop while a question is held, so it has to do something:
+    // a control that silently does nothing is worse than no control.
+    const { dial, fetchMock } = readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('What is the Übermensch?'))
+    await settle()
+    expect(result.current.status).toBe('held')
+
+    act(() => result.current.stop())
+    await settle()
+    expect(result.current.status).not.toBe('held')
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+    await settle()
+
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+  })
+
+  it('drops a held question when the chat is cleared', async () => {
+    const { dial, fetchMock } = readinessDial('loading')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    act(() => result.current.sendMessage('Never mind'))
+    await settle()
+    act(() => result.current.clear())
+
+    dial.state = 'ready'
+    await settle(POLL_MS)
+
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(0)
+    expect(result.current.messages).toHaveLength(0)
+  })
+
+  it('sends against an already-warm backend immediately, without holding it', async () => {
+    const { fetchMock } = readinessDial('ready')
+
+    const { result } = renderHook(() => useNietzscheChat())
+    await settle()
+    expect(result.current.status).toBe('idle')
+
+    act(() => result.current.sendMessage('Warm question'))
+
+    // In flight on the same turn — no queue, no timer, no extra await.
+    expect(callsTo(fetchMock, '/api/chat')).toHaveLength(1)
+    expect(result.current.status).toBe('retrieving')
   })
 })
