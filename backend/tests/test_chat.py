@@ -1,7 +1,12 @@
 """Tests for POST /api/chat."""
 
 import json
+import logging
 from unittest.mock import AsyncMock, MagicMock, patch
+
+import httpx
+import pytest
+from groq import RateLimitError
 
 from tests.conftest import SAMPLE_CHUNKS, TEST_SHARED_SECRET
 
@@ -262,7 +267,7 @@ def test_groq_error_yields_error_event(client):
 
     # HTTP 200 because the response already started streaming
     assert response.status_code == 200
-    assert '3:"Generation failed"' in response.text
+    assert _parse_lines(response.text, "3:") == [{"category": "generic"}]
 
 
 # ---------------------------------------------------------------------------
@@ -333,3 +338,86 @@ def test_retrieval_does_not_block_the_event_loop(mock_pipeline):
     assert worst_stall < stall / 2, (
         f"event loop stalled {worst_stall:.3f}s while retrieval ran for {stall}s"
     )
+
+
+# ---------------------------------------------------------------------------
+# Error categories
+# ---------------------------------------------------------------------------
+
+# What Groq actually says when the day's tokens are gone. It must never reach
+# the visitor: the stream carries a category, not the upstream text.
+GROQ_QUOTA_MESSAGE = (
+    "Rate limit reached for model `openai/gpt-oss-120b` in organization `org_x` "
+    "on tokens per day (TPD): Limit 100000, Used 100000. Visit console.groq.com"
+)
+
+
+def _groq_quota_error() -> RateLimitError:
+    """The 429 the Groq SDK raises once the service-wide quota is spent."""
+    request = httpx.Request("POST", "https://api.groq.com/openai/v1/chat/completions")
+    return RateLimitError(
+        GROQ_QUOTA_MESSAGE,
+        response=httpx.Response(429, request=request),
+        body=None,
+    )
+
+
+def _failing_groq(error: Exception):
+    """Groq client whose every call raises `error`."""
+    mock_groq = AsyncMock()
+    mock_groq.chat.completions.create = AsyncMock(side_effect=error)
+    return mock_groq
+
+
+def test_provider_quota_exhaustion_yields_its_own_error_category(client):
+    """A spent service-wide quota is its own category, not the generic failure."""
+    with patch("app.llm.AsyncGroq", return_value=_failing_groq(_groq_quota_error())):
+        response = client.post("/api/chat", json={"message": "Hello"})
+
+    assert response.status_code == 200
+    assert _parse_lines(response.text, "3:") == [{"category": "provider_quota"}]
+
+
+def test_generic_failure_yields_the_generic_error_category(client):
+    with patch("app.llm.AsyncGroq", return_value=_failing_groq(RuntimeError("API down"))):
+        response = client.post("/api/chat", json={"message": "Hello"})
+
+    assert response.status_code == 200
+    assert _parse_lines(response.text, "3:") == [{"category": "generic"}]
+
+
+def test_no_provider_error_detail_reaches_the_stream(client):
+    """The category is a classification, never a passthrough of the upstream text."""
+    with patch("app.llm.AsyncGroq", return_value=_failing_groq(_groq_quota_error())):
+        quota_response = client.post("/api/chat", json={"message": "Hello"})
+    with patch(
+        "app.llm.AsyncGroq",
+        return_value=_failing_groq(RuntimeError("psycopg: password authentication failed")),
+    ):
+        generic_response = client.post("/api/chat", json={"message": "Hello"})
+
+    assert "tokens per day" not in quota_response.text
+    assert "console.groq.com" not in quota_response.text
+    assert "org_x" not in quota_response.text
+    assert "password authentication failed" not in generic_response.text
+    assert "Traceback" not in quota_response.text
+    assert "Traceback" not in generic_response.text
+
+
+@pytest.mark.parametrize(
+    "error",
+    [
+        pytest.param(_groq_quota_error(), id="provider_quota"),
+        pytest.param(RuntimeError("API down"), id="generic"),
+    ],
+)
+def test_every_failure_still_logs_the_traceback_server_side(client, caplog, error):
+    """Categorising the failure must not cost the operator the traceback."""
+    caplog.set_level(logging.ERROR, logger="uvicorn.error")
+
+    with patch("app.llm.AsyncGroq", return_value=_failing_groq(error)):
+        client.post("/api/chat", json={"message": "Hello"})
+
+    failures = [r for r in caplog.records if r.name == "uvicorn.error" and r.exc_info]
+    assert failures, "no exception was logged for the failed generation"
+    assert type(error).__name__ in caplog.text

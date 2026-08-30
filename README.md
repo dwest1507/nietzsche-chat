@@ -44,8 +44,22 @@ a line-delimited stream:
 2:[{"title", "translator", "url", "text"}, ...]   source passages (first)
 0:"token"                                          one line per token
 d:{"finishReason": "stop"}                         end of stream
-3:"Generation failed"                              error (replaces d:)
+3:{"category": "provider_quota"|"generic"}         error (replaces d:)
 ```
+
+The `3:` line carries a failure *category*, never the upstream error text —
+provider messages and tracebacks stay in the server log:
+
+| category | meaning |
+| --- | --- |
+| `provider_quota` | the service-wide Groq allowance is spent; try again later |
+| `generic` | anything else went wrong |
+
+Clients must treat an unrecognised category as `generic`, so a category added
+later degrades instead of breaking the stream.
+
+A visitor's own rate limit is not one of these: it is rejected with **HTTP 429**
+before the stream starts, so it never reaches the response body.
 
 ## Development
 

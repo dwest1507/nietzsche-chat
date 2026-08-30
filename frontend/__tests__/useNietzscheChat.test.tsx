@@ -519,3 +519,79 @@ describe('useNietzscheChat — holding a question sent while the backend wakes',
     expect(result.current.status).toBe('retrieving')
   })
 })
+
+describe('useNietzscheChat — telling the three failures apart', () => {
+  beforeEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  afterEach(() => {
+    vi.unstubAllGlobals()
+  })
+
+  const PROVIDER_QUOTA_STREAM = ['3:{"category":"provider_quota"}\n']
+  const GENERIC_STREAM = ['3:{"category":"generic"}\n']
+
+  /** Answer the first chat call with `first`, every later one with a good stream. */
+  function stubFailThenAnswer(first: () => Response) {
+    let answered = 0
+    return stubFetch({
+      chat: () =>
+        answered++ === 0
+          ? first()
+          : streamResponse(['0:"Answered"\n', 'd:{"finishReason": "stop"}\n']),
+    })
+  }
+
+  async function messageFor(chat: () => Response): Promise<string> {
+    stubFetch({ chat })
+    const { result } = renderHook(() => useNietzscheChat())
+    act(() => result.current.sendMessage('Hello'))
+    await waitFor(() => expect(result.current.status).toBe('error'))
+    return result.current.errorMessage ?? ''
+  }
+
+  it('says the service is out of answers when the provider quota is spent', async () => {
+    stubFetch({ chat: () => streamResponse(PROVIDER_QUOTA_STREAM) })
+
+    const { result } = renderHook(() => useNietzscheChat())
+    act(() => result.current.sendMessage('Hello'))
+
+    await waitFor(() => expect(result.current.status).toBe('error'))
+    expect(result.current.errorMessage).toMatch(/today/i)
+    // Not the visitor's own cap, and not the shrug of a generic failure.
+    expect(result.current.errorMessage).not.toMatch(/wait a minute/)
+    expect(result.current.errorMessage).not.toMatch(/unreachable/)
+  })
+
+  it('gives a distinct message for each of the three failures', async () => {
+    const seen: string[] = []
+    seen.push(await messageFor(() => streamResponse(PROVIDER_QUOTA_STREAM)))
+    seen.push(await messageFor(() => new Response('slow down', { status: 429 })))
+    seen.push(await messageFor(() => streamResponse(GENERIC_STREAM)))
+
+    expect(seen.every((m) => m.length > 0)).toBe(true)
+    expect(new Set(seen).size).toBe(3)
+  })
+
+  it.each([
+    ['the provider quota is spent', () => streamResponse(PROVIDER_QUOTA_STREAM)],
+    ['the visitor hits their own cap', () => new Response('slow down', { status: 429 })],
+    ['something else breaks', () => streamResponse(GENERIC_STREAM)],
+  ])('lets the visitor ask again after %s, without a reload', async (_label, first) => {
+    stubFailThenAnswer(first)
+
+    const { result } = renderHook(() => useNietzscheChat())
+    act(() => result.current.sendMessage('First try'))
+    await waitFor(() => expect(result.current.status).toBe('error'))
+
+    act(() => result.current.sendMessage('Second try'))
+    await waitFor(() => expect(result.current.status).toBe('idle'))
+
+    expect(result.current.errorMessage).toBeNull()
+    expect(result.current.messages.at(-1)).toMatchObject({
+      role: 'assistant',
+      content: 'Answered',
+    })
+  })
+})

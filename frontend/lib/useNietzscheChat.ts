@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { isReadinessState } from './readiness'
-import { createStreamParser } from './streamParser'
+import { createStreamParser, type StreamErrorCategory } from './streamParser'
 import type { ChatMessageData, ChatStatus, ReadinessState, Source } from './types'
 
 const HISTORY_LIMIT = 10
@@ -13,12 +13,24 @@ const READINESS_POLL_MS = 2000
 
 const GENERIC_ERROR =
   'Nietzsche is unreachable at the moment. Please check your connection and try again.'
+// The visitor's own cap (10/minute, 100/day). It arrives as HTTP 429 from the
+// rate limiter, before any stream starts — never as a `3:` category.
 const RATE_LIMIT_ERROR =
   'Even Zarathustra needed rest — too many questions at once. Please wait a minute and try again.'
+// Draft copy, in the app's voice: the service-wide Groq allowance is spent, so
+// nobody gets an answer until it renews — unlike the cap above, waiting a
+// minute will not help.
+const PROVIDER_QUOTA_ERROR =
+  'Nietzsche has spoken his fill for today — the day’s shared allowance of answers is spent. Please return tomorrow.'
 // Draft copy, in the app's voice: the warm-up failed terminally, so a held
 // question will never be answered and must not wait for a wake that never comes.
 const WARMUP_FAILED_ERROR =
   'Nietzsche could not be roused — his library failed to load. Please try again in a few minutes.'
+
+const STREAM_ERROR_MESSAGES: Record<StreamErrorCategory, string> = {
+  provider_quota: PROVIDER_QUOTA_ERROR,
+  generic: GENERIC_ERROR,
+}
 
 let nextId = 0
 function makeId(): string {
@@ -167,7 +179,7 @@ export default function useNietzscheChat(): NietzscheChat {
                 updateMessage(assistantId, (m) => ({ ...m, content: m.content + event.token }))
                 break
               case 'error':
-                setErrorMessage(GENERIC_ERROR)
+                setErrorMessage(STREAM_ERROR_MESSAGES[event.category])
                 setChatStatus('error')
                 finished = true
                 break

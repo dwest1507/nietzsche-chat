@@ -95,3 +95,37 @@ def test_a_forwarded_address_without_a_valid_secret_is_rejected_and_never_keyed(
     # The rejected request consumed nothing: the visitor still has all of it.
     for _ in range(PER_MINUTE_LIMIT):
         assert _chat(client, VISITOR).status_code == 200
+
+
+def test_the_per_visitor_cap_is_rejected_before_the_stream_starts(client):
+    """The cap is enforced by the decorator, so it never reaches the generator.
+
+    That is why it travels as an HTTP 429 rather than as a `3:` category: there
+    is no stream to put a category on yet.
+    """
+    for _ in range(PER_MINUTE_LIMIT):
+        _chat(client, VISITOR)
+
+    response = _chat(client, VISITOR)
+
+    assert response.status_code == 429
+    assert "3:" not in response.text
+    assert "2:" not in response.text
+
+
+def test_the_per_visitor_cap_is_distinguishable_from_provider_quota_exhaustion(client):
+    """One visitor's exhausted allowance must not read as the service's."""
+    from tests.test_chat import _failing_groq, _groq_quota_error
+
+    with patch("app.llm.AsyncGroq", return_value=_failing_groq(_groq_quota_error())):
+        provider_exhausted = _chat(client, OTHER_VISITOR)
+
+    assert provider_exhausted.status_code == 200
+    assert '"category": "provider_quota"' in provider_exhausted.text
+
+    for _ in range(PER_MINUTE_LIMIT):
+        _chat(client, VISITOR)
+    capped = _chat(client, VISITOR)
+
+    assert capped.status_code == 429
+    assert "provider_quota" not in capped.text
