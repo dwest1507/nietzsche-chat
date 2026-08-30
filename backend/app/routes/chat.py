@@ -22,13 +22,18 @@ from ..rag.pipeline import get_pipeline
 
 logger = logging.getLogger("uvicorn.error")
 
+# Generous headroom over the 10 turns the frontend sends and the API uses.
+MAX_HISTORY_MESSAGES = 50
+
 router = APIRouter()
 limiter = Limiter(key_func=get_remote_address)
 
 
 class ChatRequest(BaseModel):
     message: str = Field(..., min_length=1, max_length=1000)
-    history: list[Message] = Field(default_factory=list)
+    # Only the last 10 turns are ever used; the cap keeps an unbounded history
+    # from being parsed into memory just to be thrown away.
+    history: list[Message] = Field(default_factory=list, max_length=MAX_HISTORY_MESSAGES)
 
 
 @router.post("/chat")

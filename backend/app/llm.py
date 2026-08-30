@@ -4,14 +4,20 @@ from collections.abc import AsyncIterator
 from typing import Literal
 
 from groq import AsyncGroq
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from .config import GROQ_API_KEY, GROQ_MODEL
+
+# A prior turn in the conversation. `content` is bounded well above anything
+# either side can legitimately produce — a user message is capped at 1000 chars
+# and a generated answer at 2048 tokens — so an oversized history is a client
+# sending junk, not a long conversation.
+MAX_HISTORY_CONTENT = 16_000
 
 
 class Message(BaseModel):
     role: Literal["user", "assistant"]
-    content: str
+    content: str = Field(..., max_length=MAX_HISTORY_CONTENT)
 
 
 SYSTEM_PROMPT = (
