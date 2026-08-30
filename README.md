@@ -208,6 +208,19 @@ Contributions are welcome! Some ideas:
 - Expand the query expansion dictionary with more philosophical terms
 - Optimize re-ranking parameters
 
+## 🏷️ Versioning
+
+This project uses [Release Please](https://github.com/googleapis/release-please) for
+automated versioning and changelog generation.
+
+1. **Develop:** merge changes into `main` using
+   [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, ...).
+2. **Release PR:** the `Release Please` workflow opens a PR bumping `version.txt` and
+   updating `CHANGELOG.md`.
+3. **Merge:** merging that PR creates the git tag and the GitHub Release.
+
+The current version lives in `version.txt`; the release history is in `CHANGELOG.md`.
+
 ## 📄 License
 
 This project is open source. The texts are from public domain translations.
