@@ -5,13 +5,18 @@ import { POST } from '@/app/api/chat/route'
 const SECRET = 'test-shared-secret'
 const BACKEND_URL = 'http://backend.test'
 
-function post(body: unknown, init?: { signal?: AbortSignal }) {
+function post(body: unknown, init?: { signal?: AbortSignal; headers?: Record<string, string> }) {
   return new NextRequest(new URL('http://localhost:3000/api/chat'), {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...init?.headers },
     body: JSON.stringify(body),
     signal: init?.signal,
   })
+}
+
+function forwardedAddress(call: unknown[]) {
+  const [, init] = call as [string, RequestInit]
+  return new Headers(init.headers).get('X-Client-IP')
 }
 
 function streamingBackendResponse(text: string) {
@@ -142,5 +147,47 @@ describe('POST /api/chat', () => {
     const response = await POST(post({ message: 'Hello' }))
 
     expect(response.status).toBe(502)
+  })
+})
+
+describe('POST /api/chat — the forwarded visitor address', () => {
+  it("forwards the visitor's address as X-Client-IP so the backend can meter them", async () => {
+    await POST(post({ message: 'Hello' }, { headers: { 'x-forwarded-for': '203.0.113.10' } }))
+
+    expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('203.0.113.10')
+  })
+
+  it('takes the first entry of an x-forwarded-for chain — the rest are proxies', async () => {
+    await POST(
+      post(
+        { message: 'Hello' },
+        { headers: { 'x-forwarded-for': '203.0.113.10, 198.51.100.7, 192.0.2.1' } }
+      )
+    )
+
+    expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('203.0.113.10')
+  })
+
+  it('falls back to x-real-ip when x-forwarded-for is absent', async () => {
+    await POST(post({ message: 'Hello' }, { headers: { 'x-real-ip': '198.51.100.7' } }))
+
+    expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('198.51.100.7')
+  })
+
+  it('overwrites a client-supplied X-Client-IP rather than trusting it', async () => {
+    await POST(
+      post(
+        { message: 'Hello' },
+        { headers: { 'x-client-ip': '10.0.0.1', 'x-forwarded-for': '203.0.113.10' } }
+      )
+    )
+
+    expect(forwardedAddress(fetchMock.mock.calls[0])).toBe('203.0.113.10')
+  })
+
+  it('drops a client-supplied X-Client-IP when the platform forwards no address', async () => {
+    await POST(post({ message: 'Hello' }, { headers: { 'x-client-ip': '10.0.0.1' } }))
+
+    expect(forwardedAddress(fetchMock.mock.calls[0])).toBeNull()
   })
 })

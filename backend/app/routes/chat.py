@@ -14,11 +14,10 @@ from fastapi import APIRouter, Depends, Request
 from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
-from slowapi import Limiter
-from slowapi.util import get_remote_address
 
 from ..llm import Message, build_messages, condense_question, generate_stream
 from ..rag.pipeline import get_pipeline
+from ..ratelimit import CHAT_RATE_LIMIT, limiter
 from ..security import require_shared_secret
 
 logger = logging.getLogger("uvicorn.error")
@@ -27,7 +26,6 @@ logger = logging.getLogger("uvicorn.error")
 MAX_HISTORY_MESSAGES = 50
 
 router = APIRouter()
-limiter = Limiter(key_func=get_remote_address)
 
 
 class ChatRequest(BaseModel):
@@ -37,8 +35,10 @@ class ChatRequest(BaseModel):
     history: list[Message] = Field(default_factory=list, max_length=MAX_HISTORY_MESSAGES)
 
 
+# The dependency runs before the decorator's limit check, which is what makes the
+# forwarded address in the limiter key safe to trust. See app/ratelimit.py.
 @router.post("/chat", dependencies=[Depends(require_shared_secret)])
-@limiter.limit("30/minute")
+@limiter.limit(CHAT_RATE_LIMIT)
 async def chat(request: Request, body: ChatRequest) -> StreamingResponse:
     async def generate():
         try:

@@ -96,3 +96,18 @@ def client(mocked_app):
         headers={"X-Backend-Secret": TEST_SHARED_SECRET},
     ) as c:
         yield c
+
+
+@pytest.fixture(autouse=True)
+def reset_rate_limiter():
+    """Clear the limiter's buckets so allowance never leaks between tests.
+
+    The limiter is a module-level singleton, imported once for the whole
+    session, so without this every request in the suite would draw down the
+    same per-minute bucket and later tests would start seeing 429s.
+    """
+    from app.ratelimit import limiter
+
+    limiter.reset()
+    yield
+    limiter.reset()

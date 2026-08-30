@@ -4,6 +4,20 @@ import { backendFetch } from '@/lib/backendClient'
 
 const MAX_MESSAGE_LENGTH = 1000
 
+// The backend meters each visitor separately, but it only ever sees this
+// route handler's egress address, so we hand it the visitor's. It is trusted
+// there only after the shared secret checks out — which is why we must derive
+// it from the platform's own forwarding headers and never pass through an
+// `X-Client-IP` the browser supplied. See docs/adr/0002-shared-secret-gateway.md.
+const CLIENT_ADDRESS_HEADER = 'X-Client-IP'
+
+function visitorAddress(request: NextRequest): string | null {
+  // `x-forwarded-for` is a chain — client, then each proxy that added itself —
+  // so the visitor is the first entry, not the last.
+  const chain = request.headers.get('x-forwarded-for')?.split(',')[0].trim()
+  return chain || request.headers.get('x-real-ip')?.trim() || null
+}
+
 interface HistoryMessage {
   role: 'user' | 'assistant'
   content: string
@@ -37,13 +51,19 @@ export async function POST(request: NextRequest) {
         .map((m) => ({ role: m.role, content: m.content }))
     : []
 
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+  const address = visitorAddress(request)
+  if (address) {
+    headers[CLIENT_ADDRESS_HEADER] = address
+  }
+
   let backendResponse: Response
   try {
     // backendFetch owns the backend URL and the shared secret header; the
     // secret is server-side only and must never reach the response below.
     backendResponse = await backendFetch('/api/chat', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers,
       body: JSON.stringify({ message, history }),
       // Forward the client's disconnect so pressing Stop actually stops the
       // backend. Without it the generation runs to completion, billing Groq

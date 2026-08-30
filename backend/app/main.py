@@ -6,13 +6,12 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
-from slowapi.middleware import SlowAPIMiddleware
-from slowapi.util import get_remote_address
 
 from .config import ALLOWED_ORIGINS
 from .rag.pipeline import get_pipeline
+from .ratelimit import limiter
 from .routes.chat import router as chat_router
 from .routes.health import router as health_router
 
@@ -37,14 +36,15 @@ async def lifespan(app: FastAPI):
     yield
 
 
-limiter = Limiter(key_func=get_remote_address)
-
 app = FastAPI(title="Nietzsche Chat API", lifespan=lifespan)
 
-# Rate limiting
+# Rate limiting. The limit itself is applied by the decorator on the chat
+# endpoint, deliberately and not by SlowAPIMiddleware: middleware runs before
+# route dependencies, so it would key the limiter on a forwarded address that
+# the shared-secret check has not yet vouched for. See app/ratelimit.py.
+# app.state.limiter is what the RateLimitExceeded handler reads to shape the 429.
 app.state.limiter = limiter
 app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
-app.add_middleware(SlowAPIMiddleware)
 
 # CORS
 app.add_middleware(
