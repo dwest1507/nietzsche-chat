@@ -1,5 +1,7 @@
 import type { NextRequest } from 'next/server'
 
+import { backendFetch } from '@/lib/backendClient'
+
 const MAX_MESSAGE_LENGTH = 1000
 
 interface HistoryMessage {
@@ -35,11 +37,11 @@ export async function POST(request: NextRequest) {
         .map((m) => ({ role: m.role, content: m.content }))
     : []
 
-  const backendUrl = process.env.CHAT_API_URL ?? 'http://localhost:8000'
-
   let backendResponse: Response
   try {
-    backendResponse = await fetch(`${backendUrl}/api/chat`, {
+    // backendFetch owns the backend URL and the shared secret header; the
+    // secret is server-side only and must never reach the response below.
+    backendResponse = await backendFetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ message, history }),

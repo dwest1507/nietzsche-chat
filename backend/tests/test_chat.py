@@ -3,7 +3,7 @@
 import json
 from unittest.mock import AsyncMock, MagicMock, patch
 
-from tests.conftest import SAMPLE_CHUNKS
+from tests.conftest import SAMPLE_CHUNKS, TEST_SHARED_SECRET
 
 HISTORY = [
     {"role": "user", "content": "What is the will to power?"},
@@ -319,7 +319,11 @@ def test_retrieval_does_not_block_the_event_loop(mock_pipeline):
             transport = httpx.ASGITransport(app=app)
             async with httpx.AsyncClient(transport=transport, base_url="http://test") as ac:
                 await asyncio.sleep(0.05)
-                response = await ac.post("/api/chat", json={"message": "Hello"})
+                response = await ac.post(
+                    "/api/chat",
+                    json={"message": "Hello"},
+                    headers={"X-Backend-Secret": TEST_SHARED_SECRET},
+                )
                 assert response.status_code == 200
             stop.set()
             await beat

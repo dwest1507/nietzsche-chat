@@ -9,6 +9,10 @@ from fastapi.testclient import TestClient
 # Set required env vars before importing the app
 os.environ.setdefault("GROQ_API_KEY", "test_key")
 os.environ.setdefault("ALLOWED_ORIGINS", "http://localhost:3000")
+os.environ.setdefault("BACKEND_SHARED_SECRET", "test_shared_secret")
+
+TEST_SHARED_SECRET = os.environ["BACKEND_SHARED_SECRET"]
+"""The secret the default `client` fixture presents on every request."""
 
 
 SAMPLE_CHUNKS = [
@@ -64,8 +68,8 @@ def mock_pipeline():
 
 
 @pytest.fixture
-def client(mock_pipeline):
-    """TestClient with mocked RAG pipeline and Groq."""
+def mocked_app(mock_pipeline):
+    """The FastAPI app with the RAG pipeline (and so Groq's inputs) mocked out."""
     # Patch the pipeline in its home module and where the chat route imports it
     with (
         patch("app.rag.pipeline.get_pipeline", return_value=mock_pipeline),
@@ -73,5 +77,22 @@ def client(mock_pipeline):
     ):
         from app.main import app
 
-        with TestClient(app, raise_server_exceptions=True) as c:
-            yield c
+        yield app
+
+
+@pytest.fixture
+def unauthenticated_client(mocked_app):
+    """TestClient that sends no shared-secret header — for the rejection cases."""
+    with TestClient(mocked_app, raise_server_exceptions=True) as c:
+        yield c
+
+
+@pytest.fixture
+def client(mocked_app):
+    """TestClient with mocked RAG pipeline and Groq, presenting the shared secret."""
+    with TestClient(
+        mocked_app,
+        raise_server_exceptions=True,
+        headers={"X-Backend-Secret": TEST_SHARED_SECRET},
+    ) as c:
+        yield c

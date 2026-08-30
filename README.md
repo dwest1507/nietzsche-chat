@@ -17,8 +17,11 @@ scripts/    CI shell scripts (single source of truth for the checks)
 ```
 
 The browser talks only to the Next.js app. Its `/api/chat` route validates the
-request and proxies it to the FastAPI backend (`CHAT_API_URL`, server-side
-only), piping the token stream back unchanged.
+request and proxies it to the FastAPI backend through `frontend/lib/backendClient.ts`
+(`CHAT_API_URL` and the `BACKEND_SHARED_SECRET` header, both server-side only),
+piping the token stream back unchanged. The backend's public URL rejects any
+request that does not present that shared secret — see
+`docs/adr/0002-shared-secret-gateway.md`.
 
 ### Request flow
 
@@ -53,10 +56,15 @@ Prerequisites: [uv](https://docs.astral.sh/uv/), Node.js (see
 make install                       # npm install + uv sync
 
 cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env.local
 # edit backend/.env → GROQ_API_KEY=...
+# set the same BACKEND_SHARED_SECRET in both files (any non-empty value locally)
 
 make dev                           # backend :8000 + frontend :3000
 ```
+
+`BACKEND_SHARED_SECRET` is required on both sides: the backend refuses to start
+without it, and if the two values drift every chat request fails with 401.
 
 Optional: set `GROQ_MODEL` in `backend/.env` to override the default
 (`openai/gpt-oss-120b`), and `CHAT_API_URL` in `frontend/.env.local` if the
@@ -92,11 +100,12 @@ raw Project Gutenberg files.
 ## Deployment
 
 - **Frontend — Vercel**: root directory `frontend`, framework preset Next.js.
-  Env: `CHAT_API_URL` pointing at the backend.
+  Env: `CHAT_API_URL` pointing at the backend, `BACKEND_SHARED_SECRET`.
 - **Backend — Railway**: root directory `backend`, builder forced to
   **Dockerfile** (models are baked into the image so cold starts never hit
-  Hugging Face). Env: `GROQ_API_KEY`, `ALLOWED_ORIGINS` (the Vercel origins),
-  optionally `GROQ_MODEL`. Healthcheck path `/api/health` with a generous
+  Hugging Face). Env: `GROQ_API_KEY`, `BACKEND_SHARED_SECRET` (identical to the
+  Vercel value), `ALLOWED_ORIGINS` (the Vercel origins), optionally
+  `GROQ_MODEL`. Healthcheck path `/api/health` with a generous
   timeout (~300s) for first model load.
 
 Both platforms deploy from `main` via their git integrations; CI on GitHub

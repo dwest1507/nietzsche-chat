@@ -10,7 +10,7 @@ Stream protocol (Vercel AI SDK data stream v1 line format):
 import json
 import logging
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Depends, Request
 from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
@@ -19,6 +19,7 @@ from slowapi.util import get_remote_address
 
 from ..llm import Message, build_messages, condense_question, generate_stream
 from ..rag.pipeline import get_pipeline
+from ..security import require_shared_secret
 
 logger = logging.getLogger("uvicorn.error")
 
@@ -36,7 +37,7 @@ class ChatRequest(BaseModel):
     history: list[Message] = Field(default_factory=list, max_length=MAX_HISTORY_MESSAGES)
 
 
-@router.post("/chat")
+@router.post("/chat", dependencies=[Depends(require_shared_secret)])
 @limiter.limit("30/minute")
 async def chat(request: Request, body: ChatRequest) -> StreamingResponse:
     async def generate():
