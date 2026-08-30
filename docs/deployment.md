@@ -208,6 +208,12 @@ Then smoke-test the deployed frontend, ideally on a backend that has been asleep
 2. Ask a question. Source passages appear first, then the answer streams in.
 3. If you click a starter question during the wake, it is held and dispatched when the
    backend reports ready — that is the intended behaviour, not a hang.
+4. Leave the tab open for a few minutes, long enough for the container to scale back to
+   zero, and ask another question. The status line reads _"Nietzsche is stirring…"_ again
+   while the frontend re-checks readiness and the container wakes, then the answer
+   streams. A readiness answer older than a minute is not treated as evidence the backend
+   is still up: the question is held through the second wake rather than fired into a
+   cold pipeline, where it would block on the model lock with nothing on screen.
 
 ### Not set up here: a custom domain
 
@@ -329,8 +335,9 @@ piece. Worth knowing before someone reads the counters as authoritative.
 | Same, with `KeyError: 'BACKEND_SHARED_SECRET'`                                                                         | Same                                                                                                         | Set it, redeploy — and set the identical value in Vercel                 |
 | Build succeeds in a couple of minutes and never downloads a model                                                      | The Dockerfile was ignored                                                                                   | [The Railway trap](#the-railway-trap-the-dockerfile-that-was-never-used) |
 | Deploy never goes healthy                                                                                              | Healthcheck path is wrong — the routers are mounted under `/api`                                             | Set the healthcheck path to `/api/health`                                |
-| Log shows `RAG pipeline warm-up failed; the first chat request will retry` with a `FileNotFoundError` under `indexes/` | The index files are not in the image                                                                         | Verify them (step 1), commit, redeploy                                   |
-| Log shows `RAG pipeline warm-up failed` with a Hugging Face or network error                                           | Models are not baked in — usually the builder trap, occasionally a Hub outage on a first run                 | Force the Dockerfile builder and redeploy                                |
+| Log shows `RAG pipeline warm-up failed after 3 attempts` with a `FileNotFoundError` under `indexes/` | The index files are not in the image — retrying cannot conjure them                                          | Verify them (step 1), commit, redeploy                                   |
+| Log shows `RAG pipeline warm-up attempt 1 of 3 failed; retrying in 2s`, then `RAG pipeline ready`                       | A transient Hub or network blip on a cold cache; the retry absorbed it                                       | Nothing to fix; it is the backoff working                                |
+| Log shows `RAG pipeline warm-up failed after 3 attempts` with a Hugging Face or network error                          | Models are not baked in — usually the builder trap, since a passing blip would have been retried through     | Force the Dockerfile builder and redeploy                                |
 | Log shows `SENTRY_DSN is unset; backend error reporting is disabled`                                                   | Exactly what it says; expected everywhere but production                                                     | Set `SENTRY_DSN` in Railway if you want production errors reported       |
 | Log shows `RAG pipeline ready`                                                                                         | Healthy — the backend can answer                                                                             | —                                                                        |
 | Usage climbs with no visitors                                                                                          | Something is pinging the service and holding it awake; `/api/health` is public and unauthenticated by design | Remove the pinger; see the keep-warm note above                          |
@@ -351,7 +358,7 @@ The copy is in the app's voice, so the mapping is worth writing down.
 
 | The visitor reads                                               | Actually means                                                                                                                      | Where to look                                                                              |
 | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| _"Nietzsche is stirring…"_ and it never resolves                | `/api/ready` cannot reach the backend at all, so the frontend reads it as still waking                                              | `CHAT_API_URL` in Vercel; is the Railway service deployed and healthy?                     |
+| _"Nietzsche is stirring…"_ for up to 90 seconds, then _"could not be roused"_ | `/api/ready` never reported ready inside the wake window, so the frontend stopped waiting rather than polling forever                | `CHAT_API_URL` in Vercel; is the Railway service deployed and healthy?                     |
 | _"Nietzsche could not be roused — his library failed to load."_ | The backend answered the readiness probe with something that is not OK — a 401 from a drifted secret, or a genuinely failed warm-up | Railway log: `RAG pipeline ready` means the pipeline is fine and the secret is the problem |
 | _"Nietzsche is unreachable at the moment."_                     | The chat request failed: the backend was unreachable, or answered with a status the route maps to 502                               | Railway log for a traceback; Sentry if it is configured                                    |
 | _"Even Zarathustra needed rest — too many questions at once."_  | That visitor hit their own rate limit (10/minute or 100/day), rejected with HTTP 429 before any stream started                      | Nothing to fix; it is the limiter working                                                  |
