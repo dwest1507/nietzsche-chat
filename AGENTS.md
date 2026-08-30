@@ -9,8 +9,8 @@ and the pre-built search indexes are committed in `backend/indexes/`.
 - CI logic lives in `scripts/*.sh`; the `Makefile` and GitHub Actions workflows
   are thin callers. `make ci-cd` reproduces the PR gates locally.
 - Frontend: ESLint + Prettier (no semicolons, single quotes), Vitest + RTL.
-  Chat messages and retrieved passages render as plain text — never inject
-  retrieved corpus text as HTML.
+  Assistant chat messages render parsed markdown safely — never inject
+  retrieved corpus text or raw HTML directly.
 - Backend: Ruff (line-length 100), pytest with the RAG pipeline and Groq client
   mocked (`tests/conftest.py`) — tests must never load ML models or call APIs.
 - The Nietzsche persona prompt in `backend/app/llm.py` is user-facing behavior;
