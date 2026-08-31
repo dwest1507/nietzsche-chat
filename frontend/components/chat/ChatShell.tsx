@@ -22,7 +22,10 @@ export default function ChatShell() {
   const inputRef = useRef<HTMLInputElement>(null)
   const debounceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  const isLoading = status === 'retrieving' || status === 'thinking' || status === 'streaming'
+  // A held question is work in flight too — it is accepted and waiting on the
+  // backend's warm-up — so the input stays closed until it has been answered.
+  const isLoading =
+    status === 'held' || status === 'retrieving' || status === 'thinking' || status === 'streaming'
   const userMessageCount = messages.filter((m) => m.role === 'user').length
   const limitReached = userMessageCount >= SESSION_LIMIT
 
@@ -86,8 +89,16 @@ export default function ChatShell() {
       />
 
       <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4 sm:px-6">
-        {messages.length === 0 && status === 'idle' ? (
-          <StarterQuestions onSelect={submitQuestion} />
+        {messages.length === 0 && (status === 'idle' || status === 'waking') ? (
+          // A waking backend keeps the welcome screen: the cold start is meant
+          // to pass while the visitor reads and types, not behind a spinner.
+          // See docs/adr/0001-scale-to-zero-with-warm-on-arrival.md.
+          <>
+            <StarterQuestions onSelect={submitQuestion} />
+            <div className="flex justify-center pb-6">
+              <StatusIndicator status={status} />
+            </div>
+          </>
         ) : (
           <div
             className="flex flex-1 flex-col gap-4 py-6"

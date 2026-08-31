@@ -1,6 +1,30 @@
 import type { NextRequest } from 'next/server'
 
+import { backendFetch } from '@/lib/backendClient'
+
 const MAX_MESSAGE_LENGTH = 1000
+
+// The backend meters each visitor separately, but it only ever sees this
+// route handler's egress address, so we hand it the visitor's. It is trusted
+// there only after the shared secret checks out — which is why we must derive
+// it from the platform's own forwarding headers and never pass through an
+// `X-Client-IP` the browser supplied. See docs/adr/0002-shared-secret-gateway.md.
+const CLIENT_ADDRESS_HEADER = 'X-Client-IP'
+
+function visitorAddress(request: NextRequest): string | null {
+  // `x-real-ip` first: the platform sets it from the connecting socket, so the
+  // visitor cannot write it. `x-forwarded-for` is only as trustworthy as the
+  // proxy in front — one that appends rather than replaces leaves the browser's
+  // own value at the head of the chain, and since the backend meters solely on
+  // the address we forward, a visitor rotating that header would get a fresh
+  // bucket per request and walk past the cap protecting the Groq quota.
+  const real = request.headers.get('x-real-ip')?.trim()
+  if (real) return real
+
+  // No `x-real-ip`: fall back to the chain's first entry — client, then each
+  // proxy that added itself, so the visitor is the first, not the last.
+  return request.headers.get('x-forwarded-for')?.split(',')[0].trim() || null
+}
 
 interface HistoryMessage {
   role: 'user' | 'assistant'
@@ -35,13 +59,19 @@ export async function POST(request: NextRequest) {
         .map((m) => ({ role: m.role, content: m.content }))
     : []
 
-  const backendUrl = process.env.CHAT_API_URL ?? 'http://localhost:8000'
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+  const address = visitorAddress(request)
+  if (address) {
+    headers[CLIENT_ADDRESS_HEADER] = address
+  }
 
   let backendResponse: Response
   try {
-    backendResponse = await fetch(`${backendUrl}/api/chat`, {
+    // backendFetch owns the backend URL and the shared secret header; the
+    // secret is server-side only and must never reach the response below.
+    backendResponse = await backendFetch('/api/chat', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers,
       body: JSON.stringify({ message, history }),
       // Forward the client's disconnect so pressing Stop actually stops the
       // backend. Without it the generation runs to completion, billing Groq

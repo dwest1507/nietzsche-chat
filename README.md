@@ -17,8 +17,11 @@ scripts/    CI shell scripts (single source of truth for the checks)
 ```
 
 The browser talks only to the Next.js app. Its `/api/chat` route validates the
-request and proxies it to the FastAPI backend (`CHAT_API_URL`, server-side
-only), piping the token stream back unchanged.
+request and proxies it to the FastAPI backend through `frontend/lib/backendClient.ts`
+(`CHAT_API_URL` and the `BACKEND_SHARED_SECRET` header, both server-side only),
+piping the token stream back unchanged. The backend's public URL rejects any
+request that does not present that shared secret — see
+`docs/adr/0002-shared-secret-gateway.md`.
 
 ### Request flow
 
@@ -41,8 +44,22 @@ a line-delimited stream:
 2:[{"title", "translator", "url", "text"}, ...]   source passages (first)
 0:"token"                                          one line per token
 d:{"finishReason": "stop"}                         end of stream
-3:"Generation failed"                              error (replaces d:)
+3:{"category": "provider_quota"|"generic"}         error (replaces d:)
 ```
+
+The `3:` line carries a failure *category*, never the upstream error text —
+provider messages and tracebacks stay in the server log:
+
+| category | meaning |
+| --- | --- |
+| `provider_quota` | the service-wide Groq allowance is spent; try again later |
+| `generic` | anything else went wrong |
+
+Clients must treat an unrecognised category as `generic`, so a category added
+later degrades instead of breaking the stream.
+
+A visitor's own rate limit is not one of these: it is rejected with **HTTP 429**
+before the stream starts, so it never reaches the response body.
 
 ## Development
 
@@ -53,10 +70,15 @@ Prerequisites: [uv](https://docs.astral.sh/uv/), Node.js (see
 make install                       # npm install + uv sync
 
 cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env.local
 # edit backend/.env → GROQ_API_KEY=...
+# set the same BACKEND_SHARED_SECRET in both files (any non-empty value locally)
 
 make dev                           # backend :8000 + frontend :3000
 ```
+
+`BACKEND_SHARED_SECRET` is required on both sides: the backend refuses to start
+without it, and if the two values drift every chat request fails with 401.
 
 Optional: set `GROQ_MODEL` in `backend/.env` to override the default
 (`openai/gpt-oss-120b`), and `CHAT_API_URL` in `frontend/.env.local` if the
@@ -91,16 +113,13 @@ raw Project Gutenberg files.
 
 ## Deployment
 
-- **Frontend — Vercel**: root directory `frontend`, framework preset Next.js.
-  Env: `CHAT_API_URL` pointing at the backend.
-- **Backend — Railway**: root directory `backend`, builder forced to
-  **Dockerfile** (models are baked into the image so cold starts never hit
-  Hugging Face). Env: `GROQ_API_KEY`, `ALLOWED_ORIGINS` (the Vercel origins),
-  optionally `GROQ_MODEL`. Healthcheck path `/api/health` with a generous
-  timeout (~300s) for first model load.
+Frontend on Vercel, backend on Railway, both deploying from `main` through the
+platforms' own git integrations. First-time setup, every environment variable,
+the platform traps, failure symptoms and rollback live in one place:
+**[docs/deployment.md](docs/deployment.md)**.
 
-Both platforms deploy from `main` via their git integrations; CI on GitHub
-Actions is advisory unless `main` is branch-protected.
+CI is described in [docs/ci-cd.md](docs/ci-cd.md) — it never deploys, and holds
+no deploy tokens.
 
 ## The corpus
 
