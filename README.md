@@ -1,212 +1,62 @@
-# 💭 Nietzsche Chatbot
+# Chat with Friedrich Nietzsche
 
-A conversational AI that embodies Friedrich Nietzsche's philosophical voice and ideas using Retrieval-Augmented Generation (RAG).
+A full-stack conversational AI that embodies Friedrich Nietzsche's philosophical
+voice using Retrieval-Augmented Generation (RAG). Every answer is grounded in
+passages retrieved from 19 of his complete works, with the source passages shown
+alongside each response.
 
-Chat with Nietzsche about philosophy, morality, religion, human nature, and more. The bot draws from 19 of his complete works to provide responses grounded in his actual writings and philosophical positions.
+*Thus spake Zarathustra... and now he answers your questions.*
 
-## ✨ Features
+## Architecture
 
-- **Advanced RAG Pipeline**: Hybrid search, multi-query retrieval, cross-encoder re-ranking, and query expansion
-- **19 Complete Works**: Including *Thus Spake Zarathustra*, *Beyond Good and Evil*, *The Genealogy of Morals*, and more
-- **Authentic Responses**: Low temperature (0.3) and explicit grounding instructions ensure faithfulness to Nietzsche's actual writings
-- **Free to Use**: Powered by Groq's free `openai/gpt-oss-120b` API (no cost!)
-- **Source Citations**: View the exact passages from Nietzsche's works used to generate each response
-- **High-Quality Embeddings**: Uses all-mpnet-base-v2 for superior semantic understanding
+```
+frontend/   Next.js (App Router, TypeScript, Tailwind v4)   → Vercel
+backend/    FastAPI + hybrid RAG pipeline (Python, uv)      → Railway
+content/    19 preprocessed Project Gutenberg works + source metadata
+scripts/    CI shell scripts (single source of truth for the checks)
+```
 
-## 🚀 Quick Start
+The browser talks only to the Next.js app. Its `/api/chat` route validates the
+request and proxies it to the FastAPI backend through `frontend/lib/backendClient.ts`
+(`CHAT_API_URL` and the `BACKEND_SHARED_SECRET` header, both server-side only),
+piping the token stream back unchanged. The backend's public URL rejects any
+request that does not present that shared secret — see
+`docs/adr/0002-shared-secret-gateway.md`.
 
-### Prerequisites
+### Request flow
 
-- Python 3.8+
-- A free Groq API key ([get one here](https://console.groq.com/))
+1. **Condense** — with conversation history present, one LLM call rewrites the
+   follow-up into a standalone question (used for retrieval only).
+2. **Hybrid retrieval** — FAISS semantic search (`all-mpnet-base-v2`, cosine)
+   and BM25 keyword search are combined 70/30 over ~7,300 chunks.
+3. **Filter + re-rank** — fragments under two sentences are dropped, then a
+   cross-encoder (`ms-marco-MiniLM-L-6-v2`) keeps the best 6 passages.
+4. **Generate** — the Nietzsche persona prompt, the passages, the last 10
+   history turns, and the question go to Groq; tokens stream straight to the
+   browser.
 
-### Installation
+### Stream protocol
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/nietzsche-chat.git
-   cd nietzsche-chat
-   ```
+`POST /api/chat` with `{"message": str, "history": [{role, content}]}` returns
+a line-delimited stream:
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+```
+2:[{"title", "translator", "url", "text"}, ...]   source passages (first)
+0:"token"                                          one line per token
+d:{"finishReason": "stop"}                         end of stream
+3:{"category": "provider_quota"|"generic"}         error (replaces d:)
+```
 
-3. **Get a free Groq API key**
-   - Go to [https://console.groq.com/](https://console.groq.com/)
-   - Sign up for a free account
-   - Create an API key from the dashboard
-   - Copy the API key
+The `3:` line carries a failure *category*, never the upstream error text —
+provider messages and tracebacks stay in the server log:
 
-4. **Configure your API key**
-   ```bash
-   # Create the secrets file
-   mkdir -p .streamlit
-   cp .streamlit/secrets.toml.example .streamlit/secrets.toml
-   
-   # Edit .streamlit/secrets.toml and add your API key:
-   # GROQ_API_KEY = "your_actual_api_key_here"
-   ```
+| category | meaning |
+| --- | --- |
+| `provider_quota` | the service-wide Groq allowance is spent; try again later |
+| `generic` | anything else went wrong |
 
-   Optionally override the model (defaults to `openai/gpt-oss-120b`) if Groq
-   retires it — see [supported models](https://console.groq.com/docs/models):
-   ```toml
-   GROQ_MODEL = "openai/gpt-oss-120b"
-   ```
-
-5. **Build the vector store** (one-time setup)
-   ```bash
-   python scripts/build_vectorstore.py
-   ```
-   This will:
-   - Load all 19 Nietzsche texts
-   - Split them into paragraph-based chunks (preserves complete thoughts)
-   - Create embeddings using HuggingFace
-   - Build and save a FAISS vector store
-   - Takes ~2-5 minutes depending on your machine
-
-6. **Run the app**
-   ```bash
-   streamlit run app.py
-   ```
-
-7. **Open your browser** to `http://localhost:8501` and start chatting!
-
-## 📖 How It Works
-
-### Advanced RAG Pipeline
-
-1. **User asks a question** → "What is the Übermensch?"
-2. **Query expansion** → Philosophical terms expanded to related concepts
-3. **Multi-query generation** → Question reformulated 3 ways by the LLM for broader coverage
-4. **Hybrid search** → 70% semantic (FAISS with all-mpnet-base-v2) + 30% keyword (BM25)
-5. **Initial retrieval** → Top 3 passages per query from hybrid search (with 0.7 similarity threshold)
-6. **Cross-encoder re-ranking** → Re-ranks retrieved passages by relevance using ms-marco-MiniLM-L-6-v2
-7. **Grounded generation** → `openai/gpt-oss-120b` (temperature=0.3) generates response using only the re-ranked context
-8. **Response with sources** → Authentic answer with expandable source passages
-
-### Key Technical Features
-
-**Intelligent Chunking:**
-- Paragraph-based text splitting preserves complete thoughts and argumentative flow
-- Chunk size: 1200 characters with 150-character overlap
-- Respects natural paragraph boundaries in Nietzsche's writing
-
-**Retrieval Strategy:**
-- **Hybrid search** combines semantic understanding with exact keyword matching
-- **Multi-query retrieval** captures relevant passages from different perspectives
-- **Cross-encoder re-ranking** ensures highest quality passages are used
-- **Query expansion** helps find related philosophical concepts
-
-**Response Quality:**
-- **Low temperature (0.3)** reduces creative invention and hallucinations
-- **Explicit grounding instructions** keep responses faithful to source material
-- **Quality filtering** with similarity threshold ensures relevant context only
-- **Source citations** allow verification of all claims
-
-## 🎯 Usage Tips
-
-### Good Questions to Ask
-
-- "What is the Will to Power?"
-- "Why do you criticize Christianity?"
-- "What is the difference between master and slave morality?"
-- "Explain the concept of eternal recurrence"
-- "What would you think about modern social media?"
-
-### Conversation Tips
-
-- Challenge Nietzsche's ideas and engage in philosophical debate
-- Ask for clarification on specific concepts
-- Request his views on modern topics
-- Ask about specific works or passages
-
-## 🛠️ Technical Stack
-
-- **Frontend**: Streamlit
-- **LLM**: Groq API (`openai/gpt-oss-120b`)
-- **Embeddings**: HuggingFace sentence-transformers (all-mpnet-base-v2)
-- **Vector Store**: FAISS (semantic search) + BM25 (keyword search)
-- **Re-ranking**: Cross-encoder (ms-marco-MiniLM-L-6-v2)
-- **RAG Framework**: LangChain
-
-## 📚 Included Works
-
-The chatbot has access to these 19 complete works by Nietzsche:
-
-1. Thus Spake Zarathustra
-2. Beyond Good and Evil
-3. The Genealogy of Morals
-4. The Antichrist
-5. Ecce Homo
-6. The Birth of Tragedy
-7. Human, All-Too-Human
-8. The Joyful Wisdom
-9. The Twilight of the Idols
-10. The Dawn of Day
-11. The Will to Power (Books I-II)
-12. The Will to Power (Books III-IV)
-13. Thoughts out of Season (Part I)
-14. Thoughts out of Season (Part II)
-15. The Case of Wagner
-16. Early Greek Philosophy and Other Essays
-17. Homer and Classical Philology
-18. On the Future of Our Educational Institutions
-19. We Philologists
-
-All texts are from public domain translations available on Project Gutenberg.
-
-## 🌐 Deployment to Streamlit Community Cloud
-
-### Option 1: Commit Vector Store (Recommended)
-
-1. Remove `vectorstore/` from `.gitignore` if present
-2. Run `python scripts/build_vectorstore.py` locally
-3. Commit and push the `vectorstore/` directory to your repo
-4. Deploy to Streamlit Cloud:
-   - Go to [share.streamlit.io](https://share.streamlit.io/)
-   - Connect your GitHub repo
-   - Add your `GROQ_API_KEY` to Secrets (in app settings)
-   - Deploy!
-
-### Option 2: Build on First Run
-
-If you don't want to commit the vector store:
-
-1. Keep `vectorstore/` in `.gitignore`
-2. Modify `app.py` to build the vector store on first run if it doesn't exist
-3. Note: First load will be slower (~2-5 minutes)
-
-### Adding Secrets to Streamlit Cloud
-
-1. Go to your app settings on Streamlit Cloud
-2. Navigate to "Secrets"
-3. Add:
-   ```toml
-   GROQ_API_KEY = "your_groq_api_key_here"
-   ```
-
-## 💰 Cost & Rate Limits
-
-This project uses **Groq's free tier**:
-- ✅ 14,400 requests per day
-- ✅ 30 requests per minute
-- ✅ Fast inference (~500 tokens/sec)
-- ✅ **Completely free** for personal/demo use
-
-Perfect for a personal chatbot or portfolio project!
-
-## 🤝 Contributing
-
-Contributions are welcome! Some ideas:
-- Add more Nietzsche works
-- Improve the personality prompt
-- Add conversation history export
-- Implement multi-language support
-- Fine-tune hybrid search weights or similarity thresholds
-- Expand the query expansion dictionary with more philosophical terms
-- Optimize re-ranking parameters
+Clients must treat an unrecognised category as `generic`, so a category added
+later degrades instead of breaking the stream.
 
 ## 🏷️ Versioning
 
@@ -223,18 +73,79 @@ The current version lives in `version.txt`; the release history is in `CHANGELOG
 
 ## 📄 License
 
-This project is open source. The texts are from public domain translations.
+A visitor's own rate limit is not one of these: it is rejected with **HTTP 429**
+before the stream starts, so it never reaches the response body.
 
-## 🙏 Acknowledgments
+## Development
 
-- Texts from [Project Gutenberg](https://www.gutenberg.org/)
-- Powered by [Groq](https://groq.com/) for fast LLM inference
-- Built with [Streamlit](https://streamlit.io/) and [LangChain](https://langchain.com/)
+Prerequisites: [uv](https://docs.astral.sh/uv/), Node.js (see
+`frontend/.nvmrc`), and a free [Groq API key](https://console.groq.com/).
 
-## 📧 Questions or Issues?
+```bash
+make install                       # npm install + uv sync
 
-Open an issue on GitHub or reach out!
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env.local
+# edit backend/.env → GROQ_API_KEY=...
+# set the same BACKEND_SHARED_SECRET in both files (any non-empty value locally)
 
----
+make dev                           # backend :8000 + frontend :3000
+```
 
-*"And those who were seen dancing were thought to be insane by those who could not hear the music."* - Friedrich Nietzsche
+`BACKEND_SHARED_SECRET` is required on both sides: the backend refuses to start
+without it, and if the two values drift every chat request fails with 401.
+
+Optional: set `GROQ_MODEL` in `backend/.env` to override the default
+(`openai/gpt-oss-120b`), and `CHAT_API_URL` in `frontend/.env.local` if the
+backend isn't on `http://localhost:8000`.
+
+### Checks
+
+```bash
+make ci-cd          # everything the PR gates run
+make test           # frontend Vitest + backend pytest
+make lint           # eslint/prettier/tsc + ruff
+make lighthouse     # Lighthouse CI budget check (needs Chrome)
+```
+
+Backend tests mock the RAG pipeline and the Groq client, so they run without
+models, indexes, or API keys. `make ci-cd` also runs a Lighthouse CI pass
+against the production build (`frontend/lighthouserc.json`), asserting
+≥ 0.9 on accessibility / best-practices / SEO (performance warns).
+
+### Rebuilding the indexes
+
+`backend/indexes/` (chunks + FAISS + BM25) is committed so deploys and cold
+starts never re-embed the corpus. Rebuild only when `content/nietzsche/` or the
+chunking parameters change:
+
+```bash
+make build-index    # chunks 1200/150, embeds, writes backend/indexes/
+```
+
+`backend/scripts/preprocess_texts.py` regenerates the cleaned texts from the
+raw Project Gutenberg files.
+
+## Deployment
+
+Frontend on Vercel, backend on Railway, both deploying from `main` through the
+platforms' own git integrations. First-time setup, every environment variable,
+the platform traps, failure symptoms and rollback live in one place:
+**[docs/deployment.md](docs/deployment.md)**.
+
+CI is described in [docs/ci-cd.md](docs/ci-cd.md) — it never deploys, and holds
+no deploy tokens.
+
+## The corpus
+
+19 public-domain works from [Project Gutenberg](https://www.gutenberg.org/),
+including *Thus Spake Zarathustra*, *Beyond Good and Evil*, *The Genealogy of
+Morals*, *The Antichrist*, *Ecce Homo*, *The Twilight of the Idols*, *The Birth
+of Tragedy*, *The Joyful Wisdom*, *The Dawn of Day*, *Human, All-Too-Human*,
+*The Will to Power*, and more. Per-work title, translator, and source URL live
+in `content/nietzsche/metadata/sources.yaml` and are attached to every
+retrieved passage.
+
+## License
+
+Open source. The Nietzsche texts are in the public domain.

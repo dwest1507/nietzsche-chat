@@ -1,0 +1,131 @@
+"""RAG pipeline: hybrid search (FAISS + BM25) + sentence filter + cross-encoder re-ranking."""
+
+import json
+import pickle
+import re
+import threading
+from pathlib import Path
+
+import faiss
+import numpy as np
+from rank_bm25 import BM25Okapi
+from sentence_transformers import CrossEncoder, SentenceTransformer
+
+from ..config import INDEXES_DIR
+
+
+def load_model[ModelT: (SentenceTransformer, CrossEncoder)](
+    factory: type[ModelT], name: str
+) -> ModelT:
+    """Build a sentence-transformers model, preferring the local HF cache.
+
+    Constructing one of these normally asks the HuggingFace Hub whether the
+    cached weights are stale. That request has no timeout, so a stalled
+    connection wedges the caller forever — which, from the lifespan hook, means
+    the API never binds its port at all. Ask for the cached copy first and only
+    reach for the network when the model genuinely isn't downloaded yet.
+    """
+    try:
+        return factory(name, local_files_only=True)
+    except OSError:
+        # Not in the cache (first run on a new machine) — fetch it.
+        return factory(name)
+
+
+class RAGPipeline:
+    def __init__(
+        self,
+        indexes_dir: Path = INDEXES_DIR,
+        embedder: SentenceTransformer | None = None,
+        cross_encoder: CrossEncoder | None = None,
+    ) -> None:
+        # Load chunks (each: {"text", "work_id", "title", "translator", "url"})
+        with open(indexes_dir / "chunks.json") as f:
+            self.chunks: list[dict] = json.load(f)
+
+        # Load FAISS index (inner product = cosine sim on normalized vectors)
+        self.faiss_index = faiss.read_index(str(indexes_dir / "faiss.index"))
+
+        # Load BM25 index
+        with open(indexes_dir / "bm25.pkl", "rb") as f:
+            self.bm25: BM25Okapi = pickle.load(f)
+
+        self.embedder = embedder or load_model(
+            SentenceTransformer, "sentence-transformers/all-mpnet-base-v2"
+        )
+        self.cross_encoder = cross_encoder or load_model(
+            CrossEncoder, "cross-encoder/ms-marco-MiniLM-L-6-v2"
+        )
+
+    def retrieve(self, query: str, top_k: int = 6) -> list[dict]:
+        """Full pipeline: hybrid search → sentence filter → cross-encoder re-ranking."""
+        candidates = self._hybrid_search(query, top_k=12)
+        candidates = self._filter_short_chunks(candidates)
+        return self._rerank(query, candidates, top_k=top_k)
+
+    def _hybrid_search(self, query: str, top_k: int = 12) -> list[dict]:
+        """70% semantic (FAISS) + 30% keyword (BM25)."""
+        # --- Semantic search ---
+        query_vec = self.embedder.encode([query], normalize_embeddings=True).astype(np.float32)
+        faiss_scores, faiss_indices = self.faiss_index.search(query_vec, top_k)
+        faiss_scores = faiss_scores[0]
+        faiss_indices = faiss_indices[0]
+
+        # --- BM25 search ---
+        tokenized = query.lower().split()
+        bm25_scores_all = self.bm25.get_scores(tokenized)
+        bm25_top_indices = np.argsort(bm25_scores_all)[::-1][:top_k]
+        bm25_top_scores = bm25_scores_all[bm25_top_indices]
+
+        # --- Normalize to [0, 1] ---
+        def _norm(scores: np.ndarray) -> np.ndarray:
+            lo, hi = scores.min(), scores.max()
+            return np.zeros_like(scores) if hi == lo else (scores - lo) / (hi - lo)
+
+        faiss_norm = _norm(faiss_scores)
+        bm25_norm = _norm(bm25_top_scores)
+
+        # --- Combine with 70/30 weighting ---
+        combined: dict[int, float] = {}
+        for idx, score in zip(faiss_indices, faiss_norm, strict=True):
+            if idx >= 0:
+                combined[int(idx)] = combined.get(int(idx), 0.0) + 0.7 * float(score)
+        for idx, score in zip(bm25_top_indices, bm25_norm, strict=True):
+            combined[int(idx)] = combined.get(int(idx), 0.0) + 0.3 * float(score)
+
+        sorted_items = sorted(combined.items(), key=lambda x: x[1], reverse=True)[:top_k]
+        return [self.chunks[idx] for idx, _ in sorted_items]
+
+    @staticmethod
+    def _count_sentences(text: str) -> int:
+        """Count sentences by splitting on . ! ? (ellipses excluded)."""
+        sentences = re.split(r"(?<!\.)\.(?!\.)|[!?]", text)
+        return len([s for s in sentences if len(s.strip()) > 10])
+
+    def _filter_short_chunks(self, candidates: list[dict]) -> list[dict]:
+        """Drop fragments with fewer than 2 sentences; fall back if that empties the pool."""
+        filtered = [c for c in candidates if self._count_sentences(c["text"]) >= 2]
+        return filtered or candidates
+
+    def _rerank(self, query: str, candidates: list[dict], top_k: int = 6) -> list[dict]:
+        """Cross-encoder re-ranking."""
+        if len(candidates) <= 1:
+            return candidates[:top_k]
+        pairs = [[query, c["text"]] for c in candidates]
+        scores = self.cross_encoder.predict(pairs)
+        ranked = sorted(zip(candidates, scores, strict=True), key=lambda x: x[1], reverse=True)
+        return [c for c, _ in ranked[:top_k]]
+
+
+_pipeline: RAGPipeline | None = None
+# The startup warm-up and the first chat request can race for the singleton;
+# the lock keeps them from building two copies of the models.
+_pipeline_lock = threading.Lock()
+
+
+def get_pipeline() -> RAGPipeline:
+    global _pipeline
+    with _pipeline_lock:
+        if _pipeline is None:
+            _pipeline = RAGPipeline()
+        return _pipeline

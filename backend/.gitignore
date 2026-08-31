@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+# NOTE: indexes/ is deliberately committed — the Dockerfile copies it into the
+# image, so the built FAISS/BM25 files must be in the repo. Rebuild with
+# `make build-index` whenever content/nietzsche/ changes.
+.venv/
+venv/
+dist/
+*.egg-info/
