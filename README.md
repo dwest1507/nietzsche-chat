@@ -58,6 +58,21 @@ provider messages and tracebacks stay in the server log:
 Clients must treat an unrecognised category as `generic`, so a category added
 later degrades instead of breaking the stream.
 
+## 🏷️ Versioning
+
+This project uses [Release Please](https://github.com/googleapis/release-please) for
+automated versioning and changelog generation.
+
+1. **Develop:** merge changes into `main` using
+   [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, ...).
+2. **Release PR:** the `Release Please` workflow opens a PR bumping `version.txt` and
+   updating `CHANGELOG.md`.
+3. **Merge:** merging that PR creates the git tag and the GitHub Release.
+
+The current version lives in `version.txt`; the release history is in `CHANGELOG.md`.
+
+## 📄 License
+
 A visitor's own rate limit is not one of these: it is rejected with **HTTP 429**
 before the stream starts, so it never reaches the response body.
 
