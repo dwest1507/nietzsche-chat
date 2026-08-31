@@ -72,7 +72,7 @@ requires-dist = [
     { name = "sentence-transformers", specifier = ">=3.3.0" },
     { name = "sentry-sdk", specifier = ">=2.0.0" },
     { name = "slowapi", specifier = ">=0.1.9" },
-    { name = "uvicorn", extras = ["standard"], specifier = ">=0.32.0" },
+    { name = "uvicorn", extras = ["standard"], specifier = ">=0.52.4" },
 ]
 
 [package.metadata.requires-dev]

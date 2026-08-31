@@ -16,7 +16,7 @@ dependencies = [
     "sentence-transformers>=3.3.0",
     "sentry-sdk>=2.0.0",
     "slowapi>=0.1.9",
-    "uvicorn[standard]>=0.32.0",
+    "uvicorn[standard]>=0.52.4",
 ]
 
 [dependency-groups]
