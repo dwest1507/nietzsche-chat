@@ -12,11 +12,19 @@ updates:
           - patch
     open-pull-requests-limit: 5
 
+  # uv reads backend/pyproject.toml (`dependencies` + `[dependency-groups]`)
+  # and keeps backend/uv.lock in sync. `allow` is stated explicitly so both
+  # direct requirements and transitive pins in the lockfile are updated —
+  # a CVE in a transitive dep (e.g. one of torch's) is otherwise never
+  # picked up by version updates.
   - package-ecosystem: uv
     directory: /backend
     schedule:
       interval: weekly
       day: monday
+    allow:
+      - dependency-type: direct
+      - dependency-type: indirect
     groups:
       python-minor-and-patch:
         update-types:
@@ -26,6 +34,14 @@ updates:
 
   - package-ecosystem: github-actions
     directory: /
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+
+  # The backend ships as a container; base-image CVEs are dependency
+  # vulnerabilities too.
+  - package-ecosystem: docker
+    directory: /backend
     schedule:
       interval: monthly
     open-pull-requests-limit: 5
