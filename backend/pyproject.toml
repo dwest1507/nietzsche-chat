@@ -9,12 +9,12 @@ dependencies = [
     "fastapi>=0.115.0",
     "groq>=1.7.0",
     "httpx>=0.27.0",
-    "numpy>=1.26.0",
+    "numpy>=2.5.3",
     "pydantic>=2.13.5",
     "python-dotenv>=1.0.0",
     "rank-bm25>=0.2.2",
     "sentence-transformers>=6.0.1",
-    "sentry-sdk>=2.0.0",
+    "sentry-sdk>=2.69.1",
     "slowapi>=0.1.9",
     "uvicorn[standard]>=0.52.4",
 ]
@@ -24,7 +24,7 @@ dev = [
     "pytest>=8.0.0",
     "pytest-asyncio>=0.24.0",
     "pyyaml>=6.0.0",
-    "ruff>=0.16.5",
+    "ruff>=0.16.7",
 ]
 
 [tool.pytest.ini_options]
