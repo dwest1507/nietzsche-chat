@@ -302,16 +302,17 @@ def test_retrieval_does_not_block_the_event_loop(mock_pipeline):
 
     async def _run() -> float:
         """Return the longest gap between heartbeat ticks during one request."""
-        gaps: list[float] = []
         stop = asyncio.Event()
 
-        async def _heartbeat() -> None:
+        async def _heartbeat() -> list[float]:
+            gaps: list[float] = []
             last = time.perf_counter()
             while not stop.is_set():
                 await asyncio.sleep(0.01)
                 now = time.perf_counter()
                 gaps.append(now - last)
                 last = now
+            return gaps
 
         with (
             patch("app.routes.chat.get_pipeline", return_value=mock_pipeline),
@@ -331,7 +332,7 @@ def test_retrieval_does_not_block_the_event_loop(mock_pipeline):
                 )
                 assert response.status_code == 200
             stop.set()
-            await beat
+            gaps = await beat
         return max(gaps)
 
     worst_stall = asyncio.run(_run())
