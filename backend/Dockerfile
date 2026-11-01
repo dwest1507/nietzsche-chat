@@ -1,7 +1,7 @@
 # Production image for the FastAPI RAG backend (Railway).
 # Models are baked into the image so container startup never hits Hugging Face.
 
-FROM python:3.14-slim
+FROM python:3.15-slim
 
 # uv for fast, reproducible installs from uv.lock
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
